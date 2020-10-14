@@ -1,0 +1,14 @@
+{
+  "name": "Sora",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.7.0",
+    "vuepress-plugin-api-docs-generator": "^1.0.19"
+  },
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  }
+}
