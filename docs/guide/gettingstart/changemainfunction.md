@@ -10,7 +10,9 @@ title: 修改Main函数
 C#9 新特性介绍文档:[C# Language Version History](https://github.com/dotnet/csharplang/blob/master/Language-Version-History.md)
 :::
 
-# 修改Main函数为异步
+# 修改Main函数
+
+## 修改为异步执行
 
 由于原Main函数是一个同步函数，比如这样的Main函数
 
@@ -31,4 +33,3 @@ static async Task Main(string[] args)
             
         }
 ```
-

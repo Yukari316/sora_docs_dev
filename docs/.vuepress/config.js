@@ -44,7 +44,8 @@ module.exports = {
             '/guide/gettingstart/',
             '/guide/gettingstart/changemainfunction',
             '/guide/gettingstart/setupserver',
-            '/guide/gettingstart/firstbot'
+            '/guide/gettingstart/firstbot',
+            '/guide/gettingstart/nomain'
           ]
         }
       ],

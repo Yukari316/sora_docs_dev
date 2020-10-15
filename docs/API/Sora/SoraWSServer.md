@@ -16,6 +16,7 @@ public sealed class SoraWSServer : IDisposable
 | event [OnOpenConnectionAsync](SoraWSServer/OnOpenConnectionAsync.md) | 打开连接回调 |
 | event [OnPongAsync](SoraWSServer/OnPongAsync.md) | 心跳包处理回调 |
 | [Dispose](SoraWSServer/Dispose.md)() | 释放资源 |
+| [StartServerAsync](SoraWSServer/StartServerAsync.md)() | 启动WS服务端 |
 | delegate [ServerAsyncCallBackHandler&lt;TEventArgs&gt;](SoraWSServer.ServerAsyncCallBackHandler-1.md) | 服务器事件回调 |
 
 ## Protected Members

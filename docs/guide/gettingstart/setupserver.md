@@ -22,12 +22,12 @@ using Sora;
 SoraWSServer server = new SoraWSServer(new ServerConfig());
 ```
 
-这个时候你还需要添加一个无限的延时函数让bot一直运行下去  ~~不要停下来啊~~
+这个时候你还需要启动服务器才能让服务器跑起来
 
-在Main函数中添加以下代码
+在Main函数中添加以下代码来启动服务器
 
 ```csharp
-await Task.Delay(-1);
+await server.StartServerAsync();
 ```
 
 ## 跑起来试试看

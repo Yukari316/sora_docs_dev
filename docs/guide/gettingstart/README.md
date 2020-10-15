@@ -26,4 +26,4 @@ title: 安装框架到项目工程
 
 在搜索栏中搜索`Sora`并在搜索结果中找到本框架的Nuget包，并将包安装你的工程
 
-![Nuget](https://i.loli.net/2020/10/15/wboD3lzY8XrkZxS.png)
+![Nuget](https://i.loli.net/2020/10/15/3ax9BfWd8yHpEzt.png)
