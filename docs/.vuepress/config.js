@@ -44,8 +44,16 @@ module.exports = {
             '/guide/gettingstart/',
             '/guide/gettingstart/changemainfunction',
             '/guide/gettingstart/setupserver',
-            '/guide/gettingstart/firstbot',
-            '/guide/gettingstart/nomain'
+            '/guide/gettingstart/firstbot'
+          ]
+        },
+        {
+          title: '奇怪的语法糖增加了！',
+          path: '/guide/tips/',
+          collapsable: false,
+          sidebarDepth: 1,
+          children: [
+            '/guide/tips/'
           ]
         }
       ],

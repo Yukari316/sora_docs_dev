@@ -16,19 +16,25 @@ C#9 新特性介绍文档:[C# Language Version History](https://github.com/dotne
 
 其实就是把整个程序入口点的Main给扬了
 
+然后整段代码就变的像是脚本一样了
+
+~~变了啊啊啊啊啊啊啊~~
+
 示例代码：
 
 ```csharp
 using System.Threading.Tasks;
 using Sora;
 
+//初始化服务器实例
 SoraWSServer server = new SoraWSServer(new ServerConfig());
-
+//群消息接收回调
 server.Event.OnGroupMessage += async (sender, eventArgs) =>
 {
-//最简单的复读（x
+	//最简单的复读（x
     await eventArgs.Repeat();
 };
+//启动服务器
 await server.StartServerAsync();
 ```
 

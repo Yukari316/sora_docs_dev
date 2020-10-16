@@ -16,9 +16,8 @@ using Sora;
 
 ## 创建一个服务端实例
 
-在Main函数中添加以下代码创建一个服务器实例
-
 ```csharp
+//初始化服务器实例
 SoraWSServer server = new SoraWSServer(new ServerConfig());
 ```
 
