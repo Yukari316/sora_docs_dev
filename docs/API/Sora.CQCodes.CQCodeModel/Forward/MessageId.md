@@ -6,7 +6,7 @@
 public string MessageId { get; }
 ```
 
-## 相关文档
+## See Also
 
 * struct [Forward](../Forward.md)
 * namespace [Sora.CQCodes.CQCodeModel](../../Sora.md)

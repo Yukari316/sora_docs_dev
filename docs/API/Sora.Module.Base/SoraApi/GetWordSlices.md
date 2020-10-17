@@ -16,7 +16,7 @@ public ValueTask<ValueTuple<APIStatusType, List<string>>> GetWordSlices(string t
 
 `wordList` 分词列表
 
-## 相关文档
+## See Also
 
 * enum [APIStatusType](../../Sora.Enumeration.ApiEnum/APIStatusType.md)
 * class [SoraApi](../SoraApi.md)

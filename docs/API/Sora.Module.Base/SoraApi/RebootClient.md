@@ -10,7 +10,7 @@ public ValueTask RebootClient(int delay = 0)
 | --- | --- |
 | delay | 延迟(ms) |
 
-## 相关文档
+## See Also
 
 * class [SoraApi](../SoraApi.md)
 * namespace [Sora.Module.Base](../../Sora.md)

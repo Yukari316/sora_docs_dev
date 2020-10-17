@@ -6,7 +6,7 @@
 public User User { get; }
 ```
 
-## 相关文档
+## See Also
 
 * class [User](../../Sora.Module/User.md)
 * class [GroupCardUpdateEventArgs](../GroupCardUpdateEventArgs.md)

@@ -12,7 +12,7 @@ public ValueTask<ValueTuple<APIStatusType, List<FriendInfo>>> GetFriendList()
 
 `friendList` 好友列表
 
-## 相关文档
+## See Also
 
 * enum [APIStatusType](../../Sora.Enumeration.ApiEnum/APIStatusType.md)
 * struct [FriendInfo](../../Sora.Module.Info/FriendInfo.md)

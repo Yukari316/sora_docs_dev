@@ -10,7 +10,7 @@ public ValueTask Accept(string remark = null)
 | --- | --- |
 | remark | 设置备注 |
 
-## 相关文档
+## See Also
 
 * class [FriendRequestEventArgs](../FriendRequestEventArgs.md)
 * namespace [Sora.EventArgs.SoraEvent](../../Sora.md)

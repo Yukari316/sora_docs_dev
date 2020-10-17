@@ -12,7 +12,7 @@ public List<Image> GetAllImage()
 
 List(T=[`Image`](../../Sora.CQCodes.CQCodeModel/Image.md))
 
-## 相关文档
+## See Also
 
 * struct [Image](../../Sora.CQCodes.CQCodeModel/Image.md)
 * class [Message](../Message.md)

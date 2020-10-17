@@ -6,7 +6,7 @@
 public int? Magic { get; }
 ```
 
-## 相关文档
+## See Also
 
 * struct [Record](../Record.md)
 * namespace [Sora.CQCodes.CQCodeModel](../../Sora.md)

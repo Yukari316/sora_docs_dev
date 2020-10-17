@@ -20,7 +20,7 @@ public sealed class GroupMessageEventArgs : BaseSoraEventArgs
 | [Repeat](GroupMessageEventArgs/Repeat.md)() | 没什么用的复读功能 |
 | [Reply](GroupMessageEventArgs/Reply.md)(…) | 快速回复 |
 
-## 相关文档
+## See Also
 
 * class [BaseSoraEventArgs](BaseSoraEventArgs.md)
 * namespace [Sora.EventArgs.SoraEvent](../Sora.md)

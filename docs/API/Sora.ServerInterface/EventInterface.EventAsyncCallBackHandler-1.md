@@ -14,7 +14,7 @@ public delegate ValueTask EventAsyncCallBackHandler<in TEventArgs>(object sender
 | sender | 产生事件的客户端 |
 | eventArgs | 事件参数 |
 
-## 相关文档
+## See Also
 
 * class [EventInterface](EventInterface.md)
 * namespace [Sora.ServerInterface](../Sora.md)

@@ -14,7 +14,7 @@ public enum HonorType
 | Performer | `1` | 群聊之火 |
 | Emotion | `2` | 快乐源泉 |
 
-## 相关文档
+## See Also
 
 * namespace [Sora.Enumeration.ApiEnum](../Sora.md)
 

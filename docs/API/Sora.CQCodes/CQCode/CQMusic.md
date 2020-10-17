@@ -11,7 +11,7 @@ public static CQCode CQMusic(MusicShareType musicType, long musicId)
 | musicType | 音乐分享类型 |
 | musicId | 音乐Id |
 
-## 相关文档
+## See Also
 
 * enum [MusicShareType](../../Sora.Enumeration/MusicShareType.md)
 * class [CQCode](../CQCode.md)

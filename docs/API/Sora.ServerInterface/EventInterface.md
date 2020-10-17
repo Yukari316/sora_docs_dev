@@ -29,7 +29,7 @@ public class EventInterface
 | event [OnPrivateMessage](EventInterface/OnPrivateMessage.md) | 私聊事件 |
 | delegate [EventAsyncCallBackHandler&lt;TEventArgs&gt;](EventInterface.EventAsyncCallBackHandler-1.md) | Onebot事件回调 |
 
-## 相关文档
+## See Also
 
 * namespace [Sora.ServerInterface](../Sora.md)
 

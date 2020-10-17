@@ -6,7 +6,7 @@
 public event EventAsyncCallBackHandler<GroupMessageEventArgs> OnGroupMessage;
 ```
 
-## 相关文档
+## See Also
 
 * delegate [EventAsyncCallBackHandler&lt;TEventArgs&gt;](../EventInterface.EventAsyncCallBackHandler-1.md)
 * class [GroupMessageEventArgs](../../Sora.EventArgs.SoraEvent/GroupMessageEventArgs.md)

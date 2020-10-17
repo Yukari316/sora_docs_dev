@@ -17,7 +17,7 @@ public struct Record
 | [Timeout](Record/Timeout.md) { get; } | 是否使用已缓存的文件 |
 | [Url](Record/Url.md) { get; } | 语音 URL |
 
-## 相关文档
+## See Also
 
 * namespace [Sora.CQCodes.CQCodeModel](../Sora.md)
 

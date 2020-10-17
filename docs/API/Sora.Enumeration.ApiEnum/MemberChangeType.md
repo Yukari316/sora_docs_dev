@@ -16,7 +16,7 @@ public enum MemberChangeType
 | Approve | `3` | 管理员同意入群 |
 | Invite | `4` | 管理员邀请入群 |
 
-## 相关文档
+## See Also
 
 * namespace [Sora.Enumeration.ApiEnum](../Sora.md)
 

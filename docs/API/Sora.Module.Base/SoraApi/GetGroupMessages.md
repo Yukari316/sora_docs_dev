@@ -20,7 +20,7 @@ public ValueTask<ValueTuple<APIStatusType, Message, User>> GetGroupMessages(int 
 
 [`User`](../../Sora.Module/User.md) 发送者
 
-## 相关文档
+## See Also
 
 * enum [APIStatusType](../../Sora.Enumeration.ApiEnum/APIStatusType.md)
 * class [Message](../../Sora.Module/Message.md)

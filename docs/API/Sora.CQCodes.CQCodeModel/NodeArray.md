@@ -14,7 +14,7 @@ public class NodeArray
 | [NodeMsgList](NodeArray/NodeMsgList.md) { get; } | 消息节点列表 |
 | [ParseNode](NodeArray/ParseNode.md)() | 处理消息节点的消息为CQCode |
 
-## 相关文档
+## See Also
 
 * namespace [Sora.CQCodes.CQCodeModel](../Sora.md)
 

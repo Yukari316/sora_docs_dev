@@ -15,7 +15,7 @@ public struct Code
 | [Content](Code/Content.md) { get; } | 内容 |
 | [Resid](Code/Resid.md) { get; } | 是否走富文本通道 |
 
-## 相关文档
+## See Also
 
 * namespace [Sora.CQCodes.CQCodeModel](../Sora.md)
 

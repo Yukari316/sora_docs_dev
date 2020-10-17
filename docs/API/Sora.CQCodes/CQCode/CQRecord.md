@@ -15,7 +15,7 @@ public static CQCode CQRecord(string data, bool isMagic = false, bool useCache =
 | useProxy | 是否通过代理下载文件 |
 | timeout | 超时时间，默认为`null`(不超时) |
 
-## 相关文档
+## See Also
 
 * class [CQCode](../CQCode.md)
 * namespace [Sora.CQCodes](../../Sora.md)

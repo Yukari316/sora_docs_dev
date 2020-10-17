@@ -14,7 +14,7 @@ public static class Utils
 | static [GetNowTimeStamp](Utils/GetNowTimeStamp.md)() | 获取当前时间戳 时间戳单位(秒) |
 | static [TimeStampToDateTime](Utils/TimeStampToDateTime.md)(…) | 将时间戳(s)转换为DateTime |
 
-## 相关文档
+## See Also
 
 * namespace [Sora.Tool](../Sora.md)
 

@@ -14,7 +14,7 @@ public sealed class GroupPokeEventArgs : BaseSoraEventArgs
 | [SourceGroup](GroupPokeEventArgs/SourceGroup.md) { get; } | 消息源群 |
 | [TargetUser](GroupPokeEventArgs/TargetUser.md) { get; } | 被戳者 |
 
-## 相关文档
+## See Also
 
 * class [BaseSoraEventArgs](BaseSoraEventArgs.md)
 * namespace [Sora.EventArgs.SoraEvent](../Sora.md)

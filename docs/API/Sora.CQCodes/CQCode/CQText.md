@@ -10,7 +10,7 @@ public static CQCode CQText(string msg)
 | --- | --- |
 | msg | 文本消息 |
 
-## 相关文档
+## See Also
 
 * class [CQCode](../CQCode.md)
 * namespace [Sora.CQCodes](../../Sora.md)

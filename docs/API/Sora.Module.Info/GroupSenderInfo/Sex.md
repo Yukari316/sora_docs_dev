@@ -6,7 +6,7 @@
 public string Sex { get; }
 ```
 
-## 相关文档
+## See Also
 
 * struct [GroupSenderInfo](../GroupSenderInfo.md)
 * namespace [Sora.Module.Info](../../Sora.md)

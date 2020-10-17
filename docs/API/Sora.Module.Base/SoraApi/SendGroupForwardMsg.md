@@ -11,7 +11,7 @@ public ValueTask SendGroupForwardMsg(long groupId, List<Node> nodeList)
 | groupId | 群号 |
 | nodeList | 节点([`Node`](../../Sora.CQCodes.CQCodeModel/Node.md))消息段列表 |
 
-## 相关文档
+## See Also
 
 * struct [Node](../../Sora.CQCodes.CQCodeModel/Node.md)
 * class [SoraApi](../SoraApi.md)

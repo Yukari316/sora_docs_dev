@@ -10,7 +10,7 @@ public ValueTask DisableGroupAdmin(long userId)
 | --- | --- |
 | userId | 成员id |
 
-## 相关文档
+## See Also
 
 * class [Group](../Group.md)
 * namespace [Sora.Module](../../Sora.md)

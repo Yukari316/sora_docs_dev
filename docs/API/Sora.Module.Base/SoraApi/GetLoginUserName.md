@@ -12,7 +12,7 @@ public ValueTask<ValueTuple<APIStatusType, string>> GetLoginUserName()
 
 `nick` 账号昵称
 
-## 相关文档
+## See Also
 
 * enum [APIStatusType](../../Sora.Enumeration.ApiEnum/APIStatusType.md)
 * class [SoraApi](../SoraApi.md)

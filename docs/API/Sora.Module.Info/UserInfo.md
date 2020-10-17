@@ -17,7 +17,7 @@ public struct UserInfo
 | [Sex](UserInfo/Sex.md) { get; } | 性别 |
 | [UserId](UserInfo/UserId.md) { get; } | 用户id |
 
-## 相关文档
+## See Also
 
 * namespace [Sora.Module.Info](../Sora.md)
 

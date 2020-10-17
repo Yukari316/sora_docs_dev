@@ -6,7 +6,7 @@
 public DateTime Time { get; }
 ```
 
-## 相关文档
+## See Also
 
 * class [BaseSoraEventArgs](../BaseSoraEventArgs.md)
 * namespace [Sora.EventArgs.SoraEvent](../../Sora.md)

@@ -12,7 +12,7 @@ public struct Redbag
 | --- | --- |
 | [Title](Redbag/Title.md) { get; } | 祝福语/口令 |
 
-## 相关文档
+## See Also
 
 * namespace [Sora.CQCodes.CQCodeModel](../Sora.md)
 

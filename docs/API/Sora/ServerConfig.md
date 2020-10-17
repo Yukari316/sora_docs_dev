@@ -22,7 +22,7 @@ public sealed class ServerConfig
 | [Port](ServerConfig/Port.md) { get; set; } | 反向服务器端口 |
 | [UniversalPath](ServerConfig/UniversalPath.md) { get; set; } | Universal请求路径 |
 
-## 相关文档
+## See Also
 
 * namespace [Sora](../Sora.md)
 

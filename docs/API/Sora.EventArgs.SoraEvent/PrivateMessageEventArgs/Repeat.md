@@ -12,7 +12,7 @@ public ValueTask<ValueTuple<APIStatusType, int>> Repeat()
 
 `messageId` 发送消息的id
 
-## 相关文档
+## See Also
 
 * enum [APIStatusType](../../Sora.Enumeration.ApiEnum/APIStatusType.md)
 * class [PrivateMessageEventArgs](../PrivateMessageEventArgs.md)

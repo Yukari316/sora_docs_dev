@@ -14,7 +14,7 @@ public ValueTask<ValueTuple<APIStatusType, bool, bool>> GetStatus()
 
 `good` 客户端是否正常运行
 
-## 相关文档
+## See Also
 
 * enum [APIStatusType](../../Sora.Enumeration.ApiEnum/APIStatusType.md)
 * class [SoraApi](../SoraApi.md)

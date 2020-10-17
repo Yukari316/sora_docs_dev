@@ -6,7 +6,7 @@
 public string Nick { get; }
 ```
 
-## 相关文档
+## See Also
 
 * struct [NodeSender](../Node.NodeSender.md)
 * namespace [Sora.CQCodes.CQCodeModel](../../Sora.md)

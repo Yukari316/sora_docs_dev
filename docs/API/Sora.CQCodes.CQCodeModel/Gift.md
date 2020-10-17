@@ -13,7 +13,7 @@ public struct Gift
 | [GiftType](Gift/GiftType.md) { get; } | 礼物类型 |
 | [Target](Gift/Target.md) { get; } | 接收目标 |
 
-## 相关文档
+## See Also
 
 * namespace [Sora.CQCodes.CQCodeModel](../Sora.md)
 

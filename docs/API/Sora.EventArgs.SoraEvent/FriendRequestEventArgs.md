@@ -16,7 +16,7 @@ public sealed class FriendRequestEventArgs : BaseSoraEventArgs
 | [Accept](FriendRequestEventArgs/Accept.md)(…) | 同意当前申请 |
 | [Reject](FriendRequestEventArgs/Reject.md)() | 拒绝当前申请 |
 
-## 相关文档
+## See Also
 
 * class [BaseSoraEventArgs](BaseSoraEventArgs.md)
 * namespace [Sora.EventArgs.SoraEvent](../Sora.md)

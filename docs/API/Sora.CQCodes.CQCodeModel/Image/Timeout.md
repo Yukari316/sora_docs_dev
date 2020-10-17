@@ -6,7 +6,7 @@
 public int? Timeout { get; }
 ```
 
-## 相关文档
+## See Also
 
 * struct [Image](../Image.md)
 * namespace [Sora.CQCodes.CQCodeModel](../../Sora.md)

@@ -6,7 +6,7 @@
 public List<CQCode> CQCodeMsgList { get; }
 ```
 
-## 相关文档
+## See Also
 
 * class [CQCode](../../Sora.CQCodes/CQCode.md)
 * struct [Node](../Node.md)

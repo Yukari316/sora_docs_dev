@@ -14,7 +14,7 @@ public enum ClientType
 | GoCqhttp | `1` | go-cqhttp |
 | Other | `2` | 其他 |
 
-## 相关文档
+## See Also
 
 * namespace [Sora.Enumeration.ApiEnum](../Sora.md)
 

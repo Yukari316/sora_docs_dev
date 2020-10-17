@@ -12,7 +12,7 @@ public struct At
 | --- | --- |
 | [Traget](At/Traget.md) { get; } | At目标UID 为`null`时为At全体 |
 
-## 相关文档
+## See Also
 
 * namespace [Sora.CQCodes.CQCodeModel](../Sora.md)
 

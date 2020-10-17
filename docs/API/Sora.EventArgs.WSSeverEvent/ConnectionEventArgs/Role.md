@@ -6,7 +6,7 @@
 public string Role { get; set; }
 ```
 
-## 相关文档
+## See Also
 
 * class [ConnectionEventArgs](../ConnectionEventArgs.md)
 * namespace [Sora.EventArgs.WSSeverEvent](../../Sora.md)

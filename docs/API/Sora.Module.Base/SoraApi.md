@@ -49,7 +49,7 @@ public sealed class SoraApi
 | [SetGroupName](SoraApi/SetGroupName.md)(…) | 设置群名 |
 | [SetGroupPortrait](SoraApi/SetGroupPortrait.md)(…) | 设置群头像 |
 
-## 相关文档
+## See Also
 
 * namespace [Sora.Module.Base](../Sora.md)
 

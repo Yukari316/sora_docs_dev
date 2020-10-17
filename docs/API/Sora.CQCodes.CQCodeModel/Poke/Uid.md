@@ -6,7 +6,7 @@
 public long Uid { get; }
 ```
 
-## 相关文档
+## See Also
 
 * struct [Poke](../Poke.md)
 * namespace [Sora.CQCodes.CQCodeModel](../../Sora.md)

@@ -6,7 +6,7 @@
 public long Id { get; }
 ```
 
-## 相关文档
+## See Also
 
 * class [User](../User.md)
 * namespace [Sora.Module](../../Sora.md)

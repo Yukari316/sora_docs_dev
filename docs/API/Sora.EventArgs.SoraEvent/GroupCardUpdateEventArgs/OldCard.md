@@ -6,7 +6,7 @@
 public string OldCard { get; }
 ```
 
-## 相关文档
+## See Also
 
 * class [GroupCardUpdateEventArgs](../GroupCardUpdateEventArgs.md)
 * namespace [Sora.EventArgs.SoraEvent](../../Sora.md)

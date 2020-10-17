@@ -6,7 +6,7 @@
 public void ParseNode()
 ```
 
-## 相关文档
+## See Also
 
 * class [NodeArray](../NodeArray.md)
 * namespace [Sora.CQCodes.CQCodeModel](../../Sora.md)

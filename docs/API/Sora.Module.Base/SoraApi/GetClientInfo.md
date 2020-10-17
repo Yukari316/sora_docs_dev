@@ -12,7 +12,7 @@ public ValueTask<ValueTuple<APIStatusType, ClientType, string>> GetClientInfo()
 
 `ver`客户端版本号
 
-## 相关文档
+## See Also
 
 * enum [APIStatusType](../../Sora.Enumeration.ApiEnum/APIStatusType.md)
 * enum [ClientType](../../Sora.Enumeration.ApiEnum/ClientType.md)

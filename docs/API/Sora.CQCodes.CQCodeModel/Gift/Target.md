@@ -6,7 +6,7 @@
 public long Target { get; }
 ```
 
-## 相关文档
+## See Also
 
 * struct [Gift](../Gift.md)
 * namespace [Sora.CQCodes.CQCodeModel](../../Sora.md)

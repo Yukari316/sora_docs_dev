@@ -16,7 +16,7 @@ public sealed class PrivateMessageEventArgs : BaseSoraEventArgs
 | [Repeat](PrivateMessageEventArgs/Repeat.md)() | 没什么用的复读功能 |
 | [Reply](PrivateMessageEventArgs/Reply.md)(…) | 快速回复 |
 
-## 相关文档
+## See Also
 
 * class [BaseSoraEventArgs](BaseSoraEventArgs.md)
 * namespace [Sora.EventArgs.SoraEvent](../Sora.md)

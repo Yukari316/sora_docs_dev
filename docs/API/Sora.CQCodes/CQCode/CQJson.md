@@ -10,7 +10,7 @@ public static CQCode CQJson(JObject content)
 | --- | --- |
 | content | JObject实例 |
 
-## 相关文档
+## See Also
 
 * class [CQCode](../CQCode.md)
 * namespace [Sora.CQCodes](../../Sora.md)
@@ -30,7 +30,7 @@ public static CQCode CQJson(string content, bool richText = false)
 | content | JSON 文本 |
 | richText | 富文本内容 |
 
-## 相关文档
+## See Also
 
 * class [CQCode](../CQCode.md)
 * namespace [Sora.CQCodes](../../Sora.md)

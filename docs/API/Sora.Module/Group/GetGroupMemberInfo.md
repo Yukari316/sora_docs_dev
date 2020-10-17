@@ -18,7 +18,7 @@ public ValueTask<ValueTuple<APIStatusType, GroupMemberInfo>> GetGroupMemberInfo(
 
 [`GroupMemberInfo`](../../Sora.Module.Info/GroupMemberInfo.md) 群成员信息
 
-## 相关文档
+## See Also
 
 * enum [APIStatusType](../../Sora.Enumeration.ApiEnum/APIStatusType.md)
 * struct [GroupMemberInfo](../../Sora.Module.Info/GroupMemberInfo.md)

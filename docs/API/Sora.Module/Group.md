@@ -31,7 +31,7 @@ public sealed class Group : BaseModel
 | [SetGroupPortrait](Group/SetGroupPortrait.md)(…) | 设置群头像 |
 | [implicit operator](Group/op_Implicit.md) | 定义将 [`Group`](Group.md) 对象转换为 Int64 |
 
-## 相关文档
+## See Also
 
 * class [BaseModel](../Sora.Module.Base/BaseModel.md)
 * namespace [Sora.Module](../Sora.md)

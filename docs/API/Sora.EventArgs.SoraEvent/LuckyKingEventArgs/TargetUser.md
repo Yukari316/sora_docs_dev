@@ -6,7 +6,7 @@
 public User TargetUser { get; }
 ```
 
-## 相关文档
+## See Also
 
 * class [User](../../Sora.Module/User.md)
 * class [LuckyKingEventArgs](../LuckyKingEventArgs.md)

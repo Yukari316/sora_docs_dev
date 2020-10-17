@@ -6,7 +6,7 @@
 public bool IsAnonymousMessage { get; }
 ```
 
-## 相关文档
+## See Also
 
 * class [GroupMessageEventArgs](../GroupMessageEventArgs.md)
 * namespace [Sora.EventArgs.SoraEvent](../../Sora.md)

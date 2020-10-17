@@ -21,7 +21,7 @@ public sealed class Message : BaseModel
 | [RecallMessage](Message/RecallMessage.md)() | 撤回本条消息 |
 | override [ToString](Message/ToString.md)() | 转纯文本信息 |
 
-## 相关文档
+## See Also
 
 * class [BaseModel](../Sora.Module.Base/BaseModel.md)
 * namespace [Sora.Module](../Sora.md)

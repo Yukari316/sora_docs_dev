@@ -14,7 +14,7 @@ public enum MusicShareType
 | QQMusic | `1` | QQ 音乐 |
 | Xiami | `2` | 虾米音乐 |
 
-## 相关文档
+## See Also
 
 * namespace [Sora.Enumeration](../Sora.md)
 

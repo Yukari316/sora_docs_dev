@@ -12,7 +12,7 @@ public abstract class BaseModel
 | --- | --- |
 | [SoraApi](BaseModel/SoraApi.md) { get; } | API执行实例 |
 
-## 相关文档
+## See Also
 
 * namespace [Sora.Module.Base](../Sora.md)
 

@@ -10,7 +10,7 @@ public ValueTask SendGroupForwardMsg(List<Node> nodeList)
 | --- | --- |
 | nodeList | 节点([`Node`](../../Sora.CQCodes.CQCodeModel/Node.md))消息段列表 |
 
-## 相关文档
+## See Also
 
 * struct [Node](../../Sora.CQCodes.CQCodeModel/Node.md)
 * class [Group](../Group.md)

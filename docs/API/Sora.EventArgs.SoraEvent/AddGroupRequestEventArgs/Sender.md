@@ -6,7 +6,7 @@
 public User Sender { get; }
 ```
 
-## 相关文档
+## See Also
 
 * class [User](../../Sora.Module/User.md)
 * class [AddGroupRequestEventArgs](../AddGroupRequestEventArgs.md)

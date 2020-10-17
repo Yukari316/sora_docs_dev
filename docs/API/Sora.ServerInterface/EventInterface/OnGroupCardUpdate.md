@@ -6,7 +6,7 @@
 public event EventAsyncCallBackHandler<GroupCardUpdateEventArgs> OnGroupCardUpdate;
 ```
 
-## 相关文档
+## See Also
 
 * delegate [EventAsyncCallBackHandler&lt;TEventArgs&gt;](../EventInterface.EventAsyncCallBackHandler-1.md)
 * class [GroupCardUpdateEventArgs](../../Sora.EventArgs.SoraEvent/GroupCardUpdateEventArgs.md)

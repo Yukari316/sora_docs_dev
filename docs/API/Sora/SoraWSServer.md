@@ -25,7 +25,7 @@ public sealed class SoraWSServer : IDisposable
 | --- | --- |
 | override [Finalize](SoraWSServer/Finalize.md)() | GC析构函数 |
 
-## 相关文档
+## See Also
 
 * namespace [Sora](../Sora.md)
 

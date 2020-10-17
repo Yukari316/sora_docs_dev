@@ -6,7 +6,7 @@
 public byte[] Echo { get; set; }
 ```
 
-## 相关文档
+## See Also
 
 * class [PongEventArgs](../PongEventArgs.md)
 * namespace [Sora.EventArgs.WSSeverEvent](../../Sora.md)

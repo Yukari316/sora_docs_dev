@@ -14,7 +14,7 @@ public enum MemberRoleType
 | Admin | `1` | 管理员 |
 | Owner | `2` | 群主 |
 
-## 相关文档
+## See Also
 
 * namespace [Sora.Enumeration](../Sora.md)
 

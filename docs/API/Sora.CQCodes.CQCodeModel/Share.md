@@ -15,7 +15,7 @@ public struct Share
 | [Title](Share/Title.md) { get; } | 标题 |
 | [Url](Share/Url.md) { get; } | URL |
 
-## 相关文档
+## See Also
 
 * namespace [Sora.CQCodes.CQCodeModel](../Sora.md)
 

@@ -10,7 +10,7 @@ public CQCode CQCodeAt()
 
 [`CQCode`](../../Sora.CQCodes/CQCode.md) AT
 
-## 相关文档
+## See Also
 
 * class [CQCode](../../Sora.CQCodes/CQCode.md)
 * class [User](../User.md)

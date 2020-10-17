@@ -13,7 +13,7 @@ public enum RequestType
 | Group | `0` | 群组请求 |
 | Friend | `1` | 好友请求 |
 
-## 相关文档
+## See Also
 
 * namespace [Sora.Enumeration.ApiEnum](../Sora.md)
 

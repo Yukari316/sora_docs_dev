@@ -13,7 +13,7 @@ public sealed class FriendRecallEventArgs : BaseSoraEventArgs
 | [MessageId](FriendRecallEventArgs/MessageId.md) { get; } | 被撤回的消息ID |
 | [Sender](FriendRecallEventArgs/Sender.md) { get; } | 消息发送者 |
 
-## 相关文档
+## See Also
 
 * class [BaseSoraEventArgs](BaseSoraEventArgs.md)
 * namespace [Sora.EventArgs.SoraEvent](../Sora.md)

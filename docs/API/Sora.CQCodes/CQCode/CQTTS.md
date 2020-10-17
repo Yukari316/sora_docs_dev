@@ -10,7 +10,7 @@ public static CQCode CQTTS(string messageStr)
 | --- | --- |
 | messageStr | 要转换的文本信息 |
 
-## 相关文档
+## See Also
 
 * class [CQCode](../CQCode.md)
 * namespace [Sora.CQCodes](../../Sora.md)

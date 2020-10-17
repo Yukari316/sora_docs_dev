@@ -14,7 +14,7 @@ public sealed class HonorEventArgs : BaseSoraEventArgs
 | [SourceGroup](HonorEventArgs/SourceGroup.md) { get; } | 消息源群 |
 | [TargetUser](HonorEventArgs/TargetUser.md) { get; } | 荣誉获得者 |
 
-## 相关文档
+## See Also
 
 * class [BaseSoraEventArgs](BaseSoraEventArgs.md)
 * namespace [Sora.EventArgs.SoraEvent](../Sora.md)

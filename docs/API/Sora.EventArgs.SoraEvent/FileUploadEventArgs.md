@@ -14,7 +14,7 @@ public sealed class FileUploadEventArgs : BaseSoraEventArgs
 | [Sender](FileUploadEventArgs/Sender.md) { get; } | 上传者 |
 | [SourceGroup](FileUploadEventArgs/SourceGroup.md) { get; } | 消息源群 |
 
-## 相关文档
+## See Also
 
 * class [BaseSoraEventArgs](BaseSoraEventArgs.md)
 * namespace [Sora.EventArgs.SoraEvent](../Sora.md)

@@ -14,7 +14,7 @@ public static string ErrorLogBuilder(Exception e)
 
 格式化Log
 
-## 相关文档
+## See Also
 
 * class [ConsoleLog](../ConsoleLog.md)
 * namespace [Sora.Tool](../../Sora.md)

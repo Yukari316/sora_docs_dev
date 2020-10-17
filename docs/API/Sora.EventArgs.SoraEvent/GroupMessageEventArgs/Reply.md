@@ -16,7 +16,7 @@ public ValueTask<ValueTuple<APIStatusType, int>> Reply(params object[] message)
 
 `messageId` 发送消息的id
 
-## 相关文档
+## See Also
 
 * enum [APIStatusType](../../Sora.Enumeration.ApiEnum/APIStatusType.md)
 * class [GroupMessageEventArgs](../GroupMessageEventArgs.md)

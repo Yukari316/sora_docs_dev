@@ -11,7 +11,7 @@ public static void Info(object type, object message)
 | type | 类型 |
 | message | 信息内容 |
 
-## 相关文档
+## See Also
 
 * class [ConsoleLog](../ConsoleLog.md)
 * namespace [Sora.Tool](../../Sora.md)

@@ -20,7 +20,7 @@ module.exports = {
     nav: [
         { text: '主页', link: '/' },
         { text: '指南', link: '/guide/' },
-        { text: 'API', link: '/API/' },
+        { text: 'API', link: '/API/Sora.md' },
     ],
     displayAllHeaders: true,
     activeHeaderLinks: true,
@@ -60,11 +60,11 @@ module.exports = {
       '/API/' : [
         {
           title: 'API',
-          path: '/API/',
+          path: '/API/Sora.md',
           collapsable: false,
           sidebarDepth: 2,
           children: [
-            '/API/'
+            '/API/Sora.md'
           ]
         }
       ]

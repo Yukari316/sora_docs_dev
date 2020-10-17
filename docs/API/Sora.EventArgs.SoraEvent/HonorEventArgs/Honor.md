@@ -6,7 +6,7 @@
 public HonorType Honor { get; }
 ```
 
-## 相关文档
+## See Also
 
 * enum [HonorType](../../Sora.Enumeration.ApiEnum/HonorType.md)
 * class [HonorEventArgs](../HonorEventArgs.md)

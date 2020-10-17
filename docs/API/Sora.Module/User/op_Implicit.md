@@ -10,7 +10,7 @@ public static implicit operator long(User value)
 | --- | --- |
 | value | 转换的 [`User`](../User.md) 对象 |
 
-## 相关文档
+## See Also
 
 * class [User](../User.md)
 * namespace [Sora.Module](../../Sora.md)
@@ -29,7 +29,7 @@ public static implicit operator string(User value)
 | --- | --- |
 | value | 转换的 [`User`](../User.md) 对象 |
 
-## 相关文档
+## See Also
 
 * class [User](../User.md)
 * namespace [Sora.Module](../../Sora.md)

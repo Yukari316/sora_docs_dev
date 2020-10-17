@@ -17,7 +17,7 @@ public enum APIStatusType
 | Failed_ | `102` | API执行失败 |
 | TimeOut | `-1` | API超时 |
 
-## 相关文档
+## See Also
 
 * namespace [Sora.Enumeration.ApiEnum](../Sora.md)
 

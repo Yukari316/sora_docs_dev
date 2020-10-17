@@ -12,7 +12,7 @@ public sealed class ConnectionEventArgs : BaseServerEventArgs
 | --- | --- |
 | [Role](ConnectionEventArgs/Role.md) { get; set; } | 客户端类型 |
 
-## 相关文档
+## See Also
 
 * class [BaseServerEventArgs](BaseServerEventArgs.md)
 * namespace [Sora.EventArgs.WSSeverEvent](../Sora.md)

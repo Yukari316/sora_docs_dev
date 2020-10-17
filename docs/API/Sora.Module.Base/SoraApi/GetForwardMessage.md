@@ -16,7 +16,7 @@ public ValueTask<ValueTuple<APIStatusType, List<Node>>> GetForwardMessage(string
 
 `nodeArray` 消息节点列表
 
-## 相关文档
+## See Also
 
 * enum [APIStatusType](../../Sora.Enumeration.ApiEnum/APIStatusType.md)
 * struct [Node](../../Sora.CQCodes.CQCodeModel/Node.md)

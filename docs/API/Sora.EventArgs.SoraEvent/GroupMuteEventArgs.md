@@ -14,7 +14,7 @@ public sealed class GroupMuteEventArgs : BaseSoraEventArgs
 | [SourceGroup](GroupMuteEventArgs/SourceGroup.md) { get; } | 消息源群 |
 | [User](GroupMuteEventArgs/User.md) { get; } | 被执行成员 |
 
-## 相关文档
+## See Also
 
 * class [BaseSoraEventArgs](BaseSoraEventArgs.md)
 * namespace [Sora.EventArgs.SoraEvent](../Sora.md)

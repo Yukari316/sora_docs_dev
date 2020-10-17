@@ -31,7 +31,7 @@ public sealed class CQCode
 | [Function](CQCode/Function.md) { get; } | CQ码类型 |
 | static [GetCqCodeDataType](CQCode/GetCqCodeDataType.md)(…) | 获取CQ码数据格式类型 用于将object转换为可读结构体 |
 
-## 相关文档
+## See Also
 
 * namespace [Sora.CQCodes](../Sora.md)
 

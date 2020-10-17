@@ -6,7 +6,7 @@
 public ValueTask LeaveGroup()
 ```
 
-## 相关文档
+## See Also
 
 * class [Group](../Group.md)
 * namespace [Sora.Module](../../Sora.md)

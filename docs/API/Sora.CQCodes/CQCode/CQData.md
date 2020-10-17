@@ -6,7 +6,7 @@ CQ码数据实例
 public object CQData { get; }
 ```
 
-## 相关文档
+## See Also
 
 * class [CQCode](../CQCode.md)
 * namespace [Sora.CQCodes](../../Sora.md)

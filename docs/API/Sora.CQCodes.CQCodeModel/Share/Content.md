@@ -6,7 +6,7 @@
 public string Content { get; }
 ```
 
-## 相关文档
+## See Also
 
 * struct [Share](../Share.md)
 * namespace [Sora.CQCodes.CQCodeModel](../../Sora.md)

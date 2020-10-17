@@ -11,7 +11,7 @@ public ValueTask SetGroupName(long groupId, string newName)
 | groupId | 群号 |
 | newName | 新群名 |
 
-## 相关文档
+## See Also
 
 * class [SoraApi](../SoraApi.md)
 * namespace [Sora.Module.Base](../../Sora.md)

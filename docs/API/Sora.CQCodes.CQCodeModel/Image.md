@@ -17,7 +17,7 @@ public struct Image
 | [UseCache](Image/UseCache.md) { get; } | 只在通过网络 URL 发送时有效，表示是否使用已缓存的文件 |
 | [UseProxy](Image/UseProxy.md) { get; } | 只在通过网络 URL 发送时有效，表示是否通过代理下载文件 |
 
-## 相关文档
+## See Also
 
 * namespace [Sora.CQCodes.CQCodeModel](../Sora.md)
 

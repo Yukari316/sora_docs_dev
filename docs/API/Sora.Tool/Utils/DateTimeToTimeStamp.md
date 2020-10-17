@@ -6,7 +6,7 @@
 public static long DateTimeToTimeStamp(DateTime dateTime)
 ```
 
-## 相关文档
+## See Also
 
 * class [Utils](../Utils.md)
 * namespace [Sora.Tool](../../Sora.md)

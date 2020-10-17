@@ -6,7 +6,7 @@
 public int? Resid { get; }
 ```
 
-## 相关文档
+## See Also
 
 * struct [Code](../Code.md)
 * namespace [Sora.CQCodes.CQCodeModel](../../Sora.md)

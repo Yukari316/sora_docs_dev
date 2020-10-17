@@ -6,7 +6,7 @@
 public string RawText { get; }
 ```
 
-## 相关文档
+## See Also
 
 * class [Message](../Message.md)
 * namespace [Sora.Module](../../Sora.md)

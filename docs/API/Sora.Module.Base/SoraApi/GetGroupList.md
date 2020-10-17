@@ -12,7 +12,7 @@ public ValueTask<ValueTuple<APIStatusType, List<GroupInfo>>> GetGroupList()
 
 `groupList` 群组列表
 
-## 相关文档
+## See Also
 
 * enum [APIStatusType](../../Sora.Enumeration.ApiEnum/APIStatusType.md)
 * struct [GroupInfo](../../Sora.Module.Info/GroupInfo.md)

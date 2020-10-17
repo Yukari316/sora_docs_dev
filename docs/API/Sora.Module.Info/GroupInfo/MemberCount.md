@@ -6,7 +6,7 @@
 public int MemberCount { get; }
 ```
 
-## 相关文档
+## See Also
 
 * struct [GroupInfo](../GroupInfo.md)
 * namespace [Sora.Module.Info](../../Sora.md)

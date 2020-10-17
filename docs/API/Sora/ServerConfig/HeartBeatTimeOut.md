@@ -5,10 +5,10 @@
 此值请不要小于或等于客户端心跳包的发送间隔
 
 ```csharp
-public int HeartBeatTimeOut { get; set; }
+public uint HeartBeatTimeOut { get; set; }
 ```
 
-## 相关文档
+## See Also
 
 * class [ServerConfig](../ServerConfig.md)
 * namespace [Sora](../../Sora.md)

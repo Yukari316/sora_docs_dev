@@ -18,7 +18,7 @@ public sealed class AddGroupRequestEventArgs : BaseSoraEventArgs
 | [Accept](AddGroupRequestEventArgs/Accept.md)() | 同意当前申请 |
 | [Reject](AddGroupRequestEventArgs/Reject.md)(…) | 拒绝当前申请 |
 
-## 相关文档
+## See Also
 
 * class [BaseSoraEventArgs](BaseSoraEventArgs.md)
 * namespace [Sora.EventArgs.SoraEvent](../Sora.md)

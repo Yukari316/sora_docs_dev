@@ -15,7 +15,7 @@ public abstract class BaseSoraEventArgs : EventArgs
 | [Time](BaseSoraEventArgs/Time.md) { get; } | 事件产生时间 |
 | [GetLoginUserId](BaseSoraEventArgs/GetLoginUserId.md)() | 获取当前登陆账号的ID |
 
-## 相关文档
+## See Also
 
 * namespace [Sora.EventArgs.SoraEvent](../Sora.md)
 

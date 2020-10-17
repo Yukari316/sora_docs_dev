@@ -13,7 +13,7 @@ public enum AdminChangeType
 | Set | `0` | 设置 |
 | UnSet | `1` | 取消 |
 
-## 相关文档
+## See Also
 
 * namespace [Sora.Enumeration.ApiEnum](../Sora.md)
 

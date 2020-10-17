@@ -11,7 +11,7 @@ public ValueTask SetGroupPortrait(string imageFile, bool useCache = true)
 | imageFile | 图片名/绝对路径/URL/base64 |
 | useCache | 是否使用缓存 |
 
-## 相关文档
+## See Also
 
 * class [Group](../Group.md)
 * namespace [Sora.Module](../../Sora.md)

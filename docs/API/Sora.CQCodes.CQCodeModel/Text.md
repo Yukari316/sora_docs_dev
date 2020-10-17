@@ -12,7 +12,7 @@ public struct Text
 | --- | --- |
 | [Content](Text/Content.md) { get; } | 纯文本内容 |
 
-## 相关文档
+## See Also
 
 * namespace [Sora.CQCodes.CQCodeModel](../Sora.md)
 

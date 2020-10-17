@@ -10,7 +10,7 @@ public Group GetGroup(long groupId)
 | --- | --- |
 | groupId | 群id |
 
-## 相关文档
+## See Also
 
 * class [Group](../../Sora.Module/Group.md)
 * class [SoraApi](../SoraApi.md)

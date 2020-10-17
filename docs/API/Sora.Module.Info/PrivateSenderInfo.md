@@ -15,7 +15,7 @@ public struct PrivateSenderInfo
 | [Sex](PrivateSenderInfo/Sex.md) { get; } | 性别 |
 | [UserId](PrivateSenderInfo/UserId.md) { get; } | 发送者 QQ 号 |
 
-## 相关文档
+## See Also
 
 * namespace [Sora.Module.Info](../Sora.md)
 

@@ -14,7 +14,7 @@ public ValueTask SetGroupAddRequest(string flag, GroupRequestType requestType, b
 | approve | 是否同意 |
 | reason | 拒绝理由 |
 
-## 相关文档
+## See Also
 
 * enum [GroupRequestType](../../Sora.Enumeration.ApiEnum/GroupRequestType.md)
 * class [SoraApi](../SoraApi.md)

@@ -6,7 +6,7 @@ CQ码类型
 public CQFunction Function { get; }
 ```
 
-## 相关文档
+## See Also
 
 * enum [CQFunction](../../Sora.Enumeration/CQFunction.md)
 * class [CQCode](../CQCode.md)

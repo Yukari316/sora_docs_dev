@@ -6,7 +6,7 @@ At目标UID 为`null`时为At全体
 public int Traget { get; }
 ```
 
-## 相关文档
+## See Also
 
 * struct [Reply](../Reply.md)
 * namespace [Sora.CQCodes.CQCodeModel](../../Sora.md)

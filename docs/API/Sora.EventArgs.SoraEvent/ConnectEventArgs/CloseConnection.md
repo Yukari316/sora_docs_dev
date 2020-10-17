@@ -6,7 +6,7 @@
 public void CloseConnection()
 ```
 
-## 相关文档
+## See Also
 
 * class [ConnectEventArgs](../ConnectEventArgs.md)
 * namespace [Sora.EventArgs.SoraEvent](../../Sora.md)

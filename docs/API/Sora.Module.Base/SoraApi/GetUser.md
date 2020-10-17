@@ -10,7 +10,7 @@ public User GetUser(long userId)
 | --- | --- |
 | userId | 用户id |
 
-## 相关文档
+## See Also
 
 * class [User](../../Sora.Module/User.md)
 * class [SoraApi](../SoraApi.md)

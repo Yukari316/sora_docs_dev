@@ -10,7 +10,7 @@ public ValueTask<ValueTuple<APIStatusType, int>> SendPrivateMessage(params objec
 | --- | --- |
 | message | 消息 |
 
-## 相关文档
+## See Also
 
 * enum [APIStatusType](../../Sora.Enumeration.ApiEnum/APIStatusType.md)
 * class [User](../User.md)

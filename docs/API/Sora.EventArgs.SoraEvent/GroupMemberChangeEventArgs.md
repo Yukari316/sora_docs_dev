@@ -14,7 +14,7 @@ public sealed class GroupMemberChangeEventArgs : BaseSoraEventArgs
 | [Operator](GroupMemberChangeEventArgs/Operator.md) { get; } | 执行者 |
 | [SourceGroup](GroupMemberChangeEventArgs/SourceGroup.md) { get; } | 消息源群 |
 
-## 相关文档
+## See Also
 
 * class [BaseSoraEventArgs](BaseSoraEventArgs.md)
 * namespace [Sora.EventArgs.SoraEvent](../Sora.md)

@@ -6,7 +6,7 @@
 public int Age { get; }
 ```
 
-## 相关文档
+## See Also
 
 * struct [UserInfo](../UserInfo.md)
 * namespace [Sora.Module.Info](../../Sora.md)

@@ -20,7 +20,7 @@ public ValueTask<ValueTuple<APIStatusType, int, string, string>> GetImage(string
 
 `url` 文件链接
 
-## 相关文档
+## See Also
 
 * enum [APIStatusType](../../Sora.Enumeration.ApiEnum/APIStatusType.md)
 * class [SoraApi](../SoraApi.md)

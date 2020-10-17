@@ -14,7 +14,7 @@ public sealed class LuckyKingEventArgs : BaseSoraEventArgs
 | [SourceGroup](LuckyKingEventArgs/SourceGroup.md) { get; } | 消息源群 |
 | [TargetUser](LuckyKingEventArgs/TargetUser.md) { get; } | 运气王 |
 
-## 相关文档
+## See Also
 
 * class [BaseSoraEventArgs](BaseSoraEventArgs.md)
 * namespace [Sora.EventArgs.SoraEvent](../Sora.md)

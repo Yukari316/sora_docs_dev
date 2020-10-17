@@ -10,7 +10,7 @@ public static implicit operator long(Group value)
 | --- | --- |
 | value | 转换的 [`Group`](../Group.md) 对象 |
 
-## 相关文档
+## See Also
 
 * class [Group](../Group.md)
 * namespace [Sora.Module](../../Sora.md)

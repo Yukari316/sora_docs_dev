@@ -10,7 +10,7 @@ public static void SetLogLevel(LogLevel level)
 | --- | --- |
 | level | LogLevel |
 
-## 相关文档
+## See Also
 
 * class [ConsoleLog](../ConsoleLog.md)
 * namespace [Sora.Tool](../../Sora.md)

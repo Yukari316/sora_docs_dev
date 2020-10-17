@@ -6,7 +6,7 @@
 public event EventAsyncCallBackHandler<HonorEventArgs> OnHonorEvent;
 ```
 
-## 相关文档
+## See Also
 
 * delegate [EventAsyncCallBackHandler&lt;TEventArgs&gt;](../EventInterface.EventAsyncCallBackHandler-1.md)
 * class [HonorEventArgs](../../Sora.EventArgs.SoraEvent/HonorEventArgs.md)

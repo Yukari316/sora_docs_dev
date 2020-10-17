@@ -14,7 +14,7 @@ public struct FriendInfo
 | [Remark](FriendInfo/Remark.md) { get; } | 好友备注 |
 | [UserId](FriendInfo/UserId.md) { get; } | 好友ID |
 
-## 相关文档
+## See Also
 
 * namespace [Sora.Module.Info](../Sora.md)
 

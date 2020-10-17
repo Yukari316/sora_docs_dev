@@ -6,7 +6,7 @@
 public EventInterface Event { get; set; }
 ```
 
-## 相关文档
+## See Also
 
 * class [EventInterface](../../Sora.ServerInterface/EventInterface.md)
 * class [SoraWSServer](../SoraWSServer.md)

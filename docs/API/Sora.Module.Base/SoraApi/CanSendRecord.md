@@ -12,7 +12,7 @@ public ValueTask<ValueTuple<APIStatusType, bool>> CanSendRecord()
 
 `canSend` 是否能发送
 
-## 相关文档
+## See Also
 
 * enum [APIStatusType](../../Sora.Enumeration.ApiEnum/APIStatusType.md)
 * class [SoraApi](../SoraApi.md)

@@ -13,7 +13,7 @@ public struct NodeSender
 | [Nick](Node.NodeSender/Nick.md) { get; } | 发送者昵称 |
 | [Uid](Node.NodeSender/Uid.md) { get; } | UID |
 
-## 相关文档
+## See Also
 
 * struct [Node](Node.md)
 * namespace [Sora.CQCodes.CQCodeModel](../Sora.md)

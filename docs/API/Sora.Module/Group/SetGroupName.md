@@ -10,7 +10,7 @@ public ValueTask SetGroupName(string newName)
 | --- | --- |
 | newName | 新群名 |
 
-## 相关文档
+## See Also
 
 * class [Group](../Group.md)
 * namespace [Sora.Module](../../Sora.md)

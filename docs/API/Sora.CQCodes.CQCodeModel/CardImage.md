@@ -18,7 +18,7 @@ public struct CardImage
 | [MinWidth](CardImage/MinWidth.md) { get; } | 最小width |
 | [Source](CardImage/Source.md) { get; } | 来源名称 |
 
-## 相关文档
+## See Also
 
 * namespace [Sora.CQCodes.CQCodeModel](../Sora.md)
 

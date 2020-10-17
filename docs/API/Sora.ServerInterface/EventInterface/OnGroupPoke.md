@@ -6,7 +6,7 @@
 public event EventAsyncCallBackHandler<GroupPokeEventArgs> OnGroupPoke;
 ```
 
-## 相关文档
+## See Also
 
 * delegate [EventAsyncCallBackHandler&lt;TEventArgs&gt;](../EventInterface.EventAsyncCallBackHandler-1.md)
 * class [GroupPokeEventArgs](../../Sora.EventArgs.SoraEvent/GroupPokeEventArgs.md)

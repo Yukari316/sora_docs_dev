@@ -20,7 +20,7 @@ public static class ConsoleLog
 | static [SetLogLevel](ConsoleLog/SetLogLevel.md)(…) | 设置日志等级 |
 | static [Warning](ConsoleLog/Warning.md)(…) | 向控制台发送Warning信息 |
 
-## 相关文档
+## See Also
 
 * namespace [Sora.Tool](../Sora.md)
 

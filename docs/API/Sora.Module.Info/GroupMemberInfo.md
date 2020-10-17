@@ -26,7 +26,7 @@ public struct GroupMemberInfo
 | [Unfriendly](GroupMemberInfo/Unfriendly.md) { get; } | 是否不良记录成员 |
 | [UserId](GroupMemberInfo/UserId.md) { get; } | 成员UID |
 
-## 相关文档
+## See Also
 
 * namespace [Sora.Module.Info](../Sora.md)
 

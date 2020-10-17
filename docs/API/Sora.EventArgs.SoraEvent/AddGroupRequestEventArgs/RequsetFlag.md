@@ -6,7 +6,7 @@
 public string RequsetFlag { get; }
 ```
 
-## 相关文档
+## See Also
 
 * class [AddGroupRequestEventArgs](../AddGroupRequestEventArgs.md)
 * namespace [Sora.EventArgs.SoraEvent](../../Sora.md)

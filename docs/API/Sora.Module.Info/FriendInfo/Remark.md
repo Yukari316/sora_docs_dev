@@ -6,7 +6,7 @@
 public string Remark { get; }
 ```
 
-## 相关文档
+## See Also
 
 * struct [FriendInfo](../FriendInfo.md)
 * namespace [Sora.Module.Info](../../Sora.md)

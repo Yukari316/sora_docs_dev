@@ -6,7 +6,7 @@
 public List<CQCode> MessageList { get; }
 ```
 
-## 相关文档
+## See Also
 
 * class [CQCode](../../Sora.CQCodes/CQCode.md)
 * class [Message](../Message.md)

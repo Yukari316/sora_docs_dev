@@ -13,7 +13,7 @@ public enum MuteActionType
 | Enable | `0` | 开启 |
 | Disable | `1` | 解除 |
 
-## 相关文档
+## See Also
 
 * namespace [Sora.Enumeration.ApiEnum](../Sora.md)
 

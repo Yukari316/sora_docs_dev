@@ -11,7 +11,7 @@ public ValueTask SetGroupMemberSpecialTitle(long userId, string specialTitle)
 | userId | 用户id |
 | specialTitle | 专属头衔 |
 
-## 相关文档
+## See Also
 
 * class [Group](../Group.md)
 * namespace [Sora.Module](../../Sora.md)

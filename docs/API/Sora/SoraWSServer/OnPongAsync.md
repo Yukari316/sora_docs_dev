@@ -6,7 +6,7 @@
 public event ServerAsyncCallBackHandler<PongEventArgs> OnPongAsync;
 ```
 
-## 相关文档
+## See Also
 
 * delegate [ServerAsyncCallBackHandler&lt;TEventArgs&gt;](../SoraWSServer.ServerAsyncCallBackHandler-1.md)
 * class [PongEventArgs](../../Sora.EventArgs.WSSeverEvent/PongEventArgs.md)

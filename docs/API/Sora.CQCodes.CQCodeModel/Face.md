@@ -12,7 +12,7 @@ public struct Face
 | --- | --- |
 | [Id](Face/Id.md) { get; } | 纯文本内容 |
 
-## 相关文档
+## See Also
 
 * namespace [Sora.CQCodes.CQCodeModel](../Sora.md)
 

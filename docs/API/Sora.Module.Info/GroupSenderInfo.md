@@ -20,7 +20,7 @@ public struct GroupSenderInfo
 | [Title](GroupSenderInfo/Title.md) { get; } | 专属头衔 |
 | [UserId](GroupSenderInfo/UserId.md) { get; } | 发送者 QQ 号 |
 
-## 相关文档
+## See Also
 
 * namespace [Sora.Module.Info](../Sora.md)
 

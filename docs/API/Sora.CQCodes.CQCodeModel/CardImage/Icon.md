@@ -6,7 +6,7 @@
 public string Icon { get; }
 ```
 
-## 相关文档
+## See Also
 
 * struct [CardImage](../CardImage.md)
 * namespace [Sora.CQCodes.CQCodeModel](../../Sora.md)

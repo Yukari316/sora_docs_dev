@@ -16,7 +16,7 @@ public sealed class User : BaseModel
 | [SendPrivateMessage](User/SendPrivateMessage.md)(…) | 发送私聊消息 |
 | [implicit operator](User/op_Implicit.md) | 定义将 [`User`](User.md) 对象转换为 Int64 (2 operators) |
 
-## 相关文档
+## See Also
 
 * class [BaseModel](../Sora.Module.Base/BaseModel.md)
 * namespace [Sora.Module](../Sora.md)

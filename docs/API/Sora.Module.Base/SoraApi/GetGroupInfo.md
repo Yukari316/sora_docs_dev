@@ -18,7 +18,7 @@ public ValueTask<ValueTuple<APIStatusType, GroupInfo>> GetGroupInfo(long groupId
 
 [`GroupInfo`](../../Sora.Module.Info/GroupInfo.md) 群信息列表
 
-## 相关文档
+## See Also
 
 * enum [APIStatusType](../../Sora.Enumeration.ApiEnum/APIStatusType.md)
 * struct [GroupInfo](../../Sora.Module.Info/GroupInfo.md)

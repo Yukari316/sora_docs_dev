@@ -6,7 +6,7 @@
 public long GroupId { get; }
 ```
 
-## 相关文档
+## See Also
 
 * struct [GroupMemberInfo](../GroupMemberInfo.md)
 * namespace [Sora.Module.Info](../../Sora.md)

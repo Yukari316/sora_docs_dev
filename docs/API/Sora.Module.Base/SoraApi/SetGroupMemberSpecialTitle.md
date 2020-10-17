@@ -12,7 +12,7 @@ public ValueTask SetGroupMemberSpecialTitle(long groupId, long userId, string sp
 | userId | 用户id |
 | specialTitle | 专属头衔(为空时清空) |
 
-## 相关文档
+## See Also
 
 * class [SoraApi](../SoraApi.md)
 * namespace [Sora.Module.Base](../../Sora.md)

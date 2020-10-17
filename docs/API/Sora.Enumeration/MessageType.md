@@ -13,7 +13,7 @@ public enum MessageType
 | Private | `0` | 私聊消息 |
 | Group | `1` | 群消息 |
 
-## 相关文档
+## See Also
 
 * namespace [Sora.Enumeration](../Sora.md)
 

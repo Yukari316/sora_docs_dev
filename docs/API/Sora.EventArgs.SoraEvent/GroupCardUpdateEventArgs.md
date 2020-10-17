@@ -15,7 +15,7 @@ public sealed class GroupCardUpdateEventArgs : BaseSoraEventArgs
 | [SourceGroup](GroupCardUpdateEventArgs/SourceGroup.md) { get; } | 消息源群 |
 | [User](GroupCardUpdateEventArgs/User.md) { get; } | 名片改变的成员 |
 
-## 相关文档
+## See Also
 
 * class [BaseSoraEventArgs](BaseSoraEventArgs.md)
 * namespace [Sora.EventArgs.SoraEvent](../Sora.md)

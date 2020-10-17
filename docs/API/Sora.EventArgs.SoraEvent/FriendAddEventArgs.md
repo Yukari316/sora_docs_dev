@@ -12,7 +12,7 @@ public sealed class FriendAddEventArgs : BaseSoraEventArgs
 | --- | --- |
 | [NewFriend](FriendAddEventArgs/NewFriend.md) { get; } | 新好友 |
 
-## 相关文档
+## See Also
 
 * class [BaseSoraEventArgs](BaseSoraEventArgs.md)
 * namespace [Sora.EventArgs.SoraEvent](../Sora.md)

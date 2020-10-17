@@ -6,7 +6,7 @@
 public event EventAsyncCallBackHandler<FriendRecallEventArgs> OnFriendRecall;
 ```
 
-## 相关文档
+## See Also
 
 * delegate [EventAsyncCallBackHandler&lt;TEventArgs&gt;](../EventInterface.EventAsyncCallBackHandler-1.md)
 * class [FriendRecallEventArgs](../../Sora.EventArgs.SoraEvent/FriendRecallEventArgs.md)

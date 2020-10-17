@@ -12,7 +12,7 @@ public sealed class PongEventArgs : BaseServerEventArgs
 | --- | --- |
 | [Echo](PongEventArgs/Echo.md) { get; set; } | 心跳包信息 |
 
-## 相关文档
+## See Also
 
 * class [BaseServerEventArgs](BaseServerEventArgs.md)
 * namespace [Sora.EventArgs.WSSeverEvent](../Sora.md)

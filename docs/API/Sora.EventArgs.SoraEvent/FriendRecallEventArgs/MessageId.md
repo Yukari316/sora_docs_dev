@@ -6,7 +6,7 @@
 public int MessageId { get; }
 ```
 
-## 相关文档
+## See Also
 
 * class [FriendRecallEventArgs](../FriendRecallEventArgs.md)
 * namespace [Sora.EventArgs.SoraEvent](../../Sora.md)

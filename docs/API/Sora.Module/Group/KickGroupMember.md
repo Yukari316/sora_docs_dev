@@ -11,7 +11,7 @@ public ValueTask KickGroupMember(long userId, bool rejectRequest = false)
 | userId | 用户id |
 | rejectRequest | 拒绝此人的加群请求 |
 
-## 相关文档
+## See Also
 
 * class [Group](../Group.md)
 * namespace [Sora.Module](../../Sora.md)

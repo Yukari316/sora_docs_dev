@@ -6,7 +6,7 @@ The default constructor.
 public EventInterface()
 ```
 
-## 相关文档
+## See Also
 
 * class [EventInterface](../EventInterface.md)
 * namespace [Sora.ServerInterface](../../Sora.md)

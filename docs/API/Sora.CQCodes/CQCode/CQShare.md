@@ -14,7 +14,7 @@ public static CQCode CQShare(string url, string title, string content = null,
 | content | 可选，内容描述 |
 | imageUrl | 可选，图片 URL |
 
-## 相关文档
+## See Also
 
 * class [CQCode](../CQCode.md)
 * namespace [Sora.CQCodes](../../Sora.md)

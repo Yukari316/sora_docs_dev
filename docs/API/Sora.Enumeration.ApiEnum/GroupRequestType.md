@@ -13,7 +13,7 @@ public enum GroupRequestType
 | Add | `0` | 加群申请 |
 | Invite | `1` | 加群邀请 |
 
-## 相关文档
+## See Also
 
 * namespace [Sora.Enumeration.ApiEnum](../Sora.md)
 

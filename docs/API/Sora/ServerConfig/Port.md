@@ -3,10 +3,10 @@
 反向服务器端口
 
 ```csharp
-public int Port { get; set; }
+public uint Port { get; set; }
 ```
 
-## 相关文档
+## See Also
 
 * class [ServerConfig](../ServerConfig.md)
 * namespace [Sora](../../Sora.md)

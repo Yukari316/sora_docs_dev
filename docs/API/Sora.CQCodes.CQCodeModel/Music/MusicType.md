@@ -6,7 +6,7 @@
 public MusicShareType MusicType { get; }
 ```
 
-## 相关文档
+## See Also
 
 * enum [MusicShareType](../../Sora.Enumeration/MusicShareType.md)
 * struct [Music](../Music.md)

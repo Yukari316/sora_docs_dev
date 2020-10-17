@@ -6,7 +6,7 @@
 public long Busid { get; }
 ```
 
-## 相关文档
+## See Also
 
 * struct [UploadFileInfo](../UploadFileInfo.md)
 * namespace [Sora.Module.Info](../../Sora.md)

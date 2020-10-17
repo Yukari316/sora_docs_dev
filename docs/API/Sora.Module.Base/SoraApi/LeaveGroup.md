@@ -10,7 +10,7 @@ public ValueTask LeaveGroup(long groupId)
 | --- | --- |
 | groupId | 群号 |
 
-## 相关文档
+## See Also
 
 * class [SoraApi](../SoraApi.md)
 * namespace [Sora.Module.Base](../../Sora.md)

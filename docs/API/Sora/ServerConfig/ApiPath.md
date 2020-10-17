@@ -6,7 +6,7 @@ API请求路径
 public string ApiPath { get; set; }
 ```
 
-## 相关文档
+## See Also
 
 * class [ServerConfig](../ServerConfig.md)
 * namespace [Sora](../../Sora.md)

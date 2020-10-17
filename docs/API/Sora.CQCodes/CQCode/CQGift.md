@@ -11,7 +11,7 @@ public static CQCode CQGift(int giftId, long target)
 | giftId | 礼物id |
 | target | 目标uid |
 
-## 相关文档
+## See Also
 
 * class [CQCode](../CQCode.md)
 * namespace [Sora.CQCodes](../../Sora.md)

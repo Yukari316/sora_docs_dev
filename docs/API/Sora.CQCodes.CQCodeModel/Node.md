@@ -15,7 +15,7 @@ public struct Node
 | [Time](Node/Time.md) { get; } | 发送事件戳 |
 | struct [NodeSender](Node.NodeSender.md) | 节点消息发送者 |
 
-## 相关文档
+## See Also
 
 * namespace [Sora.CQCodes.CQCodeModel](../Sora.md)
 

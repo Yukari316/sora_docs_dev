@@ -6,7 +6,7 @@
 public int Id { get; }
 ```
 
-## 相关文档
+## See Also
 
 * struct [Face](../Face.md)
 * namespace [Sora.CQCodes.CQCodeModel](../../Sora.md)

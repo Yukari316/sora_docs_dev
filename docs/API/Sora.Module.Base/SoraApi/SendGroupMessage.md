@@ -18,7 +18,7 @@ public ValueTask<ValueTuple<APIStatusType, int>> SendGroupMessage(long groupId,
 
 `messageId` 消息ID
 
-## 相关文档
+## See Also
 
 * enum [APIStatusType](../../Sora.Enumeration.ApiEnum/APIStatusType.md)
 * class [SoraApi](../SoraApi.md)

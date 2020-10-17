@@ -14,7 +14,7 @@ public static Type GetCqCodeDataType(CQCode cqCode)
 
 数据结构体类型
 
-## 相关文档
+## See Also
 
 * class [CQCode](../CQCode.md)
 * namespace [Sora.CQCodes](../../Sora.md)

@@ -11,7 +11,7 @@ public ValueTask DisableGroupMemberMute(long groupId, long userId)
 | groupId | 群号 |
 | userId | 用户id |
 
-## 相关文档
+## See Also
 
 * class [SoraApi](../SoraApi.md)
 * namespace [Sora.Module.Base](../../Sora.md)

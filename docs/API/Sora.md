@@ -1,19 +1,19 @@
-# Sora
+# Sora assembly
 
-## Sora
+## Sora namespace
 
 | public type | description |
 | --- | --- |
 | class [ServerConfig](Sora/ServerConfig.md) | 服务器配置类 |
 | class [SoraWSServer](Sora/SoraWSServer.md) | Sora服务器实例 |
 
-## Sora.CQCodes
+## Sora.CQCodes namespace
 
 | public type | description |
 | --- | --- |
 | class [CQCode](Sora.CQCodes/CQCode.md) | CQ码类 |
 
-## Sora.CQCodes.CQCodeModel
+## Sora.CQCodes.CQCodeModel namespace
 
 | public type | description |
 | --- | --- |
@@ -34,7 +34,7 @@
 | struct [Share](Sora.CQCodes.CQCodeModel/Share.md) | 链接分享 |
 | struct [Text](Sora.CQCodes.CQCodeModel/Text.md) | 纯文本 |
 
-## Sora.Enumeration
+## Sora.Enumeration namespace
 
 | public type | description |
 | --- | --- |
@@ -43,7 +43,7 @@
 | enum [MessageType](Sora.Enumeration/MessageType.md) | 消息类型 |
 | enum [MusicShareType](Sora.Enumeration/MusicShareType.md) | 音乐分享类型 |
 
-## Sora.Enumeration.ApiEnum
+## Sora.Enumeration.ApiEnum namespace
 
 | public type | description |
 | --- | --- |
@@ -56,7 +56,7 @@
 | enum [MuteActionType](Sora.Enumeration.ApiEnum/MuteActionType.md) | 禁言操作类型 |
 | enum [RequestType](Sora.Enumeration.ApiEnum/RequestType.md) | 请求类型 |
 
-## Sora.EventArgs.SoraEvent
+## Sora.EventArgs.SoraEvent namespace
 
 | public type | description |
 | --- | --- |
@@ -78,7 +78,7 @@
 | class [LuckyKingEventArgs](Sora.EventArgs.SoraEvent/LuckyKingEventArgs.md) | 红包运气王事件参数 |
 | class [PrivateMessageEventArgs](Sora.EventArgs.SoraEvent/PrivateMessageEventArgs.md) | 私聊消息事件参数 |
 
-## Sora.EventArgs.WSSeverEvent
+## Sora.EventArgs.WSSeverEvent namespace
 
 | public type | description |
 | --- | --- |
@@ -86,7 +86,7 @@
 | class [ConnectionEventArgs](Sora.EventArgs.WSSeverEvent/ConnectionEventArgs.md) | 服务器连接事件 |
 | class [PongEventArgs](Sora.EventArgs.WSSeverEvent/PongEventArgs.md) | 服务器心跳包事件 |
 
-## Sora.Module
+## Sora.Module namespace
 
 | public type | description |
 | --- | --- |
@@ -94,14 +94,14 @@
 | class [Message](Sora.Module/Message.md) | 消息实例 |
 | class [User](Sora.Module/User.md) | 用户类 |
 
-## Sora.Module.Base
+## Sora.Module.Base namespace
 
 | public type | description |
 | --- | --- |
 | abstract class [BaseModel](Sora.Module.Base/BaseModel.md) | 数据模型基类 |
 | class [SoraApi](Sora.Module.Base/SoraApi.md) | Sora API执行实例 |
 
-## Sora.Module.Info
+## Sora.Module.Info namespace
 
 | public type | description |
 | --- | --- |
@@ -113,13 +113,13 @@
 | struct [UploadFileInfo](Sora.Module.Info/UploadFileInfo.md) | 上传文件的信息 |
 | struct [UserInfo](Sora.Module.Info/UserInfo.md) | 用户信息 |
 
-## Sora.ServerInterface
+## Sora.ServerInterface namespace
 
 | public type | description |
 | --- | --- |
 | class [EventInterface](Sora.ServerInterface/EventInterface.md) | Onebot事件接口 判断和分发基类事件 |
 
-## Sora.Tool
+## Sora.Tool namespace
 
 | public type | description |
 | --- | --- |

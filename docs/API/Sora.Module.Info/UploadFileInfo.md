@@ -15,7 +15,7 @@ public struct UploadFileInfo
 | [Name](UploadFileInfo/Name.md) { get; } | 文件名 |
 | [Size](UploadFileInfo/Size.md) { get; } | 文件大小(Byte) |
 
-## 相关文档
+## See Also
 
 * namespace [Sora.Module.Info](../Sora.md)
 

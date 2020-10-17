@@ -6,7 +6,7 @@ The default constructor.
 public ServerConfig()
 ```
 
-## 相关文档
+## See Also
 
 * class [ServerConfig](../ServerConfig.md)
 * namespace [Sora](../../Sora.md)

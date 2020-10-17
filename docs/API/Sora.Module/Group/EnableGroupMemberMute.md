@@ -11,7 +11,7 @@ public ValueTask EnableGroupMemberMute(long userId, long duration)
 | userId | 用户id |
 | duration | 禁言时长(s) |
 
-## 相关文档
+## See Also
 
 * class [Group](../Group.md)
 * namespace [Sora.Module](../../Sora.md)

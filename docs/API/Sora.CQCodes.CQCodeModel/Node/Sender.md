@@ -6,7 +6,7 @@
 public NodeSender Sender { get; }
 ```
 
-## 相关文档
+## See Also
 
 * struct [NodeSender](../Node.NodeSender.md)
 * struct [Node](../Node.md)

@@ -15,7 +15,7 @@ public sealed class GroupRecallEventArgs : BaseSoraEventArgs
 | [Operator](GroupRecallEventArgs/Operator.md) { get; } | 撤回执行者 |
 | [SourceGroup](GroupRecallEventArgs/SourceGroup.md) { get; } | 消息源群 |
 
-## 相关文档
+## See Also
 
 * class [BaseSoraEventArgs](BaseSoraEventArgs.md)
 * namespace [Sora.EventArgs.SoraEvent](../Sora.md)

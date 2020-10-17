@@ -16,7 +16,7 @@ public ValueTask<ValueTuple<APIStatusType, GroupInfo>> GetGroupInfo(bool useCach
 
 [`GroupInfo`](../../Sora.Module.Info/GroupInfo.md) 群信息
 
-## 相关文档
+## See Also
 
 * enum [APIStatusType](../../Sora.Enumeration.ApiEnum/APIStatusType.md)
 * struct [GroupInfo](../../Sora.Module.Info/GroupInfo.md)

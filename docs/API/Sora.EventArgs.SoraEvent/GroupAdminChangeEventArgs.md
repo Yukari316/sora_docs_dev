@@ -14,7 +14,7 @@ public sealed class GroupAdminChangeEventArgs : BaseSoraEventArgs
 | [SourceGroup](GroupAdminChangeEventArgs/SourceGroup.md) { get; } | 消息源群 |
 | [SubType](GroupAdminChangeEventArgs/SubType.md) { get; } | 动作类型 |
 
-## 相关文档
+## See Also
 
 * class [BaseSoraEventArgs](BaseSoraEventArgs.md)
 * namespace [Sora.EventArgs.SoraEvent](../Sora.md)

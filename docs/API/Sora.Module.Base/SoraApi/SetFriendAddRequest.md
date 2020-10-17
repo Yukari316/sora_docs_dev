@@ -12,7 +12,7 @@ public ValueTask SetFriendAddRequest(string flag, bool approve, string remark = 
 | approve | 是否同意 |
 | remark | 好友备注 |
 
-## 相关文档
+## See Also
 
 * class [SoraApi](../SoraApi.md)
 * namespace [Sora.Module.Base](../../Sora.md)

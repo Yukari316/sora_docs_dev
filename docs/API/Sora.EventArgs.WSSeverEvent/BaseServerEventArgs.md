@@ -12,7 +12,7 @@ public abstract class BaseServerEventArgs : EventArgs
 | --- | --- |
 | [BaseServerEventArgs](BaseServerEventArgs/BaseServerEventArgs.md)() | The default constructor. |
 
-## 相关文档
+## See Also
 
 * namespace [Sora.EventArgs.WSSeverEvent](../Sora.md)
 

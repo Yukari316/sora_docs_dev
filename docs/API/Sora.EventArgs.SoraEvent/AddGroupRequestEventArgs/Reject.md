@@ -10,7 +10,7 @@ public ValueTask Reject(string reason = null)
 | --- | --- |
 | reason | 原因 |
 
-## 相关文档
+## See Also
 
 * class [AddGroupRequestEventArgs](../AddGroupRequestEventArgs.md)
 * namespace [Sora.EventArgs.SoraEvent](../../Sora.md)

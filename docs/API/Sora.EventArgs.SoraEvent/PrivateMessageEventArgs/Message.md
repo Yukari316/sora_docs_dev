@@ -6,7 +6,7 @@
 public Message Message { get; }
 ```
 
-## 相关文档
+## See Also
 
 * class [Message](../../Sora.Module/Message.md)
 * class [PrivateMessageEventArgs](../PrivateMessageEventArgs.md)

@@ -6,7 +6,7 @@
 public GroupSenderInfo SenderInfo { get; }
 ```
 
-## 相关文档
+## See Also
 
 * struct [GroupSenderInfo](../../Sora.Module.Info/GroupSenderInfo.md)
 * class [GroupMessageEventArgs](../GroupMessageEventArgs.md)

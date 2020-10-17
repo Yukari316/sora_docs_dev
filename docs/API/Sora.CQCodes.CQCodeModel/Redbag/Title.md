@@ -6,7 +6,7 @@
 public string Title { get; }
 ```
 
-## 相关文档
+## See Also
 
 * struct [Redbag](../Redbag.md)
 * namespace [Sora.CQCodes.CQCodeModel](../../Sora.md)

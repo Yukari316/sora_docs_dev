@@ -6,7 +6,7 @@
 public event EventAsyncCallBackHandler<ConnectEventArgs> OnClientConnect;
 ```
 
-## 相关文档
+## See Also
 
 * delegate [EventAsyncCallBackHandler&lt;TEventArgs&gt;](../EventInterface.EventAsyncCallBackHandler-1.md)
 * class [ConnectEventArgs](../../Sora.EventArgs.SoraEvent/ConnectEventArgs.md)

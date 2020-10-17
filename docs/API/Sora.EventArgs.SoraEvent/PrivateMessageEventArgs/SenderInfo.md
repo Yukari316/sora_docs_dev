@@ -6,7 +6,7 @@
 public PrivateSenderInfo SenderInfo { get; }
 ```
 
-## 相关文档
+## See Also
 
 * struct [PrivateSenderInfo](../../Sora.Module.Info/PrivateSenderInfo.md)
 * class [PrivateMessageEventArgs](../PrivateMessageEventArgs.md)

@@ -13,7 +13,7 @@ public struct Music
 | [MusicId](Music/MusicId.md) { get; } | 歌曲 ID |
 | [MusicType](Music/MusicType.md) { get; } | 音乐分享类型 |
 
-## 相关文档
+## See Also
 
 * namespace [Sora.CQCodes.CQCodeModel](../Sora.md)
 

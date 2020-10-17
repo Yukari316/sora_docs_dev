@@ -6,7 +6,7 @@
 public event EventAsyncCallBackHandler<GroupRecallEventArgs> OnGroupRecall;
 ```
 
-## 相关文档
+## See Also
 
 * delegate [EventAsyncCallBackHandler&lt;TEventArgs&gt;](../EventInterface.EventAsyncCallBackHandler-1.md)
 * class [GroupRecallEventArgs](../../Sora.EventArgs.SoraEvent/GroupRecallEventArgs.md)

@@ -17,7 +17,7 @@ public static CQCode CQCardImage(string imageFile, string source = null, string 
 | maxWidth | 最大 Width |
 | maxHeight | 最大 Height |
 
-## 相关文档
+## See Also
 
 * class [CQCode](../CQCode.md)
 * namespace [Sora.CQCodes](../../Sora.md)

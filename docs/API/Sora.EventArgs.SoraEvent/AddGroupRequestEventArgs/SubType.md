@@ -6,7 +6,7 @@
 public GroupRequestType SubType { get; }
 ```
 
-## 相关文档
+## See Also
 
 * enum [GroupRequestType](../../Sora.Enumeration.ApiEnum/GroupRequestType.md)
 * class [AddGroupRequestEventArgs](../AddGroupRequestEventArgs.md)

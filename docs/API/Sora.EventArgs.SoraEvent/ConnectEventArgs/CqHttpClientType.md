@@ -6,7 +6,7 @@
 public ClientType CqHttpClientType { get; }
 ```
 
-## 相关文档
+## See Also
 
 * enum [ClientType](../../Sora.Enumeration.ApiEnum/ClientType.md)
 * class [ConnectEventArgs](../ConnectEventArgs.md)

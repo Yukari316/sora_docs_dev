@@ -6,7 +6,7 @@
 public long Time { get; }
 ```
 
-## 相关文档
+## See Also
 
 * struct [Node](../Node.md)
 * namespace [Sora.CQCodes.CQCodeModel](../../Sora.md)

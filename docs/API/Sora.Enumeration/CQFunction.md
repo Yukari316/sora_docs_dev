@@ -30,7 +30,7 @@ public enum CQFunction
 | CardImage | `17` | 装逼大图 |
 | TTS | `18` | 文本转语音 |
 
-## 相关文档
+## See Also
 
 * namespace [Sora.Enumeration](../Sora.md)
 

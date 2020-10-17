@@ -6,7 +6,7 @@
 public AdminChangeType SubType { get; }
 ```
 
-## 相关文档
+## See Also
 
 * enum [AdminChangeType](../../Sora.Enumeration.ApiEnum/AdminChangeType.md)
 * class [GroupAdminChangeEventArgs](../GroupAdminChangeEventArgs.md)

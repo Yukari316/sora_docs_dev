@@ -6,7 +6,7 @@ The default constructor.
 protected BaseServerEventArgs()
 ```
 
-## 相关文档
+## See Also
 
 * class [BaseServerEventArgs](../BaseServerEventArgs.md)
 * namespace [Sora.EventArgs.WSSeverEvent](../../Sora.md)

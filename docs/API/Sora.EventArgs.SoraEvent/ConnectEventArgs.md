@@ -14,7 +14,7 @@ public sealed class ConnectEventArgs : BaseSoraEventArgs
 | [CqHttpClientType](ConnectEventArgs/CqHttpClientType.md) { get; } | 连接客户端类型 |
 | [CloseConnection](ConnectEventArgs/CloseConnection.md)() | 关闭客户端连接 |
 
-## 相关文档
+## See Also
 
 * class [BaseSoraEventArgs](BaseSoraEventArgs.md)
 * namespace [Sora.EventArgs.SoraEvent](../Sora.md)

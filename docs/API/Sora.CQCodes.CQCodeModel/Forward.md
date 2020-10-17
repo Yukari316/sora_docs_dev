@@ -12,7 +12,7 @@ public struct Forward
 | --- | --- |
 | [MessageId](Forward/MessageId.md) { get; } | 转发消息ID |
 
-## 相关文档
+## See Also
 
 * namespace [Sora.CQCodes.CQCodeModel](../Sora.md)
 

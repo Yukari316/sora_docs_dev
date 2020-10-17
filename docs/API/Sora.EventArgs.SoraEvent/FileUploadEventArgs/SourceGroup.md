@@ -6,7 +6,7 @@
 public Group SourceGroup { get; }
 ```
 
-## 相关文档
+## See Also
 
 * class [Group](../../Sora.Module/Group.md)
 * class [FileUploadEventArgs](../FileUploadEventArgs.md)

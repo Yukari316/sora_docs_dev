@@ -15,7 +15,7 @@ public struct GroupInfo
 | [MaxMemberCount](GroupInfo/MaxMemberCount.md) { get; } | 最大成员数（群容量） |
 | [MemberCount](GroupInfo/MemberCount.md) { get; } | 成员数 |
 
-## 相关文档
+## See Also
 
 * namespace [Sora.Module.Info](../Sora.md)
 

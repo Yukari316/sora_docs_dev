@@ -6,7 +6,7 @@
 public MemberRoleType Role { get; }
 ```
 
-## 相关文档
+## See Also
 
 * enum [MemberRoleType](../../Sora.Enumeration/MemberRoleType.md)
 * struct [GroupMemberInfo](../GroupMemberInfo.md)

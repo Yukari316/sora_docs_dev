@@ -17,7 +17,7 @@ public ValueTask<ValueTuple<APIStatusType, UserInfo>> GetUserInfo(long userId, b
 
 [`UserInfo`](../../Sora.Module.Info/UserInfo.md) 群成员信息
 
-## 相关文档
+## See Also
 
 * enum [APIStatusType](../../Sora.Enumeration.ApiEnum/APIStatusType.md)
 * struct [UserInfo](../../Sora.Module.Info/UserInfo.md)

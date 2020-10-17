@@ -16,7 +16,7 @@ public struct Poke
 | --- | --- |
 | [Uid](Poke/Uid.md) { get; } | 需要戳的成员 |
 
-## 相关文档
+## See Also
 
 * namespace [Sora.CQCodes.CQCodeModel](../Sora.md)
 

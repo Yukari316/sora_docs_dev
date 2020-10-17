@@ -5,10 +5,10 @@
 默认为1000无需修改
 
 ```csharp
-public int ApiTimeOut { get; set; }
+public uint ApiTimeOut { get; set; }
 ```
 
-## 相关文档
+## See Also
 
 * class [ServerConfig](../ServerConfig.md)
 * namespace [Sora](../../Sora.md)

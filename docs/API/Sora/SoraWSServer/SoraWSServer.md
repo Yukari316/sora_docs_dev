@@ -10,7 +10,7 @@ public SoraWSServer(ServerConfig config)
 | --- | --- |
 | config | 服务器配置 |
 
-## 相关文档
+## See Also
 
 * class [ServerConfig](../ServerConfig.md)
 * class [SoraWSServer](../SoraWSServer.md)
