@@ -3,7 +3,7 @@
 服务器事件回调
 
 ```csharp
-public delegate ValueTask ServerAsyncCallBackHandler<in TEventArgs>(string selfId, 
+public delegate ValueTask ServerAsyncCallBackHandler<in TEventArgs>(string sender, 
     TEventArgs eventArgs)
     where TEventArgs : EventArgs;
 ```
@@ -11,7 +11,7 @@ public delegate ValueTask ServerAsyncCallBackHandler<in TEventArgs>(string selfI
 | parameter | description |
 | --- | --- |
 | TEventArgs | 事件参数 |
-| selfId | Bot Id |
+| sender | Bot Id |
 | eventArgs | 事件参数 |
 
 ## See Also

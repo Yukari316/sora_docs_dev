@@ -1,6 +1,6 @@
 # SoraApi.GetMessages method
 
-获取消息
+获取群消息
 
 只能获取纯文本信息
 

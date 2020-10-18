@@ -11,9 +11,9 @@ public abstract class BaseSoraEventArgs : EventArgs
 | name | description |
 | --- | --- |
 | [EventName](BaseSoraEventArgs/EventName.md) { get; } | 当前事件名 |
+| [LoginUid](BaseSoraEventArgs/LoginUid.md) { get; } | 接收当前事件的机器人UID |
 | [SoraApi](BaseSoraEventArgs/SoraApi.md) { get; } | 当前事件的API执行实例 |
 | [Time](BaseSoraEventArgs/Time.md) { get; } | 事件产生时间 |
-| [GetLoginUserId](BaseSoraEventArgs/GetLoginUserId.md)() | 获取当前登陆账号的ID |
 
 ## See Also
 
