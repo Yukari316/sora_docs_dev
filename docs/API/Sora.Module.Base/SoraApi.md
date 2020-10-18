@@ -28,9 +28,9 @@ public sealed class SoraApi
 | [GetGroupList](SoraApi/GetGroupList.md)() | 获取群组列表 |
 | [GetGroupMemberInfo](SoraApi/GetGroupMemberInfo.md)(…) | 获取群成员信息 |
 | [GetGroupMemberList](SoraApi/GetGroupMemberList.md)(…) | 获取群成员列表 |
-| [GetGroupMessages](SoraApi/GetGroupMessages.md)(…) | 获取群消息 |
 | [GetImage](SoraApi/GetImage.md)(…) | 获取图片信息 |
 | [GetLoginUserName](SoraApi/GetLoginUserName.md)() | 获取登陆QQ的名字 |
+| [GetMessages](SoraApi/GetMessages.md)(…) | 获取消息 |
 | [GetStatus](SoraApi/GetStatus.md)() | 获取客户端状态 |
 | [GetUser](SoraApi/GetUser.md)(…) | 获取用户实例 |
 | [GetUserInfo](SoraApi/GetUserInfo.md)(…) | 获取用户信息 |

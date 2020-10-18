@@ -1,11 +1,11 @@
-# SoraApi.GetGroupMessages method
+# SoraApi.GetMessages method
 
-获取群消息
+获取消息
 
 只能获取纯文本信息
 
 ```csharp
-public ValueTask<ValueTuple<APIStatusType, Message, User>> GetGroupMessages(int messageId)
+public ValueTask<ValueTuple<APIStatusType, Message, User, int, bool>> GetMessages(int messageId)
 ```
 
 | parameter | description |
