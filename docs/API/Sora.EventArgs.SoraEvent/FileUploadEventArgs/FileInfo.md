@@ -8,7 +8,7 @@ public UploadFileInfo FileInfo { get; }
 
 ## See Also
 
-* struct [UploadFileInfo](../../Sora.Module.Info/UploadFileInfo.md)
+* struct [UploadFileInfo](../../Sora.Entities.Info/UploadFileInfo.md)
 * class [FileUploadEventArgs](../FileUploadEventArgs.md)
 * namespace [Sora.EventArgs.SoraEvent](../../Sora.md)
 

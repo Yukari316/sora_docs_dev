@@ -8,7 +8,7 @@ public Group SourceGroup { get; }
 
 ## See Also
 
-* class [Group](../../Sora.Module/Group.md)
+* class [Group](../../Sora.Entities/Group.md)
 * class [GroupCardUpdateEventArgs](../GroupCardUpdateEventArgs.md)
 * namespace [Sora.EventArgs.SoraEvent](../../Sora.md)
 

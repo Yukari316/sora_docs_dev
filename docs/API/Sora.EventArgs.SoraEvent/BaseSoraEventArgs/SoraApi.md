@@ -8,7 +8,7 @@ public SoraApi SoraApi { get; }
 
 ## See Also
 
-* class [SoraApi](../../Sora.Module.Base/SoraApi.md)
+* class [SoraApi](../../Sora.Entities.Base/SoraApi.md)
 * class [BaseSoraEventArgs](../BaseSoraEventArgs.md)
 * namespace [Sora.EventArgs.SoraEvent](../../Sora.md)
 

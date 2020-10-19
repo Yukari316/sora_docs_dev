@@ -8,7 +8,7 @@ public GroupRequestType SubType { get; }
 
 ## See Also
 
-* enum [GroupRequestType](../../Sora.Enumeration.ApiEnum/GroupRequestType.md)
+* enum [GroupRequestType](../../Sora.Enumeration.EventParamsType/GroupRequestType.md)
 * class [AddGroupRequestEventArgs](../AddGroupRequestEventArgs.md)
 * namespace [Sora.EventArgs.SoraEvent](../../Sora.md)
 

@@ -8,7 +8,7 @@ public Message Message { get; }
 
 ## See Also
 
-* class [Message](../../Sora.Module/Message.md)
+* class [Message](../../Sora.Entities/Message.md)
 * class [PrivateMessageEventArgs](../PrivateMessageEventArgs.md)
 * namespace [Sora.EventArgs.SoraEvent](../../Sora.md)
 

@@ -8,7 +8,7 @@ public User Operator { get; }
 
 ## See Also
 
-* class [User](../../Sora.Module/User.md)
+* class [User](../../Sora.Entities/User.md)
 * class [GroupMuteEventArgs](../GroupMuteEventArgs.md)
 * namespace [Sora.EventArgs.SoraEvent](../../Sora.md)
 

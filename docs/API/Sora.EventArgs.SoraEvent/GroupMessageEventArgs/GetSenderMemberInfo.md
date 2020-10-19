@@ -15,12 +15,12 @@ public ValueTask<ValueTuple<APIStatusType, GroupMemberInfo>> GetSenderMemberInfo
 
 [`APIStatusType`](../../Sora.Enumeration.ApiEnum/APIStatusType.md) API执行状态
 
-[`GroupMemberInfo`](../../Sora.Module.Info/GroupMemberInfo.md) 群成员信息
+[`GroupMemberInfo`](../../Sora.Entities.Info/GroupMemberInfo.md) 群成员信息
 
 ## See Also
 
 * enum [APIStatusType](../../Sora.Enumeration.ApiEnum/APIStatusType.md)
-* struct [GroupMemberInfo](../../Sora.Module.Info/GroupMemberInfo.md)
+* struct [GroupMemberInfo](../../Sora.Entities.Info/GroupMemberInfo.md)
 * class [GroupMessageEventArgs](../GroupMessageEventArgs.md)
 * namespace [Sora.EventArgs.SoraEvent](../../Sora.md)
 

@@ -8,7 +8,7 @@ public AdminChangeType SubType { get; }
 
 ## See Also
 
-* enum [AdminChangeType](../../Sora.Enumeration.ApiEnum/AdminChangeType.md)
+* enum [AdminChangeType](../../Sora.Enumeration.EventParamsType/AdminChangeType.md)
 * class [GroupAdminChangeEventArgs](../GroupAdminChangeEventArgs.md)
 * namespace [Sora.EventArgs.SoraEvent](../../Sora.md)
 

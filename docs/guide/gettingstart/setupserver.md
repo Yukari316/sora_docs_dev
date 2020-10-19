@@ -9,7 +9,7 @@ title: 创建一个最简单的Bot
 添加以下代码的引用
 
 ```csharp
-using Sora;
+using Sora.Server;
 ```
 
 
@@ -35,4 +35,4 @@ await server.StartServerAsync();
 
 如果出现图片中的结果，那么bot已经成功运行了
 
-![Test](https://i.loli.net/2020/10/15/WMfKBZO3uCalHmS.png)
+![Test](https://i.loli.net/2020/10/19/wx2zyN3jpZXr4Y1.png)

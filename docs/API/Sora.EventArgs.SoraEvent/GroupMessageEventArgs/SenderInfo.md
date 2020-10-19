@@ -8,7 +8,7 @@ public GroupSenderInfo SenderInfo { get; }
 
 ## See Also
 
-* struct [GroupSenderInfo](../../Sora.Module.Info/GroupSenderInfo.md)
+* struct [GroupSenderInfo](../../Sora.Entities.Info/GroupSenderInfo.md)
 * class [GroupMessageEventArgs](../GroupMessageEventArgs.md)
 * namespace [Sora.EventArgs.SoraEvent](../../Sora.md)
 

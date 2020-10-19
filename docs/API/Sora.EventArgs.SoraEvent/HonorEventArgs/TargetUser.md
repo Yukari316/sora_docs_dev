@@ -8,7 +8,7 @@ public User TargetUser { get; }
 
 ## See Also
 
-* class [User](../../Sora.Module/User.md)
+* class [User](../../Sora.Entities/User.md)
 * class [HonorEventArgs](../HonorEventArgs.md)
 * namespace [Sora.EventArgs.SoraEvent](../../Sora.md)
 

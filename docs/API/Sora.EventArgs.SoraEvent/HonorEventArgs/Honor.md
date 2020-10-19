@@ -8,7 +8,7 @@ public HonorType Honor { get; }
 
 ## See Also
 
-* enum [HonorType](../../Sora.Enumeration.ApiEnum/HonorType.md)
+* enum [HonorType](../../Sora.Enumeration.EventParamsType/HonorType.md)
 * class [HonorEventArgs](../HonorEventArgs.md)
 * namespace [Sora.EventArgs.SoraEvent](../../Sora.md)
 

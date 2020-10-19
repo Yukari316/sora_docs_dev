@@ -8,7 +8,7 @@ public User Sender { get; }
 
 ## See Also
 
-* class [User](../../Sora.Module/User.md)
+* class [User](../../Sora.Entities/User.md)
 * class [GroupMessageEventArgs](../GroupMessageEventArgs.md)
 * namespace [Sora.EventArgs.SoraEvent](../../Sora.md)
 
