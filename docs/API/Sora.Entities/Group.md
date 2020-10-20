@@ -24,7 +24,7 @@ public sealed class Group : BaseModel
 | [KickGroupMember](Group/KickGroupMember.md)(…) | 群组踢人 |
 | [LeaveGroup](Group/LeaveGroup.md)() | 退出群 |
 | [SendGroupForwardMsg](Group/SendGroupForwardMsg.md)(…) | 发送合并转发(群) 但好像不能用的样子 |
-| [SendGroupMessage](Group/SendGroupMessage.md)(…) | 发送群消息 |
+| [SendGroupMessage](Group/SendGroupMessage.md)(…) | 发送群消息 (2 methods) |
 | [SetGroupCard](Group/SetGroupCard.md)(…) | 设置群名片 |
 | [SetGroupMemberSpecialTitle](Group/SetGroupMemberSpecialTitle.md)(…) | 设置群成员专属头衔 |
 | [SetGroupName](Group/SetGroupName.md)(…) | 设置群名 |

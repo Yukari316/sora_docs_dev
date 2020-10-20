@@ -1,4 +1,33 @@
-# SoraApi.SendGroupMessage method
+# SoraApi.SendGroupMessage method (1 of 2)
+
+发送群聊消息
+
+```csharp
+public ValueTask<ValueTuple<APIStatusType, int>> SendGroupMessage(long groupId, 
+    List<CQCode> message)
+```
+
+| parameter | description |
+| --- | --- |
+| groupId | 发送目标群id |
+| message | 消息 |
+
+## Return Value
+
+[`APIStatusType`](../../Sora.Enumeration.ApiEnum/APIStatusType.md) API执行状态
+
+`messageId` 消息ID
+
+## See Also
+
+* enum [APIStatusType](../../Sora.Enumeration.ApiEnum/APIStatusType.md)
+* class [CQCode](../../Sora.Entities.CQCodes/CQCode.md)
+* class [SoraApi](../SoraApi.md)
+* namespace [Sora.Entities.Base](../../Sora.md)
+
+---
+
+# SoraApi.SendGroupMessage method (2 of 2)
 
 发送群聊消息
 

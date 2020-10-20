@@ -40,8 +40,8 @@ public sealed class SoraApi
 | [RebootClient](SoraApi/RebootClient.md)(…) | 重启客户端 对go无效 |
 | [RecallMessage](SoraApi/RecallMessage.md)(…) | 撤回消息 |
 | [SendGroupForwardMsg](SoraApi/SendGroupForwardMsg.md)(…) | 发送合并转发(群) 但好像不能用的样子 |
-| [SendGroupMessage](SoraApi/SendGroupMessage.md)(…) | 发送群聊消息 |
-| [SendPrivateMessage](SoraApi/SendPrivateMessage.md)(…) | 发送私聊消息 |
+| [SendGroupMessage](SoraApi/SendGroupMessage.md)(…) | 发送群聊消息 (2 methods) |
+| [SendPrivateMessage](SoraApi/SendPrivateMessage.md)(…) | 发送私聊消息 (2 methods) |
 | [SetFriendAddRequest](SoraApi/SetFriendAddRequest.md)(…) | 处理加好友请求 |
 | [SetGroupAddRequest](SoraApi/SetGroupAddRequest.md)(…) | 处理加群请求/邀请 |
 | [SetGroupCard](SoraApi/SetGroupCard.md)(…) | 设置群名片 |

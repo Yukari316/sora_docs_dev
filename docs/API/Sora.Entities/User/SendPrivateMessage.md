@@ -1,4 +1,31 @@
-# User.SendPrivateMessage method
+# User.SendPrivateMessage method (1 of 2)
+
+发送群消息
+
+```csharp
+public ValueTask<ValueTuple<APIStatusType, int>> SendPrivateMessage(List<CQCode> message)
+```
+
+| parameter | description |
+| --- | --- |
+| message | 消息 |
+
+## Return Value
+
+[`APIStatusType`](../../Sora.Enumeration.ApiEnum/APIStatusType.md) API执行状态
+
+`messageId` 消息ID
+
+## See Also
+
+* enum [APIStatusType](../../Sora.Enumeration.ApiEnum/APIStatusType.md)
+* class [CQCode](../../Sora.Entities.CQCodes/CQCode.md)
+* class [User](../User.md)
+* namespace [Sora.Entities](../../Sora.md)
+
+---
+
+# User.SendPrivateMessage method (2 of 2)
 
 发送私聊消息
 
