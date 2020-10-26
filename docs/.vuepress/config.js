@@ -21,6 +21,7 @@ module.exports = {
         { text: '主页', link: '/' },
         { text: '指南', link: '/guide/' },
         { text: 'API', link: '/API/Sora.md' },
+        { text: '更新日志', link: '/updatelog/' },
     ],
     displayAllHeaders: true,
     activeHeaderLinks: true,
