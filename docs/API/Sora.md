@@ -6,6 +6,7 @@
 | --- | --- |
 | class [Group](Sora.Entities/Group.md) | 群组实例 |
 | class [Message](Sora.Entities/Message.md) | 消息实例 |
+| class [OfflineFileInfo](Sora.Entities/OfflineFileInfo.md) | 离线文件信息 |
 | class [User](Sora.Entities/User.md) | 用户类 |
 
 ## Sora.Entities.Base namespace
@@ -49,6 +50,7 @@
 | struct [FriendInfo](Sora.Entities.Info/FriendInfo.md) | 好友信息 |
 | struct [GroupInfo](Sora.Entities.Info/GroupInfo.md) | 群信息 |
 | struct [GroupMemberInfo](Sora.Entities.Info/GroupMemberInfo.md) | 群成员信息 |
+| class [GroupRequestInfo](Sora.Entities.Info/GroupRequestInfo.md) | 群组请求信息 |
 | struct [GroupSenderInfo](Sora.Entities.Info/GroupSenderInfo.md) | 群组消息发送者 |
 | struct [PrivateSenderInfo](Sora.Entities.Info/PrivateSenderInfo.md) | 私聊消息发送者 |
 | struct [UploadFileInfo](Sora.Entities.Info/UploadFileInfo.md) | 上传文件的信息 |
@@ -101,6 +103,7 @@
 | class [GroupRecallEventArgs](Sora.EventArgs.SoraEvent/GroupRecallEventArgs.md) | 群消息撤回事件参数 |
 | class [HonorEventArgs](Sora.EventArgs.SoraEvent/HonorEventArgs.md) | 授予荣誉事件参数 |
 | class [LuckyKingEventArgs](Sora.EventArgs.SoraEvent/LuckyKingEventArgs.md) | 红包运气王事件参数 |
+| class [OfflineFileEventArgs](Sora.EventArgs.SoraEvent/OfflineFileEventArgs.md) | 接收到离线文件事件参数 |
 | class [PrivateMessageEventArgs](Sora.EventArgs.SoraEvent/PrivateMessageEventArgs.md) | 私聊消息事件参数 |
 
 ## Sora.EventArgs.WSSeverEvent namespace

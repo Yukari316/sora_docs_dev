@@ -26,6 +26,7 @@ public class EventInterface
 | event [OnGroupRequest](EventInterface/OnGroupRequest.md) | 群申请事件 |
 | event [OnHonorEvent](EventInterface/OnHonorEvent.md) | 群成员荣誉变更事件 |
 | event [OnLuckyKingEvent](EventInterface/OnLuckyKingEvent.md) | 运气王事件 |
+| event [OnOfflineFileEvent](EventInterface/OnOfflineFileEvent.md) | 离线文件事件 |
 | event [OnPrivateMessage](EventInterface/OnPrivateMessage.md) | 私聊事件 |
 | delegate [EventAsyncCallBackHandler&lt;TEventArgs&gt;](EventInterface.EventAsyncCallBackHandler-1.md) | Onebot事件回调 |
 

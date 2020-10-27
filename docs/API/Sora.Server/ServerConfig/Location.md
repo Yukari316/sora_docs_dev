@@ -1,6 +1,6 @@
 # ServerConfig.Location property
 
-反向服务器地址
+反向服务器监听地址
 
 ```csharp
 public string Location { get; set; }

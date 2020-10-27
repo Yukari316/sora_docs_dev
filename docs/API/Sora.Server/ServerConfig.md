@@ -18,7 +18,7 @@ public sealed class ServerConfig
 | [ApiTimeOut](ServerConfig/ApiTimeOut.md) { get; set; } | 客户端API调用超时设置(毫秒) |
 | [EventPath](ServerConfig/EventPath.md) { get; set; } | Event请求路径 |
 | [HeartBeatTimeOut](ServerConfig/HeartBeatTimeOut.md) { get; set; } | 心跳包超时设置(秒) |
-| [Location](ServerConfig/Location.md) { get; set; } | 反向服务器地址 |
+| [Location](ServerConfig/Location.md) { get; set; } | 反向服务器监听地址 |
 | [Port](ServerConfig/Port.md) { get; set; } | 反向服务器端口 |
 | [UniversalPath](ServerConfig/UniversalPath.md) { get; set; } | Universal请求路径 |
 
