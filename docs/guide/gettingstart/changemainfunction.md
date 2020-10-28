@@ -18,18 +18,18 @@ C#9 新特性介绍文档:[C# Language Version History](https://github.com/dotne
 
 ```csharp
 static void Main(string[] args)
-        {
+{
         
-        }
+}
 ```
 
-所以在开始编写bot代码前，我们需要将Mian函数修改为异步函数
+所以在开始编写bot代码前，我们需要将Main函数修改为异步函数
 
 将Main函数修改为以下代码：
 
 ```csharp
 static async Task Main(string[] args)
-        {
+{
             
-        }
+}
 ```
