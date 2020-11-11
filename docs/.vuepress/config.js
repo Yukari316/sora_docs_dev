@@ -70,5 +70,19 @@ module.exports = {
         }
       ]
     }
-  }
+  },
+  //插件设置
+  plugins:[
+    [
+      '@vuepress/last-updated',
+      {
+        transformer: (timestamp, lang) => {
+          const moment = require('moment')
+          moment.locale(lang)
+          //时区转换
+          return moment(timestamp + 25200000).fromNow()
+        }
+      }
+    ]
+  ]
 }
