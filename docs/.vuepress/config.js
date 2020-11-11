@@ -80,7 +80,7 @@ module.exports = {
           const moment = require('moment')
           moment.locale(lang)
           //时区转换
-          return moment(timestamp + 25200000).fromNow()
+          return moment(timestamp).fromNow()
         }
       }
     ]
