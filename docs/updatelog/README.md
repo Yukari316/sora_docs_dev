@@ -1,5 +1,23 @@
 # 更新日志
 
+## v0.3.0
+
+升级.Net SDK版本至 5.0.100
+
+## v0.2.4
+
+更新对go-cqhttp v0.9.30新特性的支持
+
+- 增加API 获取群文件系统信息
+
+- 增加API 获取群根目录文件列表
+
+- 增加API 获取群根目录文件列表
+
+- 增加API 获取群文件资源链接
+
+修改框架部分Log
+
 ## v0.2.3
 
 新增API [获取群系统消息](..\API\Sora.Entities.Base\SoraApi\GetGroupSystemMsg.md)

@@ -18,9 +18,13 @@ public sealed class Group : BaseModel
 | [EnableGroupAdmin](Group/EnableGroupAdmin.md)(…) | 设置群管理员 |
 | [EnableGroupMemberMute](Group/EnableGroupMemberMute.md)(…) | 设置群组成员禁言 |
 | [EnableGroupMute](Group/EnableGroupMute.md)() | 群组全员禁言 |
+| [GetGroupFilesByFolder](Group/GetGroupFilesByFolder.md)(…) | 获取群根目录文件列表 |
+| [GetGroupFileSysInfo](Group/GetGroupFileSysInfo.md)() | 获取群文件系统信息 |
+| [GetGroupFileUrl](Group/GetGroupFileUrl.md)(…) | 获取群文件资源链接 |
 | [GetGroupInfo](Group/GetGroupInfo.md)(…) | 获取群信息 |
 | [GetGroupMemberInfo](Group/GetGroupMemberInfo.md)(…) | 获取群成员信息 |
 | [GetGroupMemberList](Group/GetGroupMemberList.md)() | 获取群成员列表 |
+| [GetGroupRootFiles](Group/GetGroupRootFiles.md)() | 获取群根目录文件列表 |
 | [KickGroupMember](Group/KickGroupMember.md)(…) | 群组踢人 |
 | [LeaveGroup](Group/LeaveGroup.md)() | 退出群 |
 | [SendGroupForwardMsg](Group/SendGroupForwardMsg.md)(…) | 发送合并转发(群) 但好像不能用的样子 |

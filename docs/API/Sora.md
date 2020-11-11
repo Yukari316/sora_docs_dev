@@ -6,7 +6,6 @@
 | --- | --- |
 | class [Group](Sora.Entities/Group.md) | 群组实例 |
 | class [Message](Sora.Entities/Message.md) | 消息实例 |
-| class [OfflineFileInfo](Sora.Entities/OfflineFileInfo.md) | 离线文件信息 |
 | class [User](Sora.Entities/User.md) | 用户类 |
 
 ## Sora.Entities.Base namespace
@@ -48,10 +47,14 @@
 | public type | description |
 | --- | --- |
 | struct [FriendInfo](Sora.Entities.Info/FriendInfo.md) | 好友信息 |
+| struct [GroupFileInfo](Sora.Entities.Info/GroupFileInfo.md) | 群文件信息 |
+| struct [GroupFileSysInfo](Sora.Entities.Info/GroupFileSysInfo.md) | 群文件系统信息 |
+| struct [GroupFolderInfo](Sora.Entities.Info/GroupFolderInfo.md) | 群文件夹信息 |
 | struct [GroupInfo](Sora.Entities.Info/GroupInfo.md) | 群信息 |
 | struct [GroupMemberInfo](Sora.Entities.Info/GroupMemberInfo.md) | 群成员信息 |
 | class [GroupRequestInfo](Sora.Entities.Info/GroupRequestInfo.md) | 群组请求信息 |
 | struct [GroupSenderInfo](Sora.Entities.Info/GroupSenderInfo.md) | 群组消息发送者 |
+| class [OfflineFileInfo](Sora.Entities.Info/OfflineFileInfo.md) | 离线文件信息 |
 | struct [PrivateSenderInfo](Sora.Entities.Info/PrivateSenderInfo.md) | 私聊消息发送者 |
 | struct [UploadFileInfo](Sora.Entities.Info/UploadFileInfo.md) | 上传文件的信息 |
 | struct [UserInfo](Sora.Entities.Info/UserInfo.md) | 用户信息 |

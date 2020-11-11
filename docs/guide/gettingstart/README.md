@@ -7,7 +7,7 @@ title: 安装框架到项目工程
 :::danger 注意
 此框架目前使用的.Net版本为
 
-5.0.100-rc.2.20479.15
+5.0.100
 
 请在使用前确认自己的Visual Studio已经安装了最新的.Net 5 SDK
 :::
@@ -26,4 +26,4 @@ title: 安装框架到项目工程
 
 在搜索栏中搜索`Sora`并在搜索结果中找到本框架的Nuget包，并将包安装你的工程
 
-![Nuget](https://i.loli.net/2020/10/15/3ax9BfWd8yHpEzt.png)
+![Nuget](https://i.loli.net/2020/10/27/98cCP5HzDKLhlik.png)
