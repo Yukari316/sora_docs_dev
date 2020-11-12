@@ -77,10 +77,9 @@ module.exports = {
       '@vuepress/last-updated',
       {
         transformer: (timestamp, lang) => {
-          const moment = require('moment')
-          moment.locale(lang)
+          const moment = require('moment-timezone')
           //时区转换
-          return moment(timestamp).fromNow()
+          return moment(timestamp).tz('Asia/Shanghai').format('YYYY-MM-DD HH:mm:ss')
         }
       }
     ]
