@@ -28,6 +28,7 @@
 | struct [At](Sora.Entities.CQCodes.CQCodeModel/At.md) | At某人 |
 | struct [CardImage](Sora.Entities.CQCodes.CQCodeModel/CardImage.md) | 装逼大图 仅支持Go |
 | struct [Code](Sora.Entities.CQCodes.CQCodeModel/Code.md) | Xml与Json集合 |
+| struct [CustomMusic](Sora.Entities.CQCodes.CQCodeModel/CustomMusic.md) | 自定义音乐分享 |
 | struct [Face](Sora.Entities.CQCodes.CQCodeModel/Face.md) | QQ 表情 |
 | struct [Forward](Sora.Entities.CQCodes.CQCodeModel/Forward.md) | 合并转发/合并转发节点 |
 | struct [Gift](Sora.Entities.CQCodes.CQCodeModel/Gift.md) | 礼物 仅支持Go |

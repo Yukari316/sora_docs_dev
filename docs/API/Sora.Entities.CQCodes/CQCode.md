@@ -13,6 +13,7 @@ public sealed class CQCode
 | static [CQAt](CQCode/CQAt.md)(…) | At CQ码 |
 | static [CQAtAll](CQCode/CQAtAll.md)() | At全体 CQ码 |
 | static [CQCardImage](CQCode/CQCardImage.md)(…) | 装逼大图 |
+| static [CQCustomMusic](CQCode/CQCustomMusic.md)(…) | 自定义音乐分享CQ码 |
 | static [CQFace](CQCode/CQFace.md)(…) | 表情CQ码 |
 | static [CQGift](CQCode/CQGift.md)(…) | 发送免费礼物 |
 | static [CQImage](CQCode/CQImage.md)(…) | 图片CQ码 |

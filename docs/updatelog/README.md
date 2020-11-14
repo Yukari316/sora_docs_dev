@@ -1,5 +1,33 @@
 # 更新日志
 
+
+
+## v0.4.0
+
+:::danger 注意
+0.4.0版本之前的版本心跳包管理有严重bug
+
+请尽快更新框架版本至0.4.0
+:::
+
+重写WebSocket服务器管理逻辑，增加框架稳定性
+
+删除API 关闭WebSocket连接API
+
+删除API WebSocket服务器API
+
+## v0.3.3
+
+优化框架
+
+## v0.3.2
+
+修复对windows之外平台支持的文件IO错误
+
+## v0.3.1
+
+添加CQ码 [自定义音乐](../API/Sora.Entities.CQCodes/CQCode/CQCustomMusic.md)
+
 ## v0.3.0
 
 升级.Net SDK版本至 [5.0.100](https://dotnet.microsoft.com/download/dotnet/5.0)

@@ -12,7 +12,6 @@ public sealed class ConnectEventArgs : BaseSoraEventArgs
 | --- | --- |
 | [ClientVersionCode](ConnectEventArgs/ClientVersionCode.md) { get; } | 连接客户端版本号 |
 | [CqHttpClientType](ConnectEventArgs/CqHttpClientType.md) { get; } | 连接客户端类型 |
-| [CloseConnection](ConnectEventArgs/CloseConnection.md)() | 关闭客户端连接 |
 
 ## See Also
 

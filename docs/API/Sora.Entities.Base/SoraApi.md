@@ -12,7 +12,6 @@ public sealed class SoraApi
 | --- | --- |
 | [CanSendImage](SoraApi/CanSendImage.md)() | 检查是否可以发送图片 |
 | [CanSendRecord](SoraApi/CanSendRecord.md)() | 检查是否可以发送语音 |
-| [CloseConnection](SoraApi/CloseConnection.md)() | 关闭服务端链接 |
 | [DisableGroupAdmin](SoraApi/DisableGroupAdmin.md)(…) | 取消群管理员 |
 | [DisableGroupMemberMute](SoraApi/DisableGroupMemberMute.md)(…) | 解除群组成员禁言 |
 | [DisableGroupMute](SoraApi/DisableGroupMute.md)(…) | 解除群组全员禁言 |
