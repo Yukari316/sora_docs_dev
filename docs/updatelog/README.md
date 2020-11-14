@@ -1,5 +1,9 @@
 # 更新日志
 
+## v0.4.4
+
+在 [ConnectionEventArgs](../API/Sora.EventArgs.WSSeverEvent/ConnectionEventArgs.md) 中加入selfid字段
+
 ## v0.4.3
 
 修复了错误的注释
@@ -11,6 +15,14 @@
 
 请谨慎更新
 :::
+
+重写服务器底层事件回调
+
+删除回调 OnPongAsync
+
+新增回调 [OnHeartBeatTimeOut](../API/Sora.Server/ConnectionManager/OnHeartBeatTimeOut.md)
+
+移动回调 [OnOpenConnectionAsync](../API/Sora.Server/ConnectionManager/OnOpenConnectionAsync.md) 和 [OnCloseConnectionAsync](../API/Sora.Server/ConnectionManager/OnCloseConnectionAsync.md)
 
 ## v0.4.1
 

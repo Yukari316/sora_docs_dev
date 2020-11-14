@@ -1,9 +1,9 @@
-# ConnectionEventArgs.Role property
+# ConnectionEventArgs.SelfId property
 
-客户端类型
+机器人登录账号UID
 
 ```csharp
-public string Role { get; }
+public long SelfId { get; }
 ```
 
 ## See Also

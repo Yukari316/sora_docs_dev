@@ -114,9 +114,7 @@
 
 | public type | description |
 | --- | --- |
-| abstract class [BaseServerEventArgs](Sora.EventArgs.WSSeverEvent/BaseServerEventArgs.md) | 服务器事件基类 |
 | class [ConnectionEventArgs](Sora.EventArgs.WSSeverEvent/ConnectionEventArgs.md) | 服务器连接事件 |
-| class [PongEventArgs](Sora.EventArgs.WSSeverEvent/PongEventArgs.md) | 服务器心跳包事件 |
 
 ## Sora.Server namespace
 
