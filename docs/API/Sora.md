@@ -122,6 +122,7 @@
 
 | public type | description |
 | --- | --- |
+| class [ConnectionManager](Sora.Server/ConnectionManager.md) | 服务器连接管理器 管理服务器链接和心跳包 |
 | class [ServerConfig](Sora.Server/ServerConfig.md) | 服务器配置类 |
 | class [SoraWSServer](Sora.Server/SoraWSServer.md) | Sora服务器实例 |
 

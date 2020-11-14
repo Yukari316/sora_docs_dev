@@ -11,13 +11,10 @@ public sealed class SoraWSServer : IDisposable
 | name | description |
 | --- | --- |
 | [SoraWSServer](SoraWSServer/SoraWSServer.md)(…) | 创建一个反向WS服务端 |
+| [ConnManager](SoraWSServer/ConnManager.md) { get; set; } | 服务器连接管理器 |
 | [Event](SoraWSServer/Event.md) { get; set; } | 事件接口 |
-| event [OnCloseConnectionAsync](SoraWSServer/OnCloseConnectionAsync.md) | 关闭连接回调 |
-| event [OnOpenConnectionAsync](SoraWSServer/OnOpenConnectionAsync.md) | 打开连接回调 |
-| event [OnPongAsync](SoraWSServer/OnPongAsync.md) | 心跳包处理回调 |
 | [Dispose](SoraWSServer/Dispose.md)() | 释放资源 |
 | [StartServerAsync](SoraWSServer/StartServerAsync.md)() | 启动WS服务端 |
-| delegate [ServerAsyncCallBackHandler&lt;TEventArgs&gt;](SoraWSServer.ServerAsyncCallBackHandler-1.md) | 服务器事件回调 |
 
 ## Protected Members
 
