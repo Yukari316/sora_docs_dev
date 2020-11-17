@@ -1,5 +1,21 @@
 # 更新日志
 
+## v0.4.6
+
+重写API回调机制
+
+修复某些离谱的情况下API超时的问题
+
+## v0.4.5
+
+优化多线程安全
+
+优化服务器初始化逻辑
+
+优化API逻辑
+
+删除 ClientType 枚举类型
+
 ## v0.4.4
 
 在 [ConnectionEventArgs](../API/Sora.EventArgs.WSSeverEvent/ConnectionEventArgs.md) 中加入selfid字段

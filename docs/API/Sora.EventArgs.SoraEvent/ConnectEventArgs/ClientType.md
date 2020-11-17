@@ -1,14 +1,13 @@
-# ConnectEventArgs.CqHttpClientType property
+# ConnectEventArgs.ClientType property
 
 连接客户端类型
 
 ```csharp
-public ClientType CqHttpClientType { get; }
+public string ClientType { get; }
 ```
 
 ## See Also
 
-* enum [ClientType](../../Sora.Enumeration.ApiEnum/ClientType.md)
 * class [ConnectEventArgs](../ConnectEventArgs.md)
 * namespace [Sora.EventArgs.SoraEvent](../../Sora.md)
 

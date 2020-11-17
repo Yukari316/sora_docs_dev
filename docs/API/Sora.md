@@ -71,7 +71,6 @@
 | public type | description |
 | --- | --- |
 | enum [APIStatusType](Sora.Enumeration.ApiEnum/APIStatusType.md) | API返回值 |
-| enum [ClientType](Sora.Enumeration.ApiEnum/ClientType.md) | 客户端类型 |
 
 ## Sora.Enumeration.EventParamsType namespace
 
@@ -115,6 +114,12 @@
 | public type | description |
 | --- | --- |
 | class [ConnectionEventArgs](Sora.EventArgs.WSSeverEvent/ConnectionEventArgs.md) | 服务器连接事件 |
+
+## Sora.Exceptions namespace
+
+| public type | description |
+| --- | --- |
+| class [SoraServerIsRuningException](Sora.Exceptions/SoraServerIsRuningException.md) | 服务器已经在运行错误 |
 
 ## Sora.Server namespace
 

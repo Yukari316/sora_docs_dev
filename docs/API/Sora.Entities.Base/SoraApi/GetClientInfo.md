@@ -3,19 +3,18 @@
 获取连接客户端版本信息
 
 ```csharp
-public ValueTask<ValueTuple<APIStatusType, ClientType, string>> GetClientInfo()
+public ValueTask<ValueTuple<APIStatusType, string, string>> GetClientInfo()
 ```
 
 ## Return Value
 
-[`ClientType`](../../Sora.Enumeration.ApiEnum/ClientType.md)客户端类型
+客户端类型
 
 `ver`客户端版本号
 
 ## See Also
 
 * enum [APIStatusType](../../Sora.Enumeration.ApiEnum/APIStatusType.md)
-* enum [ClientType](../../Sora.Enumeration.ApiEnum/ClientType.md)
 * class [SoraApi](../SoraApi.md)
 * namespace [Sora.Entities.Base](../../Sora.md)
 

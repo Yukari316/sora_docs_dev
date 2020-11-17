@@ -35,7 +35,7 @@ server.Event.OnGroupMessage += async (sender, eventArgs) =>
     await eventArgs.Repeat();
 };
 //启动服务器
-await server.StartServerAsync();
+await server.StartServer();
 ```
 
 仅此而已（挠头

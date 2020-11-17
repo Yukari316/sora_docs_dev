@@ -1,9 +1,9 @@
-# SoraWSServer.StartServerAsync method
+# SoraWSServer.StartServer method
 
 启动WS服务端
 
 ```csharp
-public ValueTask StartServerAsync()
+public ValueTask StartServer()
 ```
 
 ## See Also

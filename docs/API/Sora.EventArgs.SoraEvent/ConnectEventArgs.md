@@ -10,8 +10,8 @@ public sealed class ConnectEventArgs : BaseSoraEventArgs
 
 | name | description |
 | --- | --- |
+| [ClientType](ConnectEventArgs/ClientType.md) { get; } | 连接客户端类型 |
 | [ClientVersionCode](ConnectEventArgs/ClientVersionCode.md) { get; } | 连接客户端版本号 |
-| [CqHttpClientType](ConnectEventArgs/CqHttpClientType.md) { get; } | 连接客户端类型 |
 
 ## See Also
 

@@ -55,7 +55,7 @@ static async Task Main(string[] args)
                                         await eventArgs.Repeat();
                                     };
     //启动服务器
-    await server.StartServerAsync();
+    await server.StartServer();
 }
 ```
 
@@ -85,7 +85,7 @@ static async Task Main(string[] args)
                                         await eventArgs.SourceGroup.SendGroupMessage(eventArgs.Message.MessageList);
                                     };
     //启动服务器
-    await server.StartServerAsync();
+    await server.StartServer();
 }
 ```
 

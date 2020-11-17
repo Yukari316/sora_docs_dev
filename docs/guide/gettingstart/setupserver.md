@@ -26,7 +26,7 @@ SoraWSServer server = new SoraWSServer(new ServerConfig());
 在Main函数中添加以下代码来启动服务器
 
 ```csharp
-await server.StartServerAsync();
+await server.StartServer();
 ```
 
 ## 跑起来试试看

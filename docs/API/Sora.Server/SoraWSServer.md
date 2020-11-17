@@ -14,7 +14,7 @@ public sealed class SoraWSServer : IDisposable
 | [ConnManager](SoraWSServer/ConnManager.md) { get; set; } | 服务器连接管理器 |
 | [Event](SoraWSServer/Event.md) { get; set; } | 事件接口 |
 | [Dispose](SoraWSServer/Dispose.md)() | 释放资源 |
-| [StartServerAsync](SoraWSServer/StartServerAsync.md)() | 启动WS服务端 |
+| [StartServer](SoraWSServer/StartServer.md)() | 启动WS服务端 |
 
 ## Protected Members
 
