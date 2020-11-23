@@ -1,5 +1,9 @@
 # 更新日志
 
+## v0.4.7
+
+修正私聊API中的错误逻辑 by [wuyu8512](https://github.com/wuyu8512)
+
 ## v0.4.6
 
 重写API回调机制

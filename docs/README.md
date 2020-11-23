@@ -12,6 +12,6 @@ features:
   details: 使用反向WebSocket通讯方式，支持多个客户端的同时接入，并使用异步进行消息解析和I/O操作
 - title: 扩展性
   details: 拥有丰富的事件回调接口，并扩展了许多实例与快捷方法，同时也支持go-cqhttp的扩展API
-footer: AGPL 3.0 Licensed | Copyright © 2020 Yukari316 | 文档版本:1.0.12 | 框架版本:0.4.6
+footer: AGPL 3.0 Licensed | Copyright © 2020 Yukari316 | 文档版本:1.0.13 | 框架版本:0.4.7
 ---
 
