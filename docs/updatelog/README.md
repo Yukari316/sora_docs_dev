@@ -1,5 +1,13 @@
 # 更新日志
 
+## v0.4.8
+
+控制台Log增加无Log输出的选项
+
+优化连接管理器
+
+优化消息处理方式 by [wuyu8512](https://github.com/wuyu8512)
+
 ## v0.4.7
 
 修正私聊API中的错误逻辑 by [wuyu8512](https://github.com/wuyu8512)

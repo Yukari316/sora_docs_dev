@@ -18,6 +18,7 @@ public static class ConsoleLog
 | static [Fatal](ConsoleLog/Fatal.md)(…) | 向控制台发送Fatal信息 |
 | static [Info](ConsoleLog/Info.md)(…) | 向控制台发送Info信息 |
 | static [SetLogLevel](ConsoleLog/SetLogLevel.md)(…) | 设置日志等级 |
+| static [SetNoLog](ConsoleLog/SetNoLog.md)() | 禁用log |
 | static [Warning](ConsoleLog/Warning.md)(…) | 向控制台发送Warning信息 |
 
 ## See Also
