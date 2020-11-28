@@ -12,13 +12,13 @@ public ValueTask<ValueTuple<APIStatusType, UserInfo>> GetUserInfo(bool useCache 
 
 ## Return Value
 
-[`APIStatusType`](../../Sora.Enumeration.ApiEnum/APIStatusType.md) API执行状态
+[`APIStatusType`](../../Sora.Enumeration.ApiType/APIStatusType.md) API执行状态
 
 [`UserInfo`](../../Sora.Entities.Info/UserInfo.md) 群成员信息
 
 ## See Also
 
-* enum [APIStatusType](../../Sora.Enumeration.ApiEnum/APIStatusType.md)
+* enum [APIStatusType](../../Sora.Enumeration.ApiType/APIStatusType.md)
 * struct [UserInfo](../../Sora.Entities.Info/UserInfo.md)
 * class [User](../User.md)
 * namespace [Sora.Entities](../../Sora.md)

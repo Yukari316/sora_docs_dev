@@ -9,7 +9,7 @@ public ValueTask<ValueTuple<APIStatusType, List<GroupRequestInfo>, List<GroupReq
 
 ## Return Value
 
-[`APIStatusType`](../../Sora.Enumeration.ApiEnum/APIStatusType.md) API执行状态
+[`APIStatusType`](../../Sora.Enumeration.ApiType/APIStatusType.md) API执行状态
 
 `joinList` 进群消息列表
 
@@ -17,7 +17,7 @@ public ValueTask<ValueTuple<APIStatusType, List<GroupRequestInfo>, List<GroupReq
 
 ## See Also
 
-* enum [APIStatusType](../../Sora.Enumeration.ApiEnum/APIStatusType.md)
+* enum [APIStatusType](../../Sora.Enumeration.ApiType/APIStatusType.md)
 * class [GroupRequestInfo](../../Sora.Entities.Info/GroupRequestInfo.md)
 * class [SoraApi](../SoraApi.md)
 * namespace [Sora.Entities.Base](../../Sora.md)

@@ -1,5 +1,15 @@
 # 更新日志
 
+## v0.4.10
+
+修复禁言时长为60s时产生的参数越界错误
+
+## v0.4.9
+
+增加API [GetLoginUserId](../API/Sora.Entities.Base/SoraApi/GetLoginUserId.md)
+
+移动命名空间 Sora.Enumeration.ApiEnum 到 [Sora.Enumeration.ApiType](../API/Sora.md#sora-enumeration-apitype-namespace)
+
 ## v0.4.8
 
 控制台Log增加无Log输出的选项

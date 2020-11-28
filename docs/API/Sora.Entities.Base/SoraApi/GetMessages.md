@@ -14,7 +14,7 @@ public ValueTask<ValueTuple<APIStatusType, Message, User, int, bool>> GetMessage
 
 ## Return Value
 
-[`APIStatusType`](../../Sora.Enumeration.ApiEnum/APIStatusType.md) API执行状态
+[`APIStatusType`](../../Sora.Enumeration.ApiType/APIStatusType.md) API执行状态
 
 [`Message`](../../Sora.Entities/Message.md) 消息内容
 
@@ -22,7 +22,7 @@ public ValueTask<ValueTuple<APIStatusType, Message, User, int, bool>> GetMessage
 
 ## See Also
 
-* enum [APIStatusType](../../Sora.Enumeration.ApiEnum/APIStatusType.md)
+* enum [APIStatusType](../../Sora.Enumeration.ApiType/APIStatusType.md)
 * class [Message](../../Sora.Entities/Message.md)
 * class [User](../../Sora.Entities/User.md)
 * class [SoraApi](../SoraApi.md)

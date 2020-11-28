@@ -12,13 +12,13 @@ public ValueTask<ValueTuple<APIStatusType, GroupInfo>> GetGroupInfo(bool useCach
 
 ## Return Value
 
-[`APIStatusType`](../../Sora.Enumeration.ApiEnum/APIStatusType.md) API执行状态
+[`APIStatusType`](../../Sora.Enumeration.ApiType/APIStatusType.md) API执行状态
 
 [`GroupInfo`](../../Sora.Entities.Info/GroupInfo.md) 群信息
 
 ## See Also
 
-* enum [APIStatusType](../../Sora.Enumeration.ApiEnum/APIStatusType.md)
+* enum [APIStatusType](../../Sora.Enumeration.ApiType/APIStatusType.md)
 * struct [GroupInfo](../../Sora.Entities.Info/GroupInfo.md)
 * class [Group](../Group.md)
 * namespace [Sora.Entities](../../Sora.md)

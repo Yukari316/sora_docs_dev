@@ -8,13 +8,13 @@ public ValueTask<ValueTuple<APIStatusType, List<GroupMemberInfo>>> GetGroupMembe
 
 ## Return Value
 
-[`APIStatusType`](../../Sora.Enumeration.ApiEnum/APIStatusType.md) API执行状态
+[`APIStatusType`](../../Sora.Enumeration.ApiType/APIStatusType.md) API执行状态
 
 List 群成员列表
 
 ## See Also
 
-* enum [APIStatusType](../../Sora.Enumeration.ApiEnum/APIStatusType.md)
+* enum [APIStatusType](../../Sora.Enumeration.ApiType/APIStatusType.md)
 * struct [GroupMemberInfo](../../Sora.Entities.Info/GroupMemberInfo.md)
 * class [Group](../Group.md)
 * namespace [Sora.Entities](../../Sora.md)

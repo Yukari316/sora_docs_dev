@@ -17,7 +17,7 @@ public ValueTask<ValueTuple<APIStatusType, string>> GetGroupFileUrl(string fileI
 
 ## See Also
 
-* enum [APIStatusType](../../Sora.Enumeration.ApiEnum/APIStatusType.md)
+* enum [APIStatusType](../../Sora.Enumeration.ApiType/APIStatusType.md)
 * class [Group](../Group.md)
 * namespace [Sora.Entities](../../Sora.md)
 

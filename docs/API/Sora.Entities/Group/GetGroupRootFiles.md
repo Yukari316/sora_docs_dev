@@ -9,7 +9,7 @@ public ValueTask<ValueTuple<APIStatusType, List<GroupFileInfo>, List<GroupFolder
 
 ## Return Value
 
-[`APIStatusType`](../../Sora.Enumeration.ApiEnum/APIStatusType.md) API执行状态
+[`APIStatusType`](../../Sora.Enumeration.ApiType/APIStatusType.md) API执行状态
 
 `groupFiles` 文件列表
 
@@ -17,7 +17,7 @@ public ValueTask<ValueTuple<APIStatusType, List<GroupFileInfo>, List<GroupFolder
 
 ## See Also
 
-* enum [APIStatusType](../../Sora.Enumeration.ApiEnum/APIStatusType.md)
+* enum [APIStatusType](../../Sora.Enumeration.ApiType/APIStatusType.md)
 * struct [GroupFileInfo](../../Sora.Entities.Info/GroupFileInfo.md)
 * struct [GroupFolderInfo](../../Sora.Entities.Info/GroupFolderInfo.md)
 * class [Group](../Group.md)

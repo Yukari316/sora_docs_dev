@@ -12,7 +12,7 @@ public ValueTask<ValueTuple<APIStatusType, int, string, string>> GetImage(string
 
 ## Return Value
 
-[`APIStatusType`](../../Sora.Enumeration.ApiEnum/APIStatusType.md) API执行状态
+[`APIStatusType`](../../Sora.Enumeration.ApiType/APIStatusType.md) API执行状态
 
 `size` 文件大小(Byte)
 
@@ -22,7 +22,7 @@ public ValueTask<ValueTuple<APIStatusType, int, string, string>> GetImage(string
 
 ## See Also
 
-* enum [APIStatusType](../../Sora.Enumeration.ApiEnum/APIStatusType.md)
+* enum [APIStatusType](../../Sora.Enumeration.ApiType/APIStatusType.md)
 * class [SoraApi](../SoraApi.md)
 * namespace [Sora.Entities.Base](../../Sora.md)
 

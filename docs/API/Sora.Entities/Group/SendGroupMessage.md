@@ -12,13 +12,13 @@ public ValueTask<ValueTuple<APIStatusType, int>> SendGroupMessage(List<CQCode> m
 
 ## Return Value
 
-[`APIStatusType`](../../Sora.Enumeration.ApiEnum/APIStatusType.md) API执行状态
+[`APIStatusType`](../../Sora.Enumeration.ApiType/APIStatusType.md) API执行状态
 
 `messageId` 消息ID
 
 ## See Also
 
-* enum [APIStatusType](../../Sora.Enumeration.ApiEnum/APIStatusType.md)
+* enum [APIStatusType](../../Sora.Enumeration.ApiType/APIStatusType.md)
 * class [CQCode](../../Sora.Entities.CQCodes/CQCode.md)
 * class [Group](../Group.md)
 * namespace [Sora.Entities](../../Sora.md)
@@ -39,13 +39,13 @@ public ValueTask<ValueTuple<APIStatusType, int>> SendGroupMessage(params object[
 
 ## Return Value
 
-[`APIStatusType`](../../Sora.Enumeration.ApiEnum/APIStatusType.md) API执行状态
+[`APIStatusType`](../../Sora.Enumeration.ApiType/APIStatusType.md) API执行状态
 
 `messageId` 消息ID
 
 ## See Also
 
-* enum [APIStatusType](../../Sora.Enumeration.ApiEnum/APIStatusType.md)
+* enum [APIStatusType](../../Sora.Enumeration.ApiType/APIStatusType.md)
 * class [Group](../Group.md)
 * namespace [Sora.Entities](../../Sora.md)
 

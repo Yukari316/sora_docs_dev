@@ -66,11 +66,11 @@
 | --- | --- |
 | enum [CQFunction](Sora.Enumeration/CQFunction.md) | 消息段类型 |
 
-## Sora.Enumeration.ApiEnum namespace
+## Sora.Enumeration.ApiType namespace
 
 | public type | description |
 | --- | --- |
-| enum [APIStatusType](Sora.Enumeration.ApiEnum/APIStatusType.md) | API返回值 |
+| enum [APIStatusType](Sora.Enumeration.ApiType/APIStatusType.md) | API返回值 |
 
 ## Sora.Enumeration.EventParamsType namespace
 

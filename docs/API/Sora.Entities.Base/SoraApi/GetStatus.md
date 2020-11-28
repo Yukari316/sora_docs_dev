@@ -8,7 +8,7 @@ public ValueTask<ValueTuple<APIStatusType, bool, bool>> GetStatus()
 
 ## Return Value
 
-[`APIStatusType`](../../Sora.Enumeration.ApiEnum/APIStatusType.md) API执行状态
+[`APIStatusType`](../../Sora.Enumeration.ApiType/APIStatusType.md) API执行状态
 
 `online` 客户端是否在线
 
@@ -16,7 +16,7 @@ public ValueTask<ValueTuple<APIStatusType, bool, bool>> GetStatus()
 
 ## See Also
 
-* enum [APIStatusType](../../Sora.Enumeration.ApiEnum/APIStatusType.md)
+* enum [APIStatusType](../../Sora.Enumeration.ApiType/APIStatusType.md)
 * class [SoraApi](../SoraApi.md)
 * namespace [Sora.Entities.Base](../../Sora.md)
 

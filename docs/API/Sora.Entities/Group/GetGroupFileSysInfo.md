@@ -8,13 +8,13 @@ public ValueTask<ValueTuple<APIStatusType, GroupFileSysInfo>> GetGroupFileSysInf
 
 ## Return Value
 
-[`APIStatusType`](../../Sora.Enumeration.ApiEnum/APIStatusType.md) API执行状态
+[`APIStatusType`](../../Sora.Enumeration.ApiType/APIStatusType.md) API执行状态
 
 [`GroupFileSysInfo`](../../Sora.Entities.Info/GroupFileSysInfo.md) 文件系统信息
 
 ## See Also
 
-* enum [APIStatusType](../../Sora.Enumeration.ApiEnum/APIStatusType.md)
+* enum [APIStatusType](../../Sora.Enumeration.ApiType/APIStatusType.md)
 * struct [GroupFileSysInfo](../../Sora.Entities.Info/GroupFileSysInfo.md)
 * class [Group](../Group.md)
 * namespace [Sora.Entities](../../Sora.md)

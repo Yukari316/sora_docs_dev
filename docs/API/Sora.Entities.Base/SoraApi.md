@@ -33,6 +33,7 @@ public sealed class SoraApi
 | [GetGroupRootFiles](SoraApi/GetGroupRootFiles.md)(…) | 获取群根目录文件列表 |
 | [GetGroupSystemMsg](SoraApi/GetGroupSystemMsg.md)() | 获取群组系统消息 |
 | [GetImage](SoraApi/GetImage.md)(…) | 获取图片信息 |
+| [GetLoginUserId](SoraApi/GetLoginUserId.md)() | 获取登录账号的id |
 | [GetLoginUserName](SoraApi/GetLoginUserName.md)() | 获取登陆QQ的名字 |
 | [GetMessages](SoraApi/GetMessages.md)(…) | 获取群消息 |
 | [GetStatus](SoraApi/GetStatus.md)() | 获取客户端状态 |

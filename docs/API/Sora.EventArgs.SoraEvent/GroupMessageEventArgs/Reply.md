@@ -12,13 +12,13 @@ public ValueTask<ValueTuple<APIStatusType, int>> Reply(params object[] message)
 
 ## Return Value
 
-[`APIStatusType`](../../Sora.Enumeration.ApiEnum/APIStatusType.md) API执行状态
+[`APIStatusType`](../../Sora.Enumeration.ApiType/APIStatusType.md) API执行状态
 
 `messageId` 发送消息的id
 
 ## See Also
 
-* enum [APIStatusType](../../Sora.Enumeration.ApiEnum/APIStatusType.md)
+* enum [APIStatusType](../../Sora.Enumeration.ApiType/APIStatusType.md)
 * class [GroupMessageEventArgs](../GroupMessageEventArgs.md)
 * namespace [Sora.EventArgs.SoraEvent](../../Sora.md)
 
