@@ -4,9 +4,11 @@
 
 | public type | description |
 | --- | --- |
+| class [Anonymous](Sora.Entities/Anonymous.md) | 匿名用户实例 |
 | class [Group](Sora.Entities/Group.md) | 群组实例 |
 | class [Message](Sora.Entities/Message.md) | 消息实例 |
 | class [User](Sora.Entities/User.md) | 用户类 |
+| class [Vector2](Sora.Entities/Vector2.md) | 二维向量 |
 
 ## Sora.Entities.Base namespace
 
@@ -29,6 +31,7 @@
 | struct [CardImage](Sora.Entities.CQCodes.CQCodeModel/CardImage.md) | 装逼大图 仅支持Go |
 | struct [Code](Sora.Entities.CQCodes.CQCodeModel/Code.md) | Xml与Json集合 |
 | struct [CustomMusic](Sora.Entities.CQCodes.CQCodeModel/CustomMusic.md) | 自定义音乐分享 |
+| class [CustomNode](Sora.Entities.CQCodes.CQCodeModel/CustomNode.md) | 自定义转发节点 |
 | struct [Face](Sora.Entities.CQCodes.CQCodeModel/Face.md) | QQ 表情 |
 | struct [Forward](Sora.Entities.CQCodes.CQCodeModel/Forward.md) | 合并转发/合并转发节点 |
 | struct [Gift](Sora.Entities.CQCodes.CQCodeModel/Gift.md) | 礼物 仅支持Go |
@@ -128,6 +131,12 @@
 | class [ConnectionManager](Sora.Server/ConnectionManager.md) | 服务器连接管理器 管理服务器链接和心跳包 |
 | class [ServerConfig](Sora.Server/ServerConfig.md) | 服务器配置类 |
 | class [SoraWSServer](Sora.Server/SoraWSServer.md) | Sora服务器实例 |
+
+## Sora.Server.ApiParams namespace
+
+| public type | description |
+| --- | --- |
+| struct [TextDetection](Sora.Server.ApiParams/TextDetection.md) | OCR识别结果 |
 
 ## Sora.Server.ServerInterface namespace
 

@@ -1,5 +1,23 @@
 # 更新日志
 
+## v0.4.14
+
+添加交流群log
+
+## v0.4.13
+
+增加消息类判断合并转发的方法 [IsForwardMessage](../API/Sora.Entities/Message/IsForwardMessage.md)
+
+增加匿名用户禁言API [EnableGroupAnonymousMute](../API/Sora.Entities.Base/SoraApi/EnableGroupAnonymousMute.md)
+
+增加匿名用户实例 [Anonymous](../API/Sora.Entities/Anonymous.md)
+
+增加自定义消息节点实例 [CustomNode](../API/Sora.Entities.CQCodes.CQCodeModel/CustomNode.md)
+
+修复消息事件参数的逻辑错误
+
+重写合并转发的发送方式
+
 ## v0.4.12
 
 修复框架在部分情况下无法收到API返回的问题

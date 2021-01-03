@@ -1,24 +1,27 @@
-# SoraApi.GetStatus method
+# SoraApi.OcrImage method
 
-获取客户端状态
+OCR图片
 
 ```csharp
-public ValueTask<ValueTuple<APIStatusType, bool, bool, JObject>> GetStatus()
+public ValueTask<ValueTuple<APIStatusType, List<TextDetection>, string>> OcrImage(string imageId)
 ```
+
+| parameter | description |
+| --- | --- |
+| imageId | 图片ID |
 
 ## Return Value
 
 [`APIStatusType`](../../Sora.Enumeration.ApiType/APIStatusType.md) API执行状态
 
-`online` 客户端是否在线
+`texts` 识别结果
 
-`good` 客户端是否正常运行
-
-`statData` 统计信息，如为go-cqhttp详细内容参照文档：https://ishkong.github.io/go-cqhttp-docs/api/#%E8%8E%B7%E5%8F%96%E7%8A%B6%E6%80%81
+`language` 识别语言
 
 ## See Also
 
 * enum [APIStatusType](../../Sora.Enumeration.ApiType/APIStatusType.md)
+* struct [TextDetection](../../Sora.Server.ApiParams/TextDetection.md)
 * class [SoraApi](../SoraApi.md)
 * namespace [Sora.Entities.Base](../../Sora.md)
 

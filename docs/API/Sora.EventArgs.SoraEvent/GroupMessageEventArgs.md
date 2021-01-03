@@ -10,6 +10,7 @@ public sealed class GroupMessageEventArgs : BaseSoraEventArgs
 
 | name | description |
 | --- | --- |
+| [Anonymous](GroupMessageEventArgs/Anonymous.md) { get; } | 匿名用户实例 |
 | [IsAnonymousMessage](GroupMessageEventArgs/IsAnonymousMessage.md) { get; } | 是否来源于匿名群成员 |
 | [Message](GroupMessageEventArgs/Message.md) { get; } | 消息内容 |
 | [Sender](GroupMessageEventArgs/Sender.md) { get; } | 消息发送者实例 |

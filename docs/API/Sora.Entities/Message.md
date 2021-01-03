@@ -17,7 +17,9 @@ public sealed class Message : BaseModel
 | [Time](Message/Time.md) { get; } | 消息时间戳 |
 | [GetAllAtList](Message/GetAllAtList.md)() | 获取所有At的UID |
 | [GetAllImage](Message/GetAllImage.md)() | 获取所有图片信息 |
+| [GetForwardMsgId](Message/GetForwardMsgId.md)() | 获取合并转发的ID |
 | [GetRecordUrl](Message/GetRecordUrl.md)() | 获取语音URL 仅在消息为语音时有效 |
+| [IsForwardMessage](Message/IsForwardMessage.md)() | 是否是转发消息 |
 | [RecallMessage](Message/RecallMessage.md)() | 撤回本条消息 |
 | override [ToString](Message/ToString.md)() | 转纯文本信息 |
 

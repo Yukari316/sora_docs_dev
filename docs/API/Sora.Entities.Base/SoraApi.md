@@ -17,12 +17,14 @@ public sealed class SoraApi
 | [DisableGroupMute](SoraApi/DisableGroupMute.md)(…) | 解除群组全员禁言 |
 | [DismissGroup](SoraApi/DismissGroup.md)(…) | 解散群 |
 | [EnableGroupAdmin](SoraApi/EnableGroupAdmin.md)(…) | 设置群管理员 |
+| [EnableGroupAnonymousMute](SoraApi/EnableGroupAnonymousMute.md)(…) | 群组匿名用户禁言 (2 methods) |
 | [EnableGroupMemberMute](SoraApi/EnableGroupMemberMute.md)(…) | 设置群组成员禁言 |
 | [EnableGroupMute](SoraApi/EnableGroupMute.md)(…) | 群组全员禁言 |
 | [GetClientInfo](SoraApi/GetClientInfo.md)() | 获取连接客户端版本信息 |
 | [GetForwardMessage](SoraApi/GetForwardMessage.md)(…) | 获取合并转发消息 |
 | [GetFriendList](SoraApi/GetFriendList.md)() | 获取好友列表 |
 | [GetGroup](SoraApi/GetGroup.md)(…) | 获取群实例 |
+| [GetGroupAtAllRemain](SoraApi/GetGroupAtAllRemain.md)(…) | 获取群@全体成员剩余次数 |
 | [GetGroupFilesByFolder](SoraApi/GetGroupFilesByFolder.md)(…) | 获取群根目录文件列表 |
 | [GetGroupFileSysInfo](SoraApi/GetGroupFileSysInfo.md)(…) | 获取群文件系统信息 |
 | [GetGroupFileUrl](SoraApi/GetGroupFileUrl.md)(…) | 获取群文件资源链接 |
@@ -42,7 +44,8 @@ public sealed class SoraApi
 | [GetWordSlices](SoraApi/GetWordSlices.md)(…) | 获取中文分词 |
 | [KickGroupMember](SoraApi/KickGroupMember.md)(…) | 群组踢人 |
 | [LeaveGroup](SoraApi/LeaveGroup.md)(…) | 退出群 |
-| [RebootClient](SoraApi/RebootClient.md)(…) | 重启客户端 对go无效 |
+| [OcrImage](SoraApi/OcrImage.md)(…) | OCR图片 |
+| [RebootClient](SoraApi/RebootClient.md)(…) | 重启客户端 |
 | [RecallMessage](SoraApi/RecallMessage.md)(…) | 撤回消息 |
 | [SendGroupForwardMsg](SoraApi/SendGroupForwardMsg.md)(…) | 发送合并转发(群) 但好像不能用的样子 |
 | [SendGroupMessage](SoraApi/SendGroupMessage.md)(…) | 发送群聊消息 (2 methods) |

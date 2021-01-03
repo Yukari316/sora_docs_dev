@@ -1,6 +1,6 @@
 # SoraApi.RebootClient method
 
-重启客户端 对go无效
+重启客户端
 
 ```csharp
 public ValueTask RebootClient(int delay = 0)

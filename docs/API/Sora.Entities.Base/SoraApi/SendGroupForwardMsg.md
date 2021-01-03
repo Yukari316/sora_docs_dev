@@ -3,7 +3,7 @@
 发送合并转发(群) 但好像不能用的样子
 
 ```csharp
-public ValueTask SendGroupForwardMsg(long groupId, List<Node> nodeList)
+public ValueTask SendGroupForwardMsg(long groupId, List<CustomNode> nodeList)
 ```
 
 | parameter | description |
@@ -13,7 +13,7 @@ public ValueTask SendGroupForwardMsg(long groupId, List<Node> nodeList)
 
 ## See Also
 
-* struct [Node](../../Sora.Entities.CQCodes.CQCodeModel/Node.md)
+* class [CustomNode](../../Sora.Entities.CQCodes.CQCodeModel/CustomNode.md)
 * class [SoraApi](../SoraApi.md)
 * namespace [Sora.Entities.Base](../../Sora.md)
 
