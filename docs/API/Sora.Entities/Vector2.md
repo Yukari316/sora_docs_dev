@@ -10,9 +10,8 @@ public class Vector2
 
 | name | description |
 | --- | --- |
-| [Vector2](Vector2/Vector2.md)() | The default constructor. |
-| [X](Vector2/X.md) { get; set; } | X |
-| [Y](Vector2/Y.md) { get; set; } | Y |
+| [X](Vector2/X.md) { get; } | X |
+| [Y](Vector2/Y.md) { get; } | Y |
 
 ## See Also
 

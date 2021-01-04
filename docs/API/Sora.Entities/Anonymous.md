@@ -10,7 +10,6 @@ public class Anonymous
 
 | name | description |
 | --- | --- |
-| [Anonymous](Anonymous/Anonymous.md)() | The default constructor. |
 | [Flag](Anonymous/Flag.md) { get; } | 匿名用户 flag |
 | [Id](Anonymous/Id.md) { get; } | 匿名用户 ID |
 | [Name](Anonymous/Name.md) { get; } | 匿名用户名称 |

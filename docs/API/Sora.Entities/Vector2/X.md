@@ -3,7 +3,7 @@
 X
 
 ```csharp
-public int X { get; set; }
+public int X { get; }
 ```
 
 ## See Also

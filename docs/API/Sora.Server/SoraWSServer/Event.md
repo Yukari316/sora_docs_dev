@@ -3,7 +3,7 @@
 事件接口
 
 ```csharp
-public EventInterface Event { get; set; }
+public EventInterface Event { get; }
 ```
 
 ## See Also

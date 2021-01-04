@@ -3,7 +3,7 @@
 服务器连接管理器
 
 ```csharp
-public ConnectionManager ConnManager { get; set; }
+public ConnectionManager ConnManager { get; }
 ```
 
 ## See Also
