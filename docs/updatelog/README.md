@@ -1,5 +1,23 @@
 # 更新日志
 
+## v0.4.16
+
+增加API [DownloadFile](../API/Sora.Entities.Base/SoraApi/DownloadFile.md)
+
+增加CQ码 [CQFlashImage](../API/Sora.Entities.CQCodes/CQCode/CQFlashImage.md) 用于发送闪照
+
+增加 [LogLevel](../API/Sora.Enumeration/LogLevel.md) 枚举,并将控制台log等级控制改为此枚举
+
+增加 [AsyncExtensions](../API/Sora.Extensions/AsyncExtensions.md) 类,用于扩展异步执行方法中的错误获取
+
+[GetUserInfo](../API/Sora.Entities.Base/SoraApi/GetUserInfo.md) API支持用户QID的获取
+
+删除CQ码 [CQImage](../API/Sora.Entities.CQCodes/CQCode/CQImage.md) 的闪照选项
+
+修改事件参数 [GroupMemberChangeEventArgs](../API/Sora.EventArgs.SoraEvent/GroupMemberChangeEventArgs.md) 的SubType属性为公有属性
+
+go-cqhttp版本:[go-cqhttp-v0.9.38](https://github.com/Mrs4s/go-cqhttp/releases/tag/v0.9.38)
+
 ## v0.4.15
 
 修正不合理的权限分配

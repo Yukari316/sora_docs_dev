@@ -1,9 +1,9 @@
-# Image.UseProxy property
+# Image.Id property
 
-只在通过网络 URL 发送时有效，表示是否通过代理下载文件
+发送秀图时的特效id，默认为40000
 
 ```csharp
-public int? UseProxy { get; }
+public int? Id { get; }
 ```
 
 ## See Also

@@ -16,6 +16,7 @@ public sealed class SoraApi
 | [DisableGroupMemberMute](SoraApi/DisableGroupMemberMute.md)(…) | 解除群组成员禁言 |
 | [DisableGroupMute](SoraApi/DisableGroupMute.md)(…) | 解除群组全员禁言 |
 | [DismissGroup](SoraApi/DismissGroup.md)(…) | 解散群 |
+| [DownloadFile](SoraApi/DownloadFile.md)(…) | 下载文件到缓存目录 |
 | [EnableGroupAdmin](SoraApi/EnableGroupAdmin.md)(…) | 设置群管理员 |
 | [EnableGroupAnonymousMute](SoraApi/EnableGroupAnonymousMute.md)(…) | 群组匿名用户禁言 (2 methods) |
 | [EnableGroupMemberMute](SoraApi/EnableGroupMemberMute.md)(…) | 设置群组成员禁言 |

@@ -3,7 +3,8 @@
 获取用户信息
 
 ```csharp
-public ValueTask<ValueTuple<APIStatusType, UserInfo>> GetUserInfo(long userId, bool useCache = true)
+public ValueTask<ValueTuple<APIStatusType, UserInfo, string>> GetUserInfo(long userId, 
+    bool useCache = true)
 ```
 
 | parameter | description |
@@ -16,6 +17,8 @@ public ValueTask<ValueTuple<APIStatusType, UserInfo>> GetUserInfo(long userId, b
 [`APIStatusType`](../../Sora.Enumeration.ApiType/APIStatusType.md) API执行状态
 
 [`UserInfo`](../../Sora.Entities.Info/UserInfo.md) 群成员信息
+
+String qid
 
 ## See Also
 

@@ -12,6 +12,7 @@ public static void SetLogLevel(LogLevel level)
 
 ## See Also
 
+* enum [LogLevel](../../Sora.Enumeration/LogLevel.md)
 * class [ConsoleLog](../ConsoleLog.md)
 * namespace [Sora.Tool](../../Sora.md)
 

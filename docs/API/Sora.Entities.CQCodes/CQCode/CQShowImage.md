@@ -3,16 +3,16 @@
 秀图CQ码
 
 ```csharp
-public static CQCode CQShowImage(string data, bool useCache = true, bool useProxy = true, 
-    int? timeout = null)
+public static CQCode CQShowImage(string data, int id = 40000, bool useCache = true, 
+    int? threadCount = null)
 ```
 
 | parameter | description |
 | --- | --- |
 | data | 图片名/绝对路径/URL/base64 |
 | useCache | 通过URL发送时有效,是否使用已缓存的文件 |
-| useProxy | 通过URL发送时有效,是否通过代理下载文件 |
-| timeout | 通过URL发送时有效,超时时间，默认为`null`(不超时) |
+| threadCount | 通过URL发送时有效,通过网络下载图片时的线程数,默认单线程 |
+| id | 秀图特效id，默认为40000 |
 
 ## See Also
 

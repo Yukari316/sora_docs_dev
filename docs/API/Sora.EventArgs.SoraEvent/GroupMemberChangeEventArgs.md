@@ -13,6 +13,7 @@ public sealed class GroupMemberChangeEventArgs : BaseSoraEventArgs
 | [ChangedUser](GroupMemberChangeEventArgs/ChangedUser.md) { get; } | 变更成员 |
 | [Operator](GroupMemberChangeEventArgs/Operator.md) { get; } | 执行者 |
 | [SourceGroup](GroupMemberChangeEventArgs/SourceGroup.md) { get; } | 消息源群 |
+| [SubType](GroupMemberChangeEventArgs/SubType.md) { get; } | 事件子类型 |
 
 ## See Also
 

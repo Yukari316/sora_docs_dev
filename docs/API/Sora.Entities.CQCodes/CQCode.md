@@ -15,6 +15,7 @@ public sealed class CQCode
 | static [CQCardImage](CQCode/CQCardImage.md)(…) | 装逼大图 |
 | static [CQCustomMusic](CQCode/CQCustomMusic.md)(…) | 自定义音乐分享CQ码 |
 | static [CQFace](CQCode/CQFace.md)(…) | 表情CQ码 |
+| static [CQFlashImage](CQCode/CQFlashImage.md)(…) | 闪照CQ码 |
 | static [CQGift](CQCode/CQGift.md)(…) | 发送免费礼物 |
 | static [CQImage](CQCode/CQImage.md)(…) | 图片CQ码 |
 | static [CQJson](CQCode/CQJson.md)(…) | JSON 特殊消息 (2 methods) |
@@ -27,6 +28,7 @@ public sealed class CQCode
 | static [CQShowImage](CQCode/CQShowImage.md)(…) | 秀图CQ码 |
 | static [CQText](CQCode/CQText.md)(…) | 纯文本 |
 | static [CQTTS](CQCode/CQTTS.md)(…) | 语音转文字（TTS）CQ码 |
+| static [CQVideo](CQCode/CQVideo.md)(…) | 视频CQ码 |
 | static [CQXml](CQCode/CQXml.md)(…) | XML 特殊消息 |
 | [CQData](CQCode/CQData.md) { get; } | CQ码数据实例 |
 | [Function](CQCode/Function.md) { get; } | CQ码类型 |

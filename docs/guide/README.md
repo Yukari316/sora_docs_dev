@@ -14,7 +14,7 @@ next: ./gettingstart/
 :::
 
 ::: warning 注意
-本框架是在[Go-Cqhttp](https://github.com/Mrs4s/go-cqhttp)(版本:[0.9.36-fix3](https://github.com/Mrs4s/go-cqhttp/releases/tag/v0.9.36-fix3))下进行调试的
+本框架是在[Go-Cqhttp](https://github.com/Mrs4s/go-cqhttp)(版本:[0.9.38](https://github.com/Mrs4s/go-cqhttp/releases/tag/v0.9.38))下进行调试的
 
 如使用其他平台可能会出现兼容性的问题
 :::
@@ -22,6 +22,8 @@ next: ./gettingstart/
 ## 简介
 
 这是一个基于[OneBot](https://github.com/howmanybots/onebot)协议的 [C#/.Net 5](https://dotnet.microsoft.com/download/dotnet/5.0) 异步机器人开发框架
+
+需要一定的.Net开发知识 [C# 编程指南](https://docs.microsoft.com/zh-cn/dotnet/csharp/programming-guide/)
 
 使用本框架可以快捷的开发一个跨平台的聊天机器人
 

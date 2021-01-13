@@ -45,6 +45,7 @@
 | struct [Reply](Sora.Entities.CQCodes.CQCodeModel/Reply.md) | 回复 |
 | struct [Share](Sora.Entities.CQCodes.CQCodeModel/Share.md) | 链接分享 |
 | struct [Text](Sora.Entities.CQCodes.CQCodeModel/Text.md) | 纯文本 |
+| struct [Video](Sora.Entities.CQCodes.CQCodeModel/Video.md) | 短视频 |
 
 ## Sora.Entities.Info namespace
 
@@ -68,6 +69,7 @@
 | public type | description |
 | --- | --- |
 | enum [CQFunction](Sora.Enumeration/CQFunction.md) | 消息段类型 |
+| enum [LogLevel](Sora.Enumeration/LogLevel.md) | 控制台日志等级 |
 
 ## Sora.Enumeration.ApiType namespace
 
@@ -123,6 +125,12 @@
 | public type | description |
 | --- | --- |
 | class [SoraServerIsRuningException](Sora.Exceptions/SoraServerIsRuningException.md) | 服务器已经在运行错误 |
+
+## Sora.Extensions namespace
+
+| public type | description |
+| --- | --- |
+| static class [AsyncExtensions](Sora.Extensions/AsyncExtensions.md) | 用于异步执行的简易化错误处理 |
 
 ## Sora.Server namespace
 

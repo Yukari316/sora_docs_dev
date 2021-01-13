@@ -22,13 +22,12 @@ public enum CQFunction
 | Reply | `9` | 回复 |
 | Forward | `10` | 合并转发 |
 | Poke | `11` | 群戳一戳 |
-| Node | `12` | 合并转发节点 |
-| Xml | `13` | XML 消息 |
-| Json | `14` | JSON 消息 |
-| RedBag | `15` | 接收红包 |
-| Gift | `16` | 免费礼物发送 |
-| CardImage | `17` | 装逼大图 |
-| TTS | `18` | 文本转语音 |
+| Xml | `12` | XML 消息 |
+| Json | `13` | JSON 消息 |
+| RedBag | `14` | 接收红包 |
+| Gift | `15` | 免费礼物发送 |
+| CardImage | `16` | 装逼大图 |
+| TTS | `17` | 文本转语音 |
 
 ## See Also
 

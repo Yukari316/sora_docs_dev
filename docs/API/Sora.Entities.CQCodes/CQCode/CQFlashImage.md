@@ -1,9 +1,9 @@
-# CQCode.CQImage method
+# CQCode.CQFlashImage method
 
-图片CQ码
+闪照CQ码
 
 ```csharp
-public static CQCode CQImage(string data, bool useCache = true, int? threadCount = null)
+public static CQCode CQFlashImage(string data, bool useCache = true, int? threadCount = null)
 ```
 
 | parameter | description |
