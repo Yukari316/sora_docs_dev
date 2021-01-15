@@ -1,6 +1,6 @@
 # Anonymous class
 
-匿名用户实例
+匿名用户类
 
 ```csharp
 public class Anonymous

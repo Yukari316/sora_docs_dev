@@ -3,12 +3,13 @@
 创建一个反向WS服务端
 
 ```csharp
-public SoraWSServer(ServerConfig config)
+public SoraWSServer(ServerConfig config, Action<Exception> crashAction = null)
 ```
 
 | parameter | description |
 | --- | --- |
 | config | 服务器配置 |
+| crashAction | 发生未处理异常时的回调 |
 
 ## See Also
 

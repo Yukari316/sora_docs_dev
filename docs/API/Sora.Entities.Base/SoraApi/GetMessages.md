@@ -5,7 +5,8 @@
 只能获取纯文本信息
 
 ```csharp
-public ValueTask<ValueTuple<APIStatusType, Message, User, int, bool>> GetMessages(int messageId)
+public ValueTask<ValueTuple<APIStatusType, Message, User, Group, int, bool>> GetMessages(
+    int messageId)
 ```
 
 | parameter | description |
@@ -20,11 +21,14 @@ public ValueTask<ValueTuple<APIStatusType, Message, User, int, bool>> GetMessage
 
 [`User`](../../Sora.Entities/User.md) 发送者
 
+[`Group`](../../Sora.Entities/Group.md) 消息来源群，如果不是群消息则为`null`
+
 ## See Also
 
 * enum [APIStatusType](../../Sora.Enumeration.ApiType/APIStatusType.md)
 * class [Message](../../Sora.Entities/Message.md)
 * class [User](../../Sora.Entities/User.md)
+* class [Group](../../Sora.Entities/Group.md)
 * class [SoraApi](../SoraApi.md)
 * namespace [Sora.Entities.Base](../../Sora.md)
 

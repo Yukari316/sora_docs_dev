@@ -5,10 +5,6 @@ title: 安装框架到项目工程
 # 安装
 
 :::danger 注意
-此框架目前使用的.Net SDK版本为
-
-5.0.101
-
 请在使用前确认自己的Visual Studio已经安装了最新的.Net 5 SDK
 :::
 

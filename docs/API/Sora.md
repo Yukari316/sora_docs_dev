@@ -4,9 +4,9 @@
 
 | public type | description |
 | --- | --- |
-| class [Anonymous](Sora.Entities/Anonymous.md) | 匿名用户实例 |
-| class [Group](Sora.Entities/Group.md) | 群组实例 |
-| class [Message](Sora.Entities/Message.md) | 消息实例 |
+| class [Anonymous](Sora.Entities/Anonymous.md) | 匿名用户类 |
+| class [Group](Sora.Entities/Group.md) | 群组类 |
+| class [Message](Sora.Entities/Message.md) | 消息类 |
 | class [User](Sora.Entities/User.md) | 用户类 |
 | class [Vector2](Sora.Entities/Vector2.md) | 二维向量 |
 
@@ -15,7 +15,7 @@
 | public type | description |
 | --- | --- |
 | abstract class [BaseModel](Sora.Entities.Base/BaseModel.md) | 数据模型基类 |
-| class [SoraApi](Sora.Entities.Base/SoraApi.md) | Sora API执行实例 |
+| class [SoraApi](Sora.Entities.Base/SoraApi.md) | Sora API类 |
 
 ## Sora.Entities.CQCodes namespace
 

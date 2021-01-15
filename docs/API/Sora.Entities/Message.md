@@ -1,6 +1,6 @@
 # Message class
 
-消息实例
+消息类
 
 ```csharp
 public sealed class Message : BaseModel

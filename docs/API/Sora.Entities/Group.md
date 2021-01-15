@@ -1,6 +1,6 @@
 # Group class
 
-群组实例
+群组类
 
 ```csharp
 public sealed class Group : BaseModel

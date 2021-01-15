@@ -1,5 +1,17 @@
 # 更新日志
 
+## v0.4.18
+
+优化框架底层通讯处理
+
+## v0.4.17
+
+API [GetMessages](../API/Sora.Entities.Base/SoraApi/GetMessages.md) 增加 [Group](../API/Sora.Entities/Group.md) 实例返回
+
+修正部分XML注释
+
+优化框架错误处理
+
 ## v0.4.16
 
 增加API [DownloadFile](../API/Sora.Entities.Base/SoraApi/DownloadFile.md)

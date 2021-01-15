@@ -1,6 +1,6 @@
 # SoraApi class
 
-Sora API执行实例
+Sora API类
 
 ```csharp
 public sealed class SoraApi
