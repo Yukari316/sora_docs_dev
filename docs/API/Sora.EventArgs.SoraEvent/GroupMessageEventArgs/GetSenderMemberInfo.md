@@ -3,7 +3,7 @@
 获取发送者群成员信息
 
 ```csharp
-public ValueTask<ValueTuple<APIStatusType, GroupMemberInfo>> GetSenderMemberInfo(
+public ValueTask<(APIStatusType apiStatus, GroupMemberInfo memberInfo)> GetSenderMemberInfo(
     bool useCache = true)
 ```
 

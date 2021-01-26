@@ -33,7 +33,7 @@ public SoraServerIsRuningException(string message)
 初始化
 
 ```csharp
-public SoraServerIsRuningException(string message, Exception innerException)
+public SoraServerIsRuningException(string message, Exception? innerException)
 ```
 
 ## See Also
@@ -48,7 +48,7 @@ public SoraServerIsRuningException(string message, Exception innerException)
 初始化
 
 ```csharp
-public SoraServerIsRuningException(string message, long selfId, Exception innerException)
+public SoraServerIsRuningException(string message, long selfId, Exception? innerException)
 ```
 
 ## See Also

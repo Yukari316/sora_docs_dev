@@ -3,7 +3,8 @@
 获取群文件系统信息
 
 ```csharp
-public ValueTask<ValueTuple<APIStatusType, GroupFileSysInfo>> GetGroupFileSysInfo(long groupId)
+public ValueTask<(APIStatusType apiStatus, GroupFileSysInfo groupFileSysInfo)> GetGroupFileSysInfo(
+    long groupId)
 ```
 
 | parameter | description |

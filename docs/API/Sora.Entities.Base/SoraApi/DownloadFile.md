@@ -5,8 +5,8 @@
 注意：此API的调用超时时间是独立于其他API的
 
 ```csharp
-public ValueTask<ValueTuple<APIStatusType, string>> DownloadFile(string url, int threadCount, 
-    Dictionary<string, string> customHeader = null, int timeout = 10000)
+public ValueTask<(APIStatusType retCode, string filePath)> DownloadFile(string url, 
+    int threadCount, Dictionary<string, string> customHeader = null, int timeout = 10000)
 ```
 
 | parameter | description |

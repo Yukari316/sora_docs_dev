@@ -3,7 +3,7 @@
 获取中文分词
 
 ```csharp
-public ValueTask<ValueTuple<APIStatusType, List<string>>> GetWordSlices(string text)
+public ValueTask<(APIStatusType apiStatus, List<string> wordList)> GetWordSlices(string text)
 ```
 
 | parameter | description |

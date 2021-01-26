@@ -3,7 +3,8 @@
 OCR图片
 
 ```csharp
-public ValueTask<ValueTuple<APIStatusType, List<TextDetection>, string>> OcrImage(string imageId)
+public ValueTask<(APIStatusType retCode, List<TextDetection> texts, string lang)> OcrImage(
+    string imageId)
 ```
 
 | parameter | description |

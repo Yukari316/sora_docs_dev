@@ -3,7 +3,8 @@
 获取图片信息
 
 ```csharp
-public ValueTask<ValueTuple<APIStatusType, int, string, string>> GetImage(string cacheFileName)
+public ValueTask<(APIStatusType apiStatus, int size, string fileName, string url)> GetImage(
+    string cacheFileName)
 ```
 
 | parameter | description |

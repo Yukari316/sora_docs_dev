@@ -3,7 +3,7 @@
 获取登陆QQ的名字
 
 ```csharp
-public ValueTask<ValueTuple<APIStatusType, string>> GetLoginUserName()
+public ValueTask<(APIStatusType apiStatus, string nick)> GetLoginUserName()
 ```
 
 ## Return Value

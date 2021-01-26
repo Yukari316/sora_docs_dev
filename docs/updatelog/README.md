@@ -1,5 +1,15 @@
 # 更新日志
 
+## v0.5.0
+
+:::danger 注意
+此版本后删除了Tool命名空间
+:::
+
+删除Tool命名空间，移动工具集到单独的合集中[YukariToolBox](https://github.com/Yukari316/YukariToolBox)
+
+API [GetMessages](../API/Sora.Entities.Base/SoraApi/GetMessages.md) 增加消息列处理
+
 ## v0.4.19
 
 稳定性更新

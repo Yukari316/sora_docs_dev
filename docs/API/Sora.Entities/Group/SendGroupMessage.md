@@ -3,7 +3,7 @@
 发送群消息
 
 ```csharp
-public ValueTask<ValueTuple<APIStatusType, int>> SendGroupMessage(List<CQCode> message)
+public ValueTask<(APIStatusType apiStatus, int messageId)> SendGroupMessage(List<CQCode> message)
 ```
 
 | parameter | description |
@@ -30,7 +30,7 @@ public ValueTask<ValueTuple<APIStatusType, int>> SendGroupMessage(List<CQCode> m
 发送群消息
 
 ```csharp
-public ValueTask<ValueTuple<APIStatusType, int>> SendGroupMessage(params object[] message)
+public ValueTask<(APIStatusType apiStatus, int messageId)> SendGroupMessage(params object[] message)
 ```
 
 | parameter | description |

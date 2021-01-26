@@ -3,7 +3,7 @@
 获取用户信息
 
 ```csharp
-public ValueTask<ValueTuple<APIStatusType, UserInfo, string>> GetUserInfo(long userId, 
+public ValueTask<(APIStatusType apiStatus, UserInfo userInfo, string qid)> GetUserInfo(long userId, 
     bool useCache = true)
 ```
 

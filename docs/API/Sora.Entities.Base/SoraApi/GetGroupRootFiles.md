@@ -3,7 +3,7 @@
 获取群根目录文件列表
 
 ```csharp
-public ValueTask<ValueTuple<APIStatusType, List<GroupFileInfo>, List<GroupFolderInfo>>> 
+public ValueTask<(APIStatusType apiStatus, List<GroupFileInfo> groupFiles, List<GroupFolderInfo> groupFolders)> 
     GetGroupRootFiles(long groupId)
 ```
 

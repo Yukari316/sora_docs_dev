@@ -3,7 +3,7 @@
 快速回复
 
 ```csharp
-public ValueTask<ValueTuple<APIStatusType, int>> Reply(params object[] message)
+public ValueTask<(APIStatusType apiStatus, int messageId)> Reply(params object[] message)
 ```
 
 | parameter | description |

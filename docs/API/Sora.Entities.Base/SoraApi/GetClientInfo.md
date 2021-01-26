@@ -3,7 +3,7 @@
 获取连接客户端版本信息
 
 ```csharp
-public ValueTask<ValueTuple<APIStatusType, string, string>> GetClientInfo()
+public ValueTask<(APIStatusType apiStatus, string clientType, string ver)> GetClientInfo()
 ```
 
 ## Return Value

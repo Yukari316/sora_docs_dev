@@ -3,7 +3,7 @@
 检查是否可以发送语音
 
 ```csharp
-public ValueTask<ValueTuple<APIStatusType, bool>> CanSendRecord()
+public ValueTask<(APIStatusType apiStatus, bool canSend)> CanSendRecord()
 ```
 
 ## Return Value

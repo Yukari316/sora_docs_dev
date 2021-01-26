@@ -3,7 +3,8 @@
 获取群@全体成员剩余次数
 
 ```csharp
-public ValueTask<ValueTuple<APIStatusType, bool, short, short>> GetGroupAtAllRemain(long groupId)
+public ValueTask<(APIStatusType apiStatus, bool canAt, short groupRemain, short botRemain)> 
+    GetGroupAtAllRemain(long groupId)
 ```
 
 | parameter | description |

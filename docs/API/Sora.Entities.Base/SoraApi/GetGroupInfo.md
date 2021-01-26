@@ -3,7 +3,7 @@
 获取群信息
 
 ```csharp
-public ValueTask<ValueTuple<APIStatusType, GroupInfo>> GetGroupInfo(long groupId, 
+public ValueTask<(APIStatusType apiStatus, GroupInfo groupInfo)> GetGroupInfo(long groupId, 
     bool useCache = true)
 ```
 

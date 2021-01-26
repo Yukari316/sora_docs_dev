@@ -3,7 +3,7 @@
 获取群组系统消息
 
 ```csharp
-public ValueTask<ValueTuple<APIStatusType, List<GroupRequestInfo>, List<GroupRequestInfo>>> 
+public ValueTask<(APIStatusType apiStatus, List<GroupRequestInfo> joinList, List<GroupRequestInfo> invitedList)> 
     GetGroupSystemMsg()
 ```
 

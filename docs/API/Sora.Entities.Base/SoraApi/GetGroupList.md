@@ -3,7 +3,7 @@
 获取群组列表
 
 ```csharp
-public ValueTask<ValueTuple<APIStatusType, List<GroupInfo>>> GetGroupList()
+public ValueTask<(APIStatusType apiStatus, List<GroupInfo> groupList)> GetGroupList()
 ```
 
 ## Return Value

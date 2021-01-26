@@ -3,7 +3,7 @@
 没什么用的复读功能
 
 ```csharp
-public ValueTask<ValueTuple<APIStatusType, int>> Repeat()
+public ValueTask<(APIStatusType apiStatus, int messageId)> Repeat()
 ```
 
 ## Return Value

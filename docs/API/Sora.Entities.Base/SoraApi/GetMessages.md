@@ -5,8 +5,8 @@
 只能获取纯文本信息
 
 ```csharp
-public ValueTask<ValueTuple<APIStatusType, Message, User, Group, int, bool>> GetMessages(
-    int messageId)
+public ValueTask<(APIStatusType apiStatus, Message message, User sender, Group sourceGroup, int realId, bool isGroupMsg)> 
+    GetMessages(int messageId)
 ```
 
 | parameter | description |

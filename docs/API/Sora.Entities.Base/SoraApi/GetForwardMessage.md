@@ -3,7 +3,8 @@
 获取合并转发消息
 
 ```csharp
-public ValueTask<ValueTuple<APIStatusType, List<Node>>> GetForwardMessage(string forwardId)
+public ValueTask<(APIStatusType apiStatus, List<Node> nodeArray)> GetForwardMessage(
+    string forwardId)
 ```
 
 | parameter | description |

@@ -3,7 +3,7 @@
 发送群聊消息
 
 ```csharp
-public ValueTask<ValueTuple<APIStatusType, int>> SendGroupMessage(long groupId, 
+public ValueTask<(APIStatusType apiStatus, int messageId)> SendGroupMessage(long groupId, 
     List<CQCode> message)
 ```
 
@@ -32,7 +32,7 @@ public ValueTask<ValueTuple<APIStatusType, int>> SendGroupMessage(long groupId,
 发送群聊消息
 
 ```csharp
-public ValueTask<ValueTuple<APIStatusType, int>> SendGroupMessage(long groupId, 
+public ValueTask<(APIStatusType apiStatus, int messageId)> SendGroupMessage(long groupId, 
     params object[] message)
 ```
 

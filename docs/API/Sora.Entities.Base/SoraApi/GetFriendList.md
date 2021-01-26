@@ -3,7 +3,7 @@
 获取好友列表
 
 ```csharp
-public ValueTask<ValueTuple<APIStatusType, List<FriendInfo>>> GetFriendList()
+public ValueTask<(APIStatusType apiStatus, List<FriendInfo> friendList)> GetFriendList()
 ```
 
 ## Return Value

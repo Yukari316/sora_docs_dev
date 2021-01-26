@@ -3,7 +3,7 @@
 获取客户端状态
 
 ```csharp
-public ValueTask<ValueTuple<APIStatusType, bool, bool, JObject>> GetStatus()
+public ValueTask<(APIStatusType apiStatus, bool online, bool good, JObject)> GetStatus()
 ```
 
 ## Return Value

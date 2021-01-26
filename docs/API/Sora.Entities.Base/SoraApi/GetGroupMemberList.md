@@ -3,7 +3,8 @@
 获取群成员列表
 
 ```csharp
-public ValueTask<ValueTuple<APIStatusType, List<GroupMemberInfo>>> GetGroupMemberList(long groupId)
+public ValueTask<(APIStatusType apiStatus, List<GroupMemberInfo> groupMemberList)> 
+    GetGroupMemberList(long groupId)
 ```
 
 | parameter | description |

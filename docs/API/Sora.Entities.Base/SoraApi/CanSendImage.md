@@ -3,7 +3,7 @@
 检查是否可以发送图片
 
 ```csharp
-public ValueTask<ValueTuple<APIStatusType, bool>> CanSendImage()
+public ValueTask<(APIStatusType apiStatus, bool canSend)> CanSendImage()
 ```
 
 ## Return Value

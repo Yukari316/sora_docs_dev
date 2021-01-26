@@ -3,8 +3,8 @@
 获取群文件资源链接
 
 ```csharp
-public ValueTask<ValueTuple<APIStatusType, string>> GetGroupFileUrl(long groupId, string fileId, 
-    int busid)
+public ValueTask<(APIStatusType apiStatus, string fileUrl)> GetGroupFileUrl(long groupId, 
+    string fileId, int busid)
 ```
 
 | parameter | description |
