@@ -51,6 +51,7 @@
 
 | public type | description |
 | --- | --- |
+| struct [ClientInfo](Sora.Entities.Info/ClientInfo.md) | 设备信息 |
 | struct [FriendInfo](Sora.Entities.Info/FriendInfo.md) | 好友信息 |
 | struct [GroupFileInfo](Sora.Entities.Info/GroupFileInfo.md) | 群文件信息 |
 | struct [GroupFileSysInfo](Sora.Entities.Info/GroupFileSysInfo.md) | 群文件系统信息 |
@@ -96,6 +97,7 @@
 | --- | --- |
 | class [AddGroupRequestEventArgs](Sora.EventArgs.SoraEvent/AddGroupRequestEventArgs.md) | 入群申请 |
 | abstract class [BaseSoraEventArgs](Sora.EventArgs.SoraEvent/BaseSoraEventArgs.md) | 框架事件基类 |
+| class [ClientStatusChangeEventArgs](Sora.EventArgs.SoraEvent/ClientStatusChangeEventArgs.md) | 其他客户端在线状态变更事件参数 |
 | class [ConnectEventArgs](Sora.EventArgs.SoraEvent/ConnectEventArgs.md) | 客户端连接事件参数 |
 | class [FileUploadEventArgs](Sora.EventArgs.SoraEvent/FileUploadEventArgs.md) | 群文件上传事件参数 |
 | class [FriendAddEventArgs](Sora.EventArgs.SoraEvent/FriendAddEventArgs.md) | 好友添加事件参数 |

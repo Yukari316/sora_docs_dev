@@ -13,6 +13,7 @@ public sealed class Message : BaseModel
 | [Font](Message/Font.md) { get; } | 消息字体id |
 | [MessageId](Message/MessageId.md) { get; } | 消息ID |
 | [MessageList](Message/MessageList.md) { get; } | 消息段列表 |
+| [MessageSequence](Message/MessageSequence.md) { get; } | 消息序号 |
 | [RawText](Message/RawText.md) { get; } | 纯文本信息 |
 | [Time](Message/Time.md) { get; } | 消息时间戳 |
 | [GetAllAtList](Message/GetAllAtList.md)() | 获取所有At的UID |

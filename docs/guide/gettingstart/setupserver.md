@@ -5,7 +5,7 @@ title: 创建一个最简单的Bot
 # 创建一个最简单的Bot
 
 :::danger 注意
-本框架只支持Array方式的数据上报格式
+本框架只支持Universal连接方式的Array上报格式
 
 请将onebot端的数据上报格式修改为Array格式
 :::

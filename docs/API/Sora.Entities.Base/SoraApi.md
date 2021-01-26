@@ -33,12 +33,14 @@ public sealed class SoraApi
 | [GetGroupList](SoraApi/GetGroupList.md)() | 获取群组列表 |
 | [GetGroupMemberInfo](SoraApi/GetGroupMemberInfo.md)(…) | 获取群成员信息 |
 | [GetGroupMemberList](SoraApi/GetGroupMemberList.md)(…) | 获取群成员列表 |
+| [GetGroupMessageHistory](SoraApi/GetGroupMessageHistory.md)(…) | 获取群消息历史记录 |
 | [GetGroupRootFiles](SoraApi/GetGroupRootFiles.md)(…) | 获取群根目录文件列表 |
 | [GetGroupSystemMsg](SoraApi/GetGroupSystemMsg.md)() | 获取群组系统消息 |
 | [GetImage](SoraApi/GetImage.md)(…) | 获取图片信息 |
 | [GetLoginUserId](SoraApi/GetLoginUserId.md)() | 获取登录账号的id |
 | [GetLoginUserName](SoraApi/GetLoginUserName.md)() | 获取登陆QQ的名字 |
 | [GetMessages](SoraApi/GetMessages.md)(…) | 获取群消息 |
+| [GetOnlineClients](SoraApi/GetOnlineClients.md)(…) | 获取当前账号在线客户端列表 |
 | [GetStatus](SoraApi/GetStatus.md)() | 获取客户端状态 |
 | [GetUser](SoraApi/GetUser.md)(…) | 获取用户实例 |
 | [GetUserInfo](SoraApi/GetUserInfo.md)(…) | 获取用户信息 |

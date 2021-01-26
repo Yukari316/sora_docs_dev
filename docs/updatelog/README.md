@@ -1,5 +1,15 @@
 # 更新日志
 
+## v0.5.1
+
+增加API [GetGroupMessageHistory](../API/Sora.Entities.Base/SoraApi/GetGroupMessageHistory.md)
+
+增加API [GetOnlineClients](../API/Sora.Entities.Base/SoraApi/GetOnlineClients.md)
+
+增加Event [OnClientStatusChangeEvent](../API/Sora.Server.ServerInterface/EventInterface/OnClientStatusChangeEvent.md)
+
+go-cqhttp版本:[go-cqhttp-v0.9.39](https://github.com/Mrs4s/go-cqhttp/releases/tag/v0.9.39)
+
 ## v0.5.0
 
 :::danger 注意

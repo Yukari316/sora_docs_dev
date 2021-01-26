@@ -14,7 +14,7 @@ next: ./gettingstart/
 :::
 
 ::: warning 注意
-本框架是在[Go-Cqhttp](https://github.com/Mrs4s/go-cqhttp)(版本:[0.9.38](https://github.com/Mrs4s/go-cqhttp/releases/tag/v0.9.38))下进行调试的
+本框架是在[Go-Cqhttp](https://github.com/Mrs4s/go-cqhttp)(版本:[0.9.39](https://github.com/Mrs4s/go-cqhttp/releases/tag/v0.9.39))下进行调试的
 
 如使用其他平台可能会出现兼容性的问题
 :::
