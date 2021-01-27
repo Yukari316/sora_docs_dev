@@ -1,5 +1,9 @@
 # 更新日志
 
+## v0.5.1.1
+
+修复部分CQ码失效的问题
+
 ## v0.5.1
 
 增加API [GetGroupMessageHistory](../API/Sora.Entities.Base/SoraApi/GetGroupMessageHistory.md)
