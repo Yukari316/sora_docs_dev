@@ -12,6 +12,8 @@ public sealed class SoraApi
 | --- | --- |
 | [CanSendImage](SoraApi/CanSendImage.md)() | 检查是否可以发送图片 |
 | [CanSendRecord](SoraApi/CanSendRecord.md)() | 检查是否可以发送语音 |
+| [CheckUrlSafely](SoraApi/CheckUrlSafely.md)(…) | 使用腾讯API检查链接安全性 |
+| [DelEssenceMessage](SoraApi/DelEssenceMessage.md)(…) | 删除精华消息 |
 | [DisableGroupAdmin](SoraApi/DisableGroupAdmin.md)(…) | 取消群管理员 |
 | [DisableGroupMemberMute](SoraApi/DisableGroupMemberMute.md)(…) | 解除群组成员禁言 |
 | [DisableGroupMute](SoraApi/DisableGroupMute.md)(…) | 解除群组全员禁言 |
@@ -22,6 +24,7 @@ public sealed class SoraApi
 | [EnableGroupMemberMute](SoraApi/EnableGroupMemberMute.md)(…) | 设置群组成员禁言 |
 | [EnableGroupMute](SoraApi/EnableGroupMute.md)(…) | 群组全员禁言 |
 | [GetClientInfo](SoraApi/GetClientInfo.md)() | 获取连接客户端版本信息 |
+| [GetEssenceMsgList](SoraApi/GetEssenceMsgList.md)(…) | 获取群精华消息列表 |
 | [GetForwardMessage](SoraApi/GetForwardMessage.md)(…) | 获取合并转发消息 |
 | [GetFriendList](SoraApi/GetFriendList.md)() | 获取好友列表 |
 | [GetGroup](SoraApi/GetGroup.md)(…) | 获取群实例 |
@@ -50,15 +53,18 @@ public sealed class SoraApi
 | [OcrImage](SoraApi/OcrImage.md)(…) | OCR图片 |
 | [RebootClient](SoraApi/RebootClient.md)(…) | 重启客户端 |
 | [RecallMessage](SoraApi/RecallMessage.md)(…) | 撤回消息 |
+| [ReloadEventFilter](SoraApi/ReloadEventFilter.md)() | 重载事件过滤器 |
 | [SendGroupForwardMsg](SoraApi/SendGroupForwardMsg.md)(…) | 发送合并转发(群) 但好像不能用的样子 |
 | [SendGroupMessage](SoraApi/SendGroupMessage.md)(…) | 发送群聊消息 (2 methods) |
 | [SendPrivateMessage](SoraApi/SendPrivateMessage.md)(…) | 发送私聊消息 (2 methods) |
+| [SetEssenceMessage](SoraApi/SetEssenceMessage.md)(…) | 设置精华消息 |
 | [SetFriendAddRequest](SoraApi/SetFriendAddRequest.md)(…) | 处理加好友请求 |
 | [SetGroupAddRequest](SoraApi/SetGroupAddRequest.md)(…) | 处理加群请求/邀请 |
 | [SetGroupCard](SoraApi/SetGroupCard.md)(…) | 设置群名片 |
 | [SetGroupMemberSpecialTitle](SoraApi/SetGroupMemberSpecialTitle.md)(…) | 设置群成员专属头衔 |
 | [SetGroupName](SoraApi/SetGroupName.md)(…) | 设置群名 |
 | [SetGroupPortrait](SoraApi/SetGroupPortrait.md)(…) | 设置群头像 |
+| [UploadGroupFile](SoraApi/UploadGroupFile.md)(…) | 上传群文件 |
 
 ## See Also
 

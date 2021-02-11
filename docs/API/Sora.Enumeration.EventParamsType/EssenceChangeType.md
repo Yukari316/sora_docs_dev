@@ -1,17 +1,17 @@
-# MusicShareType enumeration
+# EssenceChangeType enumeration
 
-音乐分享类型
+精华信息变动类型
 
 ```csharp
-public enum MusicShareType
+public enum EssenceChangeType
 ```
 
 ## Values
 
 | name | value | description |
 | --- | --- | --- |
-| Netease | `0` | 网易云音乐 |
-| QQMusic | `1` | QQ 音乐 |
+| Add | `0` | 添加 |
+| Delete | `1` | 删除 |
 
 ## See Also
 

@@ -1,5 +1,29 @@
 # 更新日志
 
+## v0.5.2.1
+
+修复命名错误
+
+## v0.5.2
+
+增加API [UploadGroupFile](../API/Sora.Entities.Base/SoraApi/UploadGroupFile.md)
+
+增加API [SetEssenceMessage](../API/Sora.Entities.Base/SoraApi/SetEssenceMessage.md)
+
+增加API [DelEssenceMessage](../API/Sora.Entities.Base/SoraApi/DelEssenceMessage.md)
+
+增加API [GetEssenceMsgList](../API/Sora.Entities.Base/SoraApi/GetEssenceMsgList.md)
+
+增加API [CheckUrlSafely](../API/Sora.Entities.Base/SoraApi/CheckUrlSafely.md)
+
+增加API [ReloadEventFilter](../API/Sora.Entities.Base/SoraApi/ReloadEventFilter.md)
+
+增加Event [OnEssenceChange](../API/Sora.Server.ServerInterface/EventInterface/OnEssenceChange.md)
+
+音乐分享类型删除 `虾米音乐` by [Kengxxiao](https://github.com/Kengxxiao)
+
+go-cqhttp版本:[go-cqhttp-v0.9.40](https://github.com/Mrs4s/go-cqhttp/releases/tag/v0.9.40)
+
 ## v0.5.1.1
 
 修复部分CQ码失效的问题

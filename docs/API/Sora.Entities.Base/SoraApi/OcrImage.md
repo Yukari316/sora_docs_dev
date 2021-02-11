@@ -22,7 +22,7 @@ public ValueTask<(APIStatusType retCode, List<TextDetection> texts, string lang)
 ## See Also
 
 * enum [APIStatusType](../../Sora.Enumeration.ApiType/APIStatusType.md)
-* struct [TextDetection](../../Sora.Server.ApiParams/TextDetection.md)
+* struct [TextDetection](../../Sora.Entities/TextDetection.md)
 * class [SoraApi](../SoraApi.md)
 * namespace [Sora.Entities.Base](../../Sora.md)
 

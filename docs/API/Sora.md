@@ -7,6 +7,7 @@
 | class [Anonymous](Sora.Entities/Anonymous.md) | 匿名用户类 |
 | class [Group](Sora.Entities/Group.md) | 群组类 |
 | class [Message](Sora.Entities/Message.md) | 消息类 |
+| struct [TextDetection](Sora.Entities/TextDetection.md) | OCR识别结果 |
 | class [User](Sora.Entities/User.md) | 用户类 |
 | class [Vector2](Sora.Entities/Vector2.md) | 二维向量 |
 
@@ -52,6 +53,7 @@
 | public type | description |
 | --- | --- |
 | struct [ClientInfo](Sora.Entities.Info/ClientInfo.md) | 设备信息 |
+| struct [EssenceInfo](Sora.Entities.Info/EssenceInfo.md) | 精华消息信息 |
 | struct [FriendInfo](Sora.Entities.Info/FriendInfo.md) | 好友信息 |
 | struct [GroupFileInfo](Sora.Entities.Info/GroupFileInfo.md) | 群文件信息 |
 | struct [GroupFileSysInfo](Sora.Entities.Info/GroupFileSysInfo.md) | 群文件系统信息 |
@@ -76,12 +78,14 @@
 | public type | description |
 | --- | --- |
 | enum [APIStatusType](Sora.Enumeration.ApiType/APIStatusType.md) | API返回值 |
+| enum [SecurityLevelType](Sora.Enumeration.ApiType/SecurityLevelType.md) | 链接安全性 |
 
 ## Sora.Enumeration.EventParamsType namespace
 
 | public type | description |
 | --- | --- |
 | enum [AdminChangeType](Sora.Enumeration.EventParamsType/AdminChangeType.md) | 管理员变动类型 |
+| enum [EssenceChangeType](Sora.Enumeration.EventParamsType/EssenceChangeType.md) | 精华信息变动类型 |
 | enum [GroupRequestType](Sora.Enumeration.EventParamsType/GroupRequestType.md) | 群申请类型 |
 | enum [HonorType](Sora.Enumeration.EventParamsType/HonorType.md) | 荣誉类型 |
 | enum [MemberChangeType](Sora.Enumeration.EventParamsType/MemberChangeType.md) | 群成员变动类型 |
@@ -99,6 +103,7 @@
 | abstract class [BaseSoraEventArgs](Sora.EventArgs.SoraEvent/BaseSoraEventArgs.md) | 框架事件基类 |
 | class [ClientStatusChangeEventArgs](Sora.EventArgs.SoraEvent/ClientStatusChangeEventArgs.md) | 其他客户端在线状态变更事件参数 |
 | class [ConnectEventArgs](Sora.EventArgs.SoraEvent/ConnectEventArgs.md) | 客户端连接事件参数 |
+| class [EssenceChangeEventArgs](Sora.EventArgs.SoraEvent/EssenceChangeEventArgs.md) | 精华消息变动事件参数 |
 | class [FileUploadEventArgs](Sora.EventArgs.SoraEvent/FileUploadEventArgs.md) | 群文件上传事件参数 |
 | class [FriendAddEventArgs](Sora.EventArgs.SoraEvent/FriendAddEventArgs.md) | 好友添加事件参数 |
 | class [FriendRecallEventArgs](Sora.EventArgs.SoraEvent/FriendRecallEventArgs.md) | 好友消息撤回事件 |
@@ -140,12 +145,6 @@
 | class [ConnectionManager](Sora.Server/ConnectionManager.md) | 服务器连接管理器 管理服务器链接和心跳包 |
 | class [ServerConfig](Sora.Server/ServerConfig.md) | 服务器配置类 |
 | class [SoraWSServer](Sora.Server/SoraWSServer.md) | Sora服务器实例 |
-
-## Sora.Server.ApiParams namespace
-
-| public type | description |
-| --- | --- |
-| struct [TextDetection](Sora.Server.ApiParams/TextDetection.md) | OCR识别结果 |
 
 ## Sora.Server.ServerInterface namespace
 
