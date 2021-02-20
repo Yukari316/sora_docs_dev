@@ -23,6 +23,7 @@ public sealed class SoraApi
 | [EnableGroupAnonymousMute](SoraApi/EnableGroupAnonymousMute.md)(…) | 群组匿名用户禁言 (2 methods) |
 | [EnableGroupMemberMute](SoraApi/EnableGroupMemberMute.md)(…) | 设置群组成员禁言 |
 | [EnableGroupMute](SoraApi/EnableGroupMute.md)(…) | 群组全员禁言 |
+| override [Equals](SoraApi/Equals.md)(…) | 比较重载 |
 | [GetClientInfo](SoraApi/GetClientInfo.md)() | 获取连接客户端版本信息 |
 | [GetEssenceMsgList](SoraApi/GetEssenceMsgList.md)(…) | 获取群精华消息列表 |
 | [GetForwardMessage](SoraApi/GetForwardMessage.md)(…) | 获取合并转发消息 |
@@ -39,6 +40,7 @@ public sealed class SoraApi
 | [GetGroupMessageHistory](SoraApi/GetGroupMessageHistory.md)(…) | 获取群消息历史记录 |
 | [GetGroupRootFiles](SoraApi/GetGroupRootFiles.md)(…) | 获取群根目录文件列表 |
 | [GetGroupSystemMsg](SoraApi/GetGroupSystemMsg.md)() | 获取群组系统消息 |
+| override [GetHashCode](SoraApi/GetHashCode.md)() | GetHashCode |
 | [GetImage](SoraApi/GetImage.md)(…) | 获取图片信息 |
 | [GetLoginUserId](SoraApi/GetLoginUserId.md)() | 获取登录账号的id |
 | [GetLoginUserName](SoraApi/GetLoginUserName.md)() | 获取登陆QQ的名字 |
@@ -65,6 +67,8 @@ public sealed class SoraApi
 | [SetGroupName](SoraApi/SetGroupName.md)(…) | 设置群名 |
 | [SetGroupPortrait](SoraApi/SetGroupPortrait.md)(…) | 设置群头像 |
 | [UploadGroupFile](SoraApi/UploadGroupFile.md)(…) | 上传群文件 |
+| [operator ==](SoraApi/op_Equality.md) | 等于重载 |
+| [operator !=](SoraApi/op_Inequality.md) | 不等于重载 |
 
 ## See Also
 

@@ -32,7 +32,11 @@ public sealed class CQCode
 | static [CQXml](CQCode/CQXml.md)(…) | XML 特殊消息 |
 | [CQData](CQCode/CQData.md) { get; } | CQ码数据实例 |
 | [Function](CQCode/Function.md) { get; } | CQ码类型 |
+| override [Equals](CQCode/Equals.md)(…) | 比较重载 |
+| override [GetHashCode](CQCode/GetHashCode.md)() | GetHashCode |
 | static [GetCqCodeDataType](CQCode/GetCqCodeDataType.md)(…) | 获取CQ码数据格式类型 用于将object转换为可读结构体 |
+| [operator ==](CQCode/op_Equality.md) | 等于重载 |
+| [operator !=](CQCode/op_Inequality.md) | 不等于重载 |
 
 ## See Also
 

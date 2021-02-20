@@ -1,5 +1,29 @@
 # 更新日志
 
+## v0.6.0
+
+增加必要的实例运算重载
+
+修正XML注释中的错误 by [XiaoHe321](https://github.com/xh321)
+
+优化`API`接口的调用方式
+
+优化`Test`示例中的代码
+
+移动`AsyncExtensions`至 [YukariToolBox](https://github.com/Yukari316/YukariToolBox)
+
+增加在上报格式为`string`时的错误提示 by [XiaoHe321](https://github.com/xh321)
+
+升级`Workflow`的SDK版本至`5.0.103`
+
+## v0.5.3.1
+
+修复重载中的错误逻辑
+
+## V0.5.3
+
+增加大部分实例的运算重载
+
 ## v0.5.2.1
 
 修复命名错误

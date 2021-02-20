@@ -12,6 +12,7 @@ public sealed class GroupMessageEventArgs : BaseSoraEventArgs
 | --- | --- |
 | [Anonymous](GroupMessageEventArgs/Anonymous.md) { get; } | 匿名用户实例 |
 | [IsAnonymousMessage](GroupMessageEventArgs/IsAnonymousMessage.md) { get; } | 是否来源于匿名群成员 |
+| [IsSelfMessage](GroupMessageEventArgs/IsSelfMessage.md) { get; } | 是否为Bot账号所发送的消息 |
 | [Message](GroupMessageEventArgs/Message.md) { get; } | 消息内容 |
 | [Sender](GroupMessageEventArgs/Sender.md) { get; } | 消息发送者实例 |
 | [SenderInfo](GroupMessageEventArgs/SenderInfo.md) { get; } | 发送者信息 |

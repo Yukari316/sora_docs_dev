@@ -12,9 +12,13 @@ public sealed class User : BaseModel
 | --- | --- |
 | [Id](User/Id.md) { get; } | 当前实例的用户ID |
 | [CQCodeAt](User/CQCodeAt.md)() | 获取At的CQ码 |
+| override [Equals](User/Equals.md)(…) | 比较重载 |
+| override [GetHashCode](User/GetHashCode.md)() | GetHashCode |
 | [GetUserInfo](User/GetUserInfo.md)(…) | 获取用户信息 |
 | [SendPrivateMessage](User/SendPrivateMessage.md)(…) | 发送私聊消息 (2 methods) |
+| [operator ==](User/op_Equality.md) | 等于重载 |
 | [implicit operator](User/op_Implicit.md) | 定义将 [`User`](User.md) 对象转换为 Int64 (2 operators) |
+| [operator !=](User/op_Inequality.md) | 不等于重载 |
 
 ## See Also
 

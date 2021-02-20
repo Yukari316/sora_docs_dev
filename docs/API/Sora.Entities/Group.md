@@ -18,6 +18,7 @@ public sealed class Group : BaseModel
 | [EnableGroupAdmin](Group/EnableGroupAdmin.md)(…) | 设置群管理员 |
 | [EnableGroupMemberMute](Group/EnableGroupMemberMute.md)(…) | 设置群组成员禁言 |
 | [EnableGroupMute](Group/EnableGroupMute.md)() | 群组全员禁言 |
+| override [Equals](Group/Equals.md)(…) | 比较重载 |
 | [GetGroupFilesByFolder](Group/GetGroupFilesByFolder.md)(…) | 获取群根目录文件列表 |
 | [GetGroupFileSysInfo](Group/GetGroupFileSysInfo.md)() | 获取群文件系统信息 |
 | [GetGroupFileUrl](Group/GetGroupFileUrl.md)(…) | 获取群文件资源链接 |
@@ -25,6 +26,7 @@ public sealed class Group : BaseModel
 | [GetGroupMemberInfo](Group/GetGroupMemberInfo.md)(…) | 获取群成员信息 |
 | [GetGroupMemberList](Group/GetGroupMemberList.md)() | 获取群成员列表 |
 | [GetGroupRootFiles](Group/GetGroupRootFiles.md)() | 获取群根目录文件列表 |
+| override [GetHashCode](Group/GetHashCode.md)() | GetHashCode |
 | [KickGroupMember](Group/KickGroupMember.md)(…) | 群组踢人 |
 | [LeaveGroup](Group/LeaveGroup.md)() | 退出群 |
 | [SendGroupForwardMsg](Group/SendGroupForwardMsg.md)(…) | 发送合并转发(群) 但好像不能用的样子 |
@@ -33,7 +35,9 @@ public sealed class Group : BaseModel
 | [SetGroupMemberSpecialTitle](Group/SetGroupMemberSpecialTitle.md)(…) | 设置群成员专属头衔 |
 | [SetGroupName](Group/SetGroupName.md)(…) | 设置群名 |
 | [SetGroupPortrait](Group/SetGroupPortrait.md)(…) | 设置群头像 |
+| [operator ==](Group/op_Equality.md) | 等于重载 |
 | [implicit operator](Group/op_Implicit.md) | 定义将 [`Group`](Group.md) 对象转换为 Int64 |
+| [operator !=](Group/op_Inequality.md) | 不等于重载 |
 
 ## See Also
 

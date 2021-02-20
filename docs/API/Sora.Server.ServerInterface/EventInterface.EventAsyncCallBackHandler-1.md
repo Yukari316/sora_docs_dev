@@ -3,7 +3,7 @@
 Onebot事件回调
 
 ```csharp
-public delegate ValueTask EventAsyncCallBackHandler<in TEventArgs>(object sender, 
+public delegate ValueTask EventAsyncCallBackHandler<in TEventArgs>(string type, 
     TEventArgs eventArgs)
     where TEventArgs : EventArgs;
 ```
@@ -11,7 +11,7 @@ public delegate ValueTask EventAsyncCallBackHandler<in TEventArgs>(object sender
 | parameter | description |
 | --- | --- |
 | TEventArgs | 事件参数 |
-| sender | 产生事件的客户端 |
+| type | 事件的主要类型 |
 | eventArgs | 事件参数 |
 
 ## See Also

@@ -132,12 +132,6 @@
 | --- | --- |
 | class [SoraServerIsRuningException](Sora.Exceptions/SoraServerIsRuningException.md) | 服务器已经在运行错误 |
 
-## Sora.Extensions namespace
-
-| public type | description |
-| --- | --- |
-| static class [AsyncExtensions](Sora.Extensions/AsyncExtensions.md) | 用于异步执行的简易化错误处理 |
-
 ## Sora.Server namespace
 
 | public type | description |

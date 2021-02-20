@@ -16,13 +16,17 @@ public sealed class Message : BaseModel
 | [MessageSequence](Message/MessageSequence.md) { get; } | 消息序号 |
 | [RawText](Message/RawText.md) { get; } | 纯文本信息 |
 | [Time](Message/Time.md) { get; } | 消息时间戳 |
+| override [Equals](Message/Equals.md)(…) | 比较重载 |
 | [GetAllAtList](Message/GetAllAtList.md)() | 获取所有At的UID |
 | [GetAllImage](Message/GetAllImage.md)() | 获取所有图片信息 |
 | [GetForwardMsgId](Message/GetForwardMsgId.md)() | 获取合并转发的ID |
+| override [GetHashCode](Message/GetHashCode.md)() | GetHashCode |
 | [GetRecordUrl](Message/GetRecordUrl.md)() | 获取语音URL 仅在消息为语音时有效 |
 | [IsForwardMessage](Message/IsForwardMessage.md)() | 是否是转发消息 |
 | [RecallMessage](Message/RecallMessage.md)() | 撤回本条消息 |
 | override [ToString](Message/ToString.md)() | 转纯文本信息 |
+| [operator ==](Message/op_Equality.md) | 等于重载 |
+| [operator !=](Message/op_Inequality.md) | 不等于重载 |
 
 ## See Also
 
