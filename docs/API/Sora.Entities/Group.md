@@ -19,22 +19,27 @@ public sealed class Group : BaseModel
 | [EnableGroupMemberMute](Group/EnableGroupMemberMute.md)(…) | 设置群组成员禁言 |
 | [EnableGroupMute](Group/EnableGroupMute.md)() | 群组全员禁言 |
 | override [Equals](Group/Equals.md)(…) | 比较重载 |
+| [GetEssenceMsgList](Group/GetEssenceMsgList.md)() | 获取群精华消息列表 |
+| [GetGroupAtAllRemain](Group/GetGroupAtAllRemain.md)() | 获取群@全体成员剩余次数 |
 | [GetGroupFilesByFolder](Group/GetGroupFilesByFolder.md)(…) | 获取群根目录文件列表 |
 | [GetGroupFileSysInfo](Group/GetGroupFileSysInfo.md)() | 获取群文件系统信息 |
 | [GetGroupFileUrl](Group/GetGroupFileUrl.md)(…) | 获取群文件资源链接 |
 | [GetGroupInfo](Group/GetGroupInfo.md)(…) | 获取群信息 |
 | [GetGroupMemberInfo](Group/GetGroupMemberInfo.md)(…) | 获取群成员信息 |
 | [GetGroupMemberList](Group/GetGroupMemberList.md)() | 获取群成员列表 |
+| [GetGroupMessageHistory](Group/GetGroupMessageHistory.md)(…) | 获取群消息历史记录 |
 | [GetGroupRootFiles](Group/GetGroupRootFiles.md)() | 获取群根目录文件列表 |
 | override [GetHashCode](Group/GetHashCode.md)() | GetHashCode |
 | [KickGroupMember](Group/KickGroupMember.md)(…) | 群组踢人 |
 | [LeaveGroup](Group/LeaveGroup.md)() | 退出群 |
 | [SendGroupForwardMsg](Group/SendGroupForwardMsg.md)(…) | 发送合并转发(群) 但好像不能用的样子 |
 | [SendGroupMessage](Group/SendGroupMessage.md)(…) | 发送群消息 (2 methods) |
+| [SendGroupNotice](Group/SendGroupNotice.md)(…) | 发送群公告 |
 | [SetGroupCard](Group/SetGroupCard.md)(…) | 设置群名片 |
 | [SetGroupMemberSpecialTitle](Group/SetGroupMemberSpecialTitle.md)(…) | 设置群成员专属头衔 |
 | [SetGroupName](Group/SetGroupName.md)(…) | 设置群名 |
 | [SetGroupPortrait](Group/SetGroupPortrait.md)(…) | 设置群头像 |
+| [UploadGroupFile](Group/UploadGroupFile.md)(…) | 上传群文件 |
 | [operator ==](Group/op_Equality.md) | 等于重载 |
 | [implicit operator](Group/op_Implicit.md) | 定义将 [`Group`](Group.md) 对象转换为 Int64 |
 | [operator !=](Group/op_Inequality.md) | 不等于重载 |

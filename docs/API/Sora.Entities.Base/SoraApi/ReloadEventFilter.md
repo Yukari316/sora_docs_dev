@@ -3,11 +3,12 @@
 重载事件过滤器
 
 ```csharp
-public ValueTask ReloadEventFilter()
+public ValueTask<APIStatusType> ReloadEventFilter()
 ```
 
 ## See Also
 
+* enum [APIStatusType](../../Sora.Enumeration.ApiType/APIStatusType.md)
 * class [SoraApi](../SoraApi.md)
 * namespace [Sora.Entities.Base](../../Sora.md)
 

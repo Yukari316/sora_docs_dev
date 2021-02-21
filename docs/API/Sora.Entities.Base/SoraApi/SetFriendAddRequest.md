@@ -3,7 +3,7 @@
 处理加好友请求
 
 ```csharp
-public ValueTask SetFriendAddRequest(string flag, bool approve, string remark = null)
+public ValueTask<APIStatusType> SetFriendAddRequest(string flag, bool approve, string remark = null)
 ```
 
 | parameter | description |
@@ -14,6 +14,7 @@ public ValueTask SetFriendAddRequest(string flag, bool approve, string remark = 
 
 ## See Also
 
+* enum [APIStatusType](../../Sora.Enumeration.ApiType/APIStatusType.md)
 * class [SoraApi](../SoraApi.md)
 * namespace [Sora.Entities.Base](../../Sora.md)
 

@@ -1,18 +1,30 @@
 # 更新日志
 
+## v0.6.1
+
+增加 自身消息接收事件 [OnSelfMessage](../API/Sora.Server.ServerInterface/EventInterface/OnSelfMessage.md)
+
+增加 `API` [SendGroupNotice](../API/Sora.Entities.Base/SoraApi/SendGroupNotice.md)
+
+优化 在[Group](../API/Sora.Entities/Group.md)和[User](../API/Sora.Entities/User.md)中加入一系列快捷方法
+
+优化 消息解析速度
+
+优化 框架Log信息
+
 ## v0.6.0
 
-增加必要的实例运算重载
+增加 必要的实例运算重载
 
-修正XML注释中的错误 by [XiaoHe321](https://github.com/xh321)
+增加 在上报格式为`string`时的错误提示 by [XiaoHe321](https://github.com/xh321)
 
-优化`API`接口的调用方式
+修复 XML注释中的错误 by [XiaoHe321](https://github.com/xh321)
 
-优化`Test`示例中的代码
+优化 `API`接口的调用方式
 
-移动`AsyncExtensions`至 [YukariToolBox](https://github.com/Yukari316/YukariToolBox)
+优化 `Test`示例中的代码
 
-增加在上报格式为`string`时的错误提示 by [XiaoHe321](https://github.com/xh321)
+移动 `AsyncExtensions`至 [YukariToolBox](https://github.com/Yukari316/YukariToolBox)
 
 升级`Workflow`的SDK版本至`5.0.103`
 

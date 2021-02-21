@@ -3,7 +3,7 @@
 设置群名
 
 ```csharp
-public ValueTask SetGroupName(string newName)
+public ValueTask<APIStatusType> SetGroupName(string newName)
 ```
 
 | parameter | description |
@@ -12,6 +12,7 @@ public ValueTask SetGroupName(string newName)
 
 ## See Also
 
+* enum [APIStatusType](../../Sora.Enumeration.ApiType/APIStatusType.md)
 * class [Group](../Group.md)
 * namespace [Sora.Entities](../../Sora.md)
 

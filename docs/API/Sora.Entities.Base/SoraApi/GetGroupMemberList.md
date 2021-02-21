@@ -9,7 +9,7 @@ public ValueTask<(APIStatusType apiStatus, List<GroupMemberInfo> groupMemberList
 
 | parameter | description |
 | --- | --- |
-| groupId |  |
+| groupId | 群号 |
 
 ## Return Value
 

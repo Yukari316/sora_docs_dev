@@ -1,15 +1,15 @@
-# SoraApi.DisableGroupMemberMute method
+# SoraApi.SendGroupNotice method
 
-解除群组成员禁言
+发送群公告
 
 ```csharp
-public ValueTask<APIStatusType> DisableGroupMemberMute(long groupId, long userId)
+public ValueTask<APIStatusType> SendGroupNotice(long groupId, string content)
 ```
 
 | parameter | description |
 | --- | --- |
 | groupId | 群号 |
-| userId | 用户id |
+| content | 公告内容 |
 
 ## See Also
 

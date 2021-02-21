@@ -3,7 +3,7 @@
 设置群名片
 
 ```csharp
-public ValueTask SetGroupCard(long groupId, long userId, string card)
+public ValueTask<APIStatusType> SetGroupCard(long groupId, long userId, string card)
 ```
 
 | parameter | description |
@@ -14,6 +14,7 @@ public ValueTask SetGroupCard(long groupId, long userId, string card)
 
 ## See Also
 
+* enum [APIStatusType](../../Sora.Enumeration.ApiType/APIStatusType.md)
 * class [SoraApi](../SoraApi.md)
 * namespace [Sora.Entities.Base](../../Sora.md)
 

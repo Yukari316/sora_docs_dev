@@ -3,7 +3,7 @@
 撤回消息
 
 ```csharp
-public ValueTask RecallMessage(int messageId)
+public ValueTask<APIStatusType> RecallMessage(int messageId)
 ```
 
 | parameter | description |
@@ -12,6 +12,7 @@ public ValueTask RecallMessage(int messageId)
 
 ## See Also
 
+* enum [APIStatusType](../../Sora.Enumeration.ApiType/APIStatusType.md)
 * class [SoraApi](../SoraApi.md)
 * namespace [Sora.Entities.Base](../../Sora.md)
 

@@ -3,11 +3,12 @@
 撤回本条消息
 
 ```csharp
-public ValueTask RecallMessage()
+public ValueTask<APIStatusType> RecallMessage()
 ```
 
 ## See Also
 
+* enum [APIStatusType](../../Sora.Enumeration.ApiType/APIStatusType.md)
 * class [Message](../Message.md)
 * namespace [Sora.Entities](../../Sora.md)
 

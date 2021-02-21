@@ -3,8 +3,8 @@
 处理加群请求/邀请
 
 ```csharp
-public ValueTask SetGroupAddRequest(string flag, GroupRequestType requestType, bool approve, 
-    string reason = null)
+public ValueTask<APIStatusType> SetGroupAddRequest(string flag, GroupRequestType requestType, 
+    bool approve, string reason = null)
 ```
 
 | parameter | description |
@@ -16,6 +16,7 @@ public ValueTask SetGroupAddRequest(string flag, GroupRequestType requestType, b
 
 ## See Also
 
+* enum [APIStatusType](../../Sora.Enumeration.ApiType/APIStatusType.md)
 * enum [GroupRequestType](../../Sora.Enumeration.EventParamsType/GroupRequestType.md)
 * class [SoraApi](../SoraApi.md)
 * namespace [Sora.Entities.Base](../../Sora.md)

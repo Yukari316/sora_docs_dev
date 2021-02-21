@@ -66,6 +66,7 @@
 | struct [PrivateSenderInfo](Sora.Entities.Info/PrivateSenderInfo.md) | 私聊消息发送者 |
 | struct [UploadFileInfo](Sora.Entities.Info/UploadFileInfo.md) | 上传文件的信息 |
 | struct [UserInfo](Sora.Entities.Info/UserInfo.md) | 用户信息 |
+| struct [VipInfo](Sora.Entities.Info/VipInfo.md) | VIP信息 |
 
 ## Sora.Enumeration namespace
 

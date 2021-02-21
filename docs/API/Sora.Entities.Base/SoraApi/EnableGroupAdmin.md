@@ -3,7 +3,7 @@
 设置群管理员
 
 ```csharp
-public ValueTask EnableGroupAdmin(long groupId, long userId)
+public ValueTask<APIStatusType> EnableGroupAdmin(long groupId, long userId)
 ```
 
 | parameter | description |
@@ -13,6 +13,7 @@ public ValueTask EnableGroupAdmin(long groupId, long userId)
 
 ## See Also
 
+* enum [APIStatusType](../../Sora.Enumeration.ApiType/APIStatusType.md)
 * class [SoraApi](../SoraApi.md)
 * namespace [Sora.Entities.Base](../../Sora.md)
 

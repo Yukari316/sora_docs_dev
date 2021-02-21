@@ -3,7 +3,7 @@
 退出群
 
 ```csharp
-public ValueTask LeaveGroup(long groupId)
+public ValueTask<APIStatusType> LeaveGroup(long groupId)
 ```
 
 | parameter | description |
@@ -12,6 +12,7 @@ public ValueTask LeaveGroup(long groupId)
 
 ## See Also
 
+* enum [APIStatusType](../../Sora.Enumeration.ApiType/APIStatusType.md)
 * class [SoraApi](../SoraApi.md)
 * namespace [Sora.Entities.Base](../../Sora.md)
 

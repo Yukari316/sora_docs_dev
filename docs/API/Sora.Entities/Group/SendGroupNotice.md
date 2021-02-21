@@ -1,14 +1,14 @@
-# Group.EnableGroupAdmin method
+# Group.SendGroupNotice method
 
-设置群管理员
+发送群公告
 
 ```csharp
-public ValueTask<APIStatusType> EnableGroupAdmin(long userId)
+public ValueTask<APIStatusType> SendGroupNotice(string content)
 ```
 
 | parameter | description |
 | --- | --- |
-| userId | 成员id |
+| content | 公告内容 |
 
 ## See Also
 
