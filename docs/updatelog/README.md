@@ -1,5 +1,9 @@
 # 更新日志
 
+## v0.6.2
+
+优化 底层API请求管理
+
 ## v0.6.1
 
 增加 自身消息接收事件 [OnSelfMessage](../API/Sora.Server.ServerInterface/EventInterface/OnSelfMessage.md)
