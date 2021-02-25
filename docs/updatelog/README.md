@@ -1,5 +1,15 @@
 # 更新日志
 
+## v0.6.3
+
+:::danger 注意
+此版本的依赖更新了Log的实现和命名空间
+
+如果使用到了原Log的方法，请谨慎更新
+:::
+
+更新 框架依赖[YukariToolBox](https://github.com/Yukari316/YukariToolBox)到`1.1.1`
+
 ## v0.6.2
 
 优化 底层API请求管理
