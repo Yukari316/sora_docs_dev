@@ -3,7 +3,7 @@
 匿名用户类
 
 ```csharp
-public class Anonymous
+public sealed class Anonymous
 ```
 
 ## Public Members

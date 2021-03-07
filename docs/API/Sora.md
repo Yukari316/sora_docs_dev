@@ -1,5 +1,14 @@
 # Sora assembly
 
+## Sora.Command.Attributes namespace
+
+| public type | description |
+| --- | --- |
+| abstract class [Command](Sora.Command.Attributes/Command.md) | 指令 |
+| class [CommandGroup](Sora.Command.Attributes/CommandGroup.md) | 指令组 |
+| class [GroupCommand](Sora.Command.Attributes/GroupCommand.md) | 群组指令 |
+| class [PrivateCommand](Sora.Command.Attributes/PrivateCommand.md) | 私聊指令 |
+
 ## Sora.Entities namespace
 
 | public type | description |
@@ -73,6 +82,7 @@
 | public type | description |
 | --- | --- |
 | enum [CQFunction](Sora.Enumeration/CQFunction.md) | 消息段类型 |
+| enum [MatchType](Sora.Enumeration/MatchType.md) | 匹配类型 |
 
 ## Sora.Enumeration.ApiType namespace
 

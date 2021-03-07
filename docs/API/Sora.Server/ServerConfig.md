@@ -16,6 +16,7 @@ public sealed class ServerConfig
 | [AccessToken](ServerConfig/AccessToken.md) { get; set; } | 鉴权Token |
 | [ApiPath](ServerConfig/ApiPath.md) { get; set; } | API请求路径 |
 | [ApiTimeOut](ServerConfig/ApiTimeOut.md) { get; set; } | 客户端API调用超时设置(毫秒) |
+| [EnableSoraCommandManager](ServerConfig/EnableSoraCommandManager.md) { get; set; } | 是否启用Sora自带的指令系统 |
 | [EventPath](ServerConfig/EventPath.md) { get; set; } | Event请求路径 |
 | [HeartBeatTimeOut](ServerConfig/HeartBeatTimeOut.md) { get; set; } | 心跳包超时设置(秒) |
 | [Location](ServerConfig/Location.md) { get; set; } | 反向服务器监听地址 |

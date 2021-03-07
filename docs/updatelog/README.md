@@ -1,5 +1,13 @@
 # 更新日志
 
+## v0.6.4
+
+增加 简单的路由指令服务 [使用说明](../guide/command/README.md)
+
+增加 路由指令服务的使能选项 by [Kengxxiao](https://github.com/Kengxxiao)
+
+优化 转发消息的 [CustomNode](../API/Sora.Entities.CQCodes.CQCodeModel/CustomNode.md) 兼容字符串格式和自定义时间 by [Kengxxiao](https://github.com/Kengxxiao)
+
 ## v0.6.3
 
 :::danger 注意

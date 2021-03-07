@@ -10,7 +10,6 @@ public class EventInterface
 
 | name | description |
 | --- | --- |
-| [EventInterface](EventInterface/EventInterface.md)() | The default constructor. |
 | event [OnClientConnect](EventInterface/OnClientConnect.md) | 客户端链接完成事件 |
 | event [OnClientStatusChangeEvent](EventInterface/OnClientStatusChangeEvent.md) | 其他客户端在线状态变更事件 |
 | event [OnEssenceChange](EventInterface/OnEssenceChange.md) | 精华消息变动事件 |

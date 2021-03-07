@@ -6,6 +6,12 @@
 public ValueTask StartServer()
 ```
 
+## Exceptions
+
+| exception | condition |
+| --- | --- |
+| [SoraServerIsRuningException](../../Sora.Exceptions/SoraServerIsRuningException.md) | 已有服务器在运行 |
+
 ## See Also
 
 * class [SoraWSServer](../SoraWSServer.md)

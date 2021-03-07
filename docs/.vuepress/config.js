@@ -49,6 +49,15 @@ module.exports = {
           ]
         },
         {
+          title: '使用指令',
+          path: '/guide/command/',
+          collapsable: false,
+          sidebarDepth: 1,
+          children: [
+            '/guide/command/'
+          ]
+        },
+        {
           title: '奇怪的语法糖增加了！',
           path: '/guide/tips/',
           collapsable: false,

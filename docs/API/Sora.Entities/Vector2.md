@@ -3,7 +3,7 @@
 二维向量
 
 ```csharp
-public class Vector2
+public sealed class Vector2
 ```
 
 ## Public Members

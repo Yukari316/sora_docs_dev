@@ -11,6 +11,13 @@ public SoraWSServer(ServerConfig config, Action<Exception> crashAction = null)
 | config | 服务器配置 |
 | crashAction | 发生未处理异常时的回调 |
 
+## Exceptions
+
+| exception | condition |
+| --- | --- |
+| ArgumentNullException | 读取到了空配置文件 |
+| ArgumentOutOfRangeException | 服务器启动参数错误 |
+
 ## See Also
 
 * class [ServerConfig](../ServerConfig.md)

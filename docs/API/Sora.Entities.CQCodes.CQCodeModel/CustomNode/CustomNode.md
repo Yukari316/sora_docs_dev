@@ -1,4 +1,4 @@
-# CustomNode constructor (1 of 2)
+# CustomNode constructor (1 of 3)
 
 构造自定义节点
 
@@ -17,12 +17,13 @@ public CustomNode(int messageId)
 
 ---
 
-# CustomNode constructor (2 of 2)
+# CustomNode constructor (2 of 3)
 
 构造自定义节点
 
 ```csharp
-public CustomNode(string name, long userId, List<CQCode> customMessage)
+public CustomNode(string name, long userId, List<CQCode> customMessage, 
+    DateTimeOffset? time = default)
 ```
 
 | parameter | description |
@@ -30,10 +31,33 @@ public CustomNode(string name, long userId, List<CQCode> customMessage)
 | name | 发送者名 |
 | userId | 发送者ID |
 | customMessage | 消息段 |
+| time | 消息段转发时间 |
 
 ## See Also
 
 * class [CQCode](../../Sora.Entities.CQCodes/CQCode.md)
+* class [CustomNode](../CustomNode.md)
+* namespace [Sora.Entities.CQCodes.CQCodeModel](../../Sora.md)
+
+---
+
+# CustomNode constructor (3 of 3)
+
+构造自定义节点
+
+```csharp
+public CustomNode(string name, long userId, string cqString, DateTimeOffset? time = default)
+```
+
+| parameter | description |
+| --- | --- |
+| name | 发送者名 |
+| userId | 发送者ID |
+| cqString | CQ码字符串格式 |
+| time | 消息段转发时间 |
+
+## See Also
+
 * class [CustomNode](../CustomNode.md)
 * namespace [Sora.Entities.CQCodes.CQCodeModel](../../Sora.md)
 
