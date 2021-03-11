@@ -10,6 +10,7 @@ public sealed class PrivateMessageEventArgs : BaseSoraEventArgs
 
 | name | description |
 | --- | --- |
+| [IsTemporaryMessage](PrivateMessageEventArgs/IsTemporaryMessage.md) { get; } | 是否为临时会话 |
 | [Message](PrivateMessageEventArgs/Message.md) { get; } | 消息内容 |
 | [Sender](PrivateMessageEventArgs/Sender.md) { get; } | 消息发送者实例 |
 | [SenderInfo](PrivateMessageEventArgs/SenderInfo.md) { get; } | 发送者信息 |

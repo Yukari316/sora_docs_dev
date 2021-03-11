@@ -11,6 +11,7 @@ public struct PrivateSenderInfo
 | name | description |
 | --- | --- |
 | [Age](PrivateSenderInfo/Age.md) { get; } | 年龄 |
+| [GroupId](PrivateSenderInfo/GroupId.md) { get; } | 来源群号 |
 | [Nick](PrivateSenderInfo/Nick.md) { get; } | 昵称 |
 | [Sex](PrivateSenderInfo/Sex.md) { get; } | 性别 |
 | [UserId](PrivateSenderInfo/UserId.md) { get; } | 发送者 QQ 号 |

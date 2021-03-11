@@ -18,7 +18,7 @@ public GroupCommand()
 构造方法
 
 ```csharp
-public GroupCommand(string command)
+public GroupCommand(string[] command)
 ```
 
 | parameter | description |

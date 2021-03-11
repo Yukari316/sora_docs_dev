@@ -18,7 +18,7 @@ public PrivateCommand()
 构造方法
 
 ```csharp
-public PrivateCommand(string command)
+public PrivateCommand(string[] command)
 ```
 
 | parameter | description |

@@ -18,7 +18,7 @@ protected Command()
 构造方法
 
 ```csharp
-protected Command(string command)
+protected Command(string[] commands)
 ```
 
 ## See Also

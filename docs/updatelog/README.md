@@ -1,5 +1,39 @@
 # 更新日志
 
+## v0.8.0
+
+调整 命名空间 Sora.EventArgs.WSServerEvent → Sora.EventArgs.WebsocketEvent
+
+## v0.7.1
+
+正向Websocket客户端取消占用检查
+
+优化 指令匹配方式 by  [XiaoHe321](https://github.com/xh321)
+
+## v0.7.0
+
+:::danger 注意
+此版本修改了大量的命名空间，请谨慎更新
+:::
+
+支持正向Websocket连接方式
+
+调整命名空间
+
+## v0.6.6
+
+增加 `API` [SendTemporaryMessage](../API/Sora.Entities.Base/SoraApi/SendTemporaryMessage.md)
+
+[PrivateSenderInfo](../API/Sora.Entities.Info/PrivateSenderInfo.md) 增加  `GroupId` 属性（此属性在由群聊发起的临时会话消息中有效）
+
+[PrivateMessageEventArgs](../API/Sora.EventArgs.SoraEvent/PrivateMessageEventArgs.md) 增加 `IsTemporaryMessage` 属性
+
+优化 指令构造方式
+
+## v0.6.5
+
+优化框架API层
+
 ## v0.6.4
 
 增加 简单的路由指令服务 [使用说明](../guide/command/README.md)

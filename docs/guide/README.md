@@ -9,12 +9,14 @@ next: ./gettingstart/
 
 如果觉得太无聊就跳过这一节吧！
 
+本教程只示范反向WS的使用方法，正向WS的使用方法和反向WS基本一致
+
 ~~反正就是介绍框架的，也没人会看就是了~~
 
 :::
 
 ::: warning 注意
-本框架是在[Go-Cqhttp](https://github.com/Mrs4s/go-cqhttp)(版本:[0.9.40](https://github.com/Mrs4s/go-cqhttp/releases/tag/v0.9.40))下进行调试的
+本框架是在[Go-Cqhttp](https://github.com/Mrs4s/go-cqhttp)(版本:[0.9.40-fix4](https://github.com/Mrs4s/go-cqhttp/releases/tag/v0.9.40-fix4))下进行调试的
 
 如使用其他平台可能会出现兼容性的问题
 :::

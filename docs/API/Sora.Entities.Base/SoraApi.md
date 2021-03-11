@@ -42,8 +42,8 @@ public sealed class SoraApi
 | [GetGroupSystemMsg](SoraApi/GetGroupSystemMsg.md)() | 获取群组系统消息 |
 | override [GetHashCode](SoraApi/GetHashCode.md)() | GetHashCode |
 | [GetImage](SoraApi/GetImage.md)(…) | 获取图片信息 |
+| [GetLoginInfo](SoraApi/GetLoginInfo.md)() | 获取登陆QQ的名字 |
 | [GetLoginUserId](SoraApi/GetLoginUserId.md)() | 获取登录账号的id |
-| [GetLoginUserName](SoraApi/GetLoginUserName.md)() | 获取登陆QQ的名字 |
 | [GetMessages](SoraApi/GetMessages.md)(…) | 获取群消息 |
 | [GetOnlineClients](SoraApi/GetOnlineClients.md)(…) | 获取当前账号在线客户端列表 |
 | [GetStatus](SoraApi/GetStatus.md)() | 获取客户端状态 |
@@ -60,6 +60,7 @@ public sealed class SoraApi
 | [SendGroupMessage](SoraApi/SendGroupMessage.md)(…) | 发送群聊消息 (2 methods) |
 | [SendGroupNotice](SoraApi/SendGroupNotice.md)(…) | 发送群公告 |
 | [SendPrivateMessage](SoraApi/SendPrivateMessage.md)(…) | 发送私聊消息 (2 methods) |
+| [SendTemporaryMessage](SoraApi/SendTemporaryMessage.md)(…) | 发起群临时会话（私聊） (2 methods) |
 | [SetEssenceMessage](SoraApi/SetEssenceMessage.md)(…) | 设置精华消息 |
 | [SetFriendAddRequest](SoraApi/SetFriendAddRequest.md)(…) | 处理加好友请求 |
 | [SetGroupAddRequest](SoraApi/SetGroupAddRequest.md)(…) | 处理加群请求/邀请 |

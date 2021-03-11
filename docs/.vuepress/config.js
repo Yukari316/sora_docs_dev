@@ -1,6 +1,6 @@
 module.exports = {
   title: 'Sora',
-  description: 'Just playing around',
+  description: '好耶',
   head: [
     ['link', { rel: 'icon', href: 'https://i.loli.net/2020/10/14/Q3NPTLuC4no16ye.png' }]
   ],

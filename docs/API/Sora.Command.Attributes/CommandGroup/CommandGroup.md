@@ -1,14 +1,10 @@
 # CommandGroup constructor
 
-构造方法
+The default constructor.
 
 ```csharp
-public CommandGroup(string groupName)
+public CommandGroup()
 ```
-
-| parameter | description |
-| --- | --- |
-| groupName | 分组名 |
 
 ## See Also
 

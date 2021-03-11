@@ -2,6 +2,8 @@
 
 获取登录账号的id
 
+使用正向ws链接时此方法在触发lifecycle事件前失效
+
 ```csharp
 public long GetLoginUserId()
 ```

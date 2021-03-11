@@ -11,8 +11,7 @@ public class CommandGroup : Attribute
 
 | name | description |
 | --- | --- |
-| [CommandGroup](CommandGroup/CommandGroup.md)(…) | 构造方法 |
-| [GroupName](CommandGroup/GroupName.md) { get; } | 指令组名 |
+| [CommandGroup](CommandGroup/CommandGroup.md)() | The default constructor. |
 
 ## See Also
 

@@ -3,7 +3,7 @@
 发送合并转发(群) 但好像不能用的样子
 
 ```csharp
-public ValueTask<APIStatusType> SendGroupForwardMsg(List<CustomNode> nodeList)
+public ValueTask<APIStatusType> SendGroupForwardMsg(IEnumerable<CustomNode> nodeList)
 ```
 
 | parameter | description |
