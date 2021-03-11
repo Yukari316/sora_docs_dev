@@ -6,9 +6,9 @@
 
 ## v0.7.1
 
-正向Websocket客户端取消占用检查
+优化 正向Websocket客户端取消占用检查 [#17](https://github.com/Yukari316/Sora/issues/17)
 
-优化 指令匹配方式 by  [XiaoHe321](https://github.com/xh321)
+优化 指令匹配方式 by [XiaoHe321](https://github.com/xh321)
 
 ## v0.7.0
 
@@ -16,9 +16,11 @@
 此版本修改了大量的命名空间，请谨慎更新
 :::
 
-支持正向Websocket连接方式
+增加 正向Websocket连接方式
 
-调整命名空间
+调整 命名空间
+
+go-cqhttp版本:[go-cqhttp-v0.9.40-fix4](https://github.com/Mrs4s/go-cqhttp/releases/tag/v0.9.40-fix4)
 
 ## v0.6.6
 
@@ -38,9 +40,9 @@
 
 增加 简单的路由指令服务 [使用说明](../guide/command/README.md)
 
-增加 路由指令服务的使能选项 by [Kengxxiao](https://github.com/Kengxxiao)
+增加 路由指令服务的使能选项 by [Kengxxiao](https://github.com/Kengxxiao) [#16](https://github.com/Yukari316/Sora/pull/16)
 
-优化 转发消息的 [CustomNode](../API/Sora.Entities.CQCodes.CQCodeModel/CustomNode.md) 兼容字符串格式和自定义时间 by [Kengxxiao](https://github.com/Kengxxiao)
+优化 转发消息的 [CustomNode](../API/Sora.Entities.CQCodes.CQCodeModel/CustomNode.md) 兼容字符串格式和自定义时间 by [Kengxxiao](https://github.com/Kengxxiao) [#15](https://github.com/Yukari316/Sora/pull/15)
 
 ## v0.6.3
 
@@ -112,7 +114,7 @@
 
 增加Event [OnEssenceChange](../API/Sora.Server.ServerInterface/EventInterface/OnEssenceChange.md)
 
-音乐分享类型删除 `虾米音乐` by [Kengxxiao](https://github.com/Kengxxiao)
+音乐分享类型删除 `虾米音乐` by [Kengxxiao](https://github.com/Kengxxiao) [#11](https://github.com/Yukari316/Sora/pull/11)
 
 go-cqhttp版本:[go-cqhttp-v0.9.40](https://github.com/Mrs4s/go-cqhttp/releases/tag/v0.9.40)
 
@@ -172,7 +174,7 @@ API [GetMessages](../API/Sora.Entities.Base/SoraApi/GetMessages.md) 增加 [Grou
 
 删除CQ码 [CQImage](../API/Sora.Entities.CQCodes/CQCode/CQImage.md) 的闪照选项
 
-修改事件参数 [GroupMemberChangeEventArgs](../API/Sora.EventArgs.SoraEvent/GroupMemberChangeEventArgs.md) 的SubType属性为公有属性
+修改事件参数 [GroupMemberChangeEventArgs](../API/Sora.EventArgs.SoraEvent/GroupMemberChangeEventArgs.md) 的SubType属性为公有属性 [#9](https://github.com/Yukari316/Sora/issues/9)
 
 go-cqhttp版本:[go-cqhttp-v0.9.38](https://github.com/Mrs4s/go-cqhttp/releases/tag/v0.9.38)
 
@@ -224,11 +226,11 @@ go-cqhttp版本:[go-cqhttp-v0.9.38](https://github.com/Mrs4s/go-cqhttp/releases/
 
 优化连接管理器
 
-优化消息处理方式 by [wuyu8512](https://github.com/wuyu8512)
+优化消息处理方式 by [wuyu8512](https://github.com/wuyu8512) [#4](https://github.com/Yukari316/Sora/pull/4)
 
 ## v0.4.7
 
-修正私聊API中的错误逻辑 by [wuyu8512](https://github.com/wuyu8512)
+修正私聊API中的错误逻辑 by [wuyu8512](https://github.com/wuyu8512) [#3](https://github.com/Yukari316/Sora/pull/3)
 
 ## v0.4.6
 
