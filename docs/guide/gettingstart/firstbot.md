@@ -19,10 +19,10 @@ title: 我想加点简单好玩的功能
 在bot服务器实例和延时函数中添加一个收到消息事件的回调处理代码
 
 ```csharp
-server.Event.OnGroupMessage += async (sender, eventArgs) =>
-                                           {
-                                               
-                                           };
+service.Event.OnGroupMessage += async (msgType, eventArgs) =>
+                                {
+                                    
+                                };
 ```
 
 ::: tip 小提示
@@ -47,15 +47,15 @@ await eventArgs.Repeat();
 static async Task Main(string[] args)
 {
     //初始化服务器实例
-    SoraWSServer server = new SoraWSServer(new ServerConfig{Port = 9200});
+    ISoraService service = new SoraWebsocketClient(new ClientConfig());
     //群消息接收回调
-    server.Event.OnGroupMessage += async (sender, eventArgs) =>
+    service.Event.OnGroupMessage += async (sender, eventArgs) =>
                                     {
                                         //最简单的复读（x
                                         await eventArgs.Repeat();
                                     };
     //启动服务器
-    await server.StartServer();
+    await service.StartServer();
 }
 ```
 
@@ -77,15 +77,15 @@ await eventArgs.SourceGroup.SendGroupMessage(eventArgs.Message.MessageList);
 static async Task Main(string[] args)
 {
     //初始化服务器实例
-    SoraWSServer server = new SoraWSServer(new ServerConfig{Port = 9200});
+    ISoraService service = new SoraWebsocketServer(new ServerConfig());
     //群消息接收回调
-    server.Event.OnGroupMessage += async (sender, eventArgs) =>
+    service.Event.OnGroupMessage += async (sender, eventArgs) =>
                                     {
                                         //发送群消息(List消息段)
                                         await eventArgs.SourceGroup.SendGroupMessage(eventArgs.Message.MessageList);
                                     };
     //启动服务器
-    await server.StartServer();
+    await service.StartServer();
 }
 ```
 

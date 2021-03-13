@@ -22,6 +22,12 @@ title: 使用特性指令
 
 ## 使用方法
 
+::: tip 小提示
+如果注册指令的方法为非静态方法，则执行实例将会在初始化时由框架创建并保存
+
+这意味着在多次调用指令时，负责执行的指令的实例将一直都会是初始化时所创建的实例，其中的属性值将会是上次执行结束后的值
+:::
+
 编写以下指令
 
 ### 群聊指令
@@ -55,3 +61,5 @@ public class Commands
 启动服务器后指令服务就会自动注册有[`CommandGroup`](../../API/Sora.Command.Attributes/CommandGroup.md)特性的类下的所有指令
 
 **没有[`CommandGroup`](../../API/Sora.Command.Attributes/CommandGroup.md)特性的类将会被忽略**
+
+自带的指令系统是一个十分简单且轻量的指令系统，如果想要使用支持IOC或者更加复杂的指令管理系统，这里推荐使用由[Eric_Lian](https://github.com/ExerciseBook)编写的指令框架[OneBot-Framework](https://github.com/ParaParty/OneBot-Framework)

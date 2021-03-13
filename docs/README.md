@@ -12,6 +12,6 @@ features:
   details: 使用异步进行消息解析和I/O操作，支持正向Websocket和反向Websocket的连接方式
 - title: 灵活
   details: 拥有丰富的事件回调接口，并扩展了许多实例与快捷方法(包括go-cqhttp的扩展API)
-footer: AGPL 3.0 Licensed | Copyright 2021 Yukari316 | 文档版本:35 | 框架版本:0.8.0
+footer: AGPL 3.0 Licensed | Copyright 2021 Yukari316 | 文档版本:36 | 框架版本:0.8.0
 ---
 

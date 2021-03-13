@@ -44,7 +44,7 @@ module.exports = {
           children: [
             '/guide/gettingstart/',
             '/guide/gettingstart/changemainfunction',
-            '/guide/gettingstart/setupserver',
+            '/guide/gettingstart/setupservice',
             '/guide/gettingstart/firstbot'
           ]
         },
