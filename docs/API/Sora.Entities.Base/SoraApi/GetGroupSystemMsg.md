@@ -18,7 +18,7 @@ public ValueTask<(APIStatusType apiStatus, List<GroupRequestInfo> joinList, List
 ## See Also
 
 * enum [APIStatusType](../../Sora.Enumeration.ApiType/APIStatusType.md)
-* class [GroupRequestInfo](../../Sora.Entities.Info/GroupRequestInfo.md)
+* struct [GroupRequestInfo](../../Sora.Entities.Info/GroupRequestInfo.md)
 * class [SoraApi](../SoraApi.md)
 * namespace [Sora.Entities.Base](../../Sora.md)
 

@@ -1,14 +1,31 @@
 # Sora assembly
 
-## Sora.Command.Attributes namespace
+## Sora namespace
 
 | public type | description |
 | --- | --- |
-| abstract class [Command](Sora.Command.Attributes/Command.md) | 指令 |
-| class [CommandGroup](Sora.Command.Attributes/CommandGroup.md) | 指令组 |
-| class [GroupCommand](Sora.Command.Attributes/GroupCommand.md) | 群组指令 |
-| class [PrivateCommand](Sora.Command.Attributes/PrivateCommand.md) | 私聊指令 |
-| class [Reviewed](Sora.Command.Attributes/Reviewed.md) | 代码审核特性类 |
+| static class [Helper](Sora/Helper.md) | 通用帮助类 |
+
+## Sora.Attributes namespace
+
+| public type | description |
+| --- | --- |
+| class [Reviewed](Sora.Attributes/Reviewed.md) | 代码审核特性类 |
+
+## Sora.Attributes.Command namespace
+
+| public type | description |
+| --- | --- |
+| abstract class [Command](Sora.Attributes.Command/Command.md) | 指令 |
+| class [CommandGroup](Sora.Attributes.Command/CommandGroup.md) | 指令组 |
+| class [GroupCommand](Sora.Attributes.Command/GroupCommand.md) | 群组指令 |
+| class [PrivateCommand](Sora.Attributes.Command/PrivateCommand.md) | 私聊指令 |
+
+## Sora.Command namespace
+
+| public type | description |
+| --- | --- |
+| class [CommandManager](Sora.Command/CommandManager.md) | 特性指令管理器 |
 
 ## Sora.Entities namespace
 
@@ -70,9 +87,9 @@
 | struct [GroupFolderInfo](Sora.Entities.Info/GroupFolderInfo.md) | 群文件夹信息 |
 | struct [GroupInfo](Sora.Entities.Info/GroupInfo.md) | 群信息 |
 | struct [GroupMemberInfo](Sora.Entities.Info/GroupMemberInfo.md) | 群成员信息 |
-| class [GroupRequestInfo](Sora.Entities.Info/GroupRequestInfo.md) | 群组请求信息 |
+| struct [GroupRequestInfo](Sora.Entities.Info/GroupRequestInfo.md) | 群组请求信息 |
 | struct [GroupSenderInfo](Sora.Entities.Info/GroupSenderInfo.md) | 群组消息发送者 |
-| class [OfflineFileInfo](Sora.Entities.Info/OfflineFileInfo.md) | 离线文件信息 |
+| struct [OfflineFileInfo](Sora.Entities.Info/OfflineFileInfo.md) | 离线文件信息 |
 | struct [PrivateSenderInfo](Sora.Entities.Info/PrivateSenderInfo.md) | 私聊消息发送者 |
 | struct [UploadFileInfo](Sora.Entities.Info/UploadFileInfo.md) | 上传文件的信息 |
 | struct [UserInfo](Sora.Entities.Info/UserInfo.md) | 用户信息 |
@@ -146,11 +163,19 @@
 | class [SoraServerIsRuningException](Sora.Exceptions/SoraServerIsRuningException.md) | 服务器已经在运行错误 |
 | class [WebSocketClientException](Sora.Exceptions/WebSocketClientException.md) | WebSocket客户端错误 |
 
+## Sora.Interfaces namespace
+
+| public type | description |
+| --- | --- |
+| interface [ISoraConfig](Sora.Interfaces/ISoraConfig.md) | Sora 配置文件 |
+| interface [ISoraService](Sora.Interfaces/ISoraService.md) | Sora 连接服务 |
+
 ## Sora.Net namespace
 
 | public type | description |
 | --- | --- |
 | class [ConnectionManager](Sora.Net/ConnectionManager.md) | 服务器连接管理器 管理服务器链接和心跳包 |
+| class [SoraServiceFactory](Sora.Net/SoraServiceFactory.md) | Sora 实例工厂 |
 | class [SoraWebsocketClient](Sora.Net/SoraWebsocketClient.md) | Sora正向WS链接客户端 |
 | class [SoraWebsocketServer](Sora.Net/SoraWebsocketServer.md) | Sora服务器实例 |
 

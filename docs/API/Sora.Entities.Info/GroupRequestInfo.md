@@ -1,18 +1,17 @@
-# GroupRequestInfo class
+# GroupRequestInfo structure
 
 群组请求信息
 
 通过获取群系统消息API获得
 
 ```csharp
-public class GroupRequestInfo
+public struct GroupRequestInfo
 ```
 
 ## Public Members
 
 | name | description |
 | --- | --- |
-| [GroupRequestInfo](GroupRequestInfo/GroupRequestInfo.md)() | The default constructor. |
 | [ActorUserId](GroupRequestInfo/ActorUserId.md) { get; } | 处理者UID |
 | [Checked](GroupRequestInfo/Checked.md) { get; } | 请求是否已经被处理 |
 | [GroupId](GroupRequestInfo/GroupId.md) { get; } | 请求源群号 |

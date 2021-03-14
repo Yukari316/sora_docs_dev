@@ -1,16 +1,15 @@
-# OfflineFileInfo class
+# OfflineFileInfo structure
 
 离线文件信息
 
 ```csharp
-public class OfflineFileInfo
+public struct OfflineFileInfo
 ```
 
 ## Public Members
 
 | name | description |
 | --- | --- |
-| [OfflineFileInfo](OfflineFileInfo/OfflineFileInfo.md)() | The default constructor. |
 | [Name](OfflineFileInfo/Name.md) { get; } | 文件名 |
 | [Size](OfflineFileInfo/Size.md) { get; } | 文件大小 |
 | [Url](OfflineFileInfo/Url.md) { get; } | 文件链接 |

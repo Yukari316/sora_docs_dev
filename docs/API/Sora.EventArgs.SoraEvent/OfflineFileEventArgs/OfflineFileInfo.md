@@ -8,7 +8,7 @@ public OfflineFileInfo OfflineFileInfo { get; }
 
 ## See Also
 
-* class [OfflineFileInfo](../../Sora.Entities.Info/OfflineFileInfo.md)
+* struct [OfflineFileInfo](../../Sora.Entities.Info/OfflineFileInfo.md)
 * class [OfflineFileEventArgs](../OfflineFileEventArgs.md)
 * namespace [Sora.EventArgs.SoraEvent](../../Sora.md)
 
