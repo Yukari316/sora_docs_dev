@@ -23,19 +23,24 @@ C#9 新特性介绍文档:[C# Language Version History](https://github.com/dotne
 示例代码：
 
 ```csharp
+using Sora.Net;
+using Sora.OnebotModel;
 using System.Threading.Tasks;
-using Sora;
+using YukariToolBox.Extensions;
+using YukariToolBox.FormatLog;
 
-//初始化服务器实例
-SoraWSServer server = new SoraWSServer(new ServerConfig());
-//群消息接收回调
-server.Event.OnGroupMessage += async (sender, eventArgs) =>
-{
-	//最简单的复读（x
-    await eventArgs.Repeat();
-};
-//启动服务器
-await server.StartServer();
+//实例化Sora服务
+var service = SoraServiceFactory.CreateInstance(new ServerConfig());
+
+//群聊消息事件
+service.Event.OnGroupMessage += async (msgType, eventArgs) =>
+                                {
+                                    await eventArgs.SourceGroup.SendGroupMessage("好耶");
+                                };
+
+//启动服务并捕捉错误
+await service.StartService().RunCatch(e => Log.Error("Sora Service", Log.ErrorLogBuilder(e)));
+await Task.Delay(-1);
 ```
 
 仅此而已（挠头

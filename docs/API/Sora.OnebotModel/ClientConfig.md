@@ -19,6 +19,7 @@ public class ClientConfig : ISoraConfig
 | [HeartBeatTimeOut](ClientConfig/HeartBeatTimeOut.md) { get; set; } | 心跳包超时设置(秒) |
 | [Host](ClientConfig/Host.md) { get; set; } | 服务器地址 |
 | [Port](ClientConfig/Port.md) { get; set; } | 服务器端口 |
+| [ReconnectTimeOut](ClientConfig/ReconnectTimeOut.md) { get; set; } | 丢失连接时的重连超时 |
 | [UniversalPath](ClientConfig/UniversalPath.md) { get; set; } | Universal请求路径 |
 
 ## See Also

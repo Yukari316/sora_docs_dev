@@ -11,6 +11,7 @@ public class SoraServiceFactory
 | name | description |
 | --- | --- |
 | [SoraServiceFactory](SoraServiceFactory/SoraServiceFactory.md)() | The default constructor. |
+| static [CreateInstance](SoraServiceFactory/CreateInstance.md)(…) | 创建 Sora 服务实例 |
 
 ## See Also
 

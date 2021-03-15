@@ -15,9 +15,11 @@ title: 创建一个最简单的Bot
 添加以下代码的引用
 
 ```csharp
-using Sora.Interfaces;
 using Sora.Net;
 using Sora.OnebotModel;
+using System.Threading.Tasks;
+using YukariToolBox.Extensions;
+using YukariToolBox.FormatLog;
 ```
 
 
@@ -25,9 +27,9 @@ using Sora.OnebotModel;
 ## 创建一个服务端实例
 
 ```csharp
-//初始化Sora服务实例
 //默认端口为8080
-ISoraService service = new SoraWebsocketServer(new ServerConfig());
+//实例化Sora服务器
+var service = SoraServiceFactory.CreateInstance(new ServerConfig());
 ```
 
 这个时候你还需要启动服务器才能让服务器跑起来
@@ -35,7 +37,9 @@ ISoraService service = new SoraWebsocketServer(new ServerConfig());
 在Main函数中添加以下代码来启动服务器
 
 ```csharp
-await service.StartService();
+//启动服务并捕捉错误
+await service.StartService().RunCatch(e => Log.Error("Sora Service", Log.ErrorLogBuilder(e)));
+await Task.Delay(-1);
 ```
 
 ## 跑起来试试看

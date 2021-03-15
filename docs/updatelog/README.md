@@ -1,12 +1,44 @@
 # 更新日志
 
+## v0.9.1
+
+优化 API请求处理 by [b11p](https://github.com/b11p) [#22](https://github.com/Yukari316/Sora/pull/22)
+
+优化 实例工厂
+
+优化 [ISoraConfig](../API/Sora.Interfaces/ISoraConfig.md) 添加许多公共参数
+
+优化 Websocket参数类型 将时间参数修改为`TimeSpan`
+
+优化 Websocket连接管理
+
+修复 `正向Websocket`路径请求
+
+## v0.9.0
+
+添加 Sora实例工厂 [SoraServiceFactory](../API/Sora.Net/SoraServiceFactory.md) by [ExerciseBook](https://github.com/ExerciseBook) [#18](https://github.com/Yukari316/Sora/pull/18)
+
+添加 接口 [ISoraConfig](../API/Sora.Interfaces/ISoraConfig.md) [ISoraService](../API/Sora.Interfaces/ISoraService.md) 整合服务端/客户端 by [ExerciseBook](https://github.com/ExerciseBook) [#18](https://github.com/Yukari316/Sora/pull/18)
+
+优化 [CommandManager](../API/Sora.Command/CommandManager.md) 改为公有 [#20](https://github.com/Yukari316/Sora/issues/20)
+
+优化 指令的实例创建
+
+优化 指令的初始化和匹配
+
+优化 特性指令处理 by [XiaoHe321](https://github.com/xh321)
+
+优化 指令触发时的Log [#19](https://github.com/Yukari316/Sora/issues/19)
+
+调整 命名空间 `Sora.Command.Attributes` → `Sora.Attributes.Command`
+
 ## v0.8.0
 
-调整 命名空间 Sora.EventArgs.WSServerEvent → Sora.EventArgs.WebsocketEvent
+调整 命名空间 `Sora.EventArgs.WSServerEvent` → `Sora.EventArgs.WebsocketEvent`
 
 ## v0.7.1
 
-优化 正向Websocket客户端取消占用检查 [#17](https://github.com/Yukari316/Sora/issues/17)
+优化 `正向Websocket`取消占用检查 [#17](https://github.com/Yukari316/Sora/issues/17)
 
 优化 指令匹配方式 by [XiaoHe321](https://github.com/xh321)
 
@@ -16,7 +48,7 @@
 此版本修改了大量的命名空间，请谨慎更新
 :::
 
-增加 正向Websocket连接方式
+增加 `正向Websocket`连接方式
 
 调整 命名空间
 

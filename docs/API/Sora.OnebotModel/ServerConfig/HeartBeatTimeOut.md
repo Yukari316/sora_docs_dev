@@ -5,7 +5,7 @@
 此值请不要小于或等于客户端心跳包的发送间隔
 
 ```csharp
-public uint HeartBeatTimeOut { get; set; }
+public TimeSpan HeartBeatTimeOut { get; set; }
 ```
 
 ## See Also

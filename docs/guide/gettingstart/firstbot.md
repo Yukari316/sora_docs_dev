@@ -47,15 +47,16 @@ await eventArgs.Repeat();
 static async Task Main(string[] args)
 {
     //初始化服务器实例
-    ISoraService service = new SoraWebsocketClient(new ClientConfig());
+    var service = SoraServiceFactory.CreateInstance(new ServerConfig());
     //群消息接收回调
     service.Event.OnGroupMessage += async (sender, eventArgs) =>
                                     {
                                         //最简单的复读（x
                                         await eventArgs.Repeat();
                                     };
-    //启动服务器
-    await service.StartServer();
+    //启动服务并捕捉错误
+	await service.StartService().RunCatch(e => Log.Error("Sora Service", Log.ErrorLogBuilder(e)));
+	await Task.Delay(-1);
 }
 ```
 
@@ -77,15 +78,16 @@ await eventArgs.SourceGroup.SendGroupMessage(eventArgs.Message.MessageList);
 static async Task Main(string[] args)
 {
     //初始化服务器实例
-    ISoraService service = new SoraWebsocketServer(new ServerConfig());
+    var service = SoraServiceFactory.CreateInstance(new ServerConfig());
     //群消息接收回调
     service.Event.OnGroupMessage += async (sender, eventArgs) =>
                                     {
                                         //发送群消息(List消息段)
                                         await eventArgs.SourceGroup.SendGroupMessage(eventArgs.Message.MessageList);
                                     };
-    //启动服务器
-    await service.StartServer();
+    //启动服务并捕捉错误
+	await service.StartService().RunCatch(e => Log.Error("Sora Service", Log.ErrorLogBuilder(e)));
+	await Task.Delay(-1);
 }
 ```
 
