@@ -1,5 +1,27 @@
 # 更新日志
 
+## v0.9.6
+
+增加 消息段 `List<CQCode>` 扩展方法 [AddText](../API/Sora/Helper/AddText.md) 用于快速添加纯文本消息
+
+## v0.9.5
+
+优化 `正向Websocket` 的消息发送方式
+
+## v0.9.4
+
+优化 指令触发后的处理逻辑 by [XiaoHe321](https://github.com/xh321)
+
+优化 框架内可空类型的数据处理
+
+## v0.9.3
+
+优化 `API层` 的响应和回调，加快了响应速度
+
+## v0.9.2
+
+修复 指令在触发后不再触发 `Event` 的问题
+
 ## v0.9.1
 
 优化 API请求处理 by [b11p](https://github.com/b11p) [#22](https://github.com/Yukari316/Sora/pull/22)
