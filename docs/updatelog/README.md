@@ -1,5 +1,9 @@
 # 更新日志
 
+## v0.9.7
+
+ 修复 静态方法无法被 `指令管理` 触发的问题
+
 ## v0.9.6
 
 增加 消息段 `List<CQCode>` 扩展方法 [AddText](../API/Sora/Helper/AddText.md) 用于快速添加纯文本消息
