@@ -11,7 +11,8 @@ public enum MatchType
 | name | value | description |
 | --- | --- | --- |
 | Full | `0` | 全字匹配 |
-| Regex | `1` | 正则 |
+| Regex | `1` | 正则匹配 |
+| KeyWord | `2` | 关键字匹配 |
 
 ## See Also
 

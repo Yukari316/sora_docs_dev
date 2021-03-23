@@ -1,6 +1,6 @@
 # EventInterface.OnClientConnect event
 
-客户端链接完成事件
+onebot链接完成事件
 
 ```csharp
 public event EventAsyncCallBackHandler<ConnectEventArgs> OnClientConnect;

@@ -11,7 +11,7 @@ public class EventInterface
 | name | description |
 | --- | --- |
 | [CommandManager](EventInterface/CommandManager.md) { get; } | 特性指令管理器 |
-| event [OnClientConnect](EventInterface/OnClientConnect.md) | 客户端链接完成事件 |
+| event [OnClientConnect](EventInterface/OnClientConnect.md) | onebot链接完成事件 |
 | event [OnClientStatusChangeEvent](EventInterface/OnClientStatusChangeEvent.md) | 其他客户端在线状态变更事件 |
 | event [OnEssenceChange](EventInterface/OnEssenceChange.md) | 精华消息变动事件 |
 | event [OnFileUpload](EventInterface/OnFileUpload.md) | 群文件上传事件 |

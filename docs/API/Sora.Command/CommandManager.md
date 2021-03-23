@@ -10,6 +10,8 @@ public class CommandManager
 
 | name | description |
 | --- | --- |
+| [ServiceIsRunning](CommandManager/ServiceIsRunning.md) { get; } | 指令服务正常运行标识 |
+| [GetInstance&lt;T&gt;](CommandManager/GetInstance.md)(…) | 获取已注册过的实例 |
 | [MappingCommands](CommandManager/MappingCommands.md)(…) | 自动注册所有指令 |
 
 ## See Also
