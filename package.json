@@ -12,7 +12,9 @@
     "build": "vuepress build docs"
   },
   "dependencies": {
+    "is-svg": "4.3.1",
     "moment": "^2.29.1",
-    "moment-timezone": "^0.5.31"
+    "moment-timezone": "^0.5.31",
+    "ssri": "8.0.1"
   }
 }
