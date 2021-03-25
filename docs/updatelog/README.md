@@ -1,5 +1,21 @@
 # 更新日志
 
+## v1.0.0-RC.1
+
+::: tip 小提示
+此版本为go-cqhttp同步更新的RC版本，和上一版本没有太大区别
+
+同时该版本也将作为第一个LTS版本发布
+
+此版本后的版本号命名规则改为 [SemVer](https://semver.org/lang/zh-CN/) 规范
+:::
+
+优化 部分debug日志 by [nidbCN](https://github.com/nidbCN)
+
+依赖更新 [Newtonsoft.Json](https://www.newtonsoft.com/json) `12.0.3` → `13.0.1`
+
+go-cqhttp版本:[go-cqhttp-v1.0.0-alpha1](https://github.com/Mrs4s/go-cqhttp/releases/tag/v1.0.0-alpha1)
+
 ## v0.9.9
 
 修复 获取 `登录账号UID` 可能为-1的问题
