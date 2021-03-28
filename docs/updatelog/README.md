@@ -1,6 +1,18 @@
 # 更新日志
 
-## v1.0.0-RC.1
+## v1.0.0-rc.2
+
+增加 在`GroupMessageEventArgs`和`PrivateMessageEventArgs` 中添加方法 [WaitForNextMessageAsync](PrivateMessageEventArgs/WaitForNextMessageAsync.md) 用于连续对话
+
+增加 在`GroupMessageEventArgs`和`PrivateMessageEventArgs` 中添加属性 [IsContinueEventChain](BaseSoraEventArgs/IsContinueEventChain.md) 以代替指令特性中的 `TriggerEventAfterCommand`
+
+增加 在`指令特性`中添加优先级字段(当指令同时被触发时生效) [Priority](Command/Priority.md)
+
+删除 `指令特性`的 `TriggerEventAfterCommand` 属性
+
+优化 静态资源和连接管理
+
+## v1.0.0-rc.1
 
 ::: tip 小提示
 此版本为go-cqhttp同步更新的RC版本，和上一版本没有太大区别

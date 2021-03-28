@@ -21,6 +21,7 @@ public sealed class GroupMessageEventArgs : BaseSoraEventArgs
 | [RecallSourceMessage](GroupMessageEventArgs/RecallSourceMessage.md)() | 撤回发送者消息 只有在管理员以上权限才有效 |
 | [Repeat](GroupMessageEventArgs/Repeat.md)() | 没什么用的复读功能 |
 | [Reply](GroupMessageEventArgs/Reply.md)(…) | 快速回复 |
+| [WaitForNextMessageAsync](GroupMessageEventArgs/WaitForNextMessageAsync.md)(…) | 等待下一条消息触发 |
 
 ## See Also
 

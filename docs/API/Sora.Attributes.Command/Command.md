@@ -14,7 +14,7 @@ public abstract class Command : Attribute
 | [CommandExpressions](Command/CommandExpressions.md) { get; set; } | 正则指令表达式 |
 | [Description](Command/Description.md) { get; set; } | 指令描述 |
 | [MatchType](Command/MatchType.md) { get; set; } | 匹配类型 |
-| [TriggerEventAfterCommand](Command/TriggerEventAfterCommand.md) { get; set; } | 是否在指令后触发事件 |
+| [Priority](Command/Priority.md) { get; set; } | 优先级 |
 
 ## Protected Members
 
