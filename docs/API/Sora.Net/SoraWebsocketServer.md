@@ -10,7 +10,6 @@ public sealed class SoraWebsocketServer : IDisposable, ISoraService
 
 | name | description |
 | --- | --- |
-| [SoraWebsocketServer](SoraWebsocketServer/SoraWebsocketServer.md)(…) | 创建一个反向WS服务端 |
 | [ConnManager](SoraWebsocketServer/ConnManager.md) { get; } | 服务器连接管理器 |
 | [Event](SoraWebsocketServer/Event.md) { get; } | 事件接口 |
 | [Dispose](SoraWebsocketServer/Dispose.md)() | 释放资源 |

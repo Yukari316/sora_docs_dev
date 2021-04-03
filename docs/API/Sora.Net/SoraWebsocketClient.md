@@ -10,7 +10,6 @@ public class SoraWebsocketClient : IDisposable, ISoraService
 
 | name | description |
 | --- | --- |
-| [SoraWebsocketClient](SoraWebsocketClient/SoraWebsocketClient.md)(…) | 创建一个正向WS客户端 |
 | [ConnManager](SoraWebsocketClient/ConnManager.md) { get; } | 服务器连接管理器 |
 | [Event](SoraWebsocketClient/Event.md) { get; } | 事件接口 |
 | [Dispose](SoraWebsocketClient/Dispose.md)() | 释放资源 |

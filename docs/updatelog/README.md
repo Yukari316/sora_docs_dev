@@ -1,12 +1,54 @@
 # 更新日志
 
+## v1.0.0-rc.3
+
+:::danger 警告
+此版本将不兼容旧版
+:::
+
+增加 消息段实例 [MessageBody](../API/Sora.Entities/MessageBody.md)
+
+增加 [Command](../API/Sora.Attributes.Command/Command.md) 增加设置项 [RegexOptions](../API/Sora.Attributes.Command/Command/RegexOptions.md)
+
+增加 [MessageBody](../API/Sora.Entities/MessageBody.md) 和 [CQCode](../API/Sora.Entities.MessageElement/CQCode.md) 的运算重载/隐式转换/扩展方法，用于构建消息段
+
+增加 `int`/`long` 扩展方法 [At](../API/Sora.Entities.MessageElement/CQCodes/At.md) 用于直接构造CQ码
+
+```csharp
+//示例
+MessageBody message1 = "好耶";
+MessageBody message2 = "坏耶" + 100000.At() + CQCodes.CQFace(1);
+```
+
+删除 `AddText` 方法
+
+删除 [SoraWebsocketClient](../API/Sora.Net/SoraWebsocketClient.md) 和 [SoraWebsocketServer](../API/Sora.Net/SoraWebsocketServer.md) 的构造方法
+
+优化 指令执行类型判断
+
+调整 [Message](../API/Sora.Entities/Message.md) 消息实体从 `MessageList` 改为 `MessageBody`
+
+调整 [CQCode](../API/Sora.Entities.MessageElement/CQCode.md) 从 `class` 改为 `struct`
+
+调整 [CQCode](../API/Sora.Entities.MessageElement/CQCode.md) 的所有构建方法移动至 [CQCodes](../API/Sora.Entities.MessageElement/CQCodes.md)
+
+调整 命名空间 `Sora.Entities.CQCodes` → `Sora.Entities.MessageElement`
+
+调整 命名空间 `Sora.Entities.CQCodes.CQCodeModel` → `Sora.Entities.MessageElement.CQModel`
+
+调整 命名 `CQFunction` → `CQType` , `CQData` → `DataObject`
+
 ## v1.0.0-rc.2
 
-增加 在`GroupMessageEventArgs`和`PrivateMessageEventArgs` 中添加方法 [WaitForNextMessageAsync](PrivateMessageEventArgs/WaitForNextMessageAsync.md) 用于连续对话
+:::danger 警告
+此版本将不兼容旧版
+:::
 
-增加 在`GroupMessageEventArgs`和`PrivateMessageEventArgs` 中添加属性 [IsContinueEventChain](BaseSoraEventArgs/IsContinueEventChain.md) 以代替指令特性中的 `TriggerEventAfterCommand`
+增加 在`GroupMessageEventArgs`和`PrivateMessageEventArgs` 中添加方法 [WaitForNextMessageAsync](../API/Sora.EventArgs.SoraEvent/PrivateMessageEventArgs/WaitForNextMessageAsync.md) 用于连续对话
 
-增加 在`指令特性`中添加优先级字段(当指令同时被触发时生效) [Priority](Command/Priority.md)
+增加 在`GroupMessageEventArgs`和`PrivateMessageEventArgs` 中添加属性 [IsContinueEventChain](../API/Sora.EventArgs.SoraEvent/BaseSoraEventArgs/IsContinueEventChain.md) 以代替指令特性中的 `TriggerEventAfterCommand`
+
+增加 在`指令特性`中添加优先级字段(当指令同时被触发时生效) [Priority](../API/Sora.Attributes.Command/Command/Priority.md)
 
 删除 `指令特性`的 `TriggerEventAfterCommand` 属性
 

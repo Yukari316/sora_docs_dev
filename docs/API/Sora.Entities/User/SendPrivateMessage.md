@@ -19,7 +19,7 @@ public ValueTask<(APIStatusType apiStatus, int messageId)> SendPrivateMessage(Li
 ## See Also
 
 * enum [APIStatusType](../../Sora.Enumeration.ApiType/APIStatusType.md)
-* class [CQCode](../../Sora.Entities.CQCodes/CQCode.md)
+* struct [CQCode](../../Sora.Entities.MessageElement/CQCode.md)
 * class [User](../User.md)
 * namespace [Sora.Entities](../../Sora.md)
 

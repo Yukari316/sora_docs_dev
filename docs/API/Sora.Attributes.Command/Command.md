@@ -15,6 +15,7 @@ public abstract class Command : Attribute
 | [Description](Command/Description.md) { get; set; } | 指令描述 |
 | [MatchType](Command/MatchType.md) { get; set; } | 匹配类型 |
 | [Priority](Command/Priority.md) { get; set; } | 优先级 |
+| [RegexOptions](Command/RegexOptions.md) { get; set; } | 正则匹配选项 |
 
 ## Protected Members
 

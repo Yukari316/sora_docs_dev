@@ -10,7 +10,6 @@ public static class Helper
 
 | name | description |
 | --- | --- |
-| static [AddText](Helper/AddText.md)(…) | 添加纯文本消息段 |
 | static [CheckReviewed](Helper/CheckReviewed.md)() | 仅用于项目组内部的代码审查 |
 
 ## See Also

@@ -20,7 +20,7 @@ public ValueTask<(APIStatusType apiStatus, List<Node> nodeArray)> GetForwardMess
 ## See Also
 
 * enum [APIStatusType](../../Sora.Enumeration.ApiType/APIStatusType.md)
-* struct [Node](../../Sora.Entities.CQCodes.CQCodeModel/Node.md)
+* struct [Node](../../Sora.Entities.MessageElement.CQModel/Node.md)
 * class [SoraApi](../SoraApi.md)
 * namespace [Sora.Entities.Base](../../Sora.md)
 

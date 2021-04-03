@@ -8,11 +8,11 @@ public CQCode CQCodeAt()
 
 ## Return Value
 
-[`CQCode`](../../Sora.Entities.CQCodes/CQCode.md) AT
+[`CQCode`](../../Sora.Entities.MessageElement/CQCode.md) AT
 
 ## See Also
 
-* class [CQCode](../../Sora.Entities.CQCodes/CQCode.md)
+* struct [CQCode](../../Sora.Entities.MessageElement/CQCode.md)
 * class [User](../User.md)
 * namespace [Sora.Entities](../../Sora.md)
 

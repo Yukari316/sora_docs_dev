@@ -21,7 +21,7 @@ public ValueTask<(APIStatusType apiStatus, int messageId)> SendGroupMessage(long
 ## See Also
 
 * enum [APIStatusType](../../Sora.Enumeration.ApiType/APIStatusType.md)
-* class [CQCode](../../Sora.Entities.CQCodes/CQCode.md)
+* struct [CQCode](../../Sora.Entities.MessageElement/CQCode.md)
 * class [SoraApi](../SoraApi.md)
 * namespace [Sora.Entities.Base](../../Sora.md)
 

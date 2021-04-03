@@ -4,13 +4,14 @@
 
 ```csharp
 public ValueTask<GroupMessageEventArgs> WaitForNextMessageAsync(string[] commandExps, 
-    MatchType matchType)
+    MatchType matchType, RegexOptions regexOptions = RegexOptions.None)
 ```
 
 | parameter | description |
 | --- | --- |
 | commandExps | 指令表达式 |
 | matchType | 匹配类型 |
+| regexOptions | 正则匹配选项 |
 
 ## Return Value
 
