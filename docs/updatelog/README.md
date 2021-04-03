@@ -38,6 +38,8 @@ MessageBody message2 = "坏耶" + 100000.At() + CQCodes.CQFace(1);
 
 调整 命名 `CQFunction` → `CQType` , `CQData` → `DataObject`
 
+go-cqhttp版本:[go-cqhttp-v1.0.0-beta1](https://github.com/Mrs4s/go-cqhttp/releases/tag/v1.0.0-beta1)
+
 ## v1.0.0-rc.2
 
 :::danger 警告
