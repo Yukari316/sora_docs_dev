@@ -3,7 +3,7 @@
 获取图片信息
 
 ```csharp
-public ValueTask<(APIStatusType apiStatus, int size, string fileName, string url)> GetImage(
+public ValueTask<(ApiStatus apiStatus, int size, string fileName, string url)> GetImage(
     string cacheFileName)
 ```
 
@@ -13,7 +13,7 @@ public ValueTask<(APIStatusType apiStatus, int size, string fileName, string url
 
 ## Return Value
 
-[`APIStatusType`](../../Sora.Enumeration.ApiType/APIStatusType.md) API执行状态
+[`ApiStatusType`](../../Sora.Enumeration.ApiType/ApiStatusType.md) API执行状态
 
 `size` 文件大小(Byte)
 
@@ -23,7 +23,7 @@ public ValueTask<(APIStatusType apiStatus, int size, string fileName, string url
 
 ## See Also
 
-* enum [APIStatusType](../../Sora.Enumeration.ApiType/APIStatusType.md)
+* struct [ApiStatus](../../Sora.Entities.Info/ApiStatus.md)
 * class [SoraApi](../SoraApi.md)
 * namespace [Sora.Entities.Base](../../Sora.md)
 

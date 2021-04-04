@@ -3,18 +3,18 @@
 获取好友列表
 
 ```csharp
-public ValueTask<(APIStatusType apiStatus, List<FriendInfo> friendList)> GetFriendList()
+public ValueTask<(ApiStatus apiStatus, List<FriendInfo> friendList)> GetFriendList()
 ```
 
 ## Return Value
 
-[`APIStatusType`](../../Sora.Enumeration.ApiType/APIStatusType.md) API执行状态
+[`ApiStatusType`](../../Sora.Enumeration.ApiType/ApiStatusType.md) API执行状态
 
 `friendList` 好友列表
 
 ## See Also
 
-* enum [APIStatusType](../../Sora.Enumeration.ApiType/APIStatusType.md)
+* struct [ApiStatus](../../Sora.Entities.Info/ApiStatus.md)
 * struct [FriendInfo](../../Sora.Entities.Info/FriendInfo.md)
 * class [SoraApi](../SoraApi.md)
 * namespace [Sora.Entities.Base](../../Sora.md)

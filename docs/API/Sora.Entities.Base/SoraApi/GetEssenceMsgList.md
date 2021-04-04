@@ -3,8 +3,7 @@
 获取群精华消息列表
 
 ```csharp
-public ValueTask<(APIStatusType apiStatus, List<EssenceInfo> essenceInfos)> GetEssenceMsgList(
-    long gid)
+public ValueTask<(ApiStatus apiStatus, List<EssenceInfo> essenceInfos)> GetEssenceMsgList(long gid)
 ```
 
 | parameter | description |
@@ -17,7 +16,7 @@ public ValueTask<(APIStatusType apiStatus, List<EssenceInfo> essenceInfos)> GetE
 
 ## See Also
 
-* enum [APIStatusType](../../Sora.Enumeration.ApiType/APIStatusType.md)
+* struct [ApiStatus](../../Sora.Entities.Info/ApiStatus.md)
 * struct [EssenceInfo](../../Sora.Entities.Info/EssenceInfo.md)
 * class [SoraApi](../SoraApi.md)
 * namespace [Sora.Entities.Base](../../Sora.md)

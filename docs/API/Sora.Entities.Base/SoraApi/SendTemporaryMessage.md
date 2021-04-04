@@ -3,8 +3,8 @@
 发起群临时会话（私聊）
 
 ```csharp
-public ValueTask<(APIStatusType apiStatus, int messageId)> SendTemporaryMessage(long userId, 
-    long groupId, List<CQCode> message)
+public ValueTask<(ApiStatus apiStatus, int messageId)> SendTemporaryMessage(long userId, 
+    long groupId, MessageBody message)
 ```
 
 | parameter | description |
@@ -15,14 +15,14 @@ public ValueTask<(APIStatusType apiStatus, int messageId)> SendTemporaryMessage(
 
 ## Return Value
 
-[`APIStatusType`](../../Sora.Enumeration.ApiType/APIStatusType.md) API执行状态
+[`ApiStatusType`](../../Sora.Enumeration.ApiType/ApiStatusType.md) API执行状态
 
 `messageId` 消息ID
 
 ## See Also
 
-* enum [APIStatusType](../../Sora.Enumeration.ApiType/APIStatusType.md)
-* struct [CQCode](../../Sora.Entities.MessageElement/CQCode.md)
+* struct [ApiStatus](../../Sora.Entities.Info/ApiStatus.md)
+* class [MessageBody](../../Sora.Entities/MessageBody.md)
 * class [SoraApi](../SoraApi.md)
 * namespace [Sora.Entities.Base](../../Sora.md)
 
@@ -33,7 +33,7 @@ public ValueTask<(APIStatusType apiStatus, int messageId)> SendTemporaryMessage(
 发起群临时会话（私聊）
 
 ```csharp
-public ValueTask<(APIStatusType apiStatus, int messageId)> SendTemporaryMessage(long userId, 
+public ValueTask<(ApiStatus apiStatus, int messageId)> SendTemporaryMessage(long userId, 
     long groupId, params object[] message)
 ```
 
@@ -45,13 +45,13 @@ public ValueTask<(APIStatusType apiStatus, int messageId)> SendTemporaryMessage(
 
 ## Return Value
 
-[`APIStatusType`](../../Sora.Enumeration.ApiType/APIStatusType.md) API执行状态
+[`ApiStatusType`](../../Sora.Enumeration.ApiType/ApiStatusType.md) API执行状态
 
 `messageId` 消息ID
 
 ## See Also
 
-* enum [APIStatusType](../../Sora.Enumeration.ApiType/APIStatusType.md)
+* struct [ApiStatus](../../Sora.Entities.Info/ApiStatus.md)
 * class [SoraApi](../SoraApi.md)
 * namespace [Sora.Entities.Base](../../Sora.md)
 

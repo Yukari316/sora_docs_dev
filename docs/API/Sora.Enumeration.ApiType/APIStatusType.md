@@ -1,9 +1,9 @@
-# APIStatusType enumeration
+# ApiStatusType enumeration
 
 API返回值
 
 ```csharp
-public enum APIStatusType
+public enum ApiStatusType
 ```
 
 ## Values

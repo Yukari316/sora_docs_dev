@@ -3,18 +3,18 @@
 获取登陆QQ的名字
 
 ```csharp
-public ValueTask<(APIStatusType apiStatus, long uid, string nick)> GetLoginInfo()
+public ValueTask<(ApiStatus apiStatus, long uid, string nick)> GetLoginInfo()
 ```
 
 ## Return Value
 
-[`APIStatusType`](../../Sora.Enumeration.ApiType/APIStatusType.md) API执行状态
+[`ApiStatusType`](../../Sora.Enumeration.ApiType/ApiStatusType.md) API执行状态
 
 `nick` 账号昵称
 
 ## See Also
 
-* enum [APIStatusType](../../Sora.Enumeration.ApiType/APIStatusType.md)
+* struct [ApiStatus](../../Sora.Entities.Info/ApiStatus.md)
 * class [SoraApi](../SoraApi.md)
 * namespace [Sora.Entities.Base](../../Sora.md)
 

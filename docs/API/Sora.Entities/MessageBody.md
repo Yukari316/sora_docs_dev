@@ -16,6 +16,7 @@ public class MessageBody : IList<CQCode>
 | [IsReadOnly](MessageBody/IsReadOnly.md) { get; } | 只读 |
 | [Item](MessageBody/Item.md) { get; set; } | 索引器 |
 | [Add](MessageBody/Add.md)(…) | 添加消息段 |
+| [AddRange](MessageBody/AddRange.md)(…) | AddRange |
 | [AddText](MessageBody/AddText.md)(…) | 添加纯文本消息段 |
 | [Clear](MessageBody/Clear.md)() | 清空消息段 |
 | [Contains](MessageBody/Contains.md)(…) | 判断包含 |

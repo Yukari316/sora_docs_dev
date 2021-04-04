@@ -3,7 +3,7 @@
 获取群文件系统信息
 
 ```csharp
-public ValueTask<(APIStatusType apiStatus, GroupFileSysInfo groupFileSysInfo)> GetGroupFileSysInfo(
+public ValueTask<(ApiStatus apiStatus, GroupFileSysInfo groupFileSysInfo)> GetGroupFileSysInfo(
     long groupId)
 ```
 
@@ -13,13 +13,13 @@ public ValueTask<(APIStatusType apiStatus, GroupFileSysInfo groupFileSysInfo)> G
 
 ## Return Value
 
-[`APIStatusType`](../../Sora.Enumeration.ApiType/APIStatusType.md) API执行状态
+[`ApiStatusType`](../../Sora.Enumeration.ApiType/ApiStatusType.md) API执行状态
 
 [`GroupFileSysInfo`](../../Sora.Entities.Info/GroupFileSysInfo.md) 文件系统信息
 
 ## See Also
 
-* enum [APIStatusType](../../Sora.Enumeration.ApiType/APIStatusType.md)
+* struct [ApiStatus](../../Sora.Entities.Info/ApiStatus.md)
 * struct [GroupFileSysInfo](../../Sora.Entities.Info/GroupFileSysInfo.md)
 * class [SoraApi](../SoraApi.md)
 * namespace [Sora.Entities.Base](../../Sora.md)

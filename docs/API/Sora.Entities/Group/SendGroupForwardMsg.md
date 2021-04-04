@@ -3,7 +3,7 @@
 发送合并转发(群) 但好像不能用的样子
 
 ```csharp
-public ValueTask<APIStatusType> SendGroupForwardMsg(IEnumerable<CustomNode> nodeList)
+public ValueTask<ApiStatus> SendGroupForwardMsg(IEnumerable<CustomNode> nodeList)
 ```
 
 | parameter | description |
@@ -12,7 +12,7 @@ public ValueTask<APIStatusType> SendGroupForwardMsg(IEnumerable<CustomNode> node
 
 ## See Also
 
-* enum [APIStatusType](../../Sora.Enumeration.ApiType/APIStatusType.md)
+* struct [ApiStatus](../../Sora.Entities.Info/ApiStatus.md)
 * class [CustomNode](../../Sora.Entities.MessageElement.CQModel/CustomNode.md)
 * class [Group](../Group.md)
 * namespace [Sora.Entities](../../Sora.md)

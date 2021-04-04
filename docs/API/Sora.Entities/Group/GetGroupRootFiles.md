@@ -3,13 +3,13 @@
 获取群根目录文件列表
 
 ```csharp
-public ValueTask<(APIStatusType apiStatus, List<GroupFileInfo> groupFiles, List<GroupFolderInfo> groupFolders)> 
+public ValueTask<(ApiStatus apiStatus, List<GroupFileInfo> groupFiles, List<GroupFolderInfo> groupFolders)> 
     GetGroupRootFiles()
 ```
 
 ## Return Value
 
-[`APIStatusType`](../../Sora.Enumeration.ApiType/APIStatusType.md) API执行状态
+[`ApiStatusType`](../../Sora.Enumeration.ApiType/ApiStatusType.md) API执行状态
 
 `groupFiles` 文件列表
 
@@ -17,7 +17,7 @@ public ValueTask<(APIStatusType apiStatus, List<GroupFileInfo> groupFiles, List<
 
 ## See Also
 
-* enum [APIStatusType](../../Sora.Enumeration.ApiType/APIStatusType.md)
+* struct [ApiStatus](../../Sora.Entities.Info/ApiStatus.md)
 * struct [GroupFileInfo](../../Sora.Entities.Info/GroupFileInfo.md)
 * struct [GroupFolderInfo](../../Sora.Entities.Info/GroupFolderInfo.md)
 * class [Group](../Group.md)

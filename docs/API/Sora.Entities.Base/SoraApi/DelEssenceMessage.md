@@ -3,7 +3,7 @@
 删除精华消息
 
 ```csharp
-public ValueTask<APIStatusType> DelEssenceMessage(long messageId)
+public ValueTask<ApiStatus> DelEssenceMessage(long messageId)
 ```
 
 | parameter | description |
@@ -16,7 +16,7 @@ API状态
 
 ## See Also
 
-* enum [APIStatusType](../../Sora.Enumeration.ApiType/APIStatusType.md)
+* struct [ApiStatus](../../Sora.Entities.Info/ApiStatus.md)
 * class [SoraApi](../SoraApi.md)
 * namespace [Sora.Entities.Base](../../Sora.md)
 

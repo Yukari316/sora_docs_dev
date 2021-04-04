@@ -3,7 +3,7 @@
 获取群文件资源链接
 
 ```csharp
-public ValueTask<(APIStatusType apiStatus, string fileUrl)> GetGroupFileUrl(long groupId, 
+public ValueTask<(ApiStatus apiStatus, string fileUrl)> GetGroupFileUrl(long groupId, 
     string fileId, int busid)
 ```
 
@@ -19,7 +19,7 @@ public ValueTask<(APIStatusType apiStatus, string fileUrl)> GetGroupFileUrl(long
 
 ## See Also
 
-* enum [APIStatusType](../../Sora.Enumeration.ApiType/APIStatusType.md)
+* struct [ApiStatus](../../Sora.Entities.Info/ApiStatus.md)
 * class [SoraApi](../SoraApi.md)
 * namespace [Sora.Entities.Base](../../Sora.md)
 

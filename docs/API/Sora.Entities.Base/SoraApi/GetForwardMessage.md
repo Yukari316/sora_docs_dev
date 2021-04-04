@@ -3,8 +3,7 @@
 获取合并转发消息
 
 ```csharp
-public ValueTask<(APIStatusType apiStatus, List<Node> nodeArray)> GetForwardMessage(
-    string forwardId)
+public ValueTask<(ApiStatus apiStatus, List<Node> nodeArray)> GetForwardMessage(string forwardId)
 ```
 
 | parameter | description |
@@ -13,13 +12,13 @@ public ValueTask<(APIStatusType apiStatus, List<Node> nodeArray)> GetForwardMess
 
 ## Return Value
 
-[`APIStatusType`](../../Sora.Enumeration.ApiType/APIStatusType.md) API执行状态
+[`ApiStatusType`](../../Sora.Enumeration.ApiType/ApiStatusType.md) API执行状态
 
 `nodeArray` 消息节点列表
 
 ## See Also
 
-* enum [APIStatusType](../../Sora.Enumeration.ApiType/APIStatusType.md)
+* struct [ApiStatus](../../Sora.Entities.Info/ApiStatus.md)
 * struct [Node](../../Sora.Entities.MessageElement.CQModel/Node.md)
 * class [SoraApi](../SoraApi.md)
 * namespace [Sora.Entities.Base](../../Sora.md)

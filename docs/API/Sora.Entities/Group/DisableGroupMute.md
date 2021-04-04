@@ -3,12 +3,12 @@
 解除群组全员禁言
 
 ```csharp
-public ValueTask<APIStatusType> DisableGroupMute()
+public ValueTask<ApiStatus> DisableGroupMute()
 ```
 
 ## See Also
 
-* enum [APIStatusType](../../Sora.Enumeration.ApiType/APIStatusType.md)
+* struct [ApiStatus](../../Sora.Entities.Info/ApiStatus.md)
 * class [Group](../Group.md)
 * namespace [Sora.Entities](../../Sora.md)
 

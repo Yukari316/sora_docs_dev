@@ -5,7 +5,7 @@
 只能获取纯文本信息
 
 ```csharp
-public ValueTask<(APIStatusType apiStatus, Message message, User sender, Group sourceGroup, int realId, bool isGroupMsg)> 
+public ValueTask<(ApiStatus apiStatus, Message message, User sender, Group sourceGroup, int realId, bool isGroupMsg)> 
     GetMessages(int messageId)
 ```
 
@@ -15,7 +15,7 @@ public ValueTask<(APIStatusType apiStatus, Message message, User sender, Group s
 
 ## Return Value
 
-[`APIStatusType`](../../Sora.Enumeration.ApiType/APIStatusType.md) API执行状态
+[`ApiStatusType`](../../Sora.Enumeration.ApiType/ApiStatusType.md) API执行状态
 
 [`Message`](../../Sora.Entities/Message.md) 消息内容
 
@@ -25,7 +25,7 @@ public ValueTask<(APIStatusType apiStatus, Message message, User sender, Group s
 
 ## See Also
 
-* enum [APIStatusType](../../Sora.Enumeration.ApiType/APIStatusType.md)
+* struct [ApiStatus](../../Sora.Entities.Info/ApiStatus.md)
 * class [Message](../../Sora.Entities/Message.md)
 * class [User](../../Sora.Entities/User.md)
 * class [Group](../../Sora.Entities/Group.md)

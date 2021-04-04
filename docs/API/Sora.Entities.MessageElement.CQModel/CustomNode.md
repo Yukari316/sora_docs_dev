@@ -14,7 +14,6 @@ public class CustomNode
 | --- | --- |
 | [CustomNode](CustomNode/CustomNode.md)(…) | 构造自定义节点 (3 constructors) |
 | [MessageId](CustomNode/MessageId.md) { get; } | 转发消息Id |
-| [MessageList](CustomNode/MessageList.md) { get; } | 消息段 |
 | [Name](CustomNode/Name.md) { get; } | 发送者显示名字 |
 | [UserId](CustomNode/UserId.md) { get; } | 发送者QQ号 |
 

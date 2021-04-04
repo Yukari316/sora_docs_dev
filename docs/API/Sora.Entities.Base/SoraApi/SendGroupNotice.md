@@ -3,7 +3,7 @@
 发送群公告
 
 ```csharp
-public ValueTask<APIStatusType> SendGroupNotice(long groupId, string content)
+public ValueTask<ApiStatus> SendGroupNotice(long groupId, string content)
 ```
 
 | parameter | description |
@@ -13,7 +13,7 @@ public ValueTask<APIStatusType> SendGroupNotice(long groupId, string content)
 
 ## See Also
 
-* enum [APIStatusType](../../Sora.Enumeration.ApiType/APIStatusType.md)
+* struct [ApiStatus](../../Sora.Entities.Info/ApiStatus.md)
 * class [SoraApi](../SoraApi.md)
 * namespace [Sora.Entities.Base](../../Sora.md)
 

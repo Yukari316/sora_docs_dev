@@ -3,7 +3,7 @@
 获取群信息
 
 ```csharp
-public ValueTask<(APIStatusType apiStatus, GroupInfo groupInfo)> GetGroupInfo(long groupId, 
+public ValueTask<(ApiStatus apiStatus, GroupInfo groupInfo)> GetGroupInfo(long groupId, 
     bool useCache = true)
 ```
 
@@ -14,13 +14,13 @@ public ValueTask<(APIStatusType apiStatus, GroupInfo groupInfo)> GetGroupInfo(lo
 
 ## Return Value
 
-[`APIStatusType`](../../Sora.Enumeration.ApiType/APIStatusType.md) API执行状态
+[`ApiStatusType`](../../Sora.Enumeration.ApiType/ApiStatusType.md) API执行状态
 
 [`GroupInfo`](../../Sora.Entities.Info/GroupInfo.md) 群信息列表
 
 ## See Also
 
-* enum [APIStatusType](../../Sora.Enumeration.ApiType/APIStatusType.md)
+* struct [ApiStatus](../../Sora.Entities.Info/ApiStatus.md)
 * struct [GroupInfo](../../Sora.Entities.Info/GroupInfo.md)
 * class [SoraApi](../SoraApi.md)
 * namespace [Sora.Entities.Base](../../Sora.md)

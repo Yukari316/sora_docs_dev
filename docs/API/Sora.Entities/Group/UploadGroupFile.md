@@ -3,7 +3,7 @@
 上传群文件
 
 ```csharp
-public ValueTask<APIStatusType> UploadGroupFile(string localFilePath, string fileName, 
+public ValueTask<ApiStatus> UploadGroupFile(string localFilePath, string fileName, 
     string floderId = null)
 ```
 
@@ -19,7 +19,7 @@ API状态
 
 ## See Also
 
-* enum [APIStatusType](../../Sora.Enumeration.ApiType/APIStatusType.md)
+* struct [ApiStatus](../../Sora.Entities.Info/ApiStatus.md)
 * class [Group](../Group.md)
 * namespace [Sora.Entities](../../Sora.md)
 

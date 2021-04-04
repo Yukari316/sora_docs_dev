@@ -5,8 +5,7 @@
 腾讯的这东西感觉不靠谱（
 
 ```csharp
-public ValueTask<(APIStatusType apiStatus, SecurityLevelType securityLevel)> CheckUrlSafely(
-    string url)
+public ValueTask<(ApiStatus apiStatus, SecurityLevelType securityLevel)> CheckUrlSafely(string url)
 ```
 
 | parameter | description |
@@ -19,7 +18,7 @@ public ValueTask<(APIStatusType apiStatus, SecurityLevelType securityLevel)> Che
 
 ## See Also
 
-* enum [APIStatusType](../../Sora.Enumeration.ApiType/APIStatusType.md)
+* struct [ApiStatus](../../Sora.Entities.Info/ApiStatus.md)
 * enum [SecurityLevelType](../../Sora.Enumeration.ApiType/SecurityLevelType.md)
 * class [SoraApi](../SoraApi.md)
 * namespace [Sora.Entities.Base](../../Sora.md)

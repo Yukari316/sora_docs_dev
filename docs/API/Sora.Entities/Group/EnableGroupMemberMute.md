@@ -3,7 +3,7 @@
 设置群组成员禁言
 
 ```csharp
-public ValueTask<APIStatusType> EnableGroupMemberMute(long userId, long duration)
+public ValueTask<ApiStatus> EnableGroupMemberMute(long userId, long duration)
 ```
 
 | parameter | description |
@@ -13,7 +13,7 @@ public ValueTask<APIStatusType> EnableGroupMemberMute(long userId, long duration
 
 ## See Also
 
-* enum [APIStatusType](../../Sora.Enumeration.ApiType/APIStatusType.md)
+* struct [ApiStatus](../../Sora.Entities.Info/ApiStatus.md)
 * class [Group](../Group.md)
 * namespace [Sora.Entities](../../Sora.md)
 

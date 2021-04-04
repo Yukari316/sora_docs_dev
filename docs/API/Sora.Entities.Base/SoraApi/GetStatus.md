@@ -3,12 +3,12 @@
 获取客户端状态
 
 ```csharp
-public ValueTask<(APIStatusType apiStatus, bool online, bool good, JObject)> GetStatus()
+public ValueTask<(ApiStatus apiStatus, bool online, bool good, JObject)> GetStatus()
 ```
 
 ## Return Value
 
-[`APIStatusType`](../../Sora.Enumeration.ApiType/APIStatusType.md) API执行状态
+[`ApiStatusType`](../../Sora.Enumeration.ApiType/ApiStatusType.md) API执行状态
 
 `online` 客户端是否在线
 
@@ -18,7 +18,7 @@ public ValueTask<(APIStatusType apiStatus, bool online, bool good, JObject)> Get
 
 ## See Also
 
-* enum [APIStatusType](../../Sora.Enumeration.ApiType/APIStatusType.md)
+* struct [ApiStatus](../../Sora.Entities.Info/ApiStatus.md)
 * class [SoraApi](../SoraApi.md)
 * namespace [Sora.Entities.Base](../../Sora.md)
 

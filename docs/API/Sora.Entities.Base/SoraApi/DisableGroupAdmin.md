@@ -3,7 +3,7 @@
 取消群管理员
 
 ```csharp
-public ValueTask<APIStatusType> DisableGroupAdmin(long groupId, long userId)
+public ValueTask<ApiStatus> DisableGroupAdmin(long groupId, long userId)
 ```
 
 | parameter | description |
@@ -13,7 +13,7 @@ public ValueTask<APIStatusType> DisableGroupAdmin(long groupId, long userId)
 
 ## See Also
 
-* enum [APIStatusType](../../Sora.Enumeration.ApiType/APIStatusType.md)
+* struct [ApiStatus](../../Sora.Entities.Info/ApiStatus.md)
 * class [SoraApi](../SoraApi.md)
 * namespace [Sora.Entities.Base](../../Sora.md)
 

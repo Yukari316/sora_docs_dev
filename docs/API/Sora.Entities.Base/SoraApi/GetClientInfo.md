@@ -3,7 +3,7 @@
 获取连接客户端版本信息
 
 ```csharp
-public ValueTask<(APIStatusType apiStatus, string clientType, string ver)> GetClientInfo()
+public ValueTask<(ApiStatus apiStatus, string clientType, string ver)> GetClientInfo()
 ```
 
 ## Return Value
@@ -14,7 +14,7 @@ public ValueTask<(APIStatusType apiStatus, string clientType, string ver)> GetCl
 
 ## See Also
 
-* enum [APIStatusType](../../Sora.Enumeration.ApiType/APIStatusType.md)
+* struct [ApiStatus](../../Sora.Entities.Info/ApiStatus.md)
 * class [SoraApi](../SoraApi.md)
 * namespace [Sora.Entities.Base](../../Sora.md)
 

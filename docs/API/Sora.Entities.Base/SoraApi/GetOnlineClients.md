@@ -3,8 +3,7 @@
 获取当前账号在线客户端列表
 
 ```csharp
-public ValueTask<(APIStatusType apiStatus, List<ClientInfo> clients)> GetOnlineClients(
-    bool useCache)
+public ValueTask<(ApiStatus apiStatus, List<ClientInfo> clients)> GetOnlineClients(bool useCache)
 ```
 
 | parameter | description |
@@ -13,13 +12,13 @@ public ValueTask<(APIStatusType apiStatus, List<ClientInfo> clients)> GetOnlineC
 
 ## Return Value
 
-[`APIStatusType`](../../Sora.Enumeration.ApiType/APIStatusType.md) API执行状态
+[`ApiStatusType`](../../Sora.Enumeration.ApiType/ApiStatusType.md) API执行状态
 
 List 在线客户端信息列表
 
 ## See Also
 
-* enum [APIStatusType](../../Sora.Enumeration.ApiType/APIStatusType.md)
+* struct [ApiStatus](../../Sora.Entities.Info/ApiStatus.md)
 * struct [ClientInfo](../../Sora.Entities.Info/ClientInfo.md)
 * class [SoraApi](../SoraApi.md)
 * namespace [Sora.Entities.Base](../../Sora.md)

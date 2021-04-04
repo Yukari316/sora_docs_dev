@@ -3,12 +3,12 @@
 解散群
 
 ```csharp
-public ValueTask<APIStatusType> DismissGroup()
+public ValueTask<ApiStatus> DismissGroup()
 ```
 
 ## See Also
 
-* enum [APIStatusType](../../Sora.Enumeration.ApiType/APIStatusType.md)
+* struct [ApiStatus](../../Sora.Entities.Info/ApiStatus.md)
 * class [Group](../Group.md)
 * namespace [Sora.Entities](../../Sora.md)
 

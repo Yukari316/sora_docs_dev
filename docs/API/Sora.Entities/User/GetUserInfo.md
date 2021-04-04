@@ -3,7 +3,7 @@
 获取用户信息
 
 ```csharp
-public ValueTask<(APIStatusType apiStatus, UserInfo userInfo, string qid)> GetUserInfo(
+public ValueTask<(ApiStatus apiStatus, UserInfo userInfo, string qid)> GetUserInfo(
     bool useCache = true)
 ```
 
@@ -13,7 +13,7 @@ public ValueTask<(APIStatusType apiStatus, UserInfo userInfo, string qid)> GetUs
 
 ## Return Value
 
-[`APIStatusType`](../../Sora.Enumeration.ApiType/APIStatusType.md) API执行状态
+[`ApiStatusType`](../../Sora.Enumeration.ApiType/ApiStatusType.md) API执行状态
 
 [`UserInfo`](../../Sora.Entities.Info/UserInfo.md) 群成员信息
 
@@ -21,7 +21,7 @@ String qid
 
 ## See Also
 
-* enum [APIStatusType](../../Sora.Enumeration.ApiType/APIStatusType.md)
+* struct [ApiStatus](../../Sora.Entities.Info/ApiStatus.md)
 * struct [UserInfo](../../Sora.Entities.Info/UserInfo.md)
 * class [User](../User.md)
 * namespace [Sora.Entities](../../Sora.md)

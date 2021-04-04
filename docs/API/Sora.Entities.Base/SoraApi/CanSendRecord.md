@@ -3,18 +3,18 @@
 检查是否可以发送语音
 
 ```csharp
-public ValueTask<(APIStatusType apiStatus, bool canSend)> CanSendRecord()
+public ValueTask<(ApiStatus apiStatus, bool canSend)> CanSendRecord()
 ```
 
 ## Return Value
 
-[`APIStatusType`](../../Sora.Enumeration.ApiType/APIStatusType.md) API执行状态
+[`ApiStatusType`](../../Sora.Enumeration.ApiType/ApiStatusType.md) API执行状态
 
 `canSend` 是否能发送
 
 ## See Also
 
-* enum [APIStatusType](../../Sora.Enumeration.ApiType/APIStatusType.md)
+* struct [ApiStatus](../../Sora.Entities.Info/ApiStatus.md)
 * class [SoraApi](../SoraApi.md)
 * namespace [Sora.Entities.Base](../../Sora.md)
 

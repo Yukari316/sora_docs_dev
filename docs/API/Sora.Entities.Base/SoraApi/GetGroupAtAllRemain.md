@@ -3,7 +3,7 @@
 获取群@全体成员剩余次数
 
 ```csharp
-public ValueTask<(APIStatusType apiStatus, bool canAt, short groupRemain, short botRemain)> 
+public ValueTask<(ApiStatus apiStatus, bool canAt, short groupRemain, short botRemain)> 
     GetGroupAtAllRemain(long groupId)
 ```
 
@@ -13,7 +13,7 @@ public ValueTask<(APIStatusType apiStatus, bool canAt, short groupRemain, short 
 
 ## Return Value
 
-[`APIStatusType`](../../Sora.Enumeration.ApiType/APIStatusType.md) API执行状态
+[`ApiStatusType`](../../Sora.Enumeration.ApiType/ApiStatusType.md) API执行状态
 
 `canAt` 是否可以@全体成员
 
@@ -23,7 +23,7 @@ public ValueTask<(APIStatusType apiStatus, bool canAt, short groupRemain, short 
 
 ## See Also
 
-* enum [APIStatusType](../../Sora.Enumeration.ApiType/APIStatusType.md)
+* struct [ApiStatus](../../Sora.Entities.Info/ApiStatus.md)
 * class [SoraApi](../SoraApi.md)
 * namespace [Sora.Entities.Base](../../Sora.md)
 

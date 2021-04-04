@@ -3,7 +3,7 @@
 发送群消息
 
 ```csharp
-public ValueTask<(APIStatusType apiStatus, int messageId)> SendPrivateMessage(List<CQCode> message)
+public ValueTask<(ApiStatus apiStatus, int messageId)> SendPrivateMessage(MessageBody message)
 ```
 
 | parameter | description |
@@ -12,14 +12,14 @@ public ValueTask<(APIStatusType apiStatus, int messageId)> SendPrivateMessage(Li
 
 ## Return Value
 
-[`APIStatusType`](../../Sora.Enumeration.ApiType/APIStatusType.md) API执行状态
+[`ApiStatusType`](../../Sora.Enumeration.ApiType/ApiStatusType.md) API执行状态
 
 `messageId` 消息ID
 
 ## See Also
 
-* enum [APIStatusType](../../Sora.Enumeration.ApiType/APIStatusType.md)
-* struct [CQCode](../../Sora.Entities.MessageElement/CQCode.md)
+* struct [ApiStatus](../../Sora.Entities.Info/ApiStatus.md)
+* class [MessageBody](../MessageBody.md)
 * class [User](../User.md)
 * namespace [Sora.Entities](../../Sora.md)
 
@@ -30,7 +30,7 @@ public ValueTask<(APIStatusType apiStatus, int messageId)> SendPrivateMessage(Li
 发送私聊消息
 
 ```csharp
-public ValueTask<(APIStatusType apiStatus, int message)> SendPrivateMessage(params object[] message)
+public ValueTask<(ApiStatus apiStatus, int message)> SendPrivateMessage(params object[] message)
 ```
 
 | parameter | description |
@@ -39,7 +39,7 @@ public ValueTask<(APIStatusType apiStatus, int message)> SendPrivateMessage(para
 
 ## See Also
 
-* enum [APIStatusType](../../Sora.Enumeration.ApiType/APIStatusType.md)
+* struct [ApiStatus](../../Sora.Entities.Info/ApiStatus.md)
 * class [User](../User.md)
 * namespace [Sora.Entities](../../Sora.md)
 

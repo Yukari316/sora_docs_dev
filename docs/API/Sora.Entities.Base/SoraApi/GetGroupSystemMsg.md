@@ -3,13 +3,13 @@
 获取群组系统消息
 
 ```csharp
-public ValueTask<(APIStatusType apiStatus, List<GroupRequestInfo> joinList, List<GroupRequestInfo> invitedList)> 
+public ValueTask<(ApiStatus apiStatus, List<GroupRequestInfo> joinList, List<GroupRequestInfo> invitedList)> 
     GetGroupSystemMsg()
 ```
 
 ## Return Value
 
-[`APIStatusType`](../../Sora.Enumeration.ApiType/APIStatusType.md) API执行状态
+[`ApiStatusType`](../../Sora.Enumeration.ApiType/ApiStatusType.md) API执行状态
 
 `joinList` 进群消息列表
 
@@ -17,7 +17,7 @@ public ValueTask<(APIStatusType apiStatus, List<GroupRequestInfo> joinList, List
 
 ## See Also
 
-* enum [APIStatusType](../../Sora.Enumeration.ApiType/APIStatusType.md)
+* struct [ApiStatus](../../Sora.Entities.Info/ApiStatus.md)
 * struct [GroupRequestInfo](../../Sora.Entities.Info/GroupRequestInfo.md)
 * class [SoraApi](../SoraApi.md)
 * namespace [Sora.Entities.Base](../../Sora.md)

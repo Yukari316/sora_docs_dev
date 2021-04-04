@@ -5,7 +5,7 @@
 能获取起始消息的前19条消息
 
 ```csharp
-public ValueTask<(APIStatusType apiStatus, List<GroupMessageEventArgs> messages)> 
+public ValueTask<(ApiStatus apiStatus, List<GroupMessageEventArgs> messages)> 
     GetGroupMessageHistory(int? messageSequence = null)
 ```
 
@@ -15,13 +15,13 @@ public ValueTask<(APIStatusType apiStatus, List<GroupMessageEventArgs> messages)
 
 ## Return Value
 
-[`APIStatusType`](../../Sora.Enumeration.ApiType/APIStatusType.md) API执行状态
+[`ApiStatusType`](../../Sora.Enumeration.ApiType/ApiStatusType.md) API执行状态
 
 List 消息记录
 
 ## See Also
 
-* enum [APIStatusType](../../Sora.Enumeration.ApiType/APIStatusType.md)
+* struct [ApiStatus](../../Sora.Entities.Info/ApiStatus.md)
 * class [GroupMessageEventArgs](../../Sora.EventArgs.SoraEvent/GroupMessageEventArgs.md)
 * class [Group](../Group.md)
 * namespace [Sora.Entities](../../Sora.md)

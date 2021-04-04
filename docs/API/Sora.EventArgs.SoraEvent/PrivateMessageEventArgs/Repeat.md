@@ -3,18 +3,18 @@
 没什么用的复读功能
 
 ```csharp
-public ValueTask<(APIStatusType apiStatus, int messageId)> Repeat()
+public ValueTask<(ApiStatus apiStatus, int messageId)> Repeat()
 ```
 
 ## Return Value
 
-[`APIStatusType`](../../Sora.Enumeration.ApiType/APIStatusType.md) API执行状态
+[`ApiStatusType`](../../Sora.Enumeration.ApiType/ApiStatusType.md) API执行状态
 
 `messageId` 发送消息的id
 
 ## See Also
 
-* enum [APIStatusType](../../Sora.Enumeration.ApiType/APIStatusType.md)
+* struct [ApiStatus](../../Sora.Entities.Info/ApiStatus.md)
 * class [PrivateMessageEventArgs](../PrivateMessageEventArgs.md)
 * namespace [Sora.EventArgs.SoraEvent](../../Sora.md)
 

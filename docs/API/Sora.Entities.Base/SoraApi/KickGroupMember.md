@@ -3,7 +3,7 @@
 群组踢人
 
 ```csharp
-public ValueTask<APIStatusType> KickGroupMember(long groupId, long userId, bool rejectRequest)
+public ValueTask<ApiStatus> KickGroupMember(long groupId, long userId, bool rejectRequest)
 ```
 
 | parameter | description |
@@ -14,7 +14,7 @@ public ValueTask<APIStatusType> KickGroupMember(long groupId, long userId, bool 
 
 ## See Also
 
-* enum [APIStatusType](../../Sora.Enumeration.ApiType/APIStatusType.md)
+* struct [ApiStatus](../../Sora.Entities.Info/ApiStatus.md)
 * class [SoraApi](../SoraApi.md)
 * namespace [Sora.Entities.Base](../../Sora.md)
 

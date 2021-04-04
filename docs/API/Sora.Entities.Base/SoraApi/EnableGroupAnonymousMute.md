@@ -3,7 +3,7 @@
 群组匿名用户禁言
 
 ```csharp
-public ValueTask<APIStatusType> EnableGroupAnonymousMute(long groupId, Anonymous anonymous, 
+public ValueTask<ApiStatus> EnableGroupAnonymousMute(long groupId, Anonymous anonymous, 
     long duration)
 ```
 
@@ -15,7 +15,7 @@ public ValueTask<APIStatusType> EnableGroupAnonymousMute(long groupId, Anonymous
 
 ## See Also
 
-* enum [APIStatusType](../../Sora.Enumeration.ApiType/APIStatusType.md)
+* struct [ApiStatus](../../Sora.Entities.Info/ApiStatus.md)
 * class [Anonymous](../../Sora.Entities/Anonymous.md)
 * class [SoraApi](../SoraApi.md)
 * namespace [Sora.Entities.Base](../../Sora.md)
@@ -27,7 +27,7 @@ public ValueTask<APIStatusType> EnableGroupAnonymousMute(long groupId, Anonymous
 群组匿名用户禁言
 
 ```csharp
-public ValueTask<APIStatusType> EnableGroupAnonymousMute(long groupId, string anonymousFlag, 
+public ValueTask<ApiStatus> EnableGroupAnonymousMute(long groupId, string anonymousFlag, 
     long duration)
 ```
 
@@ -39,7 +39,7 @@ public ValueTask<APIStatusType> EnableGroupAnonymousMute(long groupId, string an
 
 ## See Also
 
-* enum [APIStatusType](../../Sora.Enumeration.ApiType/APIStatusType.md)
+* struct [ApiStatus](../../Sora.Entities.Info/ApiStatus.md)
 * class [SoraApi](../SoraApi.md)
 * namespace [Sora.Entities.Base](../../Sora.md)
 

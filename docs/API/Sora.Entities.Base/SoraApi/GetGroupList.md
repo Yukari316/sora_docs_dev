@@ -3,18 +3,18 @@
 获取群组列表
 
 ```csharp
-public ValueTask<(APIStatusType apiStatus, List<GroupInfo> groupList)> GetGroupList()
+public ValueTask<(ApiStatus apiStatus, List<GroupInfo> groupList)> GetGroupList()
 ```
 
 ## Return Value
 
-[`APIStatusType`](../../Sora.Enumeration.ApiType/APIStatusType.md) API执行状态
+[`ApiStatusType`](../../Sora.Enumeration.ApiType/ApiStatusType.md) API执行状态
 
 `groupList` 群组列表
 
 ## See Also
 
-* enum [APIStatusType](../../Sora.Enumeration.ApiType/APIStatusType.md)
+* struct [ApiStatus](../../Sora.Entities.Info/ApiStatus.md)
 * struct [GroupInfo](../../Sora.Entities.Info/GroupInfo.md)
 * class [SoraApi](../SoraApi.md)
 * namespace [Sora.Entities.Base](../../Sora.md)

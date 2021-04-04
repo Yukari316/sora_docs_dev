@@ -3,7 +3,7 @@
 发送群消息
 
 ```csharp
-public ValueTask<(APIStatusType apiStatus, int messageId)> SendGroupMessage(List<CQCode> message)
+public ValueTask<(ApiStatus apiStatus, int messageId)> SendGroupMessage(MessageBody message)
 ```
 
 | parameter | description |
@@ -12,14 +12,14 @@ public ValueTask<(APIStatusType apiStatus, int messageId)> SendGroupMessage(List
 
 ## Return Value
 
-[`APIStatusType`](../../Sora.Enumeration.ApiType/APIStatusType.md) API执行状态
+[`ApiStatusType`](../../Sora.Enumeration.ApiType/ApiStatusType.md) API执行状态
 
 `messageId` 消息ID
 
 ## See Also
 
-* enum [APIStatusType](../../Sora.Enumeration.ApiType/APIStatusType.md)
-* struct [CQCode](../../Sora.Entities.MessageElement/CQCode.md)
+* struct [ApiStatus](../../Sora.Entities.Info/ApiStatus.md)
+* class [MessageBody](../MessageBody.md)
 * class [Group](../Group.md)
 * namespace [Sora.Entities](../../Sora.md)
 
@@ -30,7 +30,7 @@ public ValueTask<(APIStatusType apiStatus, int messageId)> SendGroupMessage(List
 发送群消息
 
 ```csharp
-public ValueTask<(APIStatusType apiStatus, int messageId)> SendGroupMessage(params object[] message)
+public ValueTask<(ApiStatus apiStatus, int messageId)> SendGroupMessage(params object[] message)
 ```
 
 | parameter | description |
@@ -39,13 +39,13 @@ public ValueTask<(APIStatusType apiStatus, int messageId)> SendGroupMessage(para
 
 ## Return Value
 
-[`APIStatusType`](../../Sora.Enumeration.ApiType/APIStatusType.md) API执行状态
+[`ApiStatusType`](../../Sora.Enumeration.ApiType/ApiStatusType.md) API执行状态
 
 `messageId` 消息ID
 
 ## See Also
 
-* enum [APIStatusType](../../Sora.Enumeration.ApiType/APIStatusType.md)
+* struct [ApiStatus](../../Sora.Entities.Info/ApiStatus.md)
 * class [Group](../Group.md)
 * namespace [Sora.Entities](../../Sora.md)
 

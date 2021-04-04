@@ -1,5 +1,21 @@
 # 更新日志
 
+## v1.0.0-rc.4
+
+:::danger 警告
+此版本将不兼容旧版
+:::
+
+增加 [ApiStatus](../API/Sora.Entities.Info/ApiStatus.md) 结构体用于存放API执行结果
+
+增加 [MessageBody](../API/Sora.Entities/MessageBody.md) 方法 [AddRange](../API/Sora.Entities/MessageBody/AddRange.md)
+
+调整 消息发送方法参数由 `List<CQCode>` 改为 [`MessageBody`](../API/Sora.Entities/MessageBody.md)
+
+调整 API状态返回改为 [ApiStatus](../API/Sora.Entities.Info/ApiStatus.md)
+
+调整 命名 `APIStatusType` → `ApiStatusType`
+
 ## v1.0.0-rc.3
 
 :::danger 警告
@@ -8,7 +24,7 @@
 
 增加 消息段实例 [MessageBody](../API/Sora.Entities/MessageBody.md)
 
-增加 [Command](../API/Sora.Attributes.Command/Command.md) 增加设置项 [RegexOptions](../API/Sora.Attributes.Command/Command/RegexOptions.md)
+增加 [Command](../API/Sora.Attributes.Command/Command.md) 属性 [RegexOptions](../API/Sora.Attributes.Command/Command/RegexOptions.md)
 
 增加 [MessageBody](../API/Sora.Entities/MessageBody.md) 和 [CQCode](../API/Sora.Entities.MessageElement/CQCode.md) 的运算重载/隐式转换/扩展方法，用于构建消息段
 

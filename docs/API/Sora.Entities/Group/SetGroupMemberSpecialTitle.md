@@ -3,7 +3,7 @@
 设置群成员专属头衔
 
 ```csharp
-public ValueTask<APIStatusType> SetGroupMemberSpecialTitle(long userId, string specialTitle)
+public ValueTask<ApiStatus> SetGroupMemberSpecialTitle(long userId, string specialTitle)
 ```
 
 | parameter | description |
@@ -13,7 +13,7 @@ public ValueTask<APIStatusType> SetGroupMemberSpecialTitle(long userId, string s
 
 ## See Also
 
-* enum [APIStatusType](../../Sora.Enumeration.ApiType/APIStatusType.md)
+* struct [ApiStatus](../../Sora.Entities.Info/ApiStatus.md)
 * class [Group](../Group.md)
 * namespace [Sora.Entities](../../Sora.md)
 

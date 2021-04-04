@@ -22,7 +22,7 @@ public CustomNode(int messageId)
 构造自定义节点
 
 ```csharp
-public CustomNode(string name, long userId, List<CQCode> customMessage, 
+public CustomNode(string name, long userId, MessageBody customMessage, 
     DateTimeOffset? time = default)
 ```
 
@@ -35,7 +35,7 @@ public CustomNode(string name, long userId, List<CQCode> customMessage,
 
 ## See Also
 
-* struct [CQCode](../../Sora.Entities.MessageElement/CQCode.md)
+* class [MessageBody](../../Sora.Entities/MessageBody.md)
 * class [CustomNode](../CustomNode.md)
 * namespace [Sora.Entities.MessageElement.CQModel](../../Sora.md)
 

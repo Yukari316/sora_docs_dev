@@ -50,6 +50,7 @@
 
 | public type | description |
 | --- | --- |
+| struct [ApiStatus](Sora.Entities.Info/ApiStatus.md) | API执行状态 |
 | struct [ClientInfo](Sora.Entities.Info/ClientInfo.md) | 设备信息 |
 | struct [EssenceInfo](Sora.Entities.Info/EssenceInfo.md) | 精华消息信息 |
 | struct [FriendInfo](Sora.Entities.Info/FriendInfo.md) | 好友信息 |
@@ -108,7 +109,7 @@
 
 | public type | description |
 | --- | --- |
-| enum [APIStatusType](Sora.Enumeration.ApiType/APIStatusType.md) | API返回值 |
+| enum [ApiStatusType](Sora.Enumeration.ApiType/ApiStatusType.md) | API返回值 |
 | enum [SecurityLevelType](Sora.Enumeration.ApiType/SecurityLevelType.md) | 链接安全性 |
 
 ## Sora.Enumeration.EventParamsType namespace

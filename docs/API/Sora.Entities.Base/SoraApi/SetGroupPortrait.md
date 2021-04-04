@@ -3,8 +3,7 @@
 设置群头像
 
 ```csharp
-public ValueTask<APIStatusType> SetGroupPortrait(long groupId, string imageFile, 
-    bool useCache = true)
+public ValueTask<ApiStatus> SetGroupPortrait(long groupId, string imageFile, bool useCache = true)
 ```
 
 | parameter | description |
@@ -15,7 +14,7 @@ public ValueTask<APIStatusType> SetGroupPortrait(long groupId, string imageFile,
 
 ## See Also
 
-* enum [APIStatusType](../../Sora.Enumeration.ApiType/APIStatusType.md)
+* struct [ApiStatus](../../Sora.Entities.Info/ApiStatus.md)
 * class [SoraApi](../SoraApi.md)
 * namespace [Sora.Entities.Base](../../Sora.md)
 

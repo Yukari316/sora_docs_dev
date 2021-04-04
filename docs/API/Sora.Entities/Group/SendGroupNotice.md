@@ -3,7 +3,7 @@
 发送群公告
 
 ```csharp
-public ValueTask<APIStatusType> SendGroupNotice(string content)
+public ValueTask<ApiStatus> SendGroupNotice(string content)
 ```
 
 | parameter | description |
@@ -12,7 +12,7 @@ public ValueTask<APIStatusType> SendGroupNotice(string content)
 
 ## See Also
 
-* enum [APIStatusType](../../Sora.Enumeration.ApiType/APIStatusType.md)
+* struct [ApiStatus](../../Sora.Entities.Info/ApiStatus.md)
 * class [Group](../Group.md)
 * namespace [Sora.Entities](../../Sora.md)
 

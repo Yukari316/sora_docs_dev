@@ -3,7 +3,7 @@
 重启客户端
 
 ```csharp
-public ValueTask<APIStatusType> RebootClient(int delay = 0)
+public ValueTask<ApiStatus> RebootClient(int delay = 0)
 ```
 
 | parameter | description |
@@ -12,7 +12,7 @@ public ValueTask<APIStatusType> RebootClient(int delay = 0)
 
 ## See Also
 
-* enum [APIStatusType](../../Sora.Enumeration.ApiType/APIStatusType.md)
+* struct [ApiStatus](../../Sora.Entities.Info/ApiStatus.md)
 * class [SoraApi](../SoraApi.md)
 * namespace [Sora.Entities.Base](../../Sora.md)
 

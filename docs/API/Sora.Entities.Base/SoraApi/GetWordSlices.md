@@ -3,7 +3,7 @@
 获取中文分词
 
 ```csharp
-public ValueTask<(APIStatusType apiStatus, List<string> wordList)> GetWordSlices(string text)
+public ValueTask<(ApiStatus apiStatus, List<string> wordList)> GetWordSlices(string text)
 ```
 
 | parameter | description |
@@ -12,13 +12,13 @@ public ValueTask<(APIStatusType apiStatus, List<string> wordList)> GetWordSlices
 
 ## Return Value
 
-[`APIStatusType`](../../Sora.Enumeration.ApiType/APIStatusType.md) API执行状态
+[`ApiStatusType`](../../Sora.Enumeration.ApiType/ApiStatusType.md) API执行状态
 
 `wordList` 分词列表
 
 ## See Also
 
-* enum [APIStatusType](../../Sora.Enumeration.ApiType/APIStatusType.md)
+* struct [ApiStatus](../../Sora.Entities.Info/ApiStatus.md)
 * class [SoraApi](../SoraApi.md)
 * namespace [Sora.Entities.Base](../../Sora.md)
 

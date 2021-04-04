@@ -3,7 +3,7 @@
 快速回复
 
 ```csharp
-public ValueTask<(APIStatusType apiStatus, int messageId)> Reply(params object[] message)
+public ValueTask<(ApiStatus apiStatus, int messageId)> Reply(params object[] message)
 ```
 
 | parameter | description |
@@ -12,13 +12,13 @@ public ValueTask<(APIStatusType apiStatus, int messageId)> Reply(params object[]
 
 ## Return Value
 
-[`APIStatusType`](../../Sora.Enumeration.ApiType/APIStatusType.md) API执行状态
+[`ApiStatusType`](../../Sora.Enumeration.ApiType/ApiStatusType.md) API执行状态
 
 `messageId` 发送消息的id
 
 ## See Also
 
-* enum [APIStatusType](../../Sora.Enumeration.ApiType/APIStatusType.md)
+* struct [ApiStatus](../../Sora.Entities.Info/ApiStatus.md)
 * class [PrivateMessageEventArgs](../PrivateMessageEventArgs.md)
 * namespace [Sora.EventArgs.SoraEvent](../../Sora.md)
 

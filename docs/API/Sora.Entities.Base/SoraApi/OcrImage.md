@@ -3,7 +3,7 @@
 OCR图片
 
 ```csharp
-public ValueTask<(APIStatusType retCode, List<TextDetection> texts, string lang)> OcrImage(
+public ValueTask<(ApiStatus apiStatus, List<TextDetection> texts, string lang)> OcrImage(
     string imageId)
 ```
 
@@ -13,7 +13,7 @@ public ValueTask<(APIStatusType retCode, List<TextDetection> texts, string lang)
 
 ## Return Value
 
-[`APIStatusType`](../../Sora.Enumeration.ApiType/APIStatusType.md) API执行状态
+[`ApiStatusType`](../../Sora.Enumeration.ApiType/ApiStatusType.md) API执行状态
 
 `texts` 识别结果
 
@@ -21,7 +21,7 @@ public ValueTask<(APIStatusType retCode, List<TextDetection> texts, string lang)
 
 ## See Also
 
-* enum [APIStatusType](../../Sora.Enumeration.ApiType/APIStatusType.md)
+* struct [ApiStatus](../../Sora.Entities.Info/ApiStatus.md)
 * struct [TextDetection](../../Sora.Entities/TextDetection.md)
 * class [SoraApi](../SoraApi.md)
 * namespace [Sora.Entities.Base](../../Sora.md)
