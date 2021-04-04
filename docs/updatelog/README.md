@@ -3,7 +3,7 @@
 ## v1.0.0-rc.4
 
 :::danger 警告
-此版本将不兼容旧版
+此版本将不兼容`v1.0.0-rc3`及以前的版本
 :::
 
 增加 [ApiStatus](../API/Sora.Entities.Info/ApiStatus.md) 结构体用于存放API执行结果
@@ -19,7 +19,7 @@
 ## v1.0.0-rc.3
 
 :::danger 警告
-此版本将不兼容旧版
+此版本将不兼容`v1.0.0-rc2`及以前的版本
 :::
 
 增加 消息段实例 [MessageBody](../API/Sora.Entities/MessageBody.md)
@@ -59,7 +59,7 @@ go-cqhttp版本:[go-cqhttp-v1.0.0-beta1](https://github.com/Mrs4s/go-cqhttp/rele
 ## v1.0.0-rc.2
 
 :::danger 警告
-此版本将不兼容旧版
+此版本将不兼容`v1.0.0-rc1`及以前的版本
 :::
 
 增加 在`GroupMessageEventArgs`和`PrivateMessageEventArgs` 中添加方法 [WaitForNextMessageAsync](../API/Sora.EventArgs.SoraEvent/PrivateMessageEventArgs/WaitForNextMessageAsync.md) 用于连续对话
