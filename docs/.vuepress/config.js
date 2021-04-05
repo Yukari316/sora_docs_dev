@@ -77,6 +77,17 @@ module.exports = {
             '/API/Sora.md'
           ]
         }
+      ],
+      '/updatelog/' : [
+        {
+          title: '更新日志',
+          path: '/updatelog/',
+          collapsable: false,
+          sidebarDepth: 2,
+          children: [
+            '/updatelog/'
+          ]
+        }
       ]
     }
   },

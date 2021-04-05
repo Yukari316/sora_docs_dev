@@ -1,6 +1,6 @@
 # 更新日志
 
-## v1.0.0-rc.4
+## v1.0.0-rc.4 <Badge text="Release Candidate" type="warning"/>
 
 :::danger 警告
 此版本将不兼容`v1.0.0-rc3`及以前的版本
@@ -16,7 +16,7 @@
 
 调整 命名 `APIStatusType` → `ApiStatusType`
 
-## v1.0.0-rc.3
+## v1.0.0-rc.3 <Badge text="Release Candidate" type="warning"/>
 
 :::danger 警告
 此版本将不兼容`v1.0.0-rc2`及以前的版本
@@ -56,7 +56,7 @@ MessageBody message2 = "坏耶" + 100000.At() + CQCodes.CQFace(1);
 
 go-cqhttp版本:[go-cqhttp-v1.0.0-beta1](https://github.com/Mrs4s/go-cqhttp/releases/tag/v1.0.0-beta1)
 
-## v1.0.0-rc.2
+## v1.0.0-rc.2 <Badge text="Release Candidate" type="warning"/>
 
 :::danger 警告
 此版本将不兼容`v1.0.0-rc1`及以前的版本
@@ -72,7 +72,7 @@ go-cqhttp版本:[go-cqhttp-v1.0.0-beta1](https://github.com/Mrs4s/go-cqhttp/rele
 
 优化 静态资源和连接管理
 
-## v1.0.0-rc.1
+## v1.0.0-rc.1 <Badge text="Release Candidate" type="warning"/>
 
 ::: tip 小提示
 此版本为go-cqhttp同步更新的RC版本，和上一版本没有太大区别
