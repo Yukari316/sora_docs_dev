@@ -1,9 +1,9 @@
-# SoraServiceFactory.CreateInstance method
+# SoraServiceFactory.CreateService method
 
 创建 Sora 服务实例
 
 ```csharp
-public static ISoraService CreateInstance(ISoraConfig config, Action<Exception> crashAction = null)
+public static ISoraService CreateService(ISoraConfig config, Action<Exception> crashAction = null)
 ```
 
 | parameter | description |

@@ -11,7 +11,7 @@ public abstract class BaseSoraEventArgs : EventArgs
 | name | description |
 | --- | --- |
 | [EventName](BaseSoraEventArgs/EventName.md) { get; } | 当前事件名 |
-| [IsContinueEventChain](BaseSoraEventArgs/IsContinueEventChain.md) { get; set; } | 是否在处理本次事件后再次触发其他事件，默认为不触发 |
+| [IsContinueEventChain](BaseSoraEventArgs/IsContinueEventChain.md) { get; set; } | 是否在处理本次事件后再次触发其他事件，默认为触发 |
 | [LoginUid](BaseSoraEventArgs/LoginUid.md) { get; } | 接收当前事件的机器人UID |
 | [SoraApi](BaseSoraEventArgs/SoraApi.md) { get; } | 当前事件的API执行实例 |
 | [Time](BaseSoraEventArgs/Time.md) { get; } | 事件产生时间 |

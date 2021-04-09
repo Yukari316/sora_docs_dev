@@ -13,7 +13,6 @@ public sealed class SoraWebsocketServer : IDisposable, ISoraService
 | [ConnManager](SoraWebsocketServer/ConnManager.md) { get; } | 服务器连接管理器 |
 | [Event](SoraWebsocketServer/Event.md) { get; } | 事件接口 |
 | [Dispose](SoraWebsocketServer/Dispose.md)() | 释放资源 |
-| [StartServer](SoraWebsocketServer/StartServer.md)() | 启动WS服务端 |
 | [StartService](SoraWebsocketServer/StartService.md)() | 启动 Sora 服务 |
 
 ## Protected Members

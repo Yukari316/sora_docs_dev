@@ -10,7 +10,7 @@ public struct Reply
 
 | name | description |
 | --- | --- |
-| [Traget](Reply/Traget.md) { get; } | At目标UID 为`null`时为At全体 |
+| [Traget](Reply/Traget.md) { get; } | 消息ID |
 
 ## See Also
 

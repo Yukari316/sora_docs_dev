@@ -1,6 +1,6 @@
 # Reply.Traget property
 
-At目标UID 为`null`时为At全体
+消息ID
 
 ```csharp
 public int Traget { get; }

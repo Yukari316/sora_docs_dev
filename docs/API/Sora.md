@@ -58,11 +58,11 @@
 | struct [GroupFileSysInfo](Sora.Entities.Info/GroupFileSysInfo.md) | 群文件系统信息 |
 | struct [GroupFolderInfo](Sora.Entities.Info/GroupFolderInfo.md) | 群文件夹信息 |
 | struct [GroupInfo](Sora.Entities.Info/GroupInfo.md) | 群信息 |
-| struct [GroupMemberInfo](Sora.Entities.Info/GroupMemberInfo.md) | 群成员信息 |
+| class [GroupMemberInfo](Sora.Entities.Info/GroupMemberInfo.md) | 群成员信息 |
 | struct [GroupRequestInfo](Sora.Entities.Info/GroupRequestInfo.md) | 群组请求信息 |
-| struct [GroupSenderInfo](Sora.Entities.Info/GroupSenderInfo.md) | 群组消息发送者 |
+| class [GroupSenderInfo](Sora.Entities.Info/GroupSenderInfo.md) | 群组消息发送者 |
 | struct [OfflineFileInfo](Sora.Entities.Info/OfflineFileInfo.md) | 离线文件信息 |
-| struct [PrivateSenderInfo](Sora.Entities.Info/PrivateSenderInfo.md) | 私聊消息发送者 |
+| class [PrivateSenderInfo](Sora.Entities.Info/PrivateSenderInfo.md) | 私聊消息发送者 |
 | struct [UploadFileInfo](Sora.Entities.Info/UploadFileInfo.md) | 上传文件的信息 |
 | struct [UserInfo](Sora.Entities.Info/UserInfo.md) | 用户信息 |
 | struct [VipInfo](Sora.Entities.Info/VipInfo.md) | VIP信息 |
@@ -162,8 +162,6 @@
 
 | public type | description |
 | --- | --- |
-| class [SoraClientIsRuningException](Sora.Exceptions/SoraClientIsRuningException.md) | 客户端已经在运行错误 |
-| class [SoraServerIsRuningException](Sora.Exceptions/SoraServerIsRuningException.md) | 服务器已经在运行错误 |
 | class [WebSocketClientException](Sora.Exceptions/WebSocketClientException.md) | WebSocket客户端错误 |
 
 ## Sora.Interfaces namespace
@@ -179,6 +177,7 @@
 | --- | --- |
 | class [ConnectionManager](Sora.Net/ConnectionManager.md) | 服务器连接管理器 管理服务器链接和心跳包 |
 | class [SoraServiceFactory](Sora.Net/SoraServiceFactory.md) | Sora 实例工厂 |
+| static class [SoraServiceFactoryExtension](Sora.Net/SoraServiceFactoryExtension.md) | SoraServiceFactoryExtension |
 | class [SoraWebsocketClient](Sora.Net/SoraWebsocketClient.md) | Sora正向WS链接客户端 |
 | class [SoraWebsocketServer](Sora.Net/SoraWebsocketServer.md) | Sora服务器实例 |
 

@@ -12,6 +12,7 @@ public struct FriendInfo
 | --- | --- |
 | [Nick](FriendInfo/Nick.md) { get; } | 用户名 |
 | [Remark](FriendInfo/Remark.md) { get; } | 好友备注 |
+| [Role](FriendInfo/Role.md) { get; } | 权限等级 |
 | [UserId](FriendInfo/UserId.md) { get; } | 好友ID |
 
 ## See Also

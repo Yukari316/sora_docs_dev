@@ -1,9 +1,9 @@
-# GroupMemberInfo structure
+# GroupMemberInfo class
 
 群成员信息
 
 ```csharp
-public struct GroupMemberInfo
+public class GroupMemberInfo
 ```
 
 ## Public Members

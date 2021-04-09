@@ -19,6 +19,7 @@ public sealed class ServerConfig : ISoraConfig
 | [HeartBeatTimeOut](ServerConfig/HeartBeatTimeOut.md) { get; set; } | 心跳包超时设置(秒) |
 | [Host](ServerConfig/Host.md) { get; set; } | 反向服务器监听地址 |
 | [Port](ServerConfig/Port.md) { get; set; } | 反向服务器端口 |
+| [SuperUsers](ServerConfig/SuperUsers.md) { get; set; } | 机器人管理员UID |
 | [UniversalPath](ServerConfig/UniversalPath.md) { get; set; } | Universal请求路径 |
 
 ## See Also

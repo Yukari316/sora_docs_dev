@@ -20,7 +20,7 @@ public ValueTask<(ApiStatus apiStatus, GroupMemberInfo memberInfo)> GetSenderMem
 ## See Also
 
 * struct [ApiStatus](../../Sora.Entities.Info/ApiStatus.md)
-* struct [GroupMemberInfo](../../Sora.Entities.Info/GroupMemberInfo.md)
+* class [GroupMemberInfo](../../Sora.Entities.Info/GroupMemberInfo.md)
 * class [GroupMessageEventArgs](../GroupMessageEventArgs.md)
 * namespace [Sora.EventArgs.SoraEvent](../../Sora.md)
 

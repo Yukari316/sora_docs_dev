@@ -1,6 +1,6 @@
 # BaseSoraEventArgs.IsContinueEventChain property
 
-是否在处理本次事件后再次触发其他事件，默认为不触发
+是否在处理本次事件后再次触发其他事件，默认为触发
 
 如:处理Command后可以将此值设置为`false`来阻止后续的事件触发，为`true`时则会触发其他相匹配的指令和事件
 

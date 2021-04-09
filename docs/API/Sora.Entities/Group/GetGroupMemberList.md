@@ -15,7 +15,7 @@ List 群成员列表
 ## See Also
 
 * struct [ApiStatus](../../Sora.Entities.Info/ApiStatus.md)
-* struct [GroupMemberInfo](../../Sora.Entities.Info/GroupMemberInfo.md)
+* class [GroupMemberInfo](../../Sora.Entities.Info/GroupMemberInfo.md)
 * class [Group](../Group.md)
 * namespace [Sora.Entities](../../Sora.md)
 

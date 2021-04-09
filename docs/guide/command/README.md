@@ -33,7 +33,7 @@ title: 使用特性指令
 ### 群聊指令
 
 ```csharp
-[CommandGroup("test group")]
+[CommandGroup()]
 public class Commands
 {
     [GroupCommand(CommandExpression = "好耶")]
@@ -47,7 +47,7 @@ public class Commands
 ### 私聊指令
 
 ```csharp
-[CommandGroup("test group")]
+[CommandGroup()]
 public class Commands
 {
     [PrivateCommand(CommandExpression = "在")]

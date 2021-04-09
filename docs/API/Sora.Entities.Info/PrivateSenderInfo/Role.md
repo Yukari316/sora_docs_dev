@@ -1,13 +1,14 @@
-# PrivateSenderInfo.GroupId property
+# PrivateSenderInfo.Role property
 
-来源群号
+权限等级
 
 ```csharp
-public long? GroupId { get; }
+public MemberRoleType Role { get; }
 ```
 
 ## See Also
 
+* enum [MemberRoleType](../../Sora.Enumeration.EventParamsType/MemberRoleType.md)
 * class [PrivateSenderInfo](../PrivateSenderInfo.md)
 * namespace [Sora.Entities.Info](../../Sora.md)
 

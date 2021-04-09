@@ -1,9 +1,9 @@
-# GroupSenderInfo structure
+# GroupSenderInfo class
 
 群组消息发送者
 
 ```csharp
-public struct GroupSenderInfo
+public class GroupSenderInfo
 ```
 
 ## Public Members

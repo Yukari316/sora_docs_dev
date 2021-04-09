@@ -8,7 +8,7 @@ public PrivateSenderInfo SenderInfo { get; }
 
 ## See Also
 
-* struct [PrivateSenderInfo](../../Sora.Entities.Info/PrivateSenderInfo.md)
+* class [PrivateSenderInfo](../../Sora.Entities.Info/PrivateSenderInfo.md)
 * class [PrivateMessageEventArgs](../PrivateMessageEventArgs.md)
 * namespace [Sora.EventArgs.SoraEvent](../../Sora.md)
 

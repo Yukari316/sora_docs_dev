@@ -16,6 +16,7 @@ public interface ISoraConfig
 | [HeartBeatTimeOut](ISoraConfig/HeartBeatTimeOut.md) { get; set; } | 心跳包超时设置(秒) |
 | [Host](ISoraConfig/Host.md) { get; set; } | 服务器地址 |
 | [Port](ISoraConfig/Port.md) { get; set; } | 服务器端口 |
+| [SuperUsers](ISoraConfig/SuperUsers.md) { get; set; } | 机器人管理员UID |
 | [UniversalPath](ISoraConfig/UniversalPath.md) { get; set; } | Universal请求路径 |
 
 ## See Also

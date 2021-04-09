@@ -1,5 +1,35 @@
 # 更新日志
 
+## v1.0.0-rc.5 <Badge text="Release Candidate" type="warning"/>
+
+:::danger 警告
+此版本将不兼容`v1.0.0-rc4`及以前的版本
+:::
+
+增加 权限等级增加 `SuperUser` 服务管理员
+
+增加 [ISoraConfig](../API/Sora.Interfaces/ISoraConfig.md) 增加 `SuperUsers` 设置项
+
+增加 服务创建扩展表达式 [SoraServiceFactoryExtension](../API/Sora.Net/SoraServiceFactoryExtension.md) by [XiaoHe321](https://github.com/xh321)
+
+增加 多服务创建方式 by [XiaoHe321](https://github.com/xh321)
+
+增加 [FriendInfo](../API/Sora.Entities.Info/FriendInfo.md) [PrivateSenderInfo](../API/Sora.Entities.Info/PrivateSenderInfo.md) [UserInfo](../API/Sora.Entities.Info/UserInfo.md) 增加参数 `Role` 标识权限等级
+
+优化 消息构建处理
+
+优化 异步指令的调用和处理方式
+
+优化 API调用处理，API消息处理
+
+调整 [GroupMemberInfo](../API/Sora.Entities.Info/GroupMemberInfo.md) [GroupSenderInfo](../API/Sora.Entities.Info/GroupSenderInfo.md) [PrivateSenderInfo](../API/Sora.Entities.Info/PrivateSenderInfo.md) 从 `struct` 改为 `class`
+
+调整 服务创建方法改名 `CreateInstancs` → `CreateService`
+
+删除 服务器/客户端启动方法 `StartClient` 和 `StartServer` (请使用`StartService`来启动服务)
+
+删除 异常 `SoraClientIsRunningExpecption` `SoraServerIsRunningExpecption`
+
 ## v1.0.0-rc.4 <Badge text="Release Candidate" type="warning"/>
 
 :::danger 警告

@@ -20,6 +20,7 @@ public class ClientConfig : ISoraConfig
 | [Host](ClientConfig/Host.md) { get; set; } | 服务器地址 |
 | [Port](ClientConfig/Port.md) { get; set; } | 服务器端口 |
 | [ReconnectTimeOut](ClientConfig/ReconnectTimeOut.md) { get; set; } | 丢失连接时的重连超时 |
+| [SuperUsers](ClientConfig/SuperUsers.md) { get; set; } | 机器人管理员UID |
 | [UniversalPath](ClientConfig/UniversalPath.md) { get; set; } | Universal请求路径 |
 
 ## See Also

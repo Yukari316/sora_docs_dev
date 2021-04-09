@@ -1,9 +1,9 @@
-# PrivateSenderInfo.GroupId property
+# PrivateSenderInfo constructor
 
-来源群号
+The default constructor.
 
 ```csharp
-public long? GroupId { get; }
+public PrivateSenderInfo()
 ```
 
 ## See Also
