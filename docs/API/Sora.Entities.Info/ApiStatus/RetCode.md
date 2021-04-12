@@ -1,9 +1,9 @@
-# ApiStatus.RetCode field
+# ApiStatus.RetCode property
 
 API返回代码
 
 ```csharp
-public ApiStatusType RetCode;
+public ApiStatusType RetCode { get; }
 ```
 
 ## See Also

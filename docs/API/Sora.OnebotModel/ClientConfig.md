@@ -15,6 +15,7 @@ public class ClientConfig : ISoraConfig
 | [ClientConfig](ClientConfig/ClientConfig.md)() | The default constructor. |
 | [AccessToken](ClientConfig/AccessToken.md) { get; set; } | 鉴权Token |
 | [ApiTimeOut](ClientConfig/ApiTimeOut.md) { get; set; } | 客户端API调用超时设置(毫秒) |
+| [BlockUsers](ClientConfig/BlockUsers.md) { get; set; } | 不处理来自数组中UID的消息(群聊/私聊) |
 | [EnableSoraCommandManager](ClientConfig/EnableSoraCommandManager.md) { get; set; } | 是否启用Sora自带的指令系统 |
 | [HeartBeatTimeOut](ClientConfig/HeartBeatTimeOut.md) { get; set; } | 心跳包超时设置(秒) |
 | [Host](ClientConfig/Host.md) { get; set; } | 服务器地址 |

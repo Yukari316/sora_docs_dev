@@ -10,7 +10,10 @@ public struct GroupInfo
 
 | name | description |
 | --- | --- |
+| [GroupCreateTime](GroupInfo/GroupCreateTime.md) { get; } | 群创建时间 |
 | [GroupId](GroupInfo/GroupId.md) { get; } | 群组ID |
+| [GroupLevel](GroupInfo/GroupLevel.md) { get; } | 群等级 |
+| [GroupMemo](GroupInfo/GroupMemo.md) { get; } | 群备注 |
 | [GroupName](GroupInfo/GroupName.md) { get; } | 群名称 |
 | [MaxMemberCount](GroupInfo/MaxMemberCount.md) { get; } | 最大成员数（群容量） |
 | [MemberCount](GroupInfo/MemberCount.md) { get; } | 成员数 |

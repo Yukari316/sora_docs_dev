@@ -1,9 +1,9 @@
-# CQCodes.At method (1 of 2)
+# CQCodes.ToAt method (1 of 2)
 
 生成AT CQ码
 
 ```csharp
-public static CQCode At(this int uid)
+public static CQCode ToAt(this int uid)
 ```
 
 | parameter | description |
@@ -18,12 +18,12 @@ public static CQCode At(this int uid)
 
 ---
 
-# CQCodes.At method (2 of 2)
+# CQCodes.ToAt method (2 of 2)
 
 生成AT CQ码
 
 ```csharp
-public static CQCode At(this long uid)
+public static CQCode ToAt(this long uid)
 ```
 
 | parameter | description |

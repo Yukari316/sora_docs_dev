@@ -6,7 +6,7 @@
 
 ```csharp
 public ValueTask<(ApiStatus apiStatus, List<GroupMessageEventArgs> messages)> 
-    GetGroupMessageHistory(long groupId, int? messageSequence = null)
+    GetGroupMessageHistory(long groupId, long? messageSequence = null)
 ```
 
 | parameter | description |

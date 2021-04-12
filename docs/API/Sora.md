@@ -60,9 +60,9 @@
 | struct [GroupInfo](Sora.Entities.Info/GroupInfo.md) | 群信息 |
 | class [GroupMemberInfo](Sora.Entities.Info/GroupMemberInfo.md) | 群成员信息 |
 | struct [GroupRequestInfo](Sora.Entities.Info/GroupRequestInfo.md) | 群组请求信息 |
-| class [GroupSenderInfo](Sora.Entities.Info/GroupSenderInfo.md) | 群组消息发送者 |
+| struct [GroupSenderInfo](Sora.Entities.Info/GroupSenderInfo.md) | 群组消息发送者 |
 | struct [OfflineFileInfo](Sora.Entities.Info/OfflineFileInfo.md) | 离线文件信息 |
-| class [PrivateSenderInfo](Sora.Entities.Info/PrivateSenderInfo.md) | 私聊消息发送者 |
+| struct [PrivateSenderInfo](Sora.Entities.Info/PrivateSenderInfo.md) | 私聊消息发送者 |
 | struct [UploadFileInfo](Sora.Entities.Info/UploadFileInfo.md) | 上传文件的信息 |
 | struct [UserInfo](Sora.Entities.Info/UserInfo.md) | 用户信息 |
 | struct [VipInfo](Sora.Entities.Info/VipInfo.md) | VIP信息 |
@@ -83,6 +83,7 @@
 | struct [Code](Sora.Entities.MessageElement.CQModel/Code.md) | Xml与Json集合 |
 | struct [CustomMusic](Sora.Entities.MessageElement.CQModel/CustomMusic.md) | 自定义音乐分享 |
 | class [CustomNode](Sora.Entities.MessageElement.CQModel/CustomNode.md) | 自定义转发节点 |
+| struct [CustomReply](Sora.Entities.MessageElement.CQModel/CustomReply.md) | 自定义回复 |
 | struct [Face](Sora.Entities.MessageElement.CQModel/Face.md) | QQ 表情 |
 | struct [Forward](Sora.Entities.MessageElement.CQModel/Forward.md) | 合并转发/合并转发节点 |
 | struct [Gift](Sora.Entities.MessageElement.CQModel/Gift.md) | 礼物 仅支持Go |

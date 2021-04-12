@@ -1,9 +1,9 @@
-# ApiStatus.ApiMessage field
+# ApiStatus.ApiMessage property
 
 API返回信息
 
 ```csharp
-public string ApiMessage;
+public string ApiMessage { get; }
 ```
 
 ## See Also

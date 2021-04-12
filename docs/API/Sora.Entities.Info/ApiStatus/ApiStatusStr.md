@@ -1,9 +1,9 @@
-# ApiStatus.ApiStatusStr field
+# ApiStatus.ApiStatusStr property
 
 API返回状态字符串
 
 ```csharp
-public string ApiStatusStr;
+public string ApiStatusStr { get; }
 ```
 
 ## See Also

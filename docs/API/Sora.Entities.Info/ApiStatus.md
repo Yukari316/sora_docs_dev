@@ -10,9 +10,9 @@ public struct ApiStatus
 
 | name | description |
 | --- | --- |
-| [ApiMessage](ApiStatus/ApiMessage.md) | API返回信息 |
-| [ApiStatusStr](ApiStatus/ApiStatusStr.md) | API返回状态字符串 |
-| [RetCode](ApiStatus/RetCode.md) | API返回代码 |
+| [ApiMessage](ApiStatus/ApiMessage.md) { get; } | API返回信息 |
+| [ApiStatusStr](ApiStatus/ApiStatusStr.md) { get; } | API返回状态字符串 |
+| [RetCode](ApiStatus/RetCode.md) { get; } | API返回代码 |
 
 ## See Also
 

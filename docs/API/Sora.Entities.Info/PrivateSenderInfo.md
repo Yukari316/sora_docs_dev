@@ -1,9 +1,9 @@
-# PrivateSenderInfo class
+# PrivateSenderInfo structure
 
 私聊消息发送者
 
 ```csharp
-public class PrivateSenderInfo
+public struct PrivateSenderInfo
 ```
 
 ## Public Members

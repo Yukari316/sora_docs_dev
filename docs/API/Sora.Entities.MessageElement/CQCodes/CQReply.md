@@ -1,4 +1,4 @@
-# CQCodes.CQReply method
+# CQCodes.CQReply method (1 of 2)
 
 回复
 
@@ -9,6 +9,29 @@ public static CQCode CQReply(int id)
 | parameter | description |
 | --- | --- |
 | id | 消息id |
+
+## See Also
+
+* struct [CQCode](../CQCode.md)
+* class [CQCodes](../CQCodes.md)
+* namespace [Sora.Entities.MessageElement](../../Sora.md)
+
+---
+
+# CQCodes.CQReply method (2 of 2)
+
+自定义回复
+
+```csharp
+public static CQCode CQReply(string text, long uid, DateTime time, long messageSequence)
+```
+
+| parameter | description |
+| --- | --- |
+| text | 自定义回复的信息 |
+| uid | 自定义回复时的自定义QQ |
+| time | 自定义回复时的时间 |
+| messageSequence | 起始消息序号 |
 
 ## See Also
 

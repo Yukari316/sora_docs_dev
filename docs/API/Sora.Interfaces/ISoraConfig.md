@@ -12,6 +12,7 @@ public interface ISoraConfig
 | --- | --- |
 | [AccessToken](ISoraConfig/AccessToken.md) { get; set; } | 鉴权Token |
 | [ApiTimeOut](ISoraConfig/ApiTimeOut.md) { get; set; } | 客户端API调用超时设置(毫秒) |
+| [BlockUsers](ISoraConfig/BlockUsers.md) { get; set; } | 不处理来自数组中UID的消息(群聊/私聊) |
 | [EnableSoraCommandManager](ISoraConfig/EnableSoraCommandManager.md) { get; set; } | 是否启用Sora自带的指令系统 |
 | [HeartBeatTimeOut](ISoraConfig/HeartBeatTimeOut.md) { get; set; } | 心跳包超时设置(秒) |
 | [Host](ISoraConfig/Host.md) { get; set; } | 服务器地址 |

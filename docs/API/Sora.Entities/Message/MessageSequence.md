@@ -5,7 +5,7 @@
 仅用于群聊消息
 
 ```csharp
-public int? MessageSequence { get; }
+public long? MessageSequence { get; }
 ```
 
 ## See Also

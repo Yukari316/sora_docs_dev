@@ -1,6 +1,6 @@
 # SoraServiceFactory.CreateService method
 
-创建 Sora 服务实例
+创建一个Sora服务
 
 ```csharp
 public static ISoraService CreateService(ISoraConfig config, Action<Exception> crashAction = null)
@@ -8,12 +8,17 @@ public static ISoraService CreateService(ISoraConfig config, Action<Exception> c
 
 | parameter | description |
 | --- | --- |
-| config | 服务器配置 |
+| config | 配置文件 |
 | crashAction | 发生未处理异常时的回调 |
 
-## Return Value
+## Exceptions
 
-Sora 服务实例
+| exception | condition |
+| --- | --- |
+| DataException | 数据初始化错误 |
+| ArgumentNullException | 空配置文件错误 |
+| ArgumentOutOfRangeException | 参数错误 |
+| ArgumentException | 配置文件类型错误 |
 
 ## See Also
 

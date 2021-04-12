@@ -12,7 +12,7 @@ public class SoraServiceFactory
 | --- | --- |
 | [SoraServiceFactory](SoraServiceFactory/SoraServiceFactory.md)() | The default constructor. |
 | static [CreateMultiService](SoraServiceFactory/CreateMultiService.md)(…) | 连续创建多个 Sora 服务实例 (2 methods) |
-| static [CreateService](SoraServiceFactory/CreateService.md)(…) | 创建 Sora 服务实例 |
+| static [CreateService](SoraServiceFactory/CreateService.md)(…) | 创建一个Sora服务 |
 
 ## See Also
 

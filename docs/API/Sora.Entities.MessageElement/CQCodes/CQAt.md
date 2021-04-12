@@ -1,4 +1,4 @@
-# CQCodes.CQAt method
+# CQCodes.CQAt method (1 of 2)
 
 At CQ码
 
@@ -9,6 +9,27 @@ public static CQCode CQAt(long uid)
 | parameter | description |
 | --- | --- |
 | uid | 用户uid |
+
+## See Also
+
+* struct [CQCode](../CQCode.md)
+* class [CQCodes](../CQCodes.md)
+* namespace [Sora.Entities.MessageElement](../../Sora.md)
+
+---
+
+# CQCodes.CQAt method (2 of 2)
+
+At CQ码
+
+```csharp
+public static CQCode CQAt(long uid, string name)
+```
+
+| parameter | description |
+| --- | --- |
+| uid | 用户uid |
+| name | 当在群中找不到此uid的名称时使用的名字 |
 
 ## See Also
 

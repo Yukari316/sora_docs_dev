@@ -44,7 +44,7 @@ public sealed class SoraApi
 | [GetImage](SoraApi/GetImage.md)(…) | 获取图片信息 |
 | [GetLoginInfo](SoraApi/GetLoginInfo.md)() | 获取登陆QQ的名字 |
 | [GetLoginUserId](SoraApi/GetLoginUserId.md)() | 获取登录账号的id |
-| [GetMessages](SoraApi/GetMessages.md)(…) | 获取群消息 |
+| [GetMessage](SoraApi/GetMessage.md)(…) | 获取群消息 |
 | [GetOnlineClients](SoraApi/GetOnlineClients.md)(…) | 获取当前账号在线客户端列表 |
 | [GetStatus](SoraApi/GetStatus.md)() | 获取客户端状态 |
 | [GetUser](SoraApi/GetUser.md)(…) | 获取用户实例 |

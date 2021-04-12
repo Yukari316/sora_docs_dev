@@ -1,4 +1,4 @@
-# SoraApi.GetMessages method
+# SoraApi.GetMessage method
 
 获取群消息
 
@@ -6,7 +6,7 @@
 
 ```csharp
 public ValueTask<(ApiStatus apiStatus, Message message, User sender, Group sourceGroup, int realId, bool isGroupMsg)> 
-    GetMessages(int messageId)
+    GetMessage(int messageId)
 ```
 
 | parameter | description |

@@ -3,7 +3,7 @@
 最后发言时间戳
 
 ```csharp
-public int LastSentTime { get; }
+public DateTime LastSentTime { get; }
 ```
 
 ## See Also

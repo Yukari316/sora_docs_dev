@@ -2,6 +2,8 @@
 
 获取用户信息
 
+注意此API获取的权限等级不是群内权限等级
+
 ```csharp
 public ValueTask<(ApiStatus apiStatus, UserInfo userInfo, string qid)> GetUserInfo(long userId, 
     bool useCache = true)
