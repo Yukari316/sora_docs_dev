@@ -1,9 +1,9 @@
-# GroupFolderInfo.CreateDateTime property
+# GroupFolderInfo.CreateTime property
 
 创建时间
 
 ```csharp
-public DateTime CreateDateTime { get; }
+public DateTime CreateTime { get; }
 ```
 
 ## See Also

@@ -10,6 +10,7 @@
 
 | public type | description |
 | --- | --- |
+| class [NeedReview](Sora.Attributes/NeedReview.md) | 需要审查特性类 |
 | class [Reviewed](Sora.Attributes/Reviewed.md) | 代码审核特性类 |
 
 ## Sora.Attributes.Command namespace

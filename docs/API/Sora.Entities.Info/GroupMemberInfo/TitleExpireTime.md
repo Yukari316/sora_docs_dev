@@ -2,8 +2,10 @@
 
 专属头衔过期时间戳
 
+在[`Title`](Title.md)不为空时有效
+
 ```csharp
-public long TitleExpireTime { get; }
+public DateTime? TitleExpireTime { get; }
 ```
 
 ## See Also

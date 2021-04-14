@@ -3,7 +3,7 @@
 审核者
 
 ```csharp
-public string Person { get; set; }
+public string Person { get; }
 ```
 
 ## See Also

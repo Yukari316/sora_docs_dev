@@ -12,10 +12,14 @@ public enum ApiStatusType
 | --- | --- | --- |
 | OK | `0` | API执行成功 |
 | Failed | `100` | API执行失败 |
+| Forbidden | `403` | 403 |
 | NotFound | `404` | 404 |
 | Error | `502` | API执行发生内部错误 |
-| Failed_ | `102` | API执行失败 |
 | TimeOut | `-1` | API超时 |
+| NullResponse | `-2` | API没有返回任何信息 |
+| SocketSendError | `-3` | WS通信失败 |
+| ObservableError | `-4` | 未知错误 |
+| UnknownStatus | `-5` | 未知状态 |
 
 ## See Also
 

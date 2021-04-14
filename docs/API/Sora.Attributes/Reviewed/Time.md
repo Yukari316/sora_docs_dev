@@ -3,7 +3,7 @@
 时间
 
 ```csharp
-public string Time { get; set; }
+public string Time { get; }
 ```
 
 ## See Also

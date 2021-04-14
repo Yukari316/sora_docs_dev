@@ -1,9 +1,9 @@
-# GroupFileInfo.ModifyDateTime property
+# GroupFileInfo.ModifyTime property
 
 修改时间
 
 ```csharp
-public DateTime ModifyDateTime { get; }
+public DateTime ModifyTime { get; }
 ```
 
 ## See Also

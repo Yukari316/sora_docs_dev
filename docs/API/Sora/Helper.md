@@ -6,12 +6,6 @@
 public static class Helper
 ```
 
-## Public Members
-
-| name | description |
-| --- | --- |
-| static [CheckReviewed](Helper/CheckReviewed.md)() | 仅用于项目组内部的代码审查 |
-
 ## See Also
 
 * namespace [Sora](../Sora.md)

@@ -12,8 +12,8 @@ public class Reviewed : Attribute
 | name | description |
 | --- | --- |
 | [Reviewed](Reviewed/Reviewed.md)(…) | 表明您已经审核了该代码 |
-| [Person](Reviewed/Person.md) { get; set; } | 审核者 |
-| [Time](Reviewed/Time.md) { get; set; } | 时间 |
+| [Person](Reviewed/Person.md) { get; } | 审核者 |
+| [Time](Reviewed/Time.md) { get; } | 时间 |
 
 ## See Also
 

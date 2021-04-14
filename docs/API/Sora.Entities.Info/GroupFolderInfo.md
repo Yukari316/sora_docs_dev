@@ -10,7 +10,7 @@ public struct GroupFolderInfo
 
 | name | description |
 | --- | --- |
-| [CreateDateTime](GroupFolderInfo/CreateDateTime.md) { get; } | 创建时间 |
+| [CreateTime](GroupFolderInfo/CreateTime.md) { get; } | 创建时间 |
 | [CreatorUserId](GroupFolderInfo/CreatorUserId.md) { get; } | 创建者UID |
 | [CreatorUserName](GroupFolderInfo/CreatorUserName.md) { get; } | 创建者名 |
 | [FileCount](GroupFolderInfo/FileCount.md) { get; } | 子文件数量 |

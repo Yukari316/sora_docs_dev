@@ -11,13 +11,13 @@ public struct GroupFileInfo
 | name | description |
 | --- | --- |
 | [BusId](GroupFileInfo/BusId.md) { get; } | 文件类型ID |
-| [DeadDateTime](GroupFileInfo/DeadDateTime.md) { get; } | 过期时间 |
+| [DeadTime](GroupFileInfo/DeadTime.md) { get; } | 过期时间 |
 | [DownloadCount](GroupFileInfo/DownloadCount.md) { get; } | 下载次数 |
 | [Id](GroupFileInfo/Id.md) { get; } | 文件ID |
-| [ModifyDateTime](GroupFileInfo/ModifyDateTime.md) { get; } | 修改时间 |
+| [ModifyTime](GroupFileInfo/ModifyTime.md) { get; } | 修改时间 |
 | [Name](GroupFileInfo/Name.md) { get; } | 文件名 |
 | [Size](GroupFileInfo/Size.md) { get; } | 文件大小 |
-| [UploadDateTime](GroupFileInfo/UploadDateTime.md) { get; } | 上传时间 |
+| [UploadTime](GroupFileInfo/UploadTime.md) { get; } | 上传时间 |
 | [UploadUserId](GroupFileInfo/UploadUserId.md) { get; } | 上传者UID |
 | [UploadUserName](GroupFileInfo/UploadUserName.md) { get; } | 上传者名 |
 

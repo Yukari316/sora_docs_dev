@@ -1,5 +1,31 @@
 # 更新日志
 
+## v1.0.0-rc.7 <Badge text="Release Candidate" type="warning"/> <Badge text="未发布" type="info"/>
+
+:::danger 警告
+此版本将不兼容`v1.0.0-rc6`及以前的版本
+:::
+
+增加 [ISoraConfig](../API/Sora.Interfaces/ISoraConfig.md) 增加 `BlockUsers` 设置项
+
+增加 更多的API状态 [ApiStatusType](../API/Sora.Enumeration.ApiType/ApiStatusType.md)
+
+优化/增加 `WaitForNextMessageAsync` 增加单表达式重载
+
+优化 API执行的异常判断
+
+优化 指令/等待连续指令处理的上下文处理
+
+优化 修正部分XML注释
+
+优化 Sora服务的析构流程
+
+优化 [ISoraService](../API/Sora.Interfaces/ISoraService.md) 添加 `IDisposable` 继承
+
+优化/调整 部分数据的时间字段从时间戳改为 `DateTime` 同时修改了参数命名
+
+go-cqhttp版本:[go-cqhttp-v1.0.0-beta3](https://github.com/Mrs4s/go-cqhttp/releases/tag/v1.0.0-beta3)
+
 ## v1.0.0-rc.6 <Badge text="Release Candidate" type="warning"/>
 
 :::danger 警告
@@ -14,27 +40,15 @@
 
 增加 [CQReply](../API/Sora.Entities.MessageElement/CQCodes/CQReply.md) 添加构造重载以支持自定义回复内容
 
-增加 [ISoraConfig](../API/Sora.Interfaces/ISoraConfig.md) 增加 `BlockUsers` 设置项
-
-优化/增加 `WaitForNextMessageAsync` 增加单表达式重载
-
-优化 指令/等待连续指令处理的上下文处理
-
-优化 修正部分XML注释
-
-优化 Sora服务的析构流程
-
-优化 [ISoraService](../API/Sora.Interfaces/ISoraService.md) 添加 `IDisposable` 继承
-
-优化/调整 部分数据的时间字段从时间戳改为 `DateTime`
+调整 `API` 命名 `GetMessages` → `GetMessage`
 
 调整 `CQCode` 构造函数命名 `At` → `ToAt`
-
-调整 `API` 命名 `GetMessages` → `GetMessage`
 
 调整 `API` `GetGroupMessageHistory` 的 `messageSequence` 参数类型改为 `long?`
 
 调整 [GroupSenderInfo](../API/Sora.Entities.Info/GroupSenderInfo.md) [PrivateSenderInfo](../API/Sora.Entities.Info/PrivateSenderInfo.md) 从 `class` 改为 `struct` (又改回去了)
+
+go-cqhttp版本:[go-cqhttp-v1.0.0-beta2](https://github.com/Mrs4s/go-cqhttp/releases/tag/v1.0.0-beta2)
 
 ## v1.0.0-rc.5 <Badge text="Release Candidate" type="warning"/>
 

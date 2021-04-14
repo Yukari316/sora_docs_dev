@@ -1,9 +1,11 @@
-# GroupFileInfo.UploadDateTime property
+# GroupFileInfo.DeadTime property
 
-上传时间
+过期时间
+
+永久文件为0
 
 ```csharp
-public DateTime UploadDateTime { get; }
+public DateTime DeadTime { get; }
 ```
 
 ## See Also
