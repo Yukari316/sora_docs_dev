@@ -1,6 +1,6 @@
 # 更新日志
 
-## v1.0.0-rc.7 <Badge text="Release Candidate" type="warning"/> <Badge text="未发布" type="info"/>
+## v1.0.0-rc.7 <Badge text="Release Candidate" type="warning"/>
 
 :::danger 警告
 此版本将不兼容`v1.0.0-rc6`及以前的版本
