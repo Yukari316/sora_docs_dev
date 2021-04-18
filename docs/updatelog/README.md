@@ -572,4 +572,54 @@ go-cqhttp版本:[go-cqhttp-v0.9.29-fix2](https://github.com/Mrs4s/go-cqhttp/rele
 
 ## v0.2.1
 
+增加发送消息的重载
+
+## v0.2.0 <Badge text="未发布" type="warning"/>
+
+调整框架结构
+
+## v0.1.8 <Badge text="未发布" type="warning"/>
+
+增加掉线回调
+
+## ~~v0.1.7 不存在的版本号~~
+
+## v0.1.6 <Badge text="未发布" type="warning"/>
+
+更新API支持到gocq 0.9.29
+
+## ~~v0.1.5 不存在的版本号~~
+
+## v0.1.4 <Badge text="未发布" type="warning"/>
+
+更新包信息
+
+## v0.1.3 <Badge text="未发布" type="warning"/>
+
+优化全局错误文本
+
+优化全局异常处理
+
+优化服务器启动方式
+
+## v0.1.2 <Badge text="未发布" type="warning"/>
+
+修正XML注释  by [XiaoHe321](https://github.com/xh321)
+
+## v0.1.1 <Badge text="未发布" type="warning"/>
+
+增加大部分常用CQ码
+
+删除过时CQ码
+
+添加CQ构建方法
+
+添加API调用接口
+
+添加多个API
+
+结构调整
+
+## v0.1.0 <Badge text="未发布" type="warning"/>
+
 框架初版
