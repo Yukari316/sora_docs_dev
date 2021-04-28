@@ -1,6 +1,6 @@
 ---
 prev: false
-next: ./gettingstart/
+next: ./getting_start
 ---
 
 # 前言

@@ -23,69 +23,63 @@ module.exports = {
         { text: 'API', link: '/API/Sora.md' },
         { text: '更新日志', link: '/updatelog/' },
     ],
-    displayAllHeaders: true,
     activeHeaderLinks: true,
+    sidebarDepth: 2,
     sidebar: {
       '/guide/' : [
         {
           title: '使用指南',
-          path: '/guide/',
           collapsable: false,
-          sidebarDepth: -1,
+          sidebar: 'auto',
           children: [
-            '/guide/'
+            ''
           ]
         },
         {
           title: '开始使用',
-          path: '/guide/gettingstart/',
           collapsable: false,
-          sidebarDepth: 1,
+          sidebar: 'auto',
           children: [
-            '/guide/gettingstart/',
-            '/guide/gettingstart/changemainfunction',
-            '/guide/gettingstart/setupservice',
-            '/guide/gettingstart/firstbot'
+            'getting_start',
+            'change_main_function',
+            'setupservice',
+            'firstbot'
           ]
         },
         {
           title: '使用指令',
-          path: '/guide/command/',
           collapsable: false,
-          sidebarDepth: 1,
+          sidebar: 'auto',
           children: [
-            '/guide/command/'
+            'command'
           ]
         },
         {
           title: '奇怪的语法糖增加了！',
-          path: '/guide/tips/',
           collapsable: false,
-          sidebarDepth: 1,
+          sidebar: 'auto',
           children: [
-            '/guide/tips/'
+            'tips'
           ]
         }
       ],
       '/API/' : [
         {
           title: 'API',
-          path: '/API/Sora.md',
           collapsable: false,
-          sidebarDepth: 2,
+          sidebar: 'auto',
           children: [
-            '/API/Sora.md'
+            'Sora'
           ]
         }
       ],
       '/updatelog/' : [
         {
           title: '更新日志',
-          path: '/updatelog/',
           collapsable: false,
-          sidebarDepth: 2,
+          sidebar: 'auto',
           children: [
-            '/updatelog/'
+            ''
           ]
         }
       ]
