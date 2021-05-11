@@ -27,6 +27,7 @@
 | public type | description |
 | --- | --- |
 | class [CommandManager](Sora.Command/CommandManager.md) | 特性指令管理器 |
+| static class [RegexBuilder](Sora.Command/RegexBuilder.md) | 用于快捷的创建对于CQ码适用的正则表达式 |
 
 ## Sora.Entities namespace
 
@@ -106,6 +107,7 @@
 | --- | --- |
 | enum [CQType](Sora.Enumeration/CQType.md) | 消息段类型 |
 | enum [MatchType](Sora.Enumeration/MatchType.md) | 匹配类型 |
+| enum [SourceFlag](Sora.Enumeration/SourceFlag.md) | 消息来源类型 |
 
 ## Sora.Enumeration.ApiType namespace
 

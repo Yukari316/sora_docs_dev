@@ -1,4 +1,4 @@
-# MessageBody.Add method
+# MessageBody.Add method (1 of 2)
 
 添加消息段
 
@@ -8,11 +8,30 @@ public void Add(CQCode item)
 
 | parameter | description |
 | --- | --- |
-| item |  |
+| item | 消息段 |
 
 ## See Also
 
 * struct [CQCode](../../Sora.Entities.MessageElement/CQCode.md)
+* class [MessageBody](../MessageBody.md)
+* namespace [Sora.Entities](../../Sora.md)
+
+---
+
+# MessageBody.Add method (2 of 2)
+
+添加纯文本消息
+
+```csharp
+public void Add(string text)
+```
+
+| parameter | description |
+| --- | --- |
+| text | 纯文本消息段 |
+
+## See Also
+
 * class [MessageBody](../MessageBody.md)
 * namespace [Sora.Entities](../../Sora.md)
 

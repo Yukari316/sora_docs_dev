@@ -1,9 +1,9 @@
-# MessageBody Implicit operator
+# MessageBody Addition operator
 
-隐式类型转换
+运算重载
 
 ```csharp
-public static implicit operator MessageBody(string text)
+public static MessageBody operator +(MessageBody message, string text)
 ```
 
 ## See Also

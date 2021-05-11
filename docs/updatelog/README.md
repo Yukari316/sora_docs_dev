@@ -8,6 +8,20 @@
 框架所适配的`gocq`版本 <Badge text="gocq v----"/>
 :::
 
+## v1.0.0-rc.9 <Badge text="Release Candidate" type="warning"/>  <Badge text="gocq v1.0.0-beta3"/>
+
+调整 默认配置下的超时从 `1s` 改为 `5s`
+
+依赖更新 Fleck `1.1.0` → `1.2.0`
+
+## v1.0.0-rc.8 <Badge text="Release Candidate" type="warning"/>  <Badge text="gocq v1.0.0-beta3"/>
+
+增加 动态的指令注册 [RegisterGroupCommand](../API/Sora.Command/CommandManager/RegisterGroupCommand.md) | [RegisterPrivateCommand](../API/Sora.Command/CommandManager/RegisterPrivateCommand.md)
+
+增加 部分CQ码匹配正则 [RegexBuilder](../API/Sora.Command/RegexBuilder.md)
+
+优化 优化消息段的运算符重载，优化消息的构建方式
+
 ## v1.0.0-rc.7 <Badge text="Release Candidate" type="warning"/>  <Badge text="Incompatible Changes" type="error"/>  <Badge text="gocq v1.0.0-beta3"/> 
 
 增加 [ISoraConfig](../API/Sora.Interfaces/ISoraConfig.md) 增加 `BlockUsers` 设置项

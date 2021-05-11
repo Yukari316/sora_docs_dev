@@ -13,6 +13,8 @@ public class CommandManager
 | [ServiceIsRunning](CommandManager/ServiceIsRunning.md) { get; } | 指令服务正常运行标识 |
 | [GetInstance&lt;T&gt;](CommandManager/GetInstance.md)(…) | 获取已注册过的实例 |
 | [MappingCommands](CommandManager/MappingCommands.md)(…) | 自动注册所有指令 |
+| [RegisterGroupCommand](CommandManager/RegisterGroupCommand.md)(…) | 动态创建指令 |
+| [RegisterPrivateCommand](CommandManager/RegisterPrivateCommand.md)(…) | 动态创建指令 |
 
 ## See Also
 
