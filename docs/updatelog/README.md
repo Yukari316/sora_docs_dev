@@ -8,6 +8,22 @@
 框架所适配的`gocq`版本 <Badge text="gocq v----"/>
 :::
 
+## v1.0.0-rc.11<Badge text="Release Candidate" type="warning"/>  <Badge text="gocq v1.0.0-beta4"/>
+
+调整 开源许可证为`Apache-2.0`
+
+## v1.0.0-rc.10<Badge text="Release Candidate" type="warning"/>  <Badge text="gocq v1.0.0-beta4"/>
+
+> [GetModelShow](../API/Sora.Entities.Base/SoraApi/GetModelShow.md) | [SetModelShow](../API/Sora.Entities.Base/SoraApi/SetModelShow.md) 的使用参数请参照 [gocqhttp#872](https://github.com/Mrs4s/go-cqhttp/pull/872)
+
+增加 API [GetQidianAccountInfo](../API/Sora.Entities.Base/SoraApi/GetQidianAccountInfo.md) | [DeleteFriend](../API/Sora.Entities.Base/SoraApi/DeleteFriend.md) | [GetModelShow](../API/Sora.Entities.Base/SoraApi/GetModelShow.md) | [SetModelShow](../API/Sora.Entities.Base/SoraApi/SetModelShow.md) | [GetModelShow](../API/Sora.Entities.Base/SoraApi/GetModelShow.md) | [CreateGroupFileRootFolder](../API/Sora.Entities.Base/SoraApi/CreateGroupFileRootFolder.md) | [DeleteGroupFile](../API/Sora.Entities.Base/SoraApi/DeleteGroupFile.md) | [DeleteGroupFolder](../API/Sora.Entities.Base/SoraApi/DeleteGroupFolder.md)
+
+增加 枚举 [Sex](../API/Sora.Enumeration/Sex.md)
+
+调整 API [SendGroupNotice](../API/Sora.Entities.Base/SoraApi/SendGroupNotice.md) 增加 `image` 图片可选参数
+
+调整 修正错误的注释
+
 ## v1.0.0-rc.9 <Badge text="Release Candidate" type="warning"/>  <Badge text="gocq v1.0.0-beta3"/>
 
 调整 默认配置下的超时从 `1s` 改为 `5s`

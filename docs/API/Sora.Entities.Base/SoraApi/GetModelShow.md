@@ -1,20 +1,19 @@
-# SoraApi.SendGroupNotice method
+# SoraApi.GetModelShow method
 
-发送群公告
+获取在线机型
 
 ```csharp
-public ValueTask<ApiStatus> SendGroupNotice(long groupId, string content, string image = null)
+public ValueTask<(ApiStatus apiStatus, List<Model> models)> GetModelShow(string model)
 ```
 
 | parameter | description |
 | --- | --- |
-| groupId | 群号 |
-| content | 公告内容 |
-| image | 图片 |
+| model | 型号 |
 
 ## See Also
 
 * struct [ApiStatus](../../Sora.Entities.Info/ApiStatus.md)
+* struct [Model](../../Sora.Entities.Info/Model.md)
 * class [SoraApi](../SoraApi.md)
 * namespace [Sora.Entities.Base](../../Sora.md)
 

@@ -13,7 +13,11 @@ public sealed class SoraApi
 | [CanSendImage](SoraApi/CanSendImage.md)() | 检查是否可以发送图片 |
 | [CanSendRecord](SoraApi/CanSendRecord.md)() | 检查是否可以发送语音 |
 | [CheckUrlSafely](SoraApi/CheckUrlSafely.md)(…) | 使用腾讯API检查链接安全性 |
+| [CreateGroupFileRootFolder](SoraApi/CreateGroupFileRootFolder.md)(…) | 在群根目录创建文件夹 |
 | [DelEssenceMessage](SoraApi/DelEssenceMessage.md)(…) | 删除精华消息 |
+| [DeleteFriend](SoraApi/DeleteFriend.md)(…) | 删除好友 |
+| [DeleteGroupFile](SoraApi/DeleteGroupFile.md)(…) | 删除群文件文件夹 |
+| [DeleteGroupFolder](SoraApi/DeleteGroupFolder.md)(…) | 删除群文件文件夹 |
 | [DisableGroupAdmin](SoraApi/DisableGroupAdmin.md)(…) | 取消群管理员 |
 | [DisableGroupMemberMute](SoraApi/DisableGroupMemberMute.md)(…) | 解除群组成员禁言 |
 | [DisableGroupMute](SoraApi/DisableGroupMute.md)(…) | 解除群组全员禁言 |
@@ -45,7 +49,9 @@ public sealed class SoraApi
 | [GetLoginInfo](SoraApi/GetLoginInfo.md)() | 获取登陆QQ的名字 |
 | [GetLoginUserId](SoraApi/GetLoginUserId.md)() | 获取登录账号的id |
 | [GetMessage](SoraApi/GetMessage.md)(…) | 获取群消息 |
+| [GetModelShow](SoraApi/GetModelShow.md)(…) | 获取在线机型 |
 | [GetOnlineClients](SoraApi/GetOnlineClients.md)(…) | 获取当前账号在线客户端列表 |
+| [GetQidianAccountInfo](SoraApi/GetQidianAccountInfo.md)() | 获取企点账号信息 |
 | [GetStatus](SoraApi/GetStatus.md)() | 获取客户端状态 |
 | [GetUser](SoraApi/GetUser.md)(…) | 获取用户实例 |
 | [GetUserInfo](SoraApi/GetUserInfo.md)(…) | 获取用户信息 |
@@ -68,6 +74,7 @@ public sealed class SoraApi
 | [SetGroupMemberSpecialTitle](SoraApi/SetGroupMemberSpecialTitle.md)(…) | 设置群成员专属头衔 |
 | [SetGroupName](SoraApi/SetGroupName.md)(…) | 设置群名 |
 | [SetGroupPortrait](SoraApi/SetGroupPortrait.md)(…) | 设置群头像 |
+| [SetModelShow](SoraApi/SetModelShow.md)(…) | 设置在线机型 |
 | [UploadGroupFile](SoraApi/UploadGroupFile.md)(…) | 上传群文件 |
 | [operator ==](SoraApi/op_Equality.md) | 等于重载 |
 | [operator !=](SoraApi/op_Inequality.md) | 不等于重载 |

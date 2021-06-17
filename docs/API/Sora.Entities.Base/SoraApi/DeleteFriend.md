@@ -1,16 +1,18 @@
-# SoraApi.SendGroupNotice method
+# SoraApi.DeleteFriend method
 
-发送群公告
+删除好友
 
 ```csharp
-public ValueTask<ApiStatus> SendGroupNotice(long groupId, string content, string image = null)
+public ValueTask<ApiStatus> DeleteFriend(long userId)
 ```
 
 | parameter | description |
 | --- | --- |
-| groupId | 群号 |
-| content | 公告内容 |
-| image | 图片 |
+| userId | 用户ID |
+
+## Return Value
+
+[`ApiStatusType`](../../Sora.Enumeration.ApiType/ApiStatusType.md) API执行状态
 
 ## See Also
 

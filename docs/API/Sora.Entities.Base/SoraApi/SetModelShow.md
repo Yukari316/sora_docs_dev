@@ -1,16 +1,15 @@
-# SoraApi.SendGroupNotice method
+# SoraApi.SetModelShow method
 
-发送群公告
+设置在线机型
 
 ```csharp
-public ValueTask<ApiStatus> SendGroupNotice(long groupId, string content, string image = null)
+public ValueTask<ApiStatus> SetModelShow(string model, string showModel)
 ```
 
 | parameter | description |
 | --- | --- |
-| groupId | 群号 |
-| content | 公告内容 |
-| image | 图片 |
+| model | 机型名 |
+| showModel | 展示名 |
 
 ## See Also
 

@@ -63,8 +63,10 @@
 | class [GroupMemberInfo](Sora.Entities.Info/GroupMemberInfo.md) | 群成员信息 |
 | struct [GroupRequestInfo](Sora.Entities.Info/GroupRequestInfo.md) | 群组请求信息 |
 | struct [GroupSenderInfo](Sora.Entities.Info/GroupSenderInfo.md) | 群组消息发送者 |
+| struct [Model](Sora.Entities.Info/Model.md) | 型号信息 |
 | struct [OfflineFileInfo](Sora.Entities.Info/OfflineFileInfo.md) | 离线文件信息 |
 | struct [PrivateSenderInfo](Sora.Entities.Info/PrivateSenderInfo.md) | 私聊消息发送者 |
+| struct [QidianAccountInfo](Sora.Entities.Info/QidianAccountInfo.md) | 企点账号信息 |
 | struct [UploadFileInfo](Sora.Entities.Info/UploadFileInfo.md) | 上传文件的信息 |
 | struct [UserInfo](Sora.Entities.Info/UserInfo.md) | 用户信息 |
 | struct [VipInfo](Sora.Entities.Info/VipInfo.md) | VIP信息 |
@@ -107,6 +109,7 @@
 | --- | --- |
 | enum [CQType](Sora.Enumeration/CQType.md) | 消息段类型 |
 | enum [MatchType](Sora.Enumeration/MatchType.md) | 匹配类型 |
+| enum [Sex](Sora.Enumeration/Sex.md) | 性别 |
 | enum [SourceFlag](Sora.Enumeration/SourceFlag.md) | 消息来源类型 |
 
 ## Sora.Enumeration.ApiType namespace
@@ -180,7 +183,7 @@
 | public type | description |
 | --- | --- |
 | class [ConnectionManager](Sora.Net/ConnectionManager.md) | 服务器连接管理器 管理服务器链接和心跳包 |
-| class [SoraServiceFactory](Sora.Net/SoraServiceFactory.md) | Sora 实例工厂 |
+| static class [SoraServiceFactory](Sora.Net/SoraServiceFactory.md) | Sora 实例工厂 |
 | static class [SoraServiceFactoryExtension](Sora.Net/SoraServiceFactoryExtension.md) | SoraServiceFactoryExtension |
 | class [SoraWebsocketClient](Sora.Net/SoraWebsocketClient.md) | Sora正向WS链接客户端 |
 | class [SoraWebsocketServer](Sora.Net/SoraWebsocketServer.md) | Sora服务器实例 |

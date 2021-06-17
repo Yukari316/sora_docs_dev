@@ -3,11 +3,12 @@
 性别
 
 ```csharp
-public string Sex { get; }
+public Sex Sex { get; }
 ```
 
 ## See Also
 
+* enum [Sex](../../Sora.Enumeration/Sex.md)
 * class [GroupMemberInfo](../GroupMemberInfo.md)
 * namespace [Sora.Entities.Info](../../Sora.md)
 

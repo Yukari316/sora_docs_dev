@@ -1,16 +1,18 @@
-# SoraApi.SendGroupNotice method
+# SoraApi.DeleteGroupFile method
 
-发送群公告
+删除群文件文件夹
 
 ```csharp
-public ValueTask<ApiStatus> SendGroupNotice(long groupId, string content, string image = null)
+public ValueTask<ApiStatus> DeleteGroupFile(long groupId, string fileId, int busId, 
+    string floderId = null)
 ```
 
 | parameter | description |
 | --- | --- |
 | groupId | 群号 |
-| content | 公告内容 |
-| image | 图片 |
+| floderId | 文件夹ID |
+| fileId | 文件ID |
+| busId | 文件类型 |
 
 ## See Also
 

@@ -3,12 +3,13 @@
 发送群公告
 
 ```csharp
-public ValueTask<ApiStatus> SendGroupNotice(string content)
+public ValueTask<ApiStatus> SendGroupNotice(string content, string image = null)
 ```
 
 | parameter | description |
 | --- | --- |
 | content | 公告内容 |
+| image | 图片 |
 
 ## See Also
 

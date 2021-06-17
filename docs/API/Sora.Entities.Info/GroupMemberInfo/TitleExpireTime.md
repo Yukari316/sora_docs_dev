@@ -1,6 +1,6 @@
 # GroupMemberInfo.TitleExpireTime property
 
-专属头衔过期时间戳
+专属头衔过期时间
 
 在[`Title`](Title.md)不为空时有效
 

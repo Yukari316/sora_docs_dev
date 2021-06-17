@@ -1,16 +1,15 @@
-# SoraApi.SendGroupNotice method
+# SoraApi.CreateGroupFileRootFolder method
 
-发送群公告
+在群根目录创建文件夹
 
 ```csharp
-public ValueTask<ApiStatus> SendGroupNotice(long groupId, string content, string image = null)
+public ValueTask<ApiStatus> CreateGroupFileRootFolder(long groupId, string name)
 ```
 
 | parameter | description |
 | --- | --- |
 | groupId | 群号 |
-| content | 公告内容 |
-| image | 图片 |
+| name | 文件夹名 |
 
 ## See Also
 

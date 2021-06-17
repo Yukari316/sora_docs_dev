@@ -3,14 +3,13 @@
 Sora 实例工厂
 
 ```csharp
-public class SoraServiceFactory
+public static class SoraServiceFactory
 ```
 
 ## Public Members
 
 | name | description |
 | --- | --- |
-| [SoraServiceFactory](SoraServiceFactory/SoraServiceFactory.md)() | The default constructor. |
 | static [CreateMultiService](SoraServiceFactory/CreateMultiService.md)(…) | 连续创建多个 Sora 服务实例 (2 methods) |
 | static [CreateService](SoraServiceFactory/CreateService.md)(…) | 创建一个Sora服务 |
 

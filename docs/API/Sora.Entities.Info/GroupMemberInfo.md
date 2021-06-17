@@ -22,7 +22,7 @@ public class GroupMemberInfo
 | [Role](GroupMemberInfo/Role.md) { get; } | 角色(权限等级) |
 | [Sex](GroupMemberInfo/Sex.md) { get; } | 性别 |
 | [Title](GroupMemberInfo/Title.md) { get; } | 专属头衔 |
-| [TitleExpireTime](GroupMemberInfo/TitleExpireTime.md) { get; } | 专属头衔过期时间戳 |
+| [TitleExpireTime](GroupMemberInfo/TitleExpireTime.md) { get; } | 专属头衔过期时间 |
 | [Unfriendly](GroupMemberInfo/Unfriendly.md) { get; } | 是否不良记录成员 |
 | [UserId](GroupMemberInfo/UserId.md) { get; } | 成员UID |
 
