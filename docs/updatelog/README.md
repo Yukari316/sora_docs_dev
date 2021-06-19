@@ -8,6 +8,16 @@
 框架所适配的`gocq`版本 <Badge text="gocq v----"/>
 :::
 
+## v1.0.0-rc13<Badge text="Release Candidate" type="warning"/>  <Badge text="gocq v1.0.0-beta4"/>
+
+优化 修正错误Log
+
+## v1.0.0-rc12<Badge text="Release Candidate" type="warning"/>  <Badge text="gocq v1.0.0-beta4"/>
+
+增加 指令连续对话的超时重载
+
+优化 API超时时的Log
+
 ## v1.0.0-rc.11<Badge text="Release Candidate" type="warning"/>  <Badge text="gocq v1.0.0-beta4"/>
 
 调整 开源许可证为`Apache-2.0`
