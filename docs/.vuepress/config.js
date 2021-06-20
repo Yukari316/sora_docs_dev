@@ -53,14 +53,6 @@ module.exports = {
           children: [
             'command'
           ]
-        },
-        {
-          title: '奇怪的语法糖增加了！',
-          collapsable: false,
-          sidebar: 'auto',
-          children: [
-            'tips'
-          ]
         }
       ],
       '/API/' : [
