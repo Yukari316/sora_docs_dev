@@ -1,4 +1,4 @@
-# PrivateMessageEventArgs.WaitForNextMessageAsync method (1 of 2)
+# PrivateMessageEventArgs.WaitForNextMessageAsync method (1 of 4)
 
 等待下一条消息触发
 
@@ -25,7 +25,7 @@ public ValueTask<PrivateMessageEventArgs> WaitForNextMessageAsync(string command
 
 ---
 
-# PrivateMessageEventArgs.WaitForNextMessageAsync method (2 of 2)
+# PrivateMessageEventArgs.WaitForNextMessageAsync method (2 of 4)
 
 等待下一条消息触发
 
@@ -43,6 +43,66 @@ public ValueTask<PrivateMessageEventArgs> WaitForNextMessageAsync(string[] comma
 ## Return Value
 
 触发后的事件参数
+
+## See Also
+
+* enum [MatchType](../../Sora.Enumeration/MatchType.md)
+* class [PrivateMessageEventArgs](../PrivateMessageEventArgs.md)
+* namespace [Sora.EventArgs.SoraEvent](../../Sora.md)
+
+---
+
+# PrivateMessageEventArgs.WaitForNextMessageAsync method (3 of 4)
+
+等待下一条消息触发
+
+```csharp
+public ValueTask<PrivateMessageEventArgs> WaitForNextMessageAsync(string commandExp, 
+    MatchType matchType, TimeSpan timeout, Func<ValueTask> timeoutTask = null, 
+    RegexOptions regexOptions = RegexOptions.None)
+```
+
+| parameter | description |
+| --- | --- |
+| commandExp | 指令表达式 |
+| matchType | 匹配类型 |
+| regexOptions | 正则匹配选项 |
+| timeout | 超时 |
+| timeoutTask | 超时后执行的动作 |
+
+## Return Value
+
+触发后的事件参数，超时后为`null`
+
+## See Also
+
+* enum [MatchType](../../Sora.Enumeration/MatchType.md)
+* class [PrivateMessageEventArgs](../PrivateMessageEventArgs.md)
+* namespace [Sora.EventArgs.SoraEvent](../../Sora.md)
+
+---
+
+# PrivateMessageEventArgs.WaitForNextMessageAsync method (4 of 4)
+
+等待下一条消息触发
+
+```csharp
+public ValueTask<PrivateMessageEventArgs> WaitForNextMessageAsync(string[] commandExps, 
+    MatchType matchType, TimeSpan timeout, Func<ValueTask> timeoutTask = null, 
+    RegexOptions regexOptions = RegexOptions.None)
+```
+
+| parameter | description |
+| --- | --- |
+| commandExps | 指令表达式 |
+| matchType | 匹配类型 |
+| regexOptions | 正则匹配选项 |
+| timeout | 超时 |
+| timeoutTask | 超时后执行的动作 |
+
+## Return Value
+
+触发后的事件参数，超时后为`null`
 
 ## See Also
 

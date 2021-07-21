@@ -8,6 +8,18 @@
 框架所适配的`gocq`版本 <Badge text="gocq v----"/>
 :::
 
+## v1.0.0-rc14<Badge text="Release Candidate" type="warning"/>  <Badge text="Incompatible Changes" type="error"/>  <Badge text="gocq v1.0.0-beta4"/>
+
+增加 对用户的动态屏蔽和接触屏蔽的API [BlockUser](../API/Sora.Entities.Base/SoraApi/BlockUser.md) | [RemoveBlock](../API/Sora.Entities.Base/SoraApi/RemoveBlock.md)
+
+增加 机器人管理员的动态增加和减少 [AddSuperUser](../API/Sora.Entities.Base/SoraApi/AddSuperUser.md) | [RemoveSuperUser](../API/Sora.Entities.Base/SoraApi/RemoveSuperUser.md)
+
+增加 `string` → `MessageBody` 的隐式转换（用于单字符串参数转换为消息数据）
+
+调整 消息发送增加超时覆盖参数（用于发送耗时长消息）
+
+删除 发送消息时会产生二义性的方法
+
 ## v1.0.0-rc13<Badge text="Release Candidate" type="warning"/>  <Badge text="gocq v1.0.0-beta4"/>
 
 优化 修正错误Log

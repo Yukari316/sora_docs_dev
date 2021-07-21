@@ -3,12 +3,14 @@
 快速回复
 
 ```csharp
-public ValueTask<(ApiStatus apiStatus, int messageId)> Reply(params object[] message)
+public ValueTask<(ApiStatus apiStatus, int messageId)> Reply(MessageBody message, 
+    TimeSpan? timeout = default)
 ```
 
 | parameter | description |
 | --- | --- |
 | message | 消息 |
+| timeout | 覆盖原有超时 |
 
 ## Return Value
 
@@ -19,6 +21,7 @@ public ValueTask<(ApiStatus apiStatus, int messageId)> Reply(params object[] mes
 ## See Also
 
 * struct [ApiStatus](../../Sora.Entities.Info/ApiStatus.md)
+* class [MessageBody](../../Sora.Entities/MessageBody.md)
 * class [PrivateMessageEventArgs](../PrivateMessageEventArgs.md)
 * namespace [Sora.EventArgs.SoraEvent](../../Sora.md)
 

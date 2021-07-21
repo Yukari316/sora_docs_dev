@@ -1,14 +1,16 @@
-# User.SendPrivateMessage method (1 of 2)
+# User.SendPrivateMessage method
 
 发送群消息
 
 ```csharp
-public ValueTask<(ApiStatus apiStatus, int messageId)> SendPrivateMessage(MessageBody message)
+public ValueTask<(ApiStatus apiStatus, int messageId)> SendPrivateMessage(MessageBody message, 
+    TimeSpan? timeout = default)
 ```
 
 | parameter | description |
 | --- | --- |
 | message | 消息 |
+| timeout | 覆盖原有超时 |
 
 ## Return Value
 
@@ -20,26 +22,6 @@ public ValueTask<(ApiStatus apiStatus, int messageId)> SendPrivateMessage(Messag
 
 * struct [ApiStatus](../../Sora.Entities.Info/ApiStatus.md)
 * class [MessageBody](../MessageBody.md)
-* class [User](../User.md)
-* namespace [Sora.Entities](../../Sora.md)
-
----
-
-# User.SendPrivateMessage method (2 of 2)
-
-发送私聊消息
-
-```csharp
-public ValueTask<(ApiStatus apiStatus, int message)> SendPrivateMessage(params object[] message)
-```
-
-| parameter | description |
-| --- | --- |
-| message | 消息 |
-
-## See Also
-
-* struct [ApiStatus](../../Sora.Entities.Info/ApiStatus.md)
 * class [User](../User.md)
 * namespace [Sora.Entities](../../Sora.md)
 

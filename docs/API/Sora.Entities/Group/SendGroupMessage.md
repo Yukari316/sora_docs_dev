@@ -1,14 +1,16 @@
-# Group.SendGroupMessage method (1 of 2)
+# Group.SendGroupMessage method
 
 发送群消息
 
 ```csharp
-public ValueTask<(ApiStatus apiStatus, int messageId)> SendGroupMessage(MessageBody message)
+public ValueTask<(ApiStatus apiStatus, int messageId)> SendGroupMessage(MessageBody message, 
+    TimeSpan? timeout = default)
 ```
 
 | parameter | description |
 | --- | --- |
 | message | 消息 |
+| timeout | 覆盖原有超时 |
 
 ## Return Value
 
@@ -20,32 +22,6 @@ public ValueTask<(ApiStatus apiStatus, int messageId)> SendGroupMessage(MessageB
 
 * struct [ApiStatus](../../Sora.Entities.Info/ApiStatus.md)
 * class [MessageBody](../MessageBody.md)
-* class [Group](../Group.md)
-* namespace [Sora.Entities](../../Sora.md)
-
----
-
-# Group.SendGroupMessage method (2 of 2)
-
-发送群消息
-
-```csharp
-public ValueTask<(ApiStatus apiStatus, int messageId)> SendGroupMessage(params object[] message)
-```
-
-| parameter | description |
-| --- | --- |
-| message | 消息 |
-
-## Return Value
-
-[`ApiStatusType`](../../Sora.Enumeration.ApiType/ApiStatusType.md) API执行状态
-
-`messageId` 消息ID
-
-## See Also
-
-* struct [ApiStatus](../../Sora.Entities.Info/ApiStatus.md)
 * class [Group](../Group.md)
 * namespace [Sora.Entities](../../Sora.md)
 

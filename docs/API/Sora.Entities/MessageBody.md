@@ -28,6 +28,7 @@ public class MessageBody : IList<CQCode>
 | [RemoveAt](MessageBody/RemoveAt.md)(…) | 删除消息段 |
 | [ToList](MessageBody/ToList.md)() | 转普通列表 |
 | [operator +](MessageBody/op_Addition.md) | 运算重载 |
+| [implicit operator](MessageBody/op_Implicit.md) | 隐式类型转换 |
 
 ## See Also
 

@@ -16,7 +16,7 @@ public sealed class PrivateMessageEventArgs : BaseSoraEventArgs
 | [SenderInfo](PrivateMessageEventArgs/SenderInfo.md) { get; } | 发送者信息 |
 | [Repeat](PrivateMessageEventArgs/Repeat.md)() | 没什么用的复读功能 |
 | [Reply](PrivateMessageEventArgs/Reply.md)(…) | 快速回复 |
-| [WaitForNextMessageAsync](PrivateMessageEventArgs/WaitForNextMessageAsync.md)(…) | 等待下一条消息触发 (2 methods) |
+| [WaitForNextMessageAsync](PrivateMessageEventArgs/WaitForNextMessageAsync.md)(…) | 等待下一条消息触发 (4 methods) |
 
 ## See Also
 

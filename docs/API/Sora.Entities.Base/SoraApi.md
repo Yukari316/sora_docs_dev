@@ -10,6 +10,8 @@ public sealed class SoraApi
 
 | name | description |
 | --- | --- |
+| [AddSuperUser](SoraApi/AddSuperUser.md)(…) | 添加机器人管理员 |
+| [BlockUser](SoraApi/BlockUser.md)(…) | 屏蔽用户 在当前服务实例内不再处理其消息 |
 | [CanSendImage](SoraApi/CanSendImage.md)() | 检查是否可以发送图片 |
 | [CanSendRecord](SoraApi/CanSendRecord.md)() | 检查是否可以发送语音 |
 | [CheckUrlSafely](SoraApi/CheckUrlSafely.md)(…) | 使用腾讯API检查链接安全性 |
@@ -62,11 +64,13 @@ public sealed class SoraApi
 | [RebootClient](SoraApi/RebootClient.md)(…) | 重启客户端 |
 | [RecallMessage](SoraApi/RecallMessage.md)(…) | 撤回消息 |
 | [ReloadEventFilter](SoraApi/ReloadEventFilter.md)() | 重载事件过滤器 |
+| [RemoveBlock](SoraApi/RemoveBlock.md)(…) | 对用户解除屏蔽 |
+| [RemoveSuperUser](SoraApi/RemoveSuperUser.md)(…) | 解除机器人管理员 |
 | [SendGroupForwardMsg](SoraApi/SendGroupForwardMsg.md)(…) | 发送合并转发(群) 但好像不能用的样子 |
-| [SendGroupMessage](SoraApi/SendGroupMessage.md)(…) | 发送群聊消息 (2 methods) |
+| [SendGroupMessage](SoraApi/SendGroupMessage.md)(…) | 发送群聊消息 |
 | [SendGroupNotice](SoraApi/SendGroupNotice.md)(…) | 发送群公告 |
-| [SendPrivateMessage](SoraApi/SendPrivateMessage.md)(…) | 发送私聊消息 (2 methods) |
-| [SendTemporaryMessage](SoraApi/SendTemporaryMessage.md)(…) | 发起群临时会话（私聊） (2 methods) |
+| [SendPrivateMessage](SoraApi/SendPrivateMessage.md)(…) | 发送群聊消息 |
+| [SendTemporaryMessage](SoraApi/SendTemporaryMessage.md)(…) | 发起群临时会话（私聊） |
 | [SetEssenceMessage](SoraApi/SetEssenceMessage.md)(…) | 设置精华消息 |
 | [SetFriendAddRequest](SoraApi/SetFriendAddRequest.md)(…) | 处理加好友请求 |
 | [SetGroupAddRequest](SoraApi/SetGroupAddRequest.md)(…) | 处理加群请求/邀请 |

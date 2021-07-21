@@ -1,16 +1,17 @@
-# SoraApi.SendPrivateMessage method (1 of 2)
+# SoraApi.SendPrivateMessage method
 
 发送群聊消息
 
 ```csharp
 public ValueTask<(ApiStatus apiStatus, int messageId)> SendPrivateMessage(long userId, 
-    MessageBody message)
+    MessageBody message, TimeSpan? timeout = default)
 ```
 
 | parameter | description |
 | --- | --- |
 | userId | 发送目标群id |
-| message | 消息 |
+| message | 消息内容 |
+| timeout |  |
 
 ## Return Value
 
@@ -22,34 +23,6 @@ public ValueTask<(ApiStatus apiStatus, int messageId)> SendPrivateMessage(long u
 
 * struct [ApiStatus](../../Sora.Entities.Info/ApiStatus.md)
 * class [MessageBody](../../Sora.Entities/MessageBody.md)
-* class [SoraApi](../SoraApi.md)
-* namespace [Sora.Entities.Base](../../Sora.md)
-
----
-
-# SoraApi.SendPrivateMessage method (2 of 2)
-
-发送私聊消息
-
-```csharp
-public ValueTask<(ApiStatus apiStatus, int messageId)> SendPrivateMessage(long userId, 
-    params object[] message)
-```
-
-| parameter | description |
-| --- | --- |
-| userId | 发送目标用户id |
-| message | 消息 |
-
-## Return Value
-
-[`ApiStatusType`](../../Sora.Enumeration.ApiType/ApiStatusType.md) API执行状态
-
-`messageId` 消息ID
-
-## See Also
-
-* struct [ApiStatus](../../Sora.Entities.Info/ApiStatus.md)
 * class [SoraApi](../SoraApi.md)
 * namespace [Sora.Entities.Base](../../Sora.md)
 
