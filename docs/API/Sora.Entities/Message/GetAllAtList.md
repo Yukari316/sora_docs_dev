@@ -1,9 +1,9 @@
 # Message.GetAllAtList method
 
-获取所有At的UID
+获取所有At的UID Notice:at全体不会被转换
 
 ```csharp
-public List<long> GetAllAtList()
+public IEnumerable<long> GetAllAtList()
 ```
 
 ## Return Value

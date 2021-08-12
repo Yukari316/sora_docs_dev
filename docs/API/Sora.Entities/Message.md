@@ -17,7 +17,7 @@ public sealed class Message : BaseModel
 | [RawText](Message/RawText.md) { get; } | 纯文本信息 |
 | [Time](Message/Time.md) { get; } | 消息时间戳 |
 | override [Equals](Message/Equals.md)(…) | 比较重载 |
-| [GetAllAtList](Message/GetAllAtList.md)() | 获取所有At的UID |
+| [GetAllAtList](Message/GetAllAtList.md)() | 获取所有At的UID Notice:at全体不会被转换 |
 | [GetAllImage](Message/GetAllImage.md)() | 获取所有图片信息 |
 | [GetForwardMsgId](Message/GetForwardMsgId.md)() | 获取合并转发的ID |
 | override [GetHashCode](Message/GetHashCode.md)() | GetHashCode |

@@ -3,7 +3,7 @@
 获取所有图片信息
 
 ```csharp
-public List<Image> GetAllImage()
+public IEnumerable<Image> GetAllImage()
 ```
 
 ## Return Value
