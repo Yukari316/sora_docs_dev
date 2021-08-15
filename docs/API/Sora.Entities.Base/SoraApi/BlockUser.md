@@ -3,7 +3,7 @@
 屏蔽用户 在当前服务实例内不再处理其消息
 
 ```csharp
-public void BlockUser(long userId)
+public bool BlockUser(long userId)
 ```
 
 | parameter | description |

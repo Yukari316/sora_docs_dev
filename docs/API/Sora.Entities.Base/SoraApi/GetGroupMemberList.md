@@ -4,12 +4,13 @@
 
 ```csharp
 public ValueTask<(ApiStatus apiStatus, List<GroupMemberInfo> groupMemberList)> GetGroupMemberList(
-    long groupId)
+    long groupId, bool useCache = true)
 ```
 
 | parameter | description |
 | --- | --- |
 | groupId | 群号 |
+| useCache | 是否使用缓存 |
 
 ## Return Value
 

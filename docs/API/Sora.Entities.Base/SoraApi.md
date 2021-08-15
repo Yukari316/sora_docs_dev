@@ -40,7 +40,7 @@ public sealed class SoraApi
 | [GetGroupFileSysInfo](SoraApi/GetGroupFileSysInfo.md)(…) | 获取群文件系统信息 |
 | [GetGroupFileUrl](SoraApi/GetGroupFileUrl.md)(…) | 获取群文件资源链接 |
 | [GetGroupInfo](SoraApi/GetGroupInfo.md)(…) | 获取群信息 |
-| [GetGroupList](SoraApi/GetGroupList.md)() | 获取群组列表 |
+| [GetGroupList](SoraApi/GetGroupList.md)(…) | 获取群组列表 |
 | [GetGroupMemberInfo](SoraApi/GetGroupMemberInfo.md)(…) | 获取群成员信息 |
 | [GetGroupMemberList](SoraApi/GetGroupMemberList.md)(…) | 获取群成员列表 |
 | [GetGroupMessageHistory](SoraApi/GetGroupMessageHistory.md)(…) | 获取群消息历史记录 |
@@ -60,6 +60,7 @@ public sealed class SoraApi
 | [GetWordSlices](SoraApi/GetWordSlices.md)(…) | 获取中文分词 |
 | [KickGroupMember](SoraApi/KickGroupMember.md)(…) | 群组踢人 |
 | [LeaveGroup](SoraApi/LeaveGroup.md)(…) | 退出群 |
+| [MarkMessageRead](SoraApi/MarkMessageRead.md)(…) | 标记消息已读 |
 | [OcrImage](SoraApi/OcrImage.md)(…) | OCR图片 |
 | [RebootClient](SoraApi/RebootClient.md)(…) | 重启客户端 |
 | [RecallMessage](SoraApi/RecallMessage.md)(…) | 撤回消息 |

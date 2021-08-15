@@ -158,6 +158,7 @@
 | class [LuckyKingEventArgs](Sora.EventArgs.SoraEvent/LuckyKingEventArgs.md) | 红包运气王事件参数 |
 | class [OfflineFileEventArgs](Sora.EventArgs.SoraEvent/OfflineFileEventArgs.md) | 接收到离线文件事件参数 |
 | class [PrivateMessageEventArgs](Sora.EventArgs.SoraEvent/PrivateMessageEventArgs.md) | 私聊消息事件参数 |
+| class [TitleUpdateEventArgs](Sora.EventArgs.SoraEvent/TitleUpdateEventArgs.md) | 群成员头衔更新事件 |
 
 ## Sora.EventArgs.WebsocketEvent namespace
 

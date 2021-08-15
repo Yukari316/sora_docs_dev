@@ -31,6 +31,7 @@ public class EventInterface
 | event [OnOfflineFileEvent](EventInterface/OnOfflineFileEvent.md) | 离线文件事件 |
 | event [OnPrivateMessage](EventInterface/OnPrivateMessage.md) | 私聊事件 |
 | event [OnSelfMessage](EventInterface/OnSelfMessage.md) | 登录账号发送消息事件 |
+| event [OnTitleUpdate](EventInterface/OnTitleUpdate.md) | 群成员头衔更新 |
 | delegate [EventAsyncCallBackHandler&lt;TEventArgs&gt;](EventInterface.EventAsyncCallBackHandler-1.md) | Onebot事件回调 |
 
 ## See Also

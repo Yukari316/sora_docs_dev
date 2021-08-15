@@ -21,6 +21,7 @@ public class GroupMemberInfo
 | [Nick](GroupMemberInfo/Nick.md) { get; } | 昵称 |
 | [Role](GroupMemberInfo/Role.md) { get; } | 角色(权限等级) |
 | [Sex](GroupMemberInfo/Sex.md) { get; } | 性别 |
+| [ShutUpTime](GroupMemberInfo/ShutUpTime.md) { get; } | 禁言截止时间 |
 | [Title](GroupMemberInfo/Title.md) { get; } | 专属头衔 |
 | [TitleExpireTime](GroupMemberInfo/TitleExpireTime.md) { get; } | 专属头衔过期时间 |
 | [Unfriendly](GroupMemberInfo/Unfriendly.md) { get; } | 是否不良记录成员 |

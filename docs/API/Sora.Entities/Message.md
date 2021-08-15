@@ -23,6 +23,7 @@ public sealed class Message : BaseModel
 | override [GetHashCode](Message/GetHashCode.md)() | GetHashCode |
 | [GetRecordUrl](Message/GetRecordUrl.md)() | 获取语音URL 仅在消息为语音时有效 |
 | [IsForwardMessage](Message/IsForwardMessage.md)() | 是否是转发消息 |
+| [MarkMessageRead](Message/MarkMessageRead.md)() | 标记此消息已读 |
 | [RecallMessage](Message/RecallMessage.md)() | 撤回本条消息 |
 | override [ToString](Message/ToString.md)() | 转纯文本信息 |
 | [operator ==](Message/op_Equality.md) | 等于重载 |

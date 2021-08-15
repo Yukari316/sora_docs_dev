@@ -26,7 +26,7 @@ public sealed class Group : BaseModel
 | [GetGroupFileUrl](Group/GetGroupFileUrl.md)(…) | 获取群文件资源链接 |
 | [GetGroupInfo](Group/GetGroupInfo.md)(…) | 获取群信息 |
 | [GetGroupMemberInfo](Group/GetGroupMemberInfo.md)(…) | 获取群成员信息 |
-| [GetGroupMemberList](Group/GetGroupMemberList.md)() | 获取群成员列表 |
+| [GetGroupMemberList](Group/GetGroupMemberList.md)(…) | 获取群成员列表 |
 | [GetGroupMessageHistory](Group/GetGroupMessageHistory.md)(…) | 获取群消息历史记录 |
 | [GetGroupRootFiles](Group/GetGroupRootFiles.md)() | 获取群根目录文件列表 |
 | override [GetHashCode](Group/GetHashCode.md)() | GetHashCode |

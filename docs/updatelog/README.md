@@ -8,6 +8,20 @@
 框架所适配的`gocq`版本 <Badge text="gocq v----"/>
 :::
 
+## v1.0.0-rc16<Badge text="Release Candidate" type="warning"/>  <Badge text="gocq v1.0.0-beta6"/>
+
+增加 API 标记消息已读 [MarkMessageRead](../API/Sora.Entities.Base/SoraApi/MarkMessageRead.md)
+
+增加 配置项 自动标记消息已读 [AutoMarkMessageRead](../API/Sora.Interfaces/ISoraConfig/AutoMarkMessageRead.md)
+
+增加 事件 [OnTitleUpdate](../API/Sora.OnebotInterface/EventInterface/OnTitleUpdate.md)
+
+增加 [GroupMemberInfo](../API/Sora.Entities.Info/GroupMemberInfo.md) 增加字段 `ShutUpTime`
+
+优化 部分API增加 `useCache` 参数(默认为`false`)
+
+优化 事件处理逻辑，数据存储结构
+
 ## v1.0.0-rc15<Badge text="Release Candidate" type="warning"/>  <Badge text="Breaking Change" type="error"/>  <Badge text="gocq v1.0.0-beta5"/>
 
 删除 [DeleteGroupFile](../API/Sora.Entities.Base/SoraApi/DeleteGroupFile.md) 的参数 `floderId`
@@ -16,9 +30,9 @@ BUG 修复在获取AT列表时如果有AT全体时的转换错误
 
 ## v1.0.0-rc14<Badge text="Release Candidate" type="warning"/>  <Badge text="Breaking Change" type="error"/>  <Badge text="gocq v1.0.0-beta4"/>
 
-增加 对用户的动态屏蔽和接触屏蔽的API [BlockUser](../API/Sora.Entities.Base/SoraApi/BlockUser.md) | [RemoveBlock](../API/Sora.Entities.Base/SoraApi/RemoveBlock.md)
+增加 API 对用户的动态屏蔽和接触屏蔽 [BlockUser](../API/Sora.Entities.Base/SoraApi/BlockUser.md) | [RemoveBlock](../API/Sora.Entities.Base/SoraApi/RemoveBlock.md)
 
-增加 机器人管理员的动态增加和减少 [AddSuperUser](../API/Sora.Entities.Base/SoraApi/AddSuperUser.md) | [RemoveSuperUser](../API/Sora.Entities.Base/SoraApi/RemoveSuperUser.md)
+增加 API 机器人管理员的动态增加和减少 [AddSuperUser](../API/Sora.Entities.Base/SoraApi/AddSuperUser.md) | [RemoveSuperUser](../API/Sora.Entities.Base/SoraApi/RemoveSuperUser.md)
 
 增加 `string` → `MessageBody` 的隐式转换（用于单字符串参数转换为消息数据）
 

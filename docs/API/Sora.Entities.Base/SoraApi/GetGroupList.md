@@ -3,7 +3,8 @@
 获取群组列表
 
 ```csharp
-public ValueTask<(ApiStatus apiStatus, List<GroupInfo> groupList)> GetGroupList()
+public ValueTask<(ApiStatus apiStatus, List<GroupInfo> groupList)> GetGroupList(
+    bool useCache = true)
 ```
 
 ## Return Value

@@ -3,7 +3,8 @@
 获取当前账号在线客户端列表
 
 ```csharp
-public ValueTask<(ApiStatus apiStatus, List<ClientInfo> clients)> GetOnlineClients(bool useCache)
+public ValueTask<(ApiStatus apiStatus, List<ClientInfo> clients)> GetOnlineClients(
+    bool useCache = true)
 ```
 
 | parameter | description |

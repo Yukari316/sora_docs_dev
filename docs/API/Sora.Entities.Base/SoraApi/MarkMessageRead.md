@@ -1,17 +1,18 @@
-# SoraApi.AddSuperUser method
+# SoraApi.MarkMessageRead method
 
-添加机器人管理员
+标记消息已读
 
 ```csharp
-public bool AddSuperUser(long userId)
+public ValueTask<ApiStatus> MarkMessageRead(int messageId)
 ```
 
 | parameter | description |
 | --- | --- |
-| userId | 用户ID |
+| messageId | 消息ID |
 
 ## See Also
 
+* struct [ApiStatus](../../Sora.Entities.Info/ApiStatus.md)
 * class [SoraApi](../SoraApi.md)
 * namespace [Sora.Entities.Base](../../Sora.md)
 
