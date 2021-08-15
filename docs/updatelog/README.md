@@ -18,7 +18,7 @@
 
 增加 [GroupMemberInfo](../API/Sora.Entities.Info/GroupMemberInfo.md) 增加字段 `ShutUpTime`
 
-优化 部分API增加 `useCache` 参数(默认为`false`)
+优化 部分API增加 `useCache` 参数(默认为`true`)
 
 优化 事件处理逻辑，数据存储结构
 
