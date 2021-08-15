@@ -8,6 +8,10 @@
 框架所适配的`gocq`版本 <Badge text="gocq v----"/>
 :::
 
+## v1.0.0-rc17<Badge text="Release Candidate" type="warning"/>  <Badge text="gocq v1.0.0-beta6"/>
+
+优化 指令服务的使能逻辑
+
 ## v1.0.0-rc16<Badge text="Release Candidate" type="warning"/>  <Badge text="gocq v1.0.0-beta6"/>
 
 增加 API 标记消息已读 [MarkMessageRead](../API/Sora.Entities.Base/SoraApi/MarkMessageRead.md)
