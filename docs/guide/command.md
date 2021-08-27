@@ -6,6 +6,12 @@ title: 使用特性指令
 
 这是一个简单易用的指令分发服务扩展
 
+::: tip 小提示
+自带的指令系统是一个十分简单且轻量的指令系统，只有触发指令的功能
+
+如果想要使用支持IOC/参数注入或者更加复杂的指令管理系统，这里推荐使用由[Eric_Lian](https://github.com/ExerciseBook)编写的指令框架[OneBot-Framework](https://github.com/ParaParty/OneBot-Framework)
+:::
+
 实现了和 [Discord.Net](https://github.com/discord-net/Discord.Net) 框架类似的特性指令服务
 
 使用特性 [`CommandGroup`](../../API/Sora.Command.Attributes/CommandGroup.md) 来标识需要注册指令的类（没有将不会被识别）
@@ -61,5 +67,3 @@ public class Commands
 启动服务器后指令服务就会自动注册有[`CommandGroup`](../../API/Sora.Command.Attributes/CommandGroup.md)特性的类下的所有指令
 
 **没有[`CommandGroup`](../../API/Sora.Command.Attributes/CommandGroup.md)特性的类将会被忽略**
-
-自带的指令系统是一个十分简单且轻量的指令系统，如果想要使用支持IOC或者更加复杂的指令管理系统，这里推荐使用由[Eric_Lian](https://github.com/ExerciseBook)编写的指令框架[OneBot-Framework](https://github.com/ParaParty/OneBot-Framework)
