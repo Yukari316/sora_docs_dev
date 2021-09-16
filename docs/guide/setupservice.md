@@ -24,7 +24,11 @@ using YukariToolBox.FormatLog;
 
 
 
-## 创建一个服务端实例
+## 创建一个服务端实例(反向WS)
+
+> 框架同时还支持正向WS的连接方式
+> 
+> 将 `ServerConfig` 改为 `ClientConfig` 即可使用正向的连接方式
 
 ```csharp
 //默认端口为8080
