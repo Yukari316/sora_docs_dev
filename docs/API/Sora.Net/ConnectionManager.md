@@ -3,7 +3,7 @@
 服务器连接管理器 管理服务器链接和心跳包
 
 ```csharp
-public class ConnectionManager
+public sealed class ConnectionManager : IDisposable
 ```
 
 ## Public Members
@@ -11,9 +11,15 @@ public class ConnectionManager
 | name | description |
 | --- | --- |
 | event [OnCloseConnectionAsync](ConnectionManager/OnCloseConnectionAsync.md) | 关闭连接回调 |
-| event [OnHeartBeatTimeOut](ConnectionManager/OnHeartBeatTimeOut.md) | 心跳包超时回调 |
 | event [OnOpenConnectionAsync](ConnectionManager/OnOpenConnectionAsync.md) | 打开连接回调 |
+| [Dispose](ConnectionManager/Dispose.md)() | 清理资源 |
 | delegate [ServerAsyncCallBackHandler&lt;TEventArgs&gt;](ConnectionManager.ServerAsyncCallBackHandler-1.md) | 服务器事件回调 |
+
+## Protected Members
+
+| name | description |
+| --- | --- |
+| override [Finalize](ConnectionManager/Finalize.md)() | 析构 |
 
 ## See Also
 

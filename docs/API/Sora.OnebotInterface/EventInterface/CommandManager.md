@@ -3,7 +3,7 @@
 特性指令管理器
 
 ```csharp
-public CommandManager CommandManager { get; }
+public CommandManager CommandManager { get; set; }
 ```
 
 ## See Also

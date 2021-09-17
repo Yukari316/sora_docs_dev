@@ -3,7 +3,7 @@
 Sora服务器实例
 
 ```csharp
-public sealed class SoraWebsocketServer : ISoraService
+public sealed class SoraWebsocketServer : IDisposable, ISoraService
 ```
 
 ## Public Members

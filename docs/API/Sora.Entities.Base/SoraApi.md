@@ -20,6 +20,7 @@ public sealed class SoraApi
 | [DeleteFriend](SoraApi/DeleteFriend.md)(…) | 删除好友 |
 | [DeleteGroupFile](SoraApi/DeleteGroupFile.md)(…) | 删除群文件文件夹 |
 | [DeleteGroupFolder](SoraApi/DeleteGroupFolder.md)(…) | 删除群文件文件夹 |
+| [DeleteUnidirectionalFriend](SoraApi/DeleteUnidirectionalFriend.md)(…) | 删除单向好友 |
 | [DisableGroupAdmin](SoraApi/DisableGroupAdmin.md)(…) | 取消群管理员 |
 | [DisableGroupMemberMute](SoraApi/DisableGroupMemberMute.md)(…) | 解除群组成员禁言 |
 | [DisableGroupMute](SoraApi/DisableGroupMute.md)(…) | 解除群组全员禁言 |
@@ -55,6 +56,7 @@ public sealed class SoraApi
 | [GetOnlineClients](SoraApi/GetOnlineClients.md)(…) | 获取当前账号在线客户端列表 |
 | [GetQidianAccountInfo](SoraApi/GetQidianAccountInfo.md)() | 获取企点账号信息 |
 | [GetStatus](SoraApi/GetStatus.md)() | 获取客户端状态 |
+| [GetUnidirectionalFriendList](SoraApi/GetUnidirectionalFriendList.md)() | 获取单向好友列表 |
 | [GetUser](SoraApi/GetUser.md)(…) | 获取用户实例 |
 | [GetUserInfo](SoraApi/GetUserInfo.md)(…) | 获取用户信息 |
 | [GetWordSlices](SoraApi/GetWordSlices.md)(…) | 获取中文分词 |

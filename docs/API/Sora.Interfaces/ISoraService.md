@@ -3,7 +3,7 @@
 Sora 连接服务
 
 ```csharp
-public interface ISoraService : IDisposable
+public interface ISoraService
 ```
 
 ## Members

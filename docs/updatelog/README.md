@@ -8,6 +8,30 @@
 框架所适配的`gocq`版本 <Badge text="gocq v----"/>
 :::
 
+## v1.0.0-rc20<Badge text="Release Candidate" type="warning"/>  <Badge text="gocq v1.0.0-beta7-fix1"/>
+
+增加 单向好友相关API [GetUnidirectionalFriendList](../API/Sora.Entities.Base/SoraApi/GetUnidirectionalFriendList.md) | [DeleteUnidirectionalFriend](../API/Sora.Entities.Base/SoraApi/DeleteUnidirectionalFriend.md)
+
+增加 [Image](../API/Sora.Entities.MessageElement.CQModel/Image.md) 添加 `SubType` 字段
+
+优化 连续对话
+
+## v1.0.0-rc19<Badge text="Release Candidate" type="warning"/>  <Badge text="gocq v1.0.0-beta6"/>
+
+修复 长时间运行偶尔崩溃的问题 [#41](https://github.com/DeepOceanSoft/Sora/issues/41)
+
+## v1.0.0-rc18<Badge text="Release Candidate" type="warning"/> <Badge text="Breaking Change" type="error"/> <Badge text="gocq v1.0.0-beta6"/>
+
+调整 [ISoraConfig](../API/Sora.Interfaces/ISoraConfig.md) `Port` 参数类型 `uint` → `ushort`
+
+优化 心跳包超时处理逻辑
+
+优化 消息段处理
+
+优化 ws连接管理，删除部分反射
+
+优化 删除了一些历史冗余
+
 ## v1.0.0-rc17<Badge text="Release Candidate" type="warning"/>  <Badge text="gocq v1.0.0-beta6"/>
 
 优化 指令服务的使能逻辑

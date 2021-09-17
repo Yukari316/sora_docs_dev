@@ -3,7 +3,7 @@
 Sora正向WS链接客户端
 
 ```csharp
-public class SoraWebsocketClient : ISoraService
+public sealed class SoraWebsocketClient : IDisposable, ISoraService
 ```
 
 ## Public Members
