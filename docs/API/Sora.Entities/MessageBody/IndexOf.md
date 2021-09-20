@@ -3,7 +3,7 @@
 索引查找
 
 ```csharp
-public int IndexOf(CQCode item)
+public int IndexOf(SoraSegment item)
 ```
 
 | parameter | description |
@@ -12,7 +12,7 @@ public int IndexOf(CQCode item)
 
 ## See Also
 
-* struct [CQCode](../../Sora.Entities.MessageElement/CQCode.md)
+* struct [SoraSegment](../../Sora.Entities.Segment/SoraSegment.md)
 * class [MessageBody](../MessageBody.md)
 * namespace [Sora.Entities](../../Sora.md)
 

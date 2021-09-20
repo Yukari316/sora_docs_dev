@@ -18,12 +18,12 @@ public MessageBody()
 构造消息段列表
 
 ```csharp
-public MessageBody(IEnumerable<CQCode> messages)
+public MessageBody(List<SoraSegment> messages)
 ```
 
 ## See Also
 
-* struct [CQCode](../../Sora.Entities.MessageElement/CQCode.md)
+* struct [SoraSegment](../../Sora.Entities.Segment/SoraSegment.md)
 * class [MessageBody](../MessageBody.md)
 * namespace [Sora.Entities](../../Sora.md)
 

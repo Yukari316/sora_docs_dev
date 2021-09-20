@@ -4,7 +4,7 @@
 
 ```csharp
 public void RegisterPrivateCommand(Func<PrivateMessageEventArgs, ValueTask> commandBlock, 
-    string[] cmdExps, MatchType matchType, MemberRoleType permissonType = MemberRoleType.Member, 
+    string[] cmdExps, MatchType matchType, MemberRoleType permissionType = MemberRoleType.Member, 
     RegexOptions regexOptions = RegexOptions.None, string desc = "")
 ```
 
@@ -15,7 +15,7 @@ public void RegisterPrivateCommand(Func<PrivateMessageEventArgs, ValueTask> comm
 | matchType | 匹配类型 |
 | regexOptions | 正则匹配选项 |
 | commandBlock | 指令委托 |
-| permissonType | 权限等级 |
+| permissionType | 权限等级 |
 
 ## Exceptions
 

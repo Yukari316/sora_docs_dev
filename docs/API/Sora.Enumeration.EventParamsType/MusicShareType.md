@@ -10,8 +10,9 @@ public enum MusicShareType
 
 | name | value | description |
 | --- | --- | --- |
-| Netease | `0` | 网易云音乐 |
-| QQMusic | `1` | QQ 音乐 |
+| Unknown | `0` | 未知 |
+| Netease | `1` | 网易云音乐 |
+| QQMusic | `2` | QQ 音乐 |
 
 ## See Also
 

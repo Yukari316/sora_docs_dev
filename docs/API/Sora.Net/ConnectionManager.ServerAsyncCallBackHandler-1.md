@@ -10,7 +10,7 @@ public delegate ValueTask ServerAsyncCallBackHandler<in TEventArgs>(Guid sender,
 
 | parameter | description |
 | --- | --- |
-| TEventArgs | 事件参数 |
+| TEventArgs | 事件参数类型 |
 | sender | Bot Id |
 | eventArgs | 事件参数 |
 

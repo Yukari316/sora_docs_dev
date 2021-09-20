@@ -11,7 +11,7 @@ public ValueTask<(ApiStatus apiStatus, int messageId)> SendPrivateMessage(long u
 | --- | --- |
 | userId | 发送目标群id |
 | message | 消息内容 |
-| timeout |  |
+| timeout | 覆盖原有超时 |
 
 ## Return Value
 

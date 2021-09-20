@@ -10,8 +10,9 @@ public enum MessageType
 
 | name | value | description |
 | --- | --- | --- |
-| Private | `0` | 私聊消息 |
-| Group | `1` | 群消息 |
+| Unknown | `0` | 未知，在转换错误时为此值 |
+| Private | `1` | 私聊消息 |
+| Group | `2` | 群消息 |
 
 ## See Also
 

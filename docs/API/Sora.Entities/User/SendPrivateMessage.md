@@ -9,7 +9,7 @@ public ValueTask<(ApiStatus apiStatus, int messageId)> SendPrivateMessage(Messag
 
 | parameter | description |
 | --- | --- |
-| message | 消息 |
+| message | 消息[`MessageBody`](../MessageBody.md) |
 | timeout | 覆盖原有超时 |
 
 ## Return Value

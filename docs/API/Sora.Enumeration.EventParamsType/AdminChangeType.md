@@ -10,8 +10,9 @@ public enum AdminChangeType
 
 | name | value | description |
 | --- | --- | --- |
-| Set | `0` | 设置 |
-| UnSet | `1` | 取消 |
+| Unknown | `0` | 未知，在转换错误时为此值 |
+| Set | `1` | 设置 |
+| UnSet | `2` | 取消 |
 
 ## See Also
 

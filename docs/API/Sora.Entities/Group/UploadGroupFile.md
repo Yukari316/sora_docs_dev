@@ -4,14 +4,14 @@
 
 ```csharp
 public ValueTask<ApiStatus> UploadGroupFile(string localFilePath, string fileName, 
-    string floderId = null)
+    string folderId = null)
 ```
 
 | parameter | description |
 | --- | --- |
 | localFilePath | 本地文件路径 |
 | fileName | 上传文件名 |
-| floderId | 父目录ID |
+| folderId | 父目录ID |
 
 ## Return Value
 

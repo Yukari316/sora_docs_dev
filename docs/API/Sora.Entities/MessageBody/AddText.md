@@ -2,7 +2,7 @@
 
 添加纯文本消息段
 
-CQ码消息段扩展
+消息段扩展
 
 ```csharp
 public void AddText(string text)

@@ -8,7 +8,7 @@ public static ValueTask StartMultiService(this IEnumerable<ISoraService> service
 
 | parameter | description |
 | --- | --- |
-| serviceList |  |
+| serviceList | 多服务列表 |
 
 ## See Also
 

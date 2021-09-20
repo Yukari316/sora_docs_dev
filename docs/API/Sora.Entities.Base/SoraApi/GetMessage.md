@@ -11,7 +11,7 @@ public ValueTask<(ApiStatus apiStatus, Message message, User sender, Group sourc
 
 | parameter | description |
 | --- | --- |
-| messageId |  |
+| messageId | 消息ID |
 
 ## Return Value
 

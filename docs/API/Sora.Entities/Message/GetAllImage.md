@@ -3,18 +3,18 @@
 获取所有图片信息
 
 ```csharp
-public IEnumerable<Image> GetAllImage()
+public IEnumerable<ImageSegment> GetAllImage()
 ```
 
 ## Return Value
 
 图片信息结构体列表
 
-List(T=[`Image`](../../Sora.Entities.MessageElement.CQModel/Image.md))
+List(T=[`ImageSegment`](../../Sora.Entities.Segment.DataModel/ImageSegment.md))
 
 ## See Also
 
-* struct [Image](../../Sora.Entities.MessageElement.CQModel/Image.md)
+* class [ImageSegment](../../Sora.Entities.Segment.DataModel/ImageSegment.md)
 * class [Message](../Message.md)
 * namespace [Sora.Entities](../../Sora.md)
 

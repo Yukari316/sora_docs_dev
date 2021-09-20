@@ -12,7 +12,7 @@ public ValueTask<(ApiStatus apiStatus, UserInfo userInfo, string qid)> GetUserIn
 | parameter | description |
 | --- | --- |
 | userId | 用户ID |
-| useCache |  |
+| useCache | 使用缓存 |
 
 ## Return Value
 

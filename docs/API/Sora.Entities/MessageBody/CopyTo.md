@@ -3,7 +3,7 @@
 复制
 
 ```csharp
-public void CopyTo(CQCode[] array, int arrayIndex)
+public void CopyTo(SoraSegment[] array, int arrayIndex)
 ```
 
 | parameter | description |
@@ -13,7 +13,7 @@ public void CopyTo(CQCode[] array, int arrayIndex)
 
 ## See Also
 
-* struct [CQCode](../../Sora.Entities.MessageElement/CQCode.md)
+* struct [SoraSegment](../../Sora.Entities.Segment/SoraSegment.md)
 * class [MessageBody](../MessageBody.md)
 * namespace [Sora.Entities](../../Sora.md)
 

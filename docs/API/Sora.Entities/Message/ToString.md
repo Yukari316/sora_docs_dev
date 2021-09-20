@@ -2,7 +2,7 @@
 
 转纯文本信息
 
-注意：CQ码会被转换为onebot的string消息段格式
+注意：s码会被转换为onebot的string消息段格式
 
 ```csharp
 public override string ToString()

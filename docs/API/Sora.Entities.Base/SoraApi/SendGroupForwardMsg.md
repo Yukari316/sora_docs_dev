@@ -9,12 +9,12 @@ public ValueTask<ApiStatus> SendGroupForwardMsg(long groupId, IEnumerable<Custom
 | parameter | description |
 | --- | --- |
 | groupId | 群号 |
-| nodeList | 节点([`Node`](../../Sora.Entities.MessageElement.CQModel/Node.md))消息段列表 |
+| nodeList | 节点([`Node`](../../Sora.Entities.Segment.DataModel/Node.md))消息段列表 |
 
 ## See Also
 
 * struct [ApiStatus](../../Sora.Entities.Info/ApiStatus.md)
-* class [CustomNode](../../Sora.Entities.MessageElement.CQModel/CustomNode.md)
+* class [CustomNode](../../Sora.Entities.Segment.DataModel/CustomNode.md)
 * class [SoraApi](../SoraApi.md)
 * namespace [Sora.Entities.Base](../../Sora.md)
 

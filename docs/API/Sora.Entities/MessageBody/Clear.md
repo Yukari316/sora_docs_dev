@@ -6,12 +6,6 @@
 public void Clear()
 ```
 
-## Exceptions
-
-| exception | condition |
-| --- | --- |
-| NotImplementedException |  |
-
 ## See Also
 
 * class [MessageBody](../MessageBody.md)

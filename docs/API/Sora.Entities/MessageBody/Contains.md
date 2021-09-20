@@ -3,7 +3,7 @@
 判断包含
 
 ```csharp
-public bool Contains(CQCode item)
+public bool Contains(SoraSegment item)
 ```
 
 | parameter | description |
@@ -12,7 +12,7 @@ public bool Contains(CQCode item)
 
 ## See Also
 
-* struct [CQCode](../../Sora.Entities.MessageElement/CQCode.md)
+* struct [SoraSegment](../../Sora.Entities.Segment/SoraSegment.md)
 * class [MessageBody](../MessageBody.md)
 * namespace [Sora.Entities](../../Sora.md)
 

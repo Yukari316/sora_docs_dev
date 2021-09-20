@@ -10,10 +10,11 @@ public enum MemberRoleType
 
 | name | value | description |
 | --- | --- | --- |
-| Member | `0` | 成员 |
-| Admin | `1` | 管理员 |
-| Owner | `2` | 群主 |
-| SuperUser | `3` | 该服务的管理员 |
+| Unknown | `0` | 未知 |
+| Member | `1` | 成员 |
+| Admin | `2` | 管理员 |
+| Owner | `3` | 群主 |
+| SuperUser | `4` | 该服务的管理员 |
 
 ## See Also
 

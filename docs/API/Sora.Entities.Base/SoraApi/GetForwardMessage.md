@@ -8,7 +8,7 @@ public ValueTask<(ApiStatus apiStatus, List<Node> nodeArray)> GetForwardMessage(
 
 | parameter | description |
 | --- | --- |
-| forwardId |  |
+| forwardId | 合并转发 ID |
 
 ## Return Value
 
@@ -19,7 +19,7 @@ public ValueTask<(ApiStatus apiStatus, List<Node> nodeArray)> GetForwardMessage(
 ## See Also
 
 * struct [ApiStatus](../../Sora.Entities.Info/ApiStatus.md)
-* struct [Node](../../Sora.Entities.MessageElement.CQModel/Node.md)
+* struct [Node](../../Sora.Entities.Segment.DataModel/Node.md)
 * class [SoraApi](../SoraApi.md)
 * namespace [Sora.Entities.Base](../../Sora.md)
 

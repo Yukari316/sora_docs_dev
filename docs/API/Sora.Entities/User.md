@@ -11,7 +11,7 @@ public sealed class User : BaseModel
 | name | description |
 | --- | --- |
 | [Id](User/Id.md) { get; } | 当前实例的用户ID |
-| [CQCodeAt](User/CQCodeAt.md)() | 获取At的CQ码 |
+| [At](User/At.md)() | 获取At消息段 |
 | [DeleteFriend](User/DeleteFriend.md)() | 删除好友 |
 | override [Equals](User/Equals.md)(…) | 比较重载 |
 | override [GetHashCode](User/GetHashCode.md)() | GetHashCode |

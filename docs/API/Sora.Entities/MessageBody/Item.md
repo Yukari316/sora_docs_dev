@@ -3,7 +3,7 @@
 索引器
 
 ```csharp
-public CQCode this[int index] { get; set; }
+public SoraSegment this[int index] { get; set; }
 ```
 
 | parameter | description |
@@ -19,7 +19,7 @@ public CQCode this[int index] { get; set; }
 
 ## See Also
 
-* struct [CQCode](../../Sora.Entities.MessageElement/CQCode.md)
+* struct [SoraSegment](../../Sora.Entities.Segment/SoraSegment.md)
 * class [MessageBody](../MessageBody.md)
 * namespace [Sora.Entities](../../Sora.md)
 

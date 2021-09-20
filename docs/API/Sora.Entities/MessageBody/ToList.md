@@ -3,12 +3,12 @@
 转普通列表
 
 ```csharp
-public List<CQCode> ToList()
+public List<SoraSegment> ToList()
 ```
 
 ## See Also
 
-* struct [CQCode](../../Sora.Entities.MessageElement/CQCode.md)
+* struct [SoraSegment](../../Sora.Entities.Segment/SoraSegment.md)
 * class [MessageBody](../MessageBody.md)
 * namespace [Sora.Entities](../../Sora.md)
 

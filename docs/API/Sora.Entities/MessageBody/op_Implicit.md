@@ -3,7 +3,7 @@
 隐式类型转换
 
 ```csharp
-public static implicit operator MessageBody(string cqCode)
+public static implicit operator MessageBody(string text)
 ```
 
 ## See Also

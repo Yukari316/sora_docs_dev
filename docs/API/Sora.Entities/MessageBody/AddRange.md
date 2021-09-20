@@ -3,12 +3,12 @@
 AddRange
 
 ```csharp
-public void AddRange(IEnumerable<CQCode> cqCodes)
+public void AddRange(List<SoraSegment> segments)
 ```
 
 ## See Also
 
-* struct [CQCode](../../Sora.Entities.MessageElement/CQCode.md)
+* struct [SoraSegment](../../Sora.Entities.Segment/SoraSegment.md)
 * class [MessageBody](../MessageBody.md)
 * namespace [Sora.Entities](../../Sora.md)
 

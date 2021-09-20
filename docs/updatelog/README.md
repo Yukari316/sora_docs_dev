@@ -14,7 +14,39 @@
 在文档更新后可能会出现连接404或者示例失效的问题
 :::
 
-## v1.0.0-rc20<Badge text="Release Candidate" type="warning"/>  <Badge text="gocq v1.0.0-beta7-fix1"/>
+## v1.0.0-rc22<Badge text="Release Candidate" type="warning"/>  <Badge text="gocq v1.0.0-beta7-fix2"/>
+
+修正 错误的log
+
+## v1.0.0-rc21<Badge text="Release Candidate" type="warning"/>  <Badge text="Breaking Change" type="error"/>  <Badge text="gocq v1.0.0-beta7-fix2"/>
+
+增加 类`BaseSegment`作为所有消息段数据的基类
+
+增加 `SoraSegment` 中的属性 `DataType` 用于获取数据类型
+
+优化 消息段的序列化/反序列化
+
+优化 `Debug`模式下会向log直接输出接收到的json内容
+
+优化 指令的数据处理
+
+调整 命名 `CQCode` → `SoraSegment`
+
+调整 命名 `CQCodes` → `SegmentBuilder`
+
+调整 命名 `SoraSegment` 属性 `DataObject` → `Data`
+
+调整 `SoraSegment` 属性类型 `object` → `BaseSegment`
+
+调整 命名空间 `Sora.Entities.MessageElement` → `Sora.Entities.Segment`
+
+调整 命名空间 `Sora.Entities.MessageElement.CQModel` → `Sora.Entities.Segment.DataModel`
+
+调整 所有的消息段数据结构命名
+
+删除 `RegexBuilder`类
+
+## v1.0.0-rc20<Badge text="Release Candidate" type="warning"/>  <Badge text="gocq v1.0.0-beta7-fix2"/>
 
 增加 单向好友相关API [GetUnidirectionalFriendList](../API/Sora.Entities.Base/SoraApi/GetUnidirectionalFriendList.md) | [DeleteUnidirectionalFriend](../API/Sora.Entities.Base/SoraApi/DeleteUnidirectionalFriend.md)
 

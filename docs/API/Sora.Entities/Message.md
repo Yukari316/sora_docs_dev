@@ -22,6 +22,7 @@ public sealed class Message : BaseModel
 | [GetForwardMsgId](Message/GetForwardMsgId.md)() | 获取合并转发的ID |
 | override [GetHashCode](Message/GetHashCode.md)() | GetHashCode |
 | [GetRecordUrl](Message/GetRecordUrl.md)() | 获取语音URL 仅在消息为语音时有效 |
+| [GetText](Message/GetText.md)() | 截取消息中的文字部分 |
 | [IsForwardMessage](Message/IsForwardMessage.md)() | 是否是转发消息 |
 | [MarkMessageRead](Message/MarkMessageRead.md)() | 标记此消息已读 |
 | [RecallMessage](Message/RecallMessage.md)() | 撤回本条消息 |

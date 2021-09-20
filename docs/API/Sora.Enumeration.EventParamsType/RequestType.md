@@ -10,8 +10,9 @@ public enum RequestType
 
 | name | value | description |
 | --- | --- | --- |
-| Group | `0` | 群组请求 |
-| Friend | `1` | 好友请求 |
+| Unknown | `0` | 未知，在转换错误时为此值 |
+| Group | `1` | 群组请求 |
+| Friend | `2` | 好友请求 |
 
 ## See Also
 

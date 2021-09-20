@@ -28,7 +28,6 @@
 | public type | description |
 | --- | --- |
 | class [CommandManager](Sora.Command/CommandManager.md) | 特性指令管理器 |
-| static class [RegexBuilder](Sora.Command/RegexBuilder.md) | 用于快捷的创建对于CQ码适用的正则表达式 |
 
 ## Sora.Entities namespace
 
@@ -73,44 +72,47 @@
 | struct [UserInfo](Sora.Entities.Info/UserInfo.md) | 用户信息 |
 | struct [VipInfo](Sora.Entities.Info/VipInfo.md) | VIP信息 |
 
-## Sora.Entities.MessageElement namespace
+## Sora.Entities.Segment namespace
 
 | public type | description |
 | --- | --- |
-| struct [CQCode](Sora.Entities.MessageElement/CQCode.md) | 消息段结构体 |
-| static class [CQCodes](Sora.Entities.MessageElement/CQCodes.md) | 消息段构造 |
+| static class [SegmentBuilder](Sora.Entities.Segment/SegmentBuilder.md) | 消息段构造 |
+| struct [SoraSegment](Sora.Entities.Segment/SoraSegment.md) | 消息段结构体 |
 
-## Sora.Entities.MessageElement.CQModel namespace
+## Sora.Entities.Segment.DataModel namespace
 
 | public type | description |
 | --- | --- |
-| struct [At](Sora.Entities.MessageElement.CQModel/At.md) | At某人 |
-| struct [CardImage](Sora.Entities.MessageElement.CQModel/CardImage.md) | 装逼大图 仅支持Go |
-| struct [Code](Sora.Entities.MessageElement.CQModel/Code.md) | Xml与Json集合 |
-| struct [CustomMusic](Sora.Entities.MessageElement.CQModel/CustomMusic.md) | 自定义音乐分享 |
-| class [CustomNode](Sora.Entities.MessageElement.CQModel/CustomNode.md) | 自定义转发节点 |
-| struct [CustomReply](Sora.Entities.MessageElement.CQModel/CustomReply.md) | 自定义回复 |
-| struct [Face](Sora.Entities.MessageElement.CQModel/Face.md) | QQ 表情 |
-| struct [Forward](Sora.Entities.MessageElement.CQModel/Forward.md) | 合并转发/合并转发节点 |
-| struct [Gift](Sora.Entities.MessageElement.CQModel/Gift.md) | 礼物 仅支持Go |
-| struct [Image](Sora.Entities.MessageElement.CQModel/Image.md) | 图片 |
-| struct [Music](Sora.Entities.MessageElement.CQModel/Music.md) | 音乐分享 仅发送 |
-| struct [Node](Sora.Entities.MessageElement.CQModel/Node.md) | 自定义合并转发节点 |
-| class [NodeArray](Sora.Entities.MessageElement.CQModel/NodeArray.md) | 转发消息的列表 |
-| struct [Poke](Sora.Entities.MessageElement.CQModel/Poke.md) | 群成员戳一戳 |
-| struct [Record](Sora.Entities.MessageElement.CQModel/Record.md) | 语音消息 |
-| struct [Redbag](Sora.Entities.MessageElement.CQModel/Redbag.md) | 接收红包 仅支持Go |
-| struct [Reply](Sora.Entities.MessageElement.CQModel/Reply.md) | 回复 |
-| struct [Share](Sora.Entities.MessageElement.CQModel/Share.md) | 链接分享 |
-| struct [Text](Sora.Entities.MessageElement.CQModel/Text.md) | 纯文本 |
-| struct [Video](Sora.Entities.MessageElement.CQModel/Video.md) | 短视频 |
+| class [AtSegment](Sora.Entities.Segment.DataModel/AtSegment.md) | At某人 |
+| abstract class [BaseSegment](Sora.Entities.Segment.DataModel/BaseSegment.md) | 消息段基类，做占位和限制范围用 |
+| class [CardImageSegment](Sora.Entities.Segment.DataModel/CardImageSegment.md) | 装逼大图 仅支持GoCQ |
+| class [CodeSegment](Sora.Entities.Segment.DataModel/CodeSegment.md) | Xml与Json集合 |
+| class [CustomMusicSegment](Sora.Entities.Segment.DataModel/CustomMusicSegment.md) | 自定义音乐分享 |
+| class [CustomNode](Sora.Entities.Segment.DataModel/CustomNode.md) | 自定义转发节点 |
+| class [CustomReplySegment](Sora.Entities.Segment.DataModel/CustomReplySegment.md) | 自定义回复 |
+| class [FaceSegment](Sora.Entities.Segment.DataModel/FaceSegment.md) | QQ 表情 |
+| class [ForwardSegment](Sora.Entities.Segment.DataModel/ForwardSegment.md) | 合并转发/合并转发节点 |
+| class [GiftSegment](Sora.Entities.Segment.DataModel/GiftSegment.md) | 礼物 仅支持GoCQ |
+| class [ImageSegment](Sora.Entities.Segment.DataModel/ImageSegment.md) | 图片 |
+| class [MusicSegment](Sora.Entities.Segment.DataModel/MusicSegment.md) | 音乐分享 仅发送 |
+| struct [Node](Sora.Entities.Segment.DataModel/Node.md) | 自定义合并转发节点 |
+| class [NodeArray](Sora.Entities.Segment.DataModel/NodeArray.md) | 转发消息的列表 |
+| class [PokeSegment](Sora.Entities.Segment.DataModel/PokeSegment.md) | 群成员戳一戳 |
+| class [RecordSegment](Sora.Entities.Segment.DataModel/RecordSegment.md) | 语音消息 |
+| class [RedbagSegment](Sora.Entities.Segment.DataModel/RedbagSegment.md) | 接收红包 仅支持Go |
+| class [ReplySegment](Sora.Entities.Segment.DataModel/ReplySegment.md) | 回复 |
+| class [ShareSegment](Sora.Entities.Segment.DataModel/ShareSegment.md) | 链接分享 |
+| class [TextSegment](Sora.Entities.Segment.DataModel/TextSegment.md) | 纯文本 |
+| class [TtsSegment](Sora.Entities.Segment.DataModel/TtsSegment.md) | 语音转文字（TTS） |
+| class [UnknownSegment](Sora.Entities.Segment.DataModel/UnknownSegment.md) | 未知消息段 |
+| class [VideoSegment](Sora.Entities.Segment.DataModel/VideoSegment.md) | 短视频 |
 
 ## Sora.Enumeration namespace
 
 | public type | description |
 | --- | --- |
-| enum [CQType](Sora.Enumeration/CQType.md) | 消息段类型 |
 | enum [MatchType](Sora.Enumeration/MatchType.md) | 匹配类型 |
+| enum [SegmentType](Sora.Enumeration/SegmentType.md) | 消息段类型 |
 | enum [Sex](Sora.Enumeration/Sex.md) | 性别 |
 | enum [SourceFlag](Sora.Enumeration/SourceFlag.md) | 消息来源类型 |
 

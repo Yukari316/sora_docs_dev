@@ -3,7 +3,7 @@
 插入消息段
 
 ```csharp
-public void Insert(int index, CQCode item)
+public void Insert(int index, SoraSegment item)
 ```
 
 | parameter | description |
@@ -13,7 +13,7 @@ public void Insert(int index, CQCode item)
 
 ## See Also
 
-* struct [CQCode](../../Sora.Entities.MessageElement/CQCode.md)
+* struct [SoraSegment](../../Sora.Entities.Segment/SoraSegment.md)
 * class [MessageBody](../MessageBody.md)
 * namespace [Sora.Entities](../../Sora.md)
 

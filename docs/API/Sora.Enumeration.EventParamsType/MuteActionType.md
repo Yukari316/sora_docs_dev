@@ -10,8 +10,9 @@ public enum MuteActionType
 
 | name | value | description |
 | --- | --- | --- |
-| Enable | `0` | 开启 |
-| Disable | `1` | 解除 |
+| Unknown | `0` | 未知，在转换错误时为此值 |
+| Enable | `1` | 开启 |
+| Disable | `2` | 解除 |
 
 ## See Also
 

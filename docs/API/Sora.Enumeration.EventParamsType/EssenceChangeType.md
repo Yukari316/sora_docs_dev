@@ -10,8 +10,9 @@ public enum EssenceChangeType
 
 | name | value | description |
 | --- | --- | --- |
-| Add | `0` | 添加 |
-| Delete | `1` | 删除 |
+| Unknown | `0` | 未知，在转换错误时为此值 |
+| Add | `1` | 添加 |
+| Delete | `2` | 删除 |
 
 ## See Also
 

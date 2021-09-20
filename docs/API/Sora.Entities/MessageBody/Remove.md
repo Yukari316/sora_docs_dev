@@ -3,7 +3,7 @@
 删除消息段
 
 ```csharp
-public bool Remove(CQCode item)
+public bool Remove(SoraSegment item)
 ```
 
 | parameter | description |
@@ -12,7 +12,7 @@ public bool Remove(CQCode item)
 
 ## See Also
 
-* struct [CQCode](../../Sora.Entities.MessageElement/CQCode.md)
+* struct [SoraSegment](../../Sora.Entities.Segment/SoraSegment.md)
 * class [MessageBody](../MessageBody.md)
 * namespace [Sora.Entities](../../Sora.md)
 

@@ -3,13 +3,13 @@
 删除群文件文件夹
 
 ```csharp
-public ValueTask<ApiStatus> DeleteGroupFolder(long groupId, string floderId)
+public ValueTask<ApiStatus> DeleteGroupFolder(long groupId, string folderId)
 ```
 
 | parameter | description |
 | --- | --- |
 | groupId | 群号 |
-| floderId | 文件夹ID |
+| folderId | 文件夹ID |
 
 ## See Also
 

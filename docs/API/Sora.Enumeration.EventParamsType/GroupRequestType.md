@@ -10,8 +10,9 @@ public enum GroupRequestType
 
 | name | value | description |
 | --- | --- | --- |
-| Add | `0` | 加群申请 |
-| Invite | `1` | 加群邀请 |
+| Unknown | `0` | 未知，在转换错误时为此值 |
+| Add | `1` | 加群申请 |
+| Invite | `2` | 加群邀请 |
 
 ## See Also
 

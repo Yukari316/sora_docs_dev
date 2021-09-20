@@ -10,11 +10,12 @@ public enum MemberChangeType
 
 | name | value | description |
 | --- | --- | --- |
-| Leave | `0` | 主动退群 |
-| Kick | `1` | 成员被踢 |
-| KickMe | `2` | 登录号被踢 |
-| Approve | `3` | 管理员同意入群 |
-| Invite | `4` | 管理员邀请入群 |
+| Unknown | `0` | 未知，在转换错误时为此值 |
+| Leave | `1` | 主动退群 |
+| Kick | `2` | 成员被踢 |
+| KickMe | `3` | 登录号被踢 |
+| Approve | `4` | 管理员同意入群 |
+| Invite | `5` | 管理员邀请入群 |
 
 ## See Also
 

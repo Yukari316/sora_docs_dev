@@ -10,9 +10,10 @@ public enum HonorType
 
 | name | value | description |
 | --- | --- | --- |
-| Talkative | `0` | 龙王 |
-| Performer | `1` | 群聊之火 |
-| Emotion | `2` | 快乐源泉 |
+| Unknown | `0` | 未知，在转换错误时为此值 |
+| Talkative | `1` | 龙王 |
+| Performer | `2` | 群聊之火 |
+| Emotion | `3` | 快乐源泉 |
 
 ## See Also
 
