@@ -16,6 +16,7 @@ public abstract class RegexCommand : Attribute
 | [MatchType](RegexCommand/MatchType.md) { get; set; } | 匹配类型 |
 | [Priority](RegexCommand/Priority.md) { get; set; } | 优先级 |
 | [RegexOptions](RegexCommand/RegexOptions.md) { get; set; } | 正则匹配选项 |
+| readonly [ExceptionHandler](RegexCommand/ExceptionHandler.md) | 指令执行异常处理 |
 
 ## Protected Members
 

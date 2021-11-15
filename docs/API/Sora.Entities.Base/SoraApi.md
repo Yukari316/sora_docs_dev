@@ -37,7 +37,7 @@ public sealed class SoraApi
 | [GetFriendList](SoraApi/GetFriendList.md)() | 获取好友列表 |
 | [GetGroup](SoraApi/GetGroup.md)(…) | 获取群实例 |
 | [GetGroupAtAllRemain](SoraApi/GetGroupAtAllRemain.md)(…) | 获取群@全体成员剩余次数 |
-| [GetGroupFilesByFolder](SoraApi/GetGroupFilesByFolder.md)(…) | 获取群根目录文件列表 |
+| [GetGroupFilesByFolder](SoraApi/GetGroupFilesByFolder.md)(…) | 获取群子目录文件列表 |
 | [GetGroupFileSysInfo](SoraApi/GetGroupFileSysInfo.md)(…) | 获取群文件系统信息 |
 | [GetGroupFileUrl](SoraApi/GetGroupFileUrl.md)(…) | 获取群文件资源链接 |
 | [GetGroupInfo](SoraApi/GetGroupInfo.md)(…) | 获取群信息 |

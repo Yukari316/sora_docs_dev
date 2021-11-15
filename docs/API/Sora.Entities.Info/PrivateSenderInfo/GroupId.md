@@ -2,7 +2,7 @@
 
 来源群号
 
-仅支持gocq
+仅支持GoCQ
 
 ```csharp
 public long? GroupId { get; }

@@ -1,15 +1,16 @@
-# Node structure
+# Node record
 
 自定义合并转发节点
 
 ```csharp
-public struct Node
+public record Node
 ```
 
 ## Public Members
 
 | name | description |
 | --- | --- |
+| [Node](Node/Node.md)() | The default constructor. |
 | [MessageBody](Node/MessageBody.md) { get; } | 消息内容 |
 | [Sender](Node/Sender.md) { get; } | 发送者昵称 |
 | [Time](Node/Time.md) { get; } | 发送事件戳 |

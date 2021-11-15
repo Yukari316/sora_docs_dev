@@ -3,7 +3,7 @@
 :::tip 标识提示
 候选发布版 <Badge text="Release Candidate" type="warning"/>
 
-破坏性更新 <Badge text="Breaking Change" type="error"/>
+破坏性更新(破坏性的更新条目也将被加粗) <Badge text="Breaking Change" type="error"/>
 
 框架所适配的`gocq`版本 <Badge text="gocq v----"/>
 :::
@@ -13,6 +13,70 @@
 
 在文档更新后可能会出现连接404或者示例失效的问题
 :::
+
+## v1.0.0-rc29<Badge text="Release Candidate" type="warning"/>  <Badge text="gocq v1.0.0-beta7-fix2"/>
+
+修正 错误的Log
+
+## v1.0.0-rc28<Badge text="Release Candidate" type="warning"/>  <Badge text="Breaking Change" type="error"/>  <Badge text="gocq v1.0.0-beta7-fix2"/>
+
+**调整 Log输出，并增加`ILogService`的方法种类，重写大部分的Log处理逻辑**
+
+**调整 拆分YukariToolBox，去除不必要的部分，并将部分工具集成进框架内(外部依旧可以调用)**
+
+更新 实例项目代码（文档的教程会在之后更新）
+
+## v1.0.0-rc27<Badge text="Release Candidate" type="warning"/>  <Badge text="Breaking Change" type="error"/>  <Badge text="gocq v1.0.0-beta7-fix2"/>
+
+:::danger .Net版本升级警告
+对.Net5的支持在1.0.0-rc26之后的版本将会停止，1.0将会发布单独的.Net5版本
+
+之后的开发将会转为.Net6，由于.Net6为LTS的.Net版本，之后将会在.Net6的生命周期内使用.Net6进行开发
+:::
+
+**.Net版本升级 6.0**
+
+**调整 [SoraServiceFactory](../API/Sora/SoraServiceFactory.md) 移动至 `Sora` 命名空间**
+
+调整 消息段的数据结构类型调整为`sealed record`
+
+优化 指令异常提示的消息增加异常捕捉
+
+## v1.0.0-rc26<Badge text="Release Candidate" type="warning"/>  <Badge text="gocq v1.0.0-beta7-fix2"/>
+
+增加 指令/动态指令在执行中有异常时的处理参数
+
+## v1.0.0-rc25<Badge text="Release Candidate" type="warning"/>  <Badge text="Breaking Change" type="error"/>  <Badge text="gocq v1.0.0-beta7-fix2"/>
+
+> RC25 之后的版本中破坏性更新的条目将会被加粗
+
+增加 更多的消息段构建的隐式转换和运算重载
+
+修正 [SoraSegment](../API/Sora.Entities.Segment/SoraSegment.md) 在部分情况下转换错误的问题
+
+修正 错误的注释
+
+**调整 消息段构建时有错误参数将直接抛出异常**
+
+## v1.0.0-rc24<Badge text="Release Candidate" type="warning"/>  <Badge text="Breaking Change" type="error"/>  <Badge text="gocq v1.0.0-beta7-fix2"/>
+
+修正 [GetGroupFilesByFolder](../API/Sora.Entities.Base/SoraApi/GetGroupFilesByFolder.md) 的错误注释 [#43](https://github.com/DeepOceanSoft/Sora/pull/43) by [Ge](https://github.com/gehongyan)
+
+优化 [MessageBody](../API/Sora.Entities/MessageBody.md) 添加更多的运算重载，优化消息的构造方式
+
+修正 [AtSegment](../API/Sora.Entities.Segment.DataModel/AtSegment.md) 的错误注释
+
+修正 获取单向好友列表时，列表元素为空的问题 [#42](https://github.com/DeepOceanSoft/Sora/issues/42)
+
+## v1.0.0-rc23<Badge text="Release Candidate" type="warning"/>  <Badge text="Breaking Change" type="error"/>  <Badge text="gocq v1.0.0-beta7-fix2"/>
+
+优化 [Message](../API/Sora.Entities/Message.md)增加索引器，可以通过索引直接获取消息段，如`Message[0]`
+
+调整 [Node](../API/Sora.Entities.Segment.DataModel/Node.md)类型 `struct` → `class`
+
+修正 部分错误的注释
+
+调整 Segment的构造函数为不可见
 
 ## v1.0.0-rc22<Badge text="Release Candidate" type="warning"/>  <Badge text="gocq v1.0.0-beta7-fix2"/>
 

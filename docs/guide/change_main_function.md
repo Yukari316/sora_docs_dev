@@ -3,16 +3,18 @@ title: 修改Main函数
 ---
 
 :::warning 注意
-之后的章节都有可能使用到C#9的新特性(比如这一节的异步Main函数)
+之后的章节都有可能使用到C#10的新特性(比如这一节的异步Main函数)
 
-请确认自己已经充分了解C#9新的语法特性再继续阅读
+请确认自己已经充分了解C#10新的语法特性再继续阅读
 
-C#9 新特性介绍文档:[C# Language Version History](https://github.com/dotnet/csharplang/blob/master/Language-Version-History.md)
+C#10 新特性介绍文档:[C# Language Version History](https://github.com/dotnet/csharplang/blob/master/Language-Version-History.md)
 :::
 
 # 修改Main函数
 
 ## 修改为异步执行
+
+> 其实直接去除Main都可以
 
 由于原Main函数是一个同步函数，比如这样的Main函数
 

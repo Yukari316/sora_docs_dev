@@ -1,4 +1,4 @@
-# MessageBody.AddRange method
+# MessageBody.AddRange method (1 of 2)
 
 AddRange
 
@@ -9,6 +9,21 @@ public void AddRange(List<SoraSegment> segments)
 ## See Also
 
 * struct [SoraSegment](../../Sora.Entities.Segment/SoraSegment.md)
+* class [MessageBody](../MessageBody.md)
+* namespace [Sora.Entities](../../Sora.md)
+
+---
+
+# MessageBody.AddRange method (2 of 2)
+
+AddRange
+
+```csharp
+public void AddRange(MessageBody segments)
+```
+
+## See Also
+
 * class [MessageBody](../MessageBody.md)
 * namespace [Sora.Entities](../../Sora.md)
 

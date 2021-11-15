@@ -19,7 +19,7 @@ public ValueTask<(ApiStatus apiStatus, List<Node> nodeArray)> GetForwardMessage(
 ## See Also
 
 * struct [ApiStatus](../../Sora.Entities.Info/ApiStatus.md)
-* struct [Node](../../Sora.Entities.Segment.DataModel/Node.md)
+* record [Node](../../Sora.Entities.Segment.DataModel/Node.md)
 * class [SoraApi](../SoraApi.md)
 * namespace [Sora.Entities.Base](../../Sora.md)
 

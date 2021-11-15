@@ -18,7 +18,7 @@ public sealed class User : BaseModel
 | [GetUserInfo](User/GetUserInfo.md)(…) | 获取用户信息 |
 | [SendPrivateMessage](User/SendPrivateMessage.md)(…) | 发送群消息 |
 | [operator ==](User/op_Equality.md) | 等于重载 |
-| [implicit operator](User/op_Implicit.md) | 定义将 [`User`](User.md) 对象转换为 Int64 (2 operators) |
+| [implicit operator](User/op_Implicit.md) | 定义将 [`User`](./User.md) 对象转换为 Int64 (2 operators) |
 | [operator !=](User/op_Inequality.md) | 不等于重载 |
 
 ## See Also

@@ -16,14 +16,14 @@ next: ./getting_start
 :::
 
 ::: warning 注意
-本框架是在[Go-Cqhttp](https://github.com/Mrs4s/go-cqhttp)(版本:[0.9.40-fix4](https://github.com/Mrs4s/go-cqhttp/releases/tag/v0.9.40-fix4))下进行调试的
+本框架是在[Go-Cqhttp](https://github.com/Mrs4s/go-cqhttp)(版本:[1.0.0-beta8-fix1](https://github.com/Mrs4s/go-cqhttp/releases/tag/v1.0.0-beta8-fix1))下进行调试的
 
 如使用其他平台可能会出现兼容性的问题
 :::
 
 ## 简介
 
-这是一个基于[OneBot](https://github.com/howmanybots/onebot)协议的 [C#/.Net 5](https://dotnet.microsoft.com/download/dotnet/5.0) 异步机器人开发框架
+这是一个基于[OneBot](https://github.com/howmanybots/onebot)协议的 [C#/.Net 6](https://dotnet.microsoft.com/download/dotnet/6.0) 异步机器人开发框架
 
 需要一定的.Net开发知识 [C# 编程指南](https://docs.microsoft.com/zh-cn/dotnet/csharp/programming-guide/)
 

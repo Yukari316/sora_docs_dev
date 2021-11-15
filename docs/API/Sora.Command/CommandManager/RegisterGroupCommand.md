@@ -3,13 +3,16 @@
 动态创建指令
 
 ```csharp
-public void RegisterGroupCommand(Func<GroupMessageEventArgs, ValueTask> commandBlock, 
-    string[] cmdExps, MatchType matchType, MemberRoleType permissionType = MemberRoleType.Member, 
-    RegexOptions regexOptions = RegexOptions.None, string desc = "")
+public void RegisterGroupCommand(string[] cmdExps, 
+    Func<GroupMessageEventArgs, ValueTask> commandBlock, MatchType matchType, 
+    MemberRoleType permissionType = MemberRoleType.Member, 
+    RegexOptions regexOptions = RegexOptions.None, Action<Exception> exceptionHandler = null, 
+    string desc = "")
 ```
 
 | parameter | description |
 | --- | --- |
+| exceptionHandler | 异常处理 |
 | desc | 指令描述 |
 | cmdExps | 指令表达式 |
 | matchType | 匹配类型 |

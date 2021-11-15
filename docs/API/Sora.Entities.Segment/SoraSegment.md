@@ -10,13 +10,33 @@ public struct SoraSegment
 
 | name | description |
 | --- | --- |
+| static [At](SoraSegment/At.md)(…) | At 消息段 (2 methods) |
+| static [AtAll](SoraSegment/AtAll.md)() | At全体 消息段 |
+| static [CardImage](SoraSegment/CardImage.md)(…) | 装逼大图 |
+| static [CustomMusic](SoraSegment/CustomMusic.md)(…) | 自定义音乐分享 消息段 |
+| static [Face](SoraSegment/Face.md)(…) | 表情 消息段 |
+| static [FlashImage](SoraSegment/FlashImage.md)(…) | 闪照 消息段 |
+| static [Gift](SoraSegment/Gift.md)(…) | 发送免费礼物 消息段 |
+| static [Image](SoraSegment/Image.md)(…) | 图片 消息段 |
+| static [Json](SoraSegment/Json.md)(…) | JSON 特殊消息 (2 methods) |
+| static [Music](SoraSegment/Music.md)(…) | 音乐 消息段 |
+| static [Poke](SoraSegment/Poke.md)(…) | 群成员戳一戳 消息段 |
+| static [Record](SoraSegment/Record.md)(…) | 语音 消息段 |
+| static [Redbag](SoraSegment/Redbag.md)(…) | 接收红包 消息段 |
+| static [Reply](SoraSegment/Reply.md)(…) | 回复 (2 methods) |
+| static [Share](SoraSegment/Share.md)(…) | 链接分享 |
+| static [ShowImage](SoraSegment/ShowImage.md)(…) | 秀图 消息段 |
+| static [Text](SoraSegment/Text.md)(…) | 纯文本 |
+| static [TTS](SoraSegment/TTS.md)(…) | 语音转文字（TTS）消息段 |
+| static [Video](SoraSegment/Video.md)(…) | 视频 消息段 |
+| static [Xml](SoraSegment/Xml.md)(…) | XML 特殊消息 |
 | [Data](SoraSegment/Data.md) { get; } | 数据实例 |
 | [DataType](SoraSegment/DataType.md) { get; } | 数据类型 |
 | [MessageType](SoraSegment/MessageType.md) { get; } | 消息段类型 |
 | override [Equals](SoraSegment/Equals.md)(…) | 比较重载 |
+| [GetCqCodeDataType](SoraSegment/GetCqCodeDataType.md)() | 获取数据类型 用于将BaseSegment转换为可读结构体 |
 | override [GetHashCode](SoraSegment/GetHashCode.md)() | GetHashCode |
-| [GetType](SoraSegment/GetType.md)() | 获取数据类型 用于将BaseSegment转换为可读结构体 |
-| [operator +](SoraSegment/op_Addition.md) | +运算重载 (2 operators) |
+| [operator +](SoraSegment/op_Addition.md) | +运算重载 (5 operators) |
 | [operator ==](SoraSegment/op_Equality.md) | 等于重载 |
 | [implicit operator](SoraSegment/op_Implicit.md) | 隐式类型转换 |
 | [operator !=](SoraSegment/op_Inequality.md) | 不等于重载 |

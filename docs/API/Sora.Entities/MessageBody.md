@@ -16,7 +16,7 @@ public class MessageBody : IList<SoraSegment>
 | [IsReadOnly](MessageBody/IsReadOnly.md) { get; } | 只读 |
 | [Item](MessageBody/Item.md) { get; set; } | 索引器 |
 | [Add](MessageBody/Add.md)(…) | 添加消息段 (2 methods) |
-| [AddRange](MessageBody/AddRange.md)(…) | AddRange |
+| [AddRange](MessageBody/AddRange.md)(…) | AddRange (2 methods) |
 | [AddText](MessageBody/AddText.md)(…) | 添加纯文本消息段 |
 | [Clear](MessageBody/Clear.md)() | 清空消息段 |
 | [Contains](MessageBody/Contains.md)(…) | 判断包含 |
@@ -25,9 +25,10 @@ public class MessageBody : IList<SoraSegment>
 | [IndexOf](MessageBody/IndexOf.md)(…) | 索引查找 |
 | [Insert](MessageBody/Insert.md)(…) | 插入消息段 |
 | [Remove](MessageBody/Remove.md)(…) | 删除消息段 |
+| [RemoveAll](MessageBody/RemoveAll.md)(…) | RemoveAll |
 | [RemoveAt](MessageBody/RemoveAt.md)(…) | 删除消息段 |
 | [ToList](MessageBody/ToList.md)() | 转普通列表 |
-| [operator +](MessageBody/op_Addition.md) | 运算重载 |
+| [operator +](MessageBody/op_Addition.md) | 运算重载 (3 operators) |
 | [implicit operator](MessageBody/op_Implicit.md) | 隐式类型转换 |
 
 ## See Also

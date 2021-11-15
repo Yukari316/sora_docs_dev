@@ -21,7 +21,7 @@ public sealed class Group : BaseModel
 | override [Equals](Group/Equals.md)(…) | 比较重载 |
 | [GetEssenceMsgList](Group/GetEssenceMsgList.md)() | 获取群精华消息列表 |
 | [GetGroupAtAllRemain](Group/GetGroupAtAllRemain.md)() | 获取群@全体成员剩余次数 |
-| [GetGroupFilesByFolder](Group/GetGroupFilesByFolder.md)(…) | 获取群根目录文件列表 |
+| [GetGroupFilesByFolder](Group/GetGroupFilesByFolder.md)(…) | 获取群子目录文件列表 |
 | [GetGroupFileSysInfo](Group/GetGroupFileSysInfo.md)() | 获取群文件系统信息 |
 | [GetGroupFileUrl](Group/GetGroupFileUrl.md)(…) | 获取群文件资源链接 |
 | [GetGroupInfo](Group/GetGroupInfo.md)(…) | 获取群信息 |
@@ -41,7 +41,7 @@ public sealed class Group : BaseModel
 | [SetGroupPortrait](Group/SetGroupPortrait.md)(…) | 设置群头像 |
 | [UploadGroupFile](Group/UploadGroupFile.md)(…) | 上传群文件 |
 | [operator ==](Group/op_Equality.md) | 等于重载 |
-| [implicit operator](Group/op_Implicit.md) | 定义将 [`Group`](Group.md) 对象转换为 Int64 |
+| [implicit operator](Group/op_Implicit.md) | 定义将 [`Group`](./Group.md) 对象转换为 Int64 |
 | [operator !=](Group/op_Inequality.md) | 不等于重载 |
 
 ## See Also

@@ -11,6 +11,7 @@ public sealed class Message : BaseModel
 | name | description |
 | --- | --- |
 | [Font](Message/Font.md) { get; } | 消息字体id |
+| [Item](Message/Item.md) { get; } | 索引器 |
 | [MessageBody](Message/MessageBody.md) { get; } | 消息段列表 |
 | [MessageId](Message/MessageId.md) { get; } | 消息ID |
 | [MessageSequence](Message/MessageSequence.md) { get; } | 消息序号 |

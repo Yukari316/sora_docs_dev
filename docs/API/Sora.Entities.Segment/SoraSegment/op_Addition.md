@@ -1,4 +1,4 @@
-# SoraSegment Addition operator (1 of 2)
+# SoraSegment Addition operator (1 of 5)
 
 +运算重载
 
@@ -14,12 +14,60 @@ public static MessageBody operator +(MessageBody message, SoraSegment soraSegmen
 
 ---
 
-# SoraSegment Addition operator (2 of 2)
+# SoraSegment Addition operator (2 of 5)
+
++运算重载
+
+```csharp
+public static MessageBody operator +(SoraSegment soraSegment, MessageBody message)
+```
+
+## See Also
+
+* class [MessageBody](../../Sora.Entities/MessageBody.md)
+* struct [SoraSegment](../SoraSegment.md)
+* namespace [Sora.Entities.Segment](../../Sora.md)
+
+---
+
+# SoraSegment Addition operator (3 of 5)
 
 +运算重载
 
 ```csharp
 public static MessageBody operator +(SoraSegment soraSegmentR, SoraSegment soraSegmentL)
+```
+
+## See Also
+
+* class [MessageBody](../../Sora.Entities/MessageBody.md)
+* struct [SoraSegment](../SoraSegment.md)
+* namespace [Sora.Entities.Segment](../../Sora.md)
+
+---
+
+# SoraSegment Addition operator (4 of 5)
+
++运算重载
+
+```csharp
+public static MessageBody operator +(SoraSegment soraSegment, string message)
+```
+
+## See Also
+
+* class [MessageBody](../../Sora.Entities/MessageBody.md)
+* struct [SoraSegment](../SoraSegment.md)
+* namespace [Sora.Entities.Segment](../../Sora.md)
+
+---
+
+# SoraSegment Addition operator (5 of 5)
+
++运算重载
+
+```csharp
+public static MessageBody operator +(string message, SoraSegment soraSegment)
 ```
 
 ## See Also

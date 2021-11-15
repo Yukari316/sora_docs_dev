@@ -14,7 +14,7 @@ List(T=[`ImageSegment`](../../Sora.Entities.Segment.DataModel/ImageSegment.md))
 
 ## See Also
 
-* class [ImageSegment](../../Sora.Entities.Segment.DataModel/ImageSegment.md)
+* record [ImageSegment](../../Sora.Entities.Segment.DataModel/ImageSegment.md)
 * class [Message](../Message.md)
 * namespace [Sora.Entities](../../Sora.md)
 

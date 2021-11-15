@@ -1,11 +1,11 @@
-# CustomNode class
+# CustomNode record
 
 自定义转发节点
 
 仅用于发送
 
 ```csharp
-public class CustomNode
+public record CustomNode
 ```
 
 ## Public Members

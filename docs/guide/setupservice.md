@@ -15,11 +15,12 @@ title: 创建一个最简单的Bot
 添加以下代码的引用
 
 ```csharp
-using Sora.Net;
-using Sora.OnebotModel;
+using Sora;
+using Sora.Entities.Segment;
+using Sora.Enumeration;
+using Sora.Net.Config;
 using System.Threading.Tasks;
-using YukariToolBox.Extensions;
-using YukariToolBox.FormatLog;
+using YukariToolBox.LightLog;
 ```
 
 
@@ -42,7 +43,7 @@ var service = SoraServiceFactory.CreateInstance(new ServerConfig());
 
 ```csharp
 //启动服务并捕捉错误
-await service.StartService().RunCatch(e => Log.Error("Sora Service", Log.ErrorLogBuilder(e)));
+await service.StartService();
 await Task.Delay(-1);
 ```
 

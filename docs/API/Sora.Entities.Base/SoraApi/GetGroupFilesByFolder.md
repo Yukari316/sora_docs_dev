@@ -1,6 +1,6 @@
 # SoraApi.GetGroupFilesByFolder method
 
-获取群根目录文件列表
+获取群子目录文件列表
 
 ```csharp
 public ValueTask<(ApiStatus apiStatus, List<GroupFileInfo> groupFiles, List<GroupFolderInfo> groupFolders)> 
