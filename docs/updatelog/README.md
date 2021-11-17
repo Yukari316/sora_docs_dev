@@ -25,7 +25,7 @@
 ## v1.0.0-rc28<Badge text="Release Candidate" type="warning"/>  <Badge text="Breaking Change" type="error"/>  <Badge text="gocq v1.0.0-beta7-fix2"/>
 
 :::warning Log控制台输出将默认禁用
-29版本的log将会默认关闭控制台的输出
+28版本之后的log将会默认关闭控制台的输出
 
 如果需要启用请使用以下代码
 ```csharp
