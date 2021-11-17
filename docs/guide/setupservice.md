@@ -15,14 +15,25 @@ title: 创建一个最简单的Bot
 添加以下代码的引用
 
 ```csharp
-using Sora;
-using Sora.Entities.Segment;
-using Sora.Enumeration;
-using Sora.Net.Config;
 using System.Threading.Tasks;
+using Sora;
+using Sora.Net.Config;
+using Sora.Util;
 using YukariToolBox.LightLog;
 ```
 
+## 启用Console的日志输出
+
+在rc28版本后，控制台的日志输出将会被禁用
+
+如果希望使用控制台的log输出，请使用以下代码启用
+
+```csharp
+//设置log
+Log.LogConfiguration
+   .EnableConsoleOutput() //启用控制台输出
+   .SetLogLevel(LogLevel.Debug); //设置log等级
+```
 
 
 ## 创建一个服务端实例(反向WS)
@@ -43,7 +54,8 @@ var service = SoraServiceFactory.CreateInstance(new ServerConfig());
 
 ```csharp
 //启动服务并捕捉错误
-await service.StartService();
+await service.StartService()
+             .RunCatch(e => Log.Error("Sora Service", Log.ErrorLogBuilder(e)));
 await Task.Delay(-1);
 ```
 
@@ -53,4 +65,4 @@ await Task.Delay(-1);
 
 如果出现图片中的结果，那么bot已经成功运行了
 
-![SoraRun.png](https://i.loli.net/2021/03/13/RXhsuQTP6mOF12c.png)
+![SoraRun.png](https://i.loli.net/2021/11/17/zhgLPZj2eFNIrUB.png)
