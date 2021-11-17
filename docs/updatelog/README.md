@@ -14,11 +14,27 @@
 在文档更新后可能会出现连接404或者示例失效的问题
 :::
 
+## v1.0.0-rc30/31/32<Badge text="Release Candidate" type="warning"/>  <Badge text="gocq v1.0.0-beta7-fix2"/>
+
+都在优化log
+
 ## v1.0.0-rc29<Badge text="Release Candidate" type="warning"/>  <Badge text="gocq v1.0.0-beta7-fix2"/>
 
 修正 错误的Log
 
 ## v1.0.0-rc28<Badge text="Release Candidate" type="warning"/>  <Badge text="Breaking Change" type="error"/>  <Badge text="gocq v1.0.0-beta7-fix2"/>
+
+:::warning Log控制台输出将默认禁用
+29版本的log将会默认关闭控制台的输出
+
+如果需要启用请使用以下代码
+```csharp
+//设置log
+Log.LogConfiguration
+   .EnableConsoleOutput() //启用控制台输出
+   .SetLogLevel(LogLevel.Debug); //设置log等级
+```
+:::
 
 **调整 Log输出，并增加`ILogService`的方法种类，重写大部分的Log处理逻辑**
 
