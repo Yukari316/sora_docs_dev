@@ -16,7 +16,6 @@ public struct SoraSegment
 | static [CustomMusic](SoraSegment/CustomMusic.md)(…) | 自定义音乐分享 消息段 |
 | static [Face](SoraSegment/Face.md)(…) | 表情 消息段 |
 | static [FlashImage](SoraSegment/FlashImage.md)(…) | 闪照 消息段 |
-| static [Gift](SoraSegment/Gift.md)(…) | 发送免费礼物 消息段 |
 | static [Image](SoraSegment/Image.md)(…) | 图片 消息段 |
 | static [Json](SoraSegment/Json.md)(…) | JSON 特殊消息 (2 methods) |
 | static [Music](SoraSegment/Music.md)(…) | 音乐 消息段 |

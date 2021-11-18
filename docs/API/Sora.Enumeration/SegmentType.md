@@ -26,9 +26,8 @@ public enum SegmentType
 | Xml | `13` | XML 消息 |
 | Json | `14` | JSON 消息 |
 | RedBag | `15` | 接收红包 |
-| Gift | `16` | 免费礼物发送 |
-| CardImage | `17` | 装逼大图 |
-| TTS | `18` | 文本转语音 |
+| CardImage | `16` | 装逼大图 |
+| TTS | `17` | 文本转语音 |
 
 ## See Also
 

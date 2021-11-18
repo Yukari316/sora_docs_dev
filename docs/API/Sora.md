@@ -93,7 +93,6 @@
 | record [CustomReplySegment](./Sora.Entities.Segment.DataModel/CustomReplySegment.md) | 自定义回复 |
 | record [FaceSegment](./Sora.Entities.Segment.DataModel/FaceSegment.md) | QQ 表情 |
 | record [ForwardSegment](./Sora.Entities.Segment.DataModel/ForwardSegment.md) | 合并转发/合并转发节点 |
-| record [GiftSegment](./Sora.Entities.Segment.DataModel/GiftSegment.md) | 礼物 仅支持GoCQ |
 | record [ImageSegment](./Sora.Entities.Segment.DataModel/ImageSegment.md) | 图片 |
 | record [MusicSegment](./Sora.Entities.Segment.DataModel/MusicSegment.md) | 音乐分享 仅发送 |
 | record [Node](./Sora.Entities.Segment.DataModel/Node.md) | 自定义合并转发节点 |

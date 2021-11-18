@@ -14,6 +14,10 @@
 在文档更新后可能会出现连接404或者示例失效的问题
 :::
 
+## v1.0.0-rc34<Badge text="Release Candidate" type="warning"/>  <Badge text="Breaking Change" type="error"/>  <Badge text="gocq v1.0.0-beta8-fix1"/>
+
+调整 移除对Gift的支持
+
 ## v1.0.0-rc33<Badge text="Release Candidate" type="warning"/>  <Badge text="gocq v1.0.0-beta7-fix2"/>
 
 :::warning 安全性警告
