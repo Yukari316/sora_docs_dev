@@ -14,6 +14,20 @@
 在文档更新后可能会出现连接404或者示例失效的问题
 :::
 
+## v1.0.0-rc33<Badge text="Release Candidate" type="warning"/>  <Badge text="gocq v1.0.0-beta7-fix2"/>
+
+:::warning 安全性警告
+字符串转换的功能已经被评估为不安全的
+
+该功能也将会在onebot v12时废弃
+
+请提前做好迁移准备
+:::
+
+增加 原字符串CQ码的转换（不支持自动转换，需要自己调用转换方法） by [轻雨](https://github.com/qingyu-sama)
+
+修正 错误的注释 by [轻雨](https://github.com/qingyu-sama)
+
 ## v1.0.0-rc30/31/32<Badge text="Release Candidate" type="warning"/>  <Badge text="gocq v1.0.0-beta7-fix2"/>
 
 都在优化log

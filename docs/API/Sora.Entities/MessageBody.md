@@ -12,6 +12,7 @@ public class MessageBody : IList<SoraSegment>
 | --- | --- |
 | [MessageBody](MessageBody/MessageBody.md)() | 构造消息段列表 |
 | [MessageBody](MessageBody/MessageBody.md)(…) | 构造消息段列表 |
+| static [GetMessageBody](MessageBody/GetMessageBody.md)(…) | 将含有CQ码的字符串反序列化成MessageBody对象 |
 | [Count](MessageBody/Count.md) { get; } | 消息段数量 |
 | [IsReadOnly](MessageBody/IsReadOnly.md) { get; } | 只读 |
 | [Item](MessageBody/Item.md) { get; set; } | 索引器 |

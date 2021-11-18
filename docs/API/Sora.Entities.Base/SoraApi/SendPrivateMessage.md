@@ -1,6 +1,6 @@
 # SoraApi.SendPrivateMessage method
 
-发送群聊消息
+发送私聊消息
 
 ```csharp
 public ValueTask<(ApiStatus apiStatus, int messageId)> SendPrivateMessage(long userId, 
@@ -9,7 +9,7 @@ public ValueTask<(ApiStatus apiStatus, int messageId)> SendPrivateMessage(long u
 
 | parameter | description |
 | --- | --- |
-| userId | 发送目标群id |
+| userId | 发送目标用户id |
 | message | 消息内容 |
 | timeout | 覆盖原有超时 |
 

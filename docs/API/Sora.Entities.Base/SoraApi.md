@@ -72,7 +72,7 @@ public sealed class SoraApi
 | [SendGroupForwardMsg](SoraApi/SendGroupForwardMsg.md)(…) | 发送合并转发(群) 但好像不能用的样子 |
 | [SendGroupMessage](SoraApi/SendGroupMessage.md)(…) | 发送群聊消息 |
 | [SendGroupNotice](SoraApi/SendGroupNotice.md)(…) | 发送群公告 |
-| [SendPrivateMessage](SoraApi/SendPrivateMessage.md)(…) | 发送群聊消息 |
+| [SendPrivateMessage](SoraApi/SendPrivateMessage.md)(…) | 发送私聊消息 |
 | [SendTemporaryMessage](SoraApi/SendTemporaryMessage.md)(…) | 发起群临时会话（私聊） |
 | [SetEssenceMessage](SoraApi/SetEssenceMessage.md)(…) | 设置精华消息 |
 | [SetFriendAddRequest](SoraApi/SetFriendAddRequest.md)(…) | 处理加好友请求 |
