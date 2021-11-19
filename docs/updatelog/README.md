@@ -31,7 +31,7 @@
 增加 原字符串CQ码的转换（不支持自动转换，需要自己调用转换方法） by [轻雨](https://github.com/qingyu-sama)
 使用方法
 ```csharp
-MessageBody messageBody = MessageBody.GetMessageBody(@"[CQ:at,id=1470078125]");
+MessageBody messageBody = MessageBody.GetMessageBody(@"[CQ:at,qq=1470078125]");
 ```
 
 修正 错误的注释 by [轻雨](https://github.com/qingyu-sama)
