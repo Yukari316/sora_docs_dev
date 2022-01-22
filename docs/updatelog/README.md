@@ -14,6 +14,10 @@
 在文档更新后可能会出现连接404或者示例失效的问题
 :::
 
+## v1.0.0-rc39<Badge text="Release Candidate" type="warning"/>  <Badge text="gocq v1.0.0-beta8-fix2"/>
+
+修复 错误的标识符
+
 ## v1.0.0-rc38<Badge text="Release Candidate" type="warning"/>  <Badge text="Breaking Change" type="error"/>  <Badge text="gocq v1.0.0-beta8-fix2"/>
 
 调整 [SourceFlag](../API/Sora.Enumeration/SourceFlag.md) 添加值 `System` `None`
