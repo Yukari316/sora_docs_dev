@@ -22,7 +22,7 @@ public ValueTask<(ApiStatus apiStatus, string filePath)> DownloadFile(string url
 
 ## See Also
 
-* struct [ApiStatus](../../Sora.Entities.Info/ApiStatus.md)
+* struct [ApiStatus](../../Sora.Entities/ApiStatus.md)
 * class [SoraApi](../SoraApi.md)
 * namespace [Sora.Entities.Base](../../Sora.md)
 

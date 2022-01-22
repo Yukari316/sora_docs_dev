@@ -2,6 +2,8 @@
 
 打开连接回调
 
+注意:正向ws在链接开启时不会获取到SelfId
+
 ```csharp
 public event ServerAsyncCallBackHandler<ConnectionEventArgs> OnOpenConnectionAsync;
 ```

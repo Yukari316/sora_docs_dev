@@ -11,10 +11,10 @@ public struct UserInfo
 | name | description |
 | --- | --- |
 | [Age](UserInfo/Age.md) { get; } | 年龄 |
+| [IsSuperUser](UserInfo/IsSuperUser.md) { get; } | 权限等级 |
 | [Level](UserInfo/Level.md) { get; } | 等级 |
 | [LoginDays](UserInfo/LoginDays.md) { get; } | 登陆天数 |
 | [Nick](UserInfo/Nick.md) { get; } | 昵称 |
-| [Role](UserInfo/Role.md) { get; } | 权限等级 |
 | [Sex](UserInfo/Sex.md) { get; } | 性别 |
 | [UserId](UserInfo/UserId.md) { get; } | 用户id |
 

@@ -2,6 +2,8 @@
 
 等待下一条消息触发
 
+当所在的上下文被重复触发时则会直接返回`false`
+
 ```csharp
 public ValueTask<PrivateMessageEventArgs> WaitForNextMessageAsync(string commandExp, 
     MatchType matchType, RegexOptions regexOptions = RegexOptions.None)
@@ -29,6 +31,8 @@ public ValueTask<PrivateMessageEventArgs> WaitForNextMessageAsync(string command
 
 等待下一条消息触发
 
+当所在的上下文被重复触发时则会直接返回`false`
+
 ```csharp
 public ValueTask<PrivateMessageEventArgs> WaitForNextMessageAsync(string[] commandExps, 
     MatchType matchType, RegexOptions regexOptions = RegexOptions.None)
@@ -55,6 +59,8 @@ public ValueTask<PrivateMessageEventArgs> WaitForNextMessageAsync(string[] comma
 # PrivateMessageEventArgs.WaitForNextMessageAsync method (3 of 4)
 
 等待下一条消息触发
+
+当所在的上下文被重复触发时则会直接返回`false`
 
 ```csharp
 public ValueTask<PrivateMessageEventArgs> WaitForNextMessageAsync(string commandExp, 
@@ -85,6 +91,8 @@ public ValueTask<PrivateMessageEventArgs> WaitForNextMessageAsync(string command
 # PrivateMessageEventArgs.WaitForNextMessageAsync method (4 of 4)
 
 等待下一条消息触发
+
+当所在的上下文被重复触发时则会直接返回`false`
 
 ```csharp
 public ValueTask<PrivateMessageEventArgs> WaitForNextMessageAsync(string[] commandExps, 

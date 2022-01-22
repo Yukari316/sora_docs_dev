@@ -1,9 +1,9 @@
-# GroupRequestInfo.UserID property
+# GroupRequestInfo.UserId property
 
 请求源UID
 
 ```csharp
-public long UserID { get; }
+public long UserId { get; }
 ```
 
 ## See Also

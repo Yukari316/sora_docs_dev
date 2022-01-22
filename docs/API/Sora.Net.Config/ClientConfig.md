@@ -5,7 +5,7 @@
 所有设置项都有默认值一般不需要配置
 
 ```csharp
-public class ClientConfig : ISoraConfig
+public sealed class ClientConfig : ISoraConfig
 ```
 
 ## Public Members
@@ -17,12 +17,14 @@ public class ClientConfig : ISoraConfig
 | [ApiTimeOut](ClientConfig/ApiTimeOut.md) { get; set; } | 客户端API调用超时设置(毫秒) |
 | [AutoMarkMessageRead](ClientConfig/AutoMarkMessageRead.md) { get; set; } | 在触发事件后自动向ob端标记消息已读 |
 | [BlockUsers](ClientConfig/BlockUsers.md) { get; set; } | 不处理来自数组中UID的消息(群聊/私聊) |
+| [EnableSocketMessage](ClientConfig/EnableSocketMessage.md) { get; set; } | 是否输出websocket的源消息 |
 | [EnableSoraCommandManager](ClientConfig/EnableSoraCommandManager.md) { get; set; } | 是否启用Sora自带的指令系统 |
 | [HeartBeatTimeOut](ClientConfig/HeartBeatTimeOut.md) { get; set; } | 心跳包超时设置(秒) |
 | [Host](ClientConfig/Host.md) { get; set; } | 服务器地址 |
 | [Port](ClientConfig/Port.md) { get; set; } | 服务器端口 |
 | [ReconnectTimeOut](ClientConfig/ReconnectTimeOut.md) { get; set; } | 丢失连接时的重连超时 |
 | [SuperUsers](ClientConfig/SuperUsers.md) { get; set; } | 机器人管理员UID |
+| [ThrowCommandException](ClientConfig/ThrowCommandException.md) { get; set; } | 是否抛出指令执行时的错误 |
 | [UniversalPath](ClientConfig/UniversalPath.md) { get; set; } | Universal请求路径 |
 
 ## See Also

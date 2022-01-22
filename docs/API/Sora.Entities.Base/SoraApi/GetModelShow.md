@@ -3,7 +3,7 @@
 获取在线机型
 
 ```csharp
-public ValueTask<(ApiStatus apiStatus, List<Model> models)> GetModelShow(string model)
+public ValueTask<(ApiStatus apiStatus, List<ModelInfo> models)> GetModelShow(string model)
 ```
 
 | parameter | description |
@@ -12,8 +12,8 @@ public ValueTask<(ApiStatus apiStatus, List<Model> models)> GetModelShow(string 
 
 ## See Also
 
-* struct [ApiStatus](../../Sora.Entities.Info/ApiStatus.md)
-* struct [Model](../../Sora.Entities.Info/Model.md)
+* struct [ApiStatus](../../Sora.Entities/ApiStatus.md)
+* struct [ModelInfo](../../Sora.Entities.Info/ModelInfo.md)
 * class [SoraApi](../SoraApi.md)
 * namespace [Sora.Entities.Base](../../Sora.md)
 

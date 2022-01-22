@@ -16,7 +16,7 @@ public ValueTask<ApiStatus> SetGroupAddRequest(string flag, GroupRequestType req
 
 ## See Also
 
-* struct [ApiStatus](../../Sora.Entities.Info/ApiStatus.md)
+* struct [ApiStatus](../../Sora.Entities/ApiStatus.md)
 * enum [GroupRequestType](../../Sora.Enumeration.EventParamsType/GroupRequestType.md)
 * class [SoraApi](../SoraApi.md)
 * namespace [Sora.Entities.Base](../../Sora.md)

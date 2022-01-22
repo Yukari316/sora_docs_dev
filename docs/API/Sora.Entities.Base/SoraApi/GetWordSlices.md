@@ -18,7 +18,7 @@ public ValueTask<(ApiStatus apiStatus, List<string> wordList)> GetWordSlices(str
 
 ## See Also
 
-* struct [ApiStatus](../../Sora.Entities.Info/ApiStatus.md)
+* struct [ApiStatus](../../Sora.Entities/ApiStatus.md)
 * class [SoraApi](../SoraApi.md)
 * namespace [Sora.Entities.Base](../../Sora.md)
 

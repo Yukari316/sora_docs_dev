@@ -3,7 +3,7 @@
 精华消息变动事件参数
 
 ```csharp
-public class EssenceChangeEventArgs : BaseSoraEventArgs
+public sealed class EssenceChangeEventArgs : BaseSoraEventArgs
 ```
 
 ## Public Members

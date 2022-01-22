@@ -1,9 +1,9 @@
-# StaticVariable.Version field
+# StaticVariable.VERSION field
 
 版本号
 
 ```csharp
-public const string Version;
+public const string VERSION;
 ```
 
 ## See Also

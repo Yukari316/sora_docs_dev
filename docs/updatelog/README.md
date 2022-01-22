@@ -14,6 +14,80 @@
 在文档更新后可能会出现连接404或者示例失效的问题
 :::
 
+## v1.0.0-rc38<Badge text="Release Candidate" type="warning"/>  <Badge text="Breaking Change" type="error"/>  <Badge text="gocq v1.0.0-beta8-fix2"/>
+
+调整 [SourceFlag](../API/Sora.Enumeration/SourceFlag.md) 添加值 `System` `None`
+
+调整 [BaseSoraEventArgs](../API/Sora.EventArgs.SoraEvent/BaseSoraEventArgs.md) 添加属性 [SourceFlag](../API/Sora.Enumeration/SourceFlag.md)
+
+调整 命名 `Model` -> [ModelInfo](../API/Sora.Entities.Info/ModelInfo.md)
+
+调整 命名 `Message` -> [MessageContext](../API/Sora.Entities/MessageContext.md)
+
+增加 添加 [BaseMessageEventArgs](../API/Sora.EventArgs.SoraEvent/BaseMessageEventArgs.md) 类用于存放消息内容和发送者
+
+增加 特性 [SoraCommand](../API/Sora.Attributes.Command/SoraCommand.md)
+
+删除 特性 `GroupCommand` , `PrivateCommand`
+
+调整 [IsSelfMessage](../API/Sora.EventArgs.SoraEvent/BaseMessageEventArgs/IsSelfMessage.md) 移入 [BaseMessageEventArgs](../API/Sora.EventArgs.SoraEvent/BaseMessageEventArgs.md)
+
+修复 [IsSelfMessage](../API/Sora.EventArgs.SoraEvent/BaseMessageEventArgs/IsSelfMessage.md) 的判断逻辑
+
+增加 [ThrowCommandException](../API/Sora.Interfaces/ISoraConfig/ThrowCommandException.md) 配置选项
+
+增加 自身聊天信息事件(私聊) [OnSelfPrivateMessage](../API/Sora.OnebotAdapter/EventAdapter/OnSelfPrivateMessage.md)
+
+调整 命名 `OnSelfMessage` -> [OnSelfGroupMessage](../API/Sora.OnebotAdapter/EventAdapter/OnSelfGroupMessage.md)
+
+调整 修改 [Vector2](../API/Sora.Entities/Vector2.md) 为结构体
+
+调整 [ApiStatus](../API/Sora.Entities/ApiStatus.md) 移动至 `Sora.Entities` 命名空间
+
+重构 特性指令
+- 删除群组指令特性和私聊特性指令，合并为同一个特性指令
+- 特性指令增加SourceType设置属性，用于指定匹配源
+- 重构指令自动注册，并在注册阶段跳过不合法的指令并使用log警告
+- 优化连续对话的匹配逻辑/上下文判定
+- 分离特性指令和动态指令（动态指令在之后进行重构）
+- CommandManager结构优化
+- 优化指令触发/判定
+- 优化错误触发机制和抛出机制
+- 优化初始化流程
+- 指令权限增加单独的SuperUser的判定（在MemberRoleType之后）
+- 优化部分注释
+- 动态注册的指令支持删除
+
+调整 权限相关
+- 将SuperUser从MemberRoleType中移除，使用IsSuperUser属性替代，分离ob和框架自身的权限
+- 在User中添加IsSuperUser属性
+
+## v1.0.0-rc37<Badge text="Release Candidate" type="warning"/>  <Badge text="Breaking Change" type="error"/>  <Badge text="gocq v1.0.0-beta8-fix2"/>
+
+调整 将CQ码反序列化移动至 [CQCodeUtil](../API/Sora.Util/CQCodeUtil.md)
+
+调整 版本号常量命名修改 `Version` → [`VERSION`](../API/Sora/StaticVariable.md)
+
+增加 [ONEBOT_PROTOCOL](../API/Sora/StaticVariable.md) 常量
+
+增加 [EnableSocketMessage](../API/Sora.Interfaces/ISoraConfig/EnableSocketMessage.md) 配置选项
+
+## v1.0.0-rc36<Badge text="Release Candidate" type="warning"/>  <Badge text="gocq v1.0.0-beta8-fix2"/>
+
+优化 链接管理和初始化
+
+优化 `SlefId` 更新逻辑
+
+优化 [AutoMarkMessageRead](../API/Sora.Interfaces/ISoraConfig/AutoMarkMessageRead.md) 逻辑
+
+增加 [CQCodeUtil](../API/Sora.Util/CQCodeUtil.md) 用于旧版CQ码转换(将在V12禁用)
+
+## v1.0.0-rc35<Badge text="Release Candidate" type="warning"/>  <Badge text="gocq v1.0.0-beta8-fix2"/>
+
+增加 `string` → `SoraSegment`的隐式转换 by [轻雨](https://github.com/qingyu-sama)
+
+调整 `string` 转换为 `MessageBody` 时忽略空字符串 by [轻雨](https://github.com/qingyu-sama)
+
 ## v1.0.0-rc34<Badge text="Release Candidate" type="warning"/>  <Badge text="Breaking Change" type="error"/>  <Badge text="gocq v1.0.0-beta8-fix1"/>
 
 调整 移除对Gift的支持
@@ -30,6 +104,7 @@
 
 增加 原字符串CQ码的转换（不支持自动转换，需要自己调用转换方法） by [轻雨](https://github.com/qingyu-sama)
 使用方法
+
 ```csharp
 MessageBody messageBody = MessageBody.GetMessageBody(@"[CQ:at,qq=1470078125]");
 ```
@@ -50,12 +125,14 @@ MessageBody messageBody = MessageBody.GetMessageBody(@"[CQ:at,qq=1470078125]");
 28版本之后的log将会默认关闭控制台的输出
 
 如果需要启用请使用以下代码
+
 ```csharp
 //设置log
 Log.LogConfiguration
    .EnableConsoleOutput() //启用控制台输出
    .SetLogLevel(LogLevel.Debug); //设置log等级
 ```
+
 :::
 
 **调整 Log输出，并增加`ILogService`的方法种类，重写大部分的Log处理逻辑**
@@ -248,7 +325,7 @@ TYPO 修正错误的注释
 
 优化 优化消息段的运算符重载，优化消息的构建方式
 
-## v1.0.0-rc.7 <Badge text="Release Candidate" type="warning"/>  <Badge text="Breaking Change" type="error"/>  <Badge text="gocq v1.0.0-beta3"/> 
+## v1.0.0-rc.7 <Badge text="Release Candidate" type="warning"/>  <Badge text="Breaking Change" type="error"/>  <Badge text="gocq v1.0.0-beta3"/>
 
 增加 [ISoraConfig](../API/Sora.Interfaces/ISoraConfig.md) 增加 `BlockUsers` 设置项
 
@@ -268,7 +345,7 @@ TYPO 修正错误的注释
 
 优化/调整 部分数据的时间字段从时间戳改为 `DateTime` 同时修改了参数命名
 
-## v1.0.0-rc.6 <Badge text="Release Candidate" type="warning"/>  <Badge text="Breaking Change" type="error"/>  <Badge text="gocq v1.0.0-beta2"/> 
+## v1.0.0-rc.6 <Badge text="Release Candidate" type="warning"/>  <Badge text="Breaking Change" type="error"/>  <Badge text="gocq v1.0.0-beta2"/>
 
 增加 CQ码 [CustomReply](../API/Sora.Entities.MessageElement.CQModel/CustomReply.md) 用于自定义回复
 
@@ -286,7 +363,7 @@ TYPO 修正错误的注释
 
 调整 [GroupSenderInfo](../API/Sora.Entities.Info/GroupSenderInfo.md) [PrivateSenderInfo](../API/Sora.Entities.Info/PrivateSenderInfo.md) 从 `class` 改为 `struct` (又改回去了)
 
-## v1.0.0-rc.5 <Badge text="Release Candidate" type="warning"/>   <Badge text="Breaking Change" type="error"/>  <Badge text="gocq v1.0.0-beta1"/> 
+## v1.0.0-rc.5 <Badge text="Release Candidate" type="warning"/>   <Badge text="Breaking Change" type="error"/>  <Badge text="gocq v1.0.0-beta1"/>
 
 增加 权限等级增加 `SuperUser` 服务管理员
 
@@ -312,7 +389,7 @@ TYPO 修正错误的注释
 
 删除 异常 `SoraClientIsRunningExpecption` `SoraServerIsRunningExpecption`
 
-## v1.0.0-rc.4 <Badge text="Release Candidate" type="warning"/>  <Badge text="Breaking Change" type="error"/>  <Badge text="gocq v1.0.0-beta1"/> 
+## v1.0.0-rc.4 <Badge text="Release Candidate" type="warning"/>  <Badge text="Breaking Change" type="error"/>  <Badge text="gocq v1.0.0-beta1"/>
 
 增加 [ApiStatus](../API/Sora.Entities.Info/ApiStatus.md) 结构体用于存放API执行结果
 
@@ -324,7 +401,7 @@ TYPO 修正错误的注释
 
 调整 命名 `APIStatusType` → `ApiStatusType`
 
-## v1.0.0-rc.3 <Badge text="Release Candidate" type="warning"/>  <Badge text="Breaking Change" type="error"/>  <Badge text="gocq v1.0.0-beta1"/> 
+## v1.0.0-rc.3 <Badge text="Release Candidate" type="warning"/>  <Badge text="Breaking Change" type="error"/>  <Badge text="gocq v1.0.0-beta1"/>
 
 增加 消息段实例 [MessageBody](../API/Sora.Entities/MessageBody.md)
 
@@ -360,7 +437,7 @@ MessageBody message2 = "坏耶" + 100000.At() + CQCodes.CQFace(1);
 
 go-cqhttp版本:[go-cqhttp-v1.0.0-beta1](https://github.com/Mrs4s/go-cqhttp/releases/tag/v1.0.0-beta1)
 
-## v1.0.0-rc.2 <Badge text="Release Candidate" type="warning"/>  <Badge text="Breaking Change" type="error"/>  <Badge text="gocq v1.0.0-alpha1"/> 
+## v1.0.0-rc.2 <Badge text="Release Candidate" type="warning"/>  <Badge text="Breaking Change" type="error"/>  <Badge text="gocq v1.0.0-alpha1"/>
 
 增加 在`GroupMessageEventArgs`和`PrivateMessageEventArgs` 中添加方法 [WaitForNextMessageAsync](../API/Sora.EventArgs.SoraEvent/PrivateMessageEventArgs/WaitForNextMessageAsync.md) 用于连续对话
 
@@ -372,7 +449,7 @@ go-cqhttp版本:[go-cqhttp-v1.0.0-beta1](https://github.com/Mrs4s/go-cqhttp/rele
 
 优化 静态资源和连接管理
 
-## v1.0.0-rc.1 <Badge text="Release Candidate" type="warning"/> <Badge text="gocq v1.0.0-alpha1"/> 
+## v1.0.0-rc.1 <Badge text="Release Candidate" type="warning"/> <Badge text="gocq v1.0.0-alpha1"/>
 
 ::: tip 小提示
 此版本为go-cqhttp同步更新的RC版本，和上一版本没有太大区别
@@ -386,7 +463,7 @@ go-cqhttp版本:[go-cqhttp-v1.0.0-beta1](https://github.com/Mrs4s/go-cqhttp/rele
 
 依赖更新 [Newtonsoft.Json](https://www.newtonsoft.com/json) `12.0.3` → `13.0.1`
 
-## v0.9.9 <Badge text="gocq v0.9.40-fix4"/> 
+## v0.9.9 <Badge text="gocq v0.9.40-fix4"/>
 
 修复 获取 `登录账号UID` 可能为-1的问题
 
@@ -394,39 +471,39 @@ go-cqhttp版本:[go-cqhttp-v1.0.0-beta1](https://github.com/Mrs4s/go-cqhttp/rele
 
 增加 `关键词` 的匹配方式
 
-## v0.9.8 <Badge text="gocq v0.9.40-fix4"/> 
+## v0.9.8 <Badge text="gocq v0.9.40-fix4"/>
 
 优化 `指令管理器` 初始化方式
 
 增加 [GetInstance](../API/Sora.Command/CommandManager/GetInstance.md) 方法用于取出由 `指令管理器` 创建后的实例
 
-## v0.9.7 <Badge text="gocq v0.9.40-fix4"/> 
+## v0.9.7 <Badge text="gocq v0.9.40-fix4"/>
 
  修复 静态方法无法被 `指令管理` 触发的问题
 
-## v0.9.6 <Badge text="gocq v0.9.40-fix4"/> 
+## v0.9.6 <Badge text="gocq v0.9.40-fix4"/>
 
 增加 消息段 `List<CQCode>` 扩展方法 [AddText](../API/Sora/Helper/AddText.md) 用于快速添加纯文本消息
 
-## v0.9.5 <Badge text="gocq v0.9.40-fix4"/> 
+## v0.9.5 <Badge text="gocq v0.9.40-fix4"/>
 
 优化 `正向Websocket` 的消息发送方式
 
-## v0.9.4 <Badge text="gocq v0.9.40-fix4"/> 
+## v0.9.4 <Badge text="gocq v0.9.40-fix4"/>
 
 优化 指令触发后的处理逻辑 by [XiaoHe321](https://github.com/xh321)
 
 优化 框架内可空类型的数据处理
 
-## v0.9.3 <Badge text="gocq v0.9.40-fix4"/> 
+## v0.9.3 <Badge text="gocq v0.9.40-fix4"/>
 
 优化 `API层` 的响应和回调，加快了响应速度
 
-## v0.9.2 <Badge text="gocq v0.9.40-fix4"/> 
+## v0.9.2 <Badge text="gocq v0.9.40-fix4"/>
 
 修复 指令在触发后不再触发 `Event` 的问题
 
-## v0.9.1 <Badge text="gocq v0.9.40-fix4"/> 
+## v0.9.1 <Badge text="gocq v0.9.40-fix4"/>
 
 优化 API请求处理 by [b11p](https://github.com/b11p) [#22](https://github.com/Yukari316/Sora/pull/22)
 
@@ -462,7 +539,7 @@ go-cqhttp版本:[go-cqhttp-v1.0.0-beta1](https://github.com/Mrs4s/go-cqhttp/rele
 
 调整 命名空间 `Sora.EventArgs.WSServerEvent` → `Sora.EventArgs.WebsocketEvent`
 
-## v0.7.1 <Badge text="gocq v0.9.40-fix4"/> 
+## v0.7.1 <Badge text="gocq v0.9.40-fix4"/>
 
 优化 `正向Websocket`取消占用检查 [#17](https://github.com/Yukari316/Sora/issues/17)
 
@@ -474,7 +551,7 @@ go-cqhttp版本:[go-cqhttp-v1.0.0-beta1](https://github.com/Mrs4s/go-cqhttp/rele
 
 调整 命名空间
 
-## v0.6.6 <Badge text="gocq v0.9.40"/> 
+## v0.6.6 <Badge text="gocq v0.9.40"/>
 
 增加 `API` [SendTemporaryMessage](../API/Sora.Entities.Base/SoraApi/SendTemporaryMessage.md)
 
@@ -484,11 +561,11 @@ go-cqhttp版本:[go-cqhttp-v1.0.0-beta1](https://github.com/Mrs4s/go-cqhttp/rele
 
 优化 指令构造方式
 
-## v0.6.5 <Badge text="gocq v0.9.40"/> 
+## v0.6.5 <Badge text="gocq v0.9.40"/>
 
 优化框架API层
 
-## v0.6.4 <Badge text="gocq v0.9.40"/> 
+## v0.6.4 <Badge text="gocq v0.9.40"/>
 
 增加 简单的路由指令服务 [使用说明](../guide/command/README.md)
 
@@ -496,7 +573,7 @@ go-cqhttp版本:[go-cqhttp-v1.0.0-beta1](https://github.com/Mrs4s/go-cqhttp/rele
 
 优化 转发消息的 [CustomNode](../API/Sora.Entities.CQCodes.CQCodeModel/CustomNode.md) 兼容字符串格式和自定义时间 by [Kengxxiao](https://github.com/Kengxxiao) [#15](https://github.com/Yukari316/Sora/pull/15)
 
-## v0.6.3 <Badge text="gocq v0.9.40"/> 
+## v0.6.3 <Badge text="gocq v0.9.40"/>
 
 :::danger 注意
 此版本的依赖更新了Log的实现和命名空间
@@ -506,11 +583,11 @@ go-cqhttp版本:[go-cqhttp-v1.0.0-beta1](https://github.com/Mrs4s/go-cqhttp/rele
 
 更新 框架依赖[YukariToolBox](https://github.com/Yukari316/YukariToolBox)到`1.1.1`
 
-## v0.6.2 <Badge text="gocq v0.9.40"/> 
+## v0.6.2 <Badge text="gocq v0.9.40"/>
 
 优化 底层API请求管理
 
-## v0.6.1 <Badge text="gocq v0.9.40"/> 
+## v0.6.1 <Badge text="gocq v0.9.40"/>
 
 增加 自身消息接收事件 [OnSelfMessage](../API/Sora.Server.ServerInterface/EventInterface/OnSelfMessage.md)
 
@@ -538,19 +615,19 @@ go-cqhttp版本:[go-cqhttp-v1.0.0-beta1](https://github.com/Mrs4s/go-cqhttp/rele
 
 升级`Workflow`的SDK版本至`5.0.103`
 
-## v0.5.3.1 <Badge text="gocq v0.9.40"/> 
+## v0.5.3.1 <Badge text="gocq v0.9.40"/>
 
 修复重载中的错误逻辑
 
-## V0.5.3 <Badge text="gocq v0.9.40"/> 
+## V0.5.3 <Badge text="gocq v0.9.40"/>
 
 增加大部分实例的运算重载
 
-## v0.5.2.1 <Badge text="gocq v0.9.40"/> 
+## v0.5.2.1 <Badge text="gocq v0.9.40"/>
 
 修复命名错误
 
-## v0.5.2 <Badge text="gocq v0.9.40"/> 
+## v0.5.2 <Badge text="gocq v0.9.40"/>
 
 增加API [UploadGroupFile](../API/Sora.Entities.Base/SoraApi/UploadGroupFile.md)
 
@@ -568,11 +645,11 @@ go-cqhttp版本:[go-cqhttp-v1.0.0-beta1](https://github.com/Mrs4s/go-cqhttp/rele
 
 音乐分享类型删除 `虾米音乐` by [Kengxxiao](https://github.com/Kengxxiao) [#11](https://github.com/Yukari316/Sora/pull/11)
 
-## v0.5.1.1 <Badge text="gocq v0.9.39"/> 
+## v0.5.1.1 <Badge text="gocq v0.9.39"/>
 
 修复部分CQ码失效的问题
 
-## v0.5.1 <Badge text="gocq v0.9.39"/> 
+## v0.5.1 <Badge text="gocq v0.9.39"/>
 
 增加API [GetGroupMessageHistory](../API/Sora.Entities.Base/SoraApi/GetGroupMessageHistory.md)
 

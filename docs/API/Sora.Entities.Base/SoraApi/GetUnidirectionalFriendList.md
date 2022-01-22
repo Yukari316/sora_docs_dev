@@ -17,7 +17,7 @@ T = [`UnidirectionalFriendInfo`](../../Sora.Entities.Info/UnidirectionalFriendIn
 
 ## See Also
 
-* struct [ApiStatus](../../Sora.Entities.Info/ApiStatus.md)
+* struct [ApiStatus](../../Sora.Entities/ApiStatus.md)
 * struct [UnidirectionalFriendInfo](../../Sora.Entities.Info/UnidirectionalFriendInfo.md)
 * class [SoraApi](../SoraApi.md)
 * namespace [Sora.Entities.Base](../../Sora.md)

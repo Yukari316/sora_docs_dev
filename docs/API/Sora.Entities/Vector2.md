@@ -1,9 +1,9 @@
-# Vector2 class
+# Vector2 structure
 
 二维向量
 
 ```csharp
-public sealed class Vector2
+public struct Vector2
 ```
 
 ## Public Members

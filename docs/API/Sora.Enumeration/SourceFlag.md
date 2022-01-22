@@ -1,6 +1,6 @@
 # SourceFlag enumeration
 
-消息来源类型
+事件来源类型
 
 ```csharp
 public enum SourceFlag
@@ -10,8 +10,10 @@ public enum SourceFlag
 
 | name | value | description |
 | --- | --- | --- |
-| Group | `0` | 群聊 |
-| Private | `1` | 私聊 |
+| None | `0` | 未知 |
+| Group | `1` | 群组 |
+| Private | `2` | 用户 |
+| System | `3` | 系统消息 |
 
 ## See Also
 

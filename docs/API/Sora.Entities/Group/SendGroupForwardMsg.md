@@ -12,7 +12,7 @@ public ValueTask<ApiStatus> SendGroupForwardMsg(IEnumerable<CustomNode> nodeList
 
 ## See Also
 
-* struct [ApiStatus](../../Sora.Entities.Info/ApiStatus.md)
+* struct [ApiStatus](../ApiStatus.md)
 * record [CustomNode](../../Sora.Entities.Segment.DataModel/CustomNode.md)
 * class [Group](../Group.md)
 * namespace [Sora.Entities](../../Sora.md)

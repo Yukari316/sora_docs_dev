@@ -10,7 +10,7 @@ public enum ApiStatusType
 
 | name | value | description |
 | --- | --- | --- |
-| OK | `0` | API执行成功 |
+| Ok | `0` | API执行成功 |
 | Failed | `100` | API执行失败 |
 | Forbidden | `403` | 403 |
 | NotFound | `404` | 404 |

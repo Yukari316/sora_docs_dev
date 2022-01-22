@@ -44,20 +44,31 @@ await eventArgs.Repeat();
 ### 完成后的代码总览
 
 ```csharp
-static async Task Main(string[] args)
+using System.Threading.Tasks;
+using Sora;
+using Sora.Interfaces;
+using Sora.Net.Config;
+using Sora.Util;
+using YukariToolBox.LightLog;
+
+//设置log等级
+Log.LogConfiguration
+   .EnableConsoleOutput()
+   .SetLogLevel(LogLevel.Info);
+
+//实例化Sora服务
+ISoraService service = SoraServiceFactory.CreateService(new ServerConfig());
+
+service.Event.OnGroupMessage += async (sender, eventArgs) =>
 {
-    //初始化服务器实例
-    var service = SoraServiceFactory.CreateInstance(new ServerConfig());
-    //群消息接收回调
-    service.Event.OnGroupMessage += async (sender, eventArgs) =>
-                                    {
-                                        //最简单的复读（x
-                                        await eventArgs.Repeat();
-                                    };
-    //启动服务并捕捉错误
-	await service.StartService().RunCatch(e => Log.Error("Sora Service", Log.ErrorLogBuilder(e)));
-	await Task.Delay(-1);
-}
+    //最简单的复读（x
+    await eventArgs.Repeat();
+};
+
+//启动服务并捕捉错误
+await service.StartService()
+             .RunCatch(e => Log.Error("Sora Service", Log.ErrorLogBuilder(e)));
+await Task.Delay(-1);
 ```
 
 ## 使用群聊接口进行复读
@@ -67,7 +78,7 @@ static async Task Main(string[] args)
 在事件处理代码中添加以下代码
 
 ```csharp
-await eventArgs.SourceGroup.SendGroupMessage(eventArgs.Message.MessageList);
+await eventArgs.SourceGroup.SendGroupMessage(eventArgs.Message.MessageBody);
 ```
 
 另一种的复读功能也就实现好了
@@ -75,20 +86,31 @@ await eventArgs.SourceGroup.SendGroupMessage(eventArgs.Message.MessageList);
 ### 完成后的代码总览
 
 ```csharp
-static async Task Main(string[] args)
+using System.Threading.Tasks;
+using Sora;
+using Sora.Interfaces;
+using Sora.Net.Config;
+using Sora.Util;
+using YukariToolBox.LightLog;
+
+//设置log等级
+Log.LogConfiguration
+   .EnableConsoleOutput()
+   .SetLogLevel(LogLevel.Info);
+
+//实例化Sora服务
+ISoraService service = SoraServiceFactory.CreateService(new ServerConfig());
+
+service.Event.OnGroupMessage += async (sender, eventArgs) =>
 {
-    //初始化服务器实例
-    var service = SoraServiceFactory.CreateInstance(new ServerConfig());
-    //群消息接收回调
-    service.Event.OnGroupMessage += async (sender, eventArgs) =>
-                                    {
-                                        //发送群消息(List消息段)
-                                        await eventArgs.SourceGroup.SendGroupMessage(eventArgs.Message.MessageList);
-                                    };
-    //启动服务并捕捉错误
-	await service.StartService().RunCatch(e => Log.Error("Sora Service", Log.ErrorLogBuilder(e)));
-	await Task.Delay(-1);
-}
+    //发送群消息(List消息段)
+    await eventArgs.SourceGroup.SendGroupMessage(eventArgs.Message.MessageBody);
+};
+
+//启动服务并捕捉错误
+await service.StartService()
+             .RunCatch(e => Log.Error("Sora Service", Log.ErrorLogBuilder(e)));
+await Task.Delay(-1);
 ```
 
 ## 简单的指南结束了哦

@@ -37,7 +37,7 @@ public struct SoraSegment
 | override [GetHashCode](SoraSegment/GetHashCode.md)() | GetHashCode |
 | [operator +](SoraSegment/op_Addition.md) | +运算重载 (5 operators) |
 | [operator ==](SoraSegment/op_Equality.md) | 等于重载 |
-| [implicit operator](SoraSegment/op_Implicit.md) | 隐式类型转换 |
+| [implicit operator](SoraSegment/op_Implicit.md) | 隐式类型转换 (2 operators) |
 | [operator !=](SoraSegment/op_Inequality.md) | 不等于重载 |
 
 ## See Also

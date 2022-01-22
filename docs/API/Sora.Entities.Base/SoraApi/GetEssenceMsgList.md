@@ -16,7 +16,7 @@ public ValueTask<(ApiStatus apiStatus, List<EssenceInfo> essenceInfos)> GetEssen
 
 ## See Also
 
-* struct [ApiStatus](../../Sora.Entities.Info/ApiStatus.md)
+* struct [ApiStatus](../../Sora.Entities/ApiStatus.md)
 * struct [EssenceInfo](../../Sora.Entities.Info/EssenceInfo.md)
 * class [SoraApi](../SoraApi.md)
 * namespace [Sora.Entities.Base](../../Sora.md)

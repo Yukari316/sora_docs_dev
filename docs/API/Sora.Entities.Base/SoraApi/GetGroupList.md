@@ -15,7 +15,7 @@ public ValueTask<(ApiStatus apiStatus, List<GroupInfo> groupList)> GetGroupList(
 
 ## See Also
 
-* struct [ApiStatus](../../Sora.Entities.Info/ApiStatus.md)
+* struct [ApiStatus](../../Sora.Entities/ApiStatus.md)
 * struct [GroupInfo](../../Sora.Entities.Info/GroupInfo.md)
 * class [SoraApi](../SoraApi.md)
 * namespace [Sora.Entities.Base](../../Sora.md)

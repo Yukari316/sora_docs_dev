@@ -19,7 +19,7 @@ List 在线客户端信息列表
 
 ## See Also
 
-* struct [ApiStatus](../../Sora.Entities.Info/ApiStatus.md)
+* struct [ApiStatus](../../Sora.Entities/ApiStatus.md)
 * struct [ClientInfo](../../Sora.Entities.Info/ClientInfo.md)
 * class [SoraApi](../SoraApi.md)
 * namespace [Sora.Entities.Base](../../Sora.md)

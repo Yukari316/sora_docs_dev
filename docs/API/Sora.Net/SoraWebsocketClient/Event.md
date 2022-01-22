@@ -3,12 +3,12 @@
 事件接口
 
 ```csharp
-public EventInterface Event { get; }
+public EventAdapter Event { get; }
 ```
 
 ## See Also
 
-* class [EventInterface](../../Sora.OnebotInterface/EventInterface.md)
+* class [EventAdapter](../../Sora.OnebotAdapter/EventAdapter.md)
 * class [SoraWebsocketClient](../SoraWebsocketClient.md)
 * namespace [Sora.Net](../../Sora.md)
 

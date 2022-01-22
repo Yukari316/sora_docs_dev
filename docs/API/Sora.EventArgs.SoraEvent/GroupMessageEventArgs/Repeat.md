@@ -14,7 +14,7 @@ public ValueTask<(ApiStatus apiStatus, int messageId)> Repeat()
 
 ## See Also
 
-* struct [ApiStatus](../../Sora.Entities.Info/ApiStatus.md)
+* struct [ApiStatus](../../Sora.Entities/ApiStatus.md)
 * class [GroupMessageEventArgs](../GroupMessageEventArgs.md)
 * namespace [Sora.EventArgs.SoraEvent](../../Sora.md)
 

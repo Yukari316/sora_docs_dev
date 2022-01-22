@@ -19,7 +19,7 @@ public ValueTask<(ApiStatus apiStatus, GroupFileSysInfo groupFileSysInfo)> GetGr
 
 ## See Also
 
-* struct [ApiStatus](../../Sora.Entities.Info/ApiStatus.md)
+* struct [ApiStatus](../../Sora.Entities/ApiStatus.md)
 * struct [GroupFileSysInfo](../../Sora.Entities.Info/GroupFileSysInfo.md)
 * class [SoraApi](../SoraApi.md)
 * namespace [Sora.Entities.Base](../../Sora.md)

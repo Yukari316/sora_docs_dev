@@ -3,7 +3,7 @@
 群成员头衔更新事件
 
 ```csharp
-public class TitleUpdateEventArgs : BaseSoraEventArgs
+public sealed class TitleUpdateEventArgs : BaseSoraEventArgs
 ```
 
 ## Public Members
@@ -11,7 +11,6 @@ public class TitleUpdateEventArgs : BaseSoraEventArgs
 | name | description |
 | --- | --- |
 | [NewTitle](TitleUpdateEventArgs/NewTitle.md) { get; } | 消息源群 |
-| [SendUser](TitleUpdateEventArgs/SendUser.md) { get; } | 红包发送者 |
 | [TargetUser](TitleUpdateEventArgs/TargetUser.md) { get; } | 运气王 |
 
 ## See Also

@@ -21,8 +21,8 @@ public ValueTask<(ApiStatus apiStatus, GroupMemberInfo memberInfo)> GetGroupMemb
 
 ## See Also
 
-* struct [ApiStatus](../../Sora.Entities.Info/ApiStatus.md)
-* class [GroupMemberInfo](../../Sora.Entities.Info/GroupMemberInfo.md)
+* struct [ApiStatus](../../Sora.Entities/ApiStatus.md)
+* record [GroupMemberInfo](../../Sora.Entities.Info/GroupMemberInfo.md)
 * class [SoraApi](../SoraApi.md)
 * namespace [Sora.Entities.Base](../../Sora.md)
 

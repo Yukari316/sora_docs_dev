@@ -41,7 +41,6 @@ module.exports = {
           sidebar: 'auto',
           children: [
             'getting_start',
-            'change_main_function',
             'setupservice',
             'firstbot'
           ]

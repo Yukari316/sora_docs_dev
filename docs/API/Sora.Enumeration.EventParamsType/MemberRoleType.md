@@ -14,7 +14,6 @@ public enum MemberRoleType
 | Member | `1` | 成员 |
 | Admin | `2` | 管理员 |
 | Owner | `3` | 群主 |
-| SuperUser | `4` | 该服务的管理员 |
 
 ## See Also
 

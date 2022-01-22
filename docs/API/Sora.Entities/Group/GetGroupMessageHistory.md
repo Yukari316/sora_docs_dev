@@ -21,7 +21,7 @@ List 消息记录
 
 ## See Also
 
-* struct [ApiStatus](../../Sora.Entities.Info/ApiStatus.md)
+* struct [ApiStatus](../ApiStatus.md)
 * class [GroupMessageEventArgs](../../Sora.EventArgs.SoraEvent/GroupMessageEventArgs.md)
 * class [Group](../Group.md)
 * namespace [Sora.Entities](../../Sora.md)

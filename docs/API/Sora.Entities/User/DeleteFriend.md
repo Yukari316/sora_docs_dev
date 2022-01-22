@@ -12,7 +12,7 @@ public ValueTask<ApiStatus> DeleteFriend()
 
 ## See Also
 
-* struct [ApiStatus](../../Sora.Entities.Info/ApiStatus.md)
+* struct [ApiStatus](../ApiStatus.md)
 * class [User](../User.md)
 * namespace [Sora.Entities](../../Sora.md)
 

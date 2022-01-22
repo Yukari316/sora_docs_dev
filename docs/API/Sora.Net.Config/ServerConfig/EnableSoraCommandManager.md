@@ -2,7 +2,7 @@
 
 是否启用Sora自带的指令系统
 
-禁用后EventInterface中的CommandManager将为`null`,同时连续对话的服务也将被禁用
+禁用后EventAdapter中的CommandManager将为`null`,同时连续对话的服务也将被禁用
 
 ```csharp
 public bool EnableSoraCommandManager { get; set; }

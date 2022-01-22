@@ -21,7 +21,7 @@ public ValueTask<(ApiStatus apiStatus, int messageId)> SendPrivateMessage(long u
 
 ## See Also
 
-* struct [ApiStatus](../../Sora.Entities.Info/ApiStatus.md)
+* struct [ApiStatus](../../Sora.Entities/ApiStatus.md)
 * class [MessageBody](../../Sora.Entities/MessageBody.md)
 * class [SoraApi](../SoraApi.md)
 * namespace [Sora.Entities.Base](../../Sora.md)

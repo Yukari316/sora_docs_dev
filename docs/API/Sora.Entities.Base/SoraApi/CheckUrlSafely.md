@@ -18,7 +18,7 @@ public ValueTask<(ApiStatus apiStatus, SecurityLevelType securityLevel)> CheckUr
 
 ## See Also
 
-* struct [ApiStatus](../../Sora.Entities.Info/ApiStatus.md)
+* struct [ApiStatus](../../Sora.Entities/ApiStatus.md)
 * enum [SecurityLevelType](../../Sora.Enumeration.ApiType/SecurityLevelType.md)
 * class [SoraApi](../SoraApi.md)
 * namespace [Sora.Entities.Base](../../Sora.md)

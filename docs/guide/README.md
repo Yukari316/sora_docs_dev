@@ -3,32 +3,37 @@ prev: false
 next: ./getting_start
 ---
 
-# 前言
+# 注意事项
 
-:::tip 小提示
+:::danger 注意
+本框架只支持Universal连接方式的Array上报格式
 
-如果觉得太无聊就跳过这一节吧！
+请将onebot端的数据上报格式修改为Array格式
+:::
 
-本教程只示范反向WS的使用方法，正向WS的使用方法和反向WS基本一致
+:::warning Log控制台输出将默认禁用
+1.0.0-rc28版本之后的log将会默认关闭控制台的输出
 
-~~反正就是介绍框架的，也没人会看就是了~~
+如果需要启用请使用以下代码
 
+```csharp
+//设置log
+Log.LogConfiguration
+   .EnableConsoleOutput() //启用控制台输出
+   .SetLogLevel(LogLevel.Debug); //设置log等级
+```
 :::
 
 ::: warning 注意
-本框架是在[Go-Cqhttp](https://github.com/Mrs4s/go-cqhttp)(版本:[1.0.0-beta8-fix1](https://github.com/Mrs4s/go-cqhttp/releases/tag/v1.0.0-beta8-fix1))下进行调试的
+本框架是在[Go-Cqhttp](https://github.com/Mrs4s/go-cqhttp)(版本:[1.0.0-beta8-fix2](https://github.com/Mrs4s/go-cqhttp/releases/tag/v1.0.0-beta8-fix2))下进行调试的
 
 如使用其他平台可能会出现兼容性的问题
 :::
 
-## 简介
+:::warning 安全性警告
+字符串转换的功能已经被评估为不安全的
 
-这是一个基于[OneBot](https://github.com/howmanybots/onebot)协议的 [C#/.Net 6](https://dotnet.microsoft.com/download/dotnet/6.0) 异步机器人开发框架
+该功能也将会在onebot v12时废弃
 
-需要一定的.Net开发知识 [C# 编程指南](https://docs.microsoft.com/zh-cn/dotnet/csharp/programming-guide/)
-
-使用本框架可以快捷的开发一个跨平台的聊天机器人
-
-只要是支持[OneBot](https://github.com/howmanybots/onebot)通讯协议的插件，都可以使用此框架进行交互
-
-并且框架使用了异步调用来获得更快的消息处理
+请提前做好迁移准备
+:::

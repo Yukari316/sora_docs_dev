@@ -20,9 +20,7 @@
 | public type | description |
 | --- | --- |
 | class [CommandGroup](./Sora.Attributes.Command/CommandGroup.md) | 指令组 |
-| class [GroupCommand](./Sora.Attributes.Command/GroupCommand.md) | 群组指令 |
-| class [PrivateCommand](./Sora.Attributes.Command/PrivateCommand.md) | 私聊指令 |
-| abstract class [RegexCommand](./Sora.Attributes.Command/RegexCommand.md) | 指令 |
+| class [SoraCommand](./Sora.Attributes.Command/SoraCommand.md) | 指令 |
 
 ## Sora.Command namespace
 
@@ -35,12 +33,13 @@
 | public type | description |
 | --- | --- |
 | class [Anonymous](./Sora.Entities/Anonymous.md) | 匿名用户类 |
+| struct [ApiStatus](./Sora.Entities/ApiStatus.md) | API执行状态 |
 | class [Group](./Sora.Entities/Group.md) | 群组类 |
-| class [Message](./Sora.Entities/Message.md) | 消息类 |
 | class [MessageBody](./Sora.Entities/MessageBody.md) | 消息段 |
+| class [MessageContext](./Sora.Entities/MessageContext.md) | 消息类 |
 | struct [TextDetection](./Sora.Entities/TextDetection.md) | OCR识别结果 |
 | class [User](./Sora.Entities/User.md) | 用户类 |
-| class [Vector2](./Sora.Entities/Vector2.md) | 二维向量 |
+| struct [Vector2](./Sora.Entities/Vector2.md) | 二维向量 |
 
 ## Sora.Entities.Base namespace
 
@@ -53,18 +52,17 @@
 
 | public type | description |
 | --- | --- |
-| struct [ApiStatus](./Sora.Entities.Info/ApiStatus.md) | API执行状态 |
 | struct [ClientInfo](./Sora.Entities.Info/ClientInfo.md) | 设备信息 |
 | struct [EssenceInfo](./Sora.Entities.Info/EssenceInfo.md) | 精华消息信息 |
-| struct [FriendInfo](./Sora.Entities.Info/FriendInfo.md) | 好友信息 |
+| record [FriendInfo](./Sora.Entities.Info/FriendInfo.md) | 好友信息 |
 | struct [GroupFileInfo](./Sora.Entities.Info/GroupFileInfo.md) | 群文件信息 |
 | struct [GroupFileSysInfo](./Sora.Entities.Info/GroupFileSysInfo.md) | 群文件系统信息 |
 | struct [GroupFolderInfo](./Sora.Entities.Info/GroupFolderInfo.md) | 群文件夹信息 |
 | struct [GroupInfo](./Sora.Entities.Info/GroupInfo.md) | 群信息 |
-| class [GroupMemberInfo](./Sora.Entities.Info/GroupMemberInfo.md) | 群成员信息 |
+| record [GroupMemberInfo](./Sora.Entities.Info/GroupMemberInfo.md) | 群成员信息 |
 | struct [GroupRequestInfo](./Sora.Entities.Info/GroupRequestInfo.md) | 群组请求信息 |
 | struct [GroupSenderInfo](./Sora.Entities.Info/GroupSenderInfo.md) | 群组消息发送者 |
-| struct [Model](./Sora.Entities.Info/Model.md) | 型号信息 |
+| struct [ModelInfo](./Sora.Entities.Info/ModelInfo.md) | 型号信息 |
 | struct [OfflineFileInfo](./Sora.Entities.Info/OfflineFileInfo.md) | 离线文件信息 |
 | struct [PrivateSenderInfo](./Sora.Entities.Info/PrivateSenderInfo.md) | 私聊消息发送者 |
 | struct [QidianAccountInfo](./Sora.Entities.Info/QidianAccountInfo.md) | 企点账号信息 |
@@ -113,7 +111,7 @@
 | enum [MatchType](./Sora.Enumeration/MatchType.md) | 匹配类型 |
 | enum [SegmentType](./Sora.Enumeration/SegmentType.md) | 消息段类型 |
 | enum [Sex](./Sora.Enumeration/Sex.md) | 性别 |
-| enum [SourceFlag](./Sora.Enumeration/SourceFlag.md) | 消息来源类型 |
+| enum [SourceFlag](./Sora.Enumeration/SourceFlag.md) | 事件来源类型 |
 
 ## Sora.Enumeration.ApiType namespace
 
@@ -142,6 +140,7 @@
 | public type | description |
 | --- | --- |
 | class [AddGroupRequestEventArgs](./Sora.EventArgs.SoraEvent/AddGroupRequestEventArgs.md) | 入群申请 |
+| abstract class [BaseMessageEventArgs](./Sora.EventArgs.SoraEvent/BaseMessageEventArgs.md) | 用于存储消息和发送者的基类 |
 | abstract class [BaseSoraEventArgs](./Sora.EventArgs.SoraEvent/BaseSoraEventArgs.md) | 框架事件基类 |
 | class [ClientStatusChangeEventArgs](./Sora.EventArgs.SoraEvent/ClientStatusChangeEventArgs.md) | 其他客户端在线状态变更事件参数 |
 | class [ConnectEventArgs](./Sora.EventArgs.SoraEvent/ConnectEventArgs.md) | 客户端连接事件参数 |
@@ -197,16 +196,17 @@
 | class [ClientConfig](./Sora.Net.Config/ClientConfig.md) | 客户端配置类 |
 | class [ServerConfig](./Sora.Net.Config/ServerConfig.md) | 服务器配置类 |
 
-## Sora.OnebotInterface namespace
+## Sora.OnebotAdapter namespace
 
 | public type | description |
 | --- | --- |
-| class [EventInterface](./Sora.OnebotInterface/EventInterface.md) | Onebot事件接口 判断和分发基类事件 |
+| class [EventAdapter](./Sora.OnebotAdapter/EventAdapter.md) | Onebot事件接口 判断和分发基类事件 |
 
 ## Sora.Util namespace
 
 | public type | description |
 | --- | --- |
+| static class [CQCodeUtil](./Sora.Util/CQCodeUtil.md) | 原CQ码序列化 该方法由ExerciseBook(https://github.com/ExerciseBook)提供 |
 | static class [Extensions](./Sora.Util/Extensions.md) | 扩展方法 |
 | static class [Helper](./Sora.Util/Helper.md) | 通用帮助类 |
 | static class [TimeConvert](./Sora.Util/TimeConvert.md) | DateTime和时间戳的转换 |

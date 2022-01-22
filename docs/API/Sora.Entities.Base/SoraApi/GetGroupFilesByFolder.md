@@ -22,7 +22,7 @@ public ValueTask<(ApiStatus apiStatus, List<GroupFileInfo> groupFiles, List<Grou
 
 ## See Also
 
-* struct [ApiStatus](../../Sora.Entities.Info/ApiStatus.md)
+* struct [ApiStatus](../../Sora.Entities/ApiStatus.md)
 * struct [GroupFileInfo](../../Sora.Entities.Info/GroupFileInfo.md)
 * struct [GroupFolderInfo](../../Sora.Entities.Info/GroupFolderInfo.md)
 * class [SoraApi](../SoraApi.md)

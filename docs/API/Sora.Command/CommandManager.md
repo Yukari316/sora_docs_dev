@@ -3,7 +3,7 @@
 特性指令管理器
 
 ```csharp
-public class CommandManager
+public sealed class CommandManager
 ```
 
 ## Public Members
@@ -11,10 +11,11 @@ public class CommandManager
 | name | description |
 | --- | --- |
 | [ServiceIsRunning](CommandManager/ServiceIsRunning.md) { get; } | 指令服务正常运行标识 |
+| [DeleteDynamicCommand](CommandManager/DeleteDynamicCommand.md)(…) | 删除指定ID的指令 |
 | [GetInstance&lt;T&gt;](CommandManager/GetInstance.md)(…) | 获取已注册过的实例 |
 | [MappingCommands](CommandManager/MappingCommands.md)(…) | 自动注册所有指令 |
-| [RegisterGroupCommand](CommandManager/RegisterGroupCommand.md)(…) | 动态创建指令 |
-| [RegisterPrivateCommand](CommandManager/RegisterPrivateCommand.md)(…) | 动态创建指令 |
+| [RegisterGroupDynamicCommand](CommandManager/RegisterGroupDynamicCommand.md)(…) | 动态注册指令 |
+| [RegisterPrivateDynamicCommand](CommandManager/RegisterPrivateDynamicCommand.md)(…) | 动态注册指令 |
 
 ## See Also
 

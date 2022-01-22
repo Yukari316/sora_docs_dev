@@ -3,7 +3,7 @@
 其他客户端在线状态变更事件参数
 
 ```csharp
-public class ClientStatusChangeEventArgs : BaseSoraEventArgs
+public sealed class ClientStatusChangeEventArgs : BaseSoraEventArgs
 ```
 
 ## Public Members

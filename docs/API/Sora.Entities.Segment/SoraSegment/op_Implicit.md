@@ -1,4 +1,4 @@
-# SoraSegment Implicit operator
+# SoraSegment Implicit operator (1 of 2)
 
 隐式类型转换
 
@@ -9,6 +9,21 @@ public static implicit operator MessageBody(SoraSegment soraSegment)
 ## See Also
 
 * class [MessageBody](../../Sora.Entities/MessageBody.md)
+* struct [SoraSegment](../SoraSegment.md)
+* namespace [Sora.Entities.Segment](../../Sora.md)
+
+---
+
+# SoraSegment Implicit operator (2 of 2)
+
+隐式类型转换
+
+```csharp
+public static implicit operator SoraSegment(string text)
+```
+
+## See Also
+
 * struct [SoraSegment](../SoraSegment.md)
 * namespace [Sora.Entities.Segment](../../Sora.md)
 

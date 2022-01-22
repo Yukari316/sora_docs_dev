@@ -2,7 +2,7 @@
 
 客户端API调用超时设置(毫秒)
 
-默认为1000ms无需修改
+默认为5000ms无需修改
 
 ```csharp
 public TimeSpan ApiTimeOut { get; set; }

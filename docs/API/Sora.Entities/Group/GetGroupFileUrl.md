@@ -17,7 +17,7 @@ public ValueTask<(ApiStatus apiStatus, string fileUrl)> GetGroupFileUrl(string f
 
 ## See Also
 
-* struct [ApiStatus](../../Sora.Entities.Info/ApiStatus.md)
+* struct [ApiStatus](../ApiStatus.md)
 * class [Group](../Group.md)
 * namespace [Sora.Entities](../../Sora.md)
 

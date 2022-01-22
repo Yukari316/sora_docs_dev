@@ -3,7 +3,7 @@
 WebSocket客户端错误
 
 ```csharp
-public class WebSocketClientException : Exception
+public sealed class WebSocketClientException : Exception
 ```
 
 ## Public Members

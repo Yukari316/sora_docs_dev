@@ -19,7 +19,7 @@ public ValueTask<(ApiStatus apiStatus, bool canAt, short groupRemain, short botR
 
 ## See Also
 
-* struct [ApiStatus](../../Sora.Entities.Info/ApiStatus.md)
+* struct [ApiStatus](../ApiStatus.md)
 * class [Group](../Group.md)
 * namespace [Sora.Entities](../../Sora.md)
 

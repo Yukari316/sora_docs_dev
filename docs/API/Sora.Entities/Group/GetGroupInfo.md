@@ -18,7 +18,7 @@ public ValueTask<(ApiStatus apiStatus, GroupInfo groupInfo)> GetGroupInfo(bool u
 
 ## See Also
 
-* struct [ApiStatus](../../Sora.Entities.Info/ApiStatus.md)
+* struct [ApiStatus](../ApiStatus.md)
 * struct [GroupInfo](../../Sora.Entities.Info/GroupInfo.md)
 * class [Group](../Group.md)
 * namespace [Sora.Entities](../../Sora.md)

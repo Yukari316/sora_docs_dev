@@ -4,7 +4,7 @@
 
 ```csharp
 [AttributeUsage(AttributeTargets.Method)]
-public class Reviewed : Attribute
+public sealed class Reviewed : Attribute
 ```
 
 ## Public Members

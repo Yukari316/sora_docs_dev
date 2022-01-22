@@ -14,8 +14,8 @@ public ValueTask<(ApiStatus apiStatus, List<FriendInfo> friendList)> GetFriendLi
 
 ## See Also
 
-* struct [ApiStatus](../../Sora.Entities.Info/ApiStatus.md)
-* struct [FriendInfo](../../Sora.Entities.Info/FriendInfo.md)
+* struct [ApiStatus](../../Sora.Entities/ApiStatus.md)
+* record [FriendInfo](../../Sora.Entities.Info/FriendInfo.md)
 * class [SoraApi](../SoraApi.md)
 * namespace [Sora.Entities.Base](../../Sora.md)
 

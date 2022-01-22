@@ -13,7 +13,7 @@ public ValueTask<ApiStatus> SetGroupMemberSpecialTitle(long userId, string speci
 
 ## See Also
 
-* struct [ApiStatus](../../Sora.Entities.Info/ApiStatus.md)
+* struct [ApiStatus](../ApiStatus.md)
 * class [Group](../Group.md)
 * namespace [Sora.Entities](../../Sora.md)
 

@@ -20,7 +20,7 @@ public ValueTask<(ApiStatus apiStatus, int messageId)> Reply(MessageBody message
 
 ## See Also
 
-* struct [ApiStatus](../../Sora.Entities.Info/ApiStatus.md)
+* struct [ApiStatus](../../Sora.Entities/ApiStatus.md)
 * class [MessageBody](../../Sora.Entities/MessageBody.md)
 * class [PrivateMessageEventArgs](../PrivateMessageEventArgs.md)
 * namespace [Sora.EventArgs.SoraEvent](../../Sora.md)

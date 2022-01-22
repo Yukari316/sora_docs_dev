@@ -3,7 +3,7 @@
 接收到离线文件事件参数
 
 ```csharp
-public class OfflineFileEventArgs : BaseSoraEventArgs
+public sealed class OfflineFileEventArgs : BaseSoraEventArgs
 ```
 
 ## Public Members

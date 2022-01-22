@@ -20,7 +20,7 @@ public ValueTask<(ApiStatus apiStatus, int messageId)> SendGroupMessage(MessageB
 
 ## See Also
 
-* struct [ApiStatus](../../Sora.Entities.Info/ApiStatus.md)
+* struct [ApiStatus](../ApiStatus.md)
 * class [MessageBody](../MessageBody.md)
 * class [Group](../Group.md)
 * namespace [Sora.Entities](../../Sora.md)

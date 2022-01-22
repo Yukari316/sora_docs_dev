@@ -11,6 +11,7 @@ public sealed class User : BaseModel
 | name | description |
 | --- | --- |
 | [Id](User/Id.md) { get; } | 当前实例的用户ID |
+| [IsSuperUser](User/IsSuperUser.md) { get; } | 是否为机器人管理员 |
 | [At](User/At.md)() | 获取At消息段 |
 | [DeleteFriend](User/DeleteFriend.md)() | 删除好友 |
 | override [Equals](User/Equals.md)(…) | 比较重载 |

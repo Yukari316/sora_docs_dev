@@ -13,7 +13,7 @@ public ValueTask<ApiStatus> SetGroupPortrait(string imageFile, bool useCache = t
 
 ## See Also
 
-* struct [ApiStatus](../../Sora.Entities.Info/ApiStatus.md)
+* struct [ApiStatus](../ApiStatus.md)
 * class [Group](../Group.md)
 * namespace [Sora.Entities](../../Sora.md)
 

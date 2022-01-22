@@ -4,7 +4,7 @@
 
 ```csharp
 [AttributeUsage(AttributeTargets.Class)]
-public class CommandGroup : Attribute
+public sealed class CommandGroup : Attribute
 ```
 
 ## Public Members

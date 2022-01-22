@@ -21,7 +21,7 @@ String qid
 
 ## See Also
 
-* struct [ApiStatus](../../Sora.Entities.Info/ApiStatus.md)
+* struct [ApiStatus](../ApiStatus.md)
 * struct [UserInfo](../../Sora.Entities.Info/UserInfo.md)
 * class [User](../User.md)
 * namespace [Sora.Entities](../../Sora.md)

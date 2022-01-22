@@ -1,18 +1,19 @@
-# FriendInfo structure
+# FriendInfo record
 
 好友信息
 
 ```csharp
-public struct FriendInfo
+public record FriendInfo
 ```
 
 ## Public Members
 
 | name | description |
 | --- | --- |
+| [FriendInfo](FriendInfo/FriendInfo.md)() | The default constructor. |
+| [IsSuperUser](FriendInfo/IsSuperUser.md) { get; } | 是否为机器人管理员 |
 | [Nick](FriendInfo/Nick.md) { get; } | 用户名 |
 | [Remark](FriendInfo/Remark.md) { get; } | 好友备注 |
-| [Role](FriendInfo/Role.md) { get; } | 权限等级 |
 | [UserId](FriendInfo/UserId.md) { get; } | 好友ID |
 
 ## See Also

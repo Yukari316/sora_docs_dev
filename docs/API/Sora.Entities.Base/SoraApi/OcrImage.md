@@ -21,7 +21,7 @@ public ValueTask<(ApiStatus apiStatus, List<TextDetection> texts, string lang)> 
 
 ## See Also
 
-* struct [ApiStatus](../../Sora.Entities.Info/ApiStatus.md)
+* struct [ApiStatus](../../Sora.Entities/ApiStatus.md)
 * struct [TextDetection](../../Sora.Entities/TextDetection.md)
 * class [SoraApi](../SoraApi.md)
 * namespace [Sora.Entities.Base](../../Sora.md)

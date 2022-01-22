@@ -12,7 +12,7 @@ public ValueTask<(ApiStatus apiStatus, List<EssenceInfo> essenceInfos)> GetEssen
 
 ## See Also
 
-* struct [ApiStatus](../../Sora.Entities.Info/ApiStatus.md)
+* struct [ApiStatus](../ApiStatus.md)
 * struct [EssenceInfo](../../Sora.Entities.Info/EssenceInfo.md)
 * class [Group](../Group.md)
 * namespace [Sora.Entities](../../Sora.md)

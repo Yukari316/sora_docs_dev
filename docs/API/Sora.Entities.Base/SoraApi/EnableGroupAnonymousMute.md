@@ -15,7 +15,7 @@ public ValueTask<ApiStatus> EnableGroupAnonymousMute(long groupId, Anonymous ano
 
 ## See Also
 
-* struct [ApiStatus](../../Sora.Entities.Info/ApiStatus.md)
+* struct [ApiStatus](../../Sora.Entities/ApiStatus.md)
 * class [Anonymous](../../Sora.Entities/Anonymous.md)
 * class [SoraApi](../SoraApi.md)
 * namespace [Sora.Entities.Base](../../Sora.md)
@@ -39,7 +39,7 @@ public ValueTask<ApiStatus> EnableGroupAnonymousMute(long groupId, string anonym
 
 ## See Also
 
-* struct [ApiStatus](../../Sora.Entities.Info/ApiStatus.md)
+* struct [ApiStatus](../../Sora.Entities/ApiStatus.md)
 * class [SoraApi](../SoraApi.md)
 * namespace [Sora.Entities.Base](../../Sora.md)
 

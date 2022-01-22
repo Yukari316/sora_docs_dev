@@ -16,15 +16,40 @@ title: 使用特性指令
 
 使用特性 [`CommandGroup`](../../API/Sora.Command.Attributes/CommandGroup.md) 来标识需要注册指令的类（没有将不会被识别）
 
-通过特性 [`GroupCommand`](../../API/Sora.Command.Attributes/GroupCommand.md) 和 [`PrivateCommand`](../../API/Sora.Command.Attributes/PrivateCommand.md) 来分发群聊和私聊指令
+通过特性 [`SoraCommand`](../../API/Sora.Command.Attributes/SoraCommand.md) 来分标记需要注册的指令
 
-但是并没有实现自动的参数转换和注入（个人觉得这样做会限制很大的开发空间就不做实现了）,该指令服务只会传递框架中的 [`GroupMessageEventArgs`](../../API/Sora.EventArgs.SoraEvent/GroupMessageEventArgs.md) 和 [`PrivateMessageEventArgs`](../../API/Sora.EventArgs.SoraEvent/PrivateMessageEventArgs.md) 的事件参数，其余的响应逻辑和参数处理需要自己完成
+但是并没有实现自动的参数转换和注入（个人觉得这样做会让框架变得很重所以就不搞了~~摸了~~）
 
-所以特性和方法的参数有如下的对应关系，并且只能有一个对应的参数，否则将不会被识别
+该指令服务只会传递框架中的 [`GroupMessageEventArgs`](../../API/Sora.EventArgs.SoraEvent/GroupMessageEventArgs.md) 和 [`PrivateMessageEventArgs`](../../API/Sora.EventArgs.SoraEvent/PrivateMessageEventArgs.md) 的事件参数，其余的响应逻辑和参数处理需要自己完成
 
-[`GroupCommand`](../../API/Sora.Command.Attributes/GroupCommand.md) -> [`GroupMessageEventArgs`](../../API/Sora.EventArgs.SoraEvent/GroupMessageEventArgs.md)
+启动服务器后指令服务就会自动注册有[`CommandGroup`](../../API/Sora.Command.Attributes/CommandGroup.md)特性的类下的所有指令
 
-[`PrivateCommand`](../../API/Sora.Command.Attributes/PrivateCommand.md) -> [`PrivateMessageEventArgs`](../../API/Sora.EventArgs.SoraEvent/PrivateMessageEventArgs.md)
+**没有[`CommandGroup`](../../API/Sora.Command.Attributes/CommandGroup.md)特性的类将会被忽略**
+
+::: warning 注意
+`SourceType` 的值必须为 `SourceFlag.Group` 或 `SourceFlag.Private`
+:::
+
+[`SoraCommand`](../../API/Sora.Command.Attributes/SoraCommand.md) 必须设置 `CommandExpressions` 和 `SourceType` 的值才能被识别为合法指令
+
+所以方法的参数类型和 `SourceType` 的值有着一一对应的关系，如果类型不对应的话也不会被识别为合法指令
+
+`SourceFlag.Group` -> [`GroupMessageEventArgs`](../../API/Sora.EventArgs.SoraEvent/GroupMessageEventArgs.md)
+
+`SourceFlag.Private` -> [`PrivateMessageEventArgs`](../../API/Sora.EventArgs.SoraEvent/PrivateMessageEventArgs.md)
+
+::: tip 小提示
+指令的匹配模式可以通过修改 `MatchType` 来改变
+
+一共有三种匹配模式
+
+`MatchType.Full` -> 全字匹配
+
+`MatchType.Regex` -> 正则匹配
+
+`MatchType.KeyWord` -> 关键字匹配
+
+:::
 
 ## 使用方法
 
@@ -34,18 +59,32 @@ title: 使用特性指令
 这意味着在多次调用指令时，负责执行的指令的实例将一直都会是初始化时所创建的实例，其中的属性值将会是上次执行结束后的值
 :::
 
-编写以下指令
+::: tip 小提示
+如果在指令触发后不想再触发其他的指令或者事件的话，请将事件参数中的 `IsContinueEventChain` 设置为 `false`
+
+在下方的实例中将示范如何使用
+:::
 
 ### 群聊指令
 
 ```csharp
-[CommandGroup()]
-public class Commands
+using System.Threading.Tasks;
+using Sora.Attributes.Command;
+using Sora.Enumeration;
+using Sora.EventArgs.SoraEvent;
+
+namespace Sora_Test;
+
+[CommandGroup]
+public static class Commands
 {
-    [GroupCommand(CommandExpression = "好耶")]
-    public async ValueTask TestCommand(GroupMessageEventArgs eventArgs)
+    [SoraCommand(
+        CommandExpressions = new[] {"坏耶"},
+        SourceType = SourceFlag.Group)]
+    public static async ValueTask TestCommand1(GroupMessageEventArgs eventArgs)
     {
-        await eventArgs.Reply("坏耶");
+        eventArgs.IsContinueEventChain = false;
+        await eventArgs.Reply("好耶");
     }
 }
 ```
@@ -53,17 +92,23 @@ public class Commands
 ### 私聊指令
 
 ```csharp
-[CommandGroup()]
-public class Commands
+using System.Threading.Tasks;
+using Sora.Attributes.Command;
+using Sora.Enumeration;
+using Sora.EventArgs.SoraEvent;
+
+namespace Sora_Test;
+
+[CommandGroup]
+public static class Commands
 {
-    [PrivateCommand(CommandExpression = "在")]
-    public async ValueTask TestCommand(PrivateMessageEventArgs eventArgs)
+    [SoraCommand(
+        CommandExpressions = new[] {"坏耶"},
+        SourceType = SourceFlag.Private)]
+    public static async ValueTask TestCommand1(PrivateMessageEventArgs eventArgs)
     {
-        await eventArgs.Reply("不在");
+        eventArgs.IsContinueEventChain = false;
+        await eventArgs.Reply("好耶");
     }
 }
 ```
-
-启动服务器后指令服务就会自动注册有[`CommandGroup`](../../API/Sora.Command.Attributes/CommandGroup.md)特性的类下的所有指令
-
-**没有[`CommandGroup`](../../API/Sora.Command.Attributes/CommandGroup.md)特性的类将会被忽略**

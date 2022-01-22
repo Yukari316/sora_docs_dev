@@ -8,7 +8,7 @@ public List<Vector2> Coordinates { get; }
 
 ## See Also
 
-* class [Vector2](../Vector2.md)
+* struct [Vector2](../Vector2.md)
 * struct [TextDetection](../TextDetection.md)
 * namespace [Sora.Entities](../../Sora.md)
 

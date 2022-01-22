@@ -10,7 +10,8 @@ public static class StaticVariable
 
 | name | description |
 | --- | --- |
-| const [Version](StaticVariable/Version.md) | 版本号 |
+| const [ONEBOT_PROTOCOL](StaticVariable/ONEBOT_PROTOCOL.md) | Onebot版本 |
+| const [VERSION](StaticVariable/VERSION.md) | 版本号 |
 
 ## See Also
 

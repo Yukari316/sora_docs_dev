@@ -16,9 +16,9 @@ public struct GroupRequestInfo
 | [Checked](GroupRequestInfo/Checked.md) { get; } | 请求是否已经被处理 |
 | [GroupId](GroupRequestInfo/GroupId.md) { get; } | 请求源群号 |
 | [GroupName](GroupRequestInfo/GroupName.md) { get; } | 请求源群名 |
-| [ID](GroupRequestInfo/ID.md) { get; } | 请求ID |
+| [Id](GroupRequestInfo/Id.md) { get; } | 请求ID |
 | [Message](GroupRequestInfo/Message.md) { get; } | 验证消息 |
-| [UserID](GroupRequestInfo/UserID.md) { get; } | 请求源UID |
+| [UserId](GroupRequestInfo/UserId.md) { get; } | 请求源UID |
 | [UserNick](GroupRequestInfo/UserNick.md) { get; } | 请求源用户名 |
 
 ## See Also
