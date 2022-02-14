@@ -30,10 +30,9 @@ public struct SoraSegment
 | static [Video](SoraSegment/Video.md)(…) | 视频 消息段 |
 | static [Xml](SoraSegment/Xml.md)(…) | XML 特殊消息 |
 | [Data](SoraSegment/Data.md) { get; } | 数据实例 |
-| [DataType](SoraSegment/DataType.md) { get; } | 数据类型 |
+| [Id](SoraSegment/Id.md) { get; } | 消息段的ID |
 | [MessageType](SoraSegment/MessageType.md) { get; } | 消息段类型 |
 | override [Equals](SoraSegment/Equals.md)(…) | 比较重载 |
-| [GetCqCodeDataType](SoraSegment/GetCqCodeDataType.md)() | 获取数据类型 用于将BaseSegment转换为可读结构体 |
 | override [GetHashCode](SoraSegment/GetHashCode.md)() | GetHashCode |
 | [operator +](SoraSegment/op_Addition.md) | +运算重载 (5 operators) |
 | [operator ==](SoraSegment/op_Equality.md) | 等于重载 |

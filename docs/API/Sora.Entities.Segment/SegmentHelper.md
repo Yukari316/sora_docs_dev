@@ -11,6 +11,7 @@ public static class SegmentHelper
 | name | description |
 | --- | --- |
 | static [ToAt](SegmentHelper/ToAt.md)(…) | 生成AT 消息段 (2 methods) |
+| static [ToMessageBody](SegmentHelper/ToMessageBody.md)(…) | 转换方法 |
 
 ## See Also
 

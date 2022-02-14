@@ -1,14 +1,10 @@
-# SoraSegment.GetCqCodeDataType method
+# SoraSegment.Id property
 
-获取数据类型 用于将BaseSegment转换为可读结构体
+消息段的ID
 
 ```csharp
-public Type GetCqCodeDataType()
+public Guid Id { get; }
 ```
-
-## Return Value
-
-数据结构体类型
 
 ## See Also
 

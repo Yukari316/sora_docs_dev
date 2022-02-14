@@ -15,7 +15,7 @@ public sealed class MessageContext : BaseModel
 | [MessageBody](MessageContext/MessageBody.md) { get; } | 消息段列表 |
 | [MessageId](MessageContext/MessageId.md) { get; } | 消息ID |
 | [MessageSequence](MessageContext/MessageSequence.md) { get; } | 消息序号 |
-| [RawText](MessageContext/RawText.md) { get; } | 纯文本信息 |
+| [RawText](MessageContext/RawText.md) { get; } | Gocq提供的纯文本信息 |
 | [Time](MessageContext/Time.md) { get; } | 消息时间戳 |
 | override [Equals](MessageContext/Equals.md)(…) | 比较重载 |
 | [GetAllAtList](MessageContext/GetAllAtList.md)() | 获取所有At的UID Notice:at全体不会被转换 |
@@ -24,8 +24,10 @@ public sealed class MessageContext : BaseModel
 | override [GetHashCode](MessageContext/GetHashCode.md)() | GetHashCode |
 | [GetRecordUrl](MessageContext/GetRecordUrl.md)() | 获取语音URL 仅在消息为语音时有效 |
 | [GetText](MessageContext/GetText.md)() | 截取消息中的文字部分 |
+| [IsCodeCard](MessageContext/IsCodeCard.md)() | QQ小程序判断（Xml与Json类型消息） |
 | [IsForwardMessage](MessageContext/IsForwardMessage.md)() | 是否是转发消息 |
 | [MarkMessageRead](MessageContext/MarkMessageRead.md)() | 标记此消息已读 |
+| [MessageEquals](MessageContext/MessageEquals.md)(…) | 判定消息段相等 |
 | [RecallMessage](MessageContext/RecallMessage.md)() | 撤回本条消息 |
 | override [ToString](MessageContext/ToString.md)() | 转纯文本信息 |
 | [operator ==](MessageContext/op_Equality.md) | 等于重载 |

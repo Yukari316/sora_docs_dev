@@ -22,6 +22,7 @@ public sealed class ServerConfig : ISoraConfig
 | [HeartBeatTimeOut](ServerConfig/HeartBeatTimeOut.md) { get; set; } | 心跳包超时设置(秒) |
 | [Host](ServerConfig/Host.md) { get; set; } | 反向服务器监听地址 |
 | [Port](ServerConfig/Port.md) { get; set; } | 反向服务器端口 |
+| [SendCommandErrMsg](ServerConfig/SendCommandErrMsg.md) { get; set; } | 在指令出错时向发送源发送报错消息 |
 | [SuperUsers](ServerConfig/SuperUsers.md) { get; set; } | 机器人管理员UID |
 | [ThrowCommandException](ServerConfig/ThrowCommandException.md) { get; set; } | 是否抛出指令执行时的错误 |
 | [UniversalPath](ServerConfig/UniversalPath.md) { get; set; } | Universal请求路径 |

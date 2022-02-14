@@ -14,7 +14,7 @@ public static class CQCodeUtil
 | static [CQCodeEncode](CQCodeUtil/CQCodeEncode.md)(…) | 酷Q码转义 |
 | static [DeserializeCqCode](CQCodeUtil/DeserializeCqCode.md)(…) | 将CQ码反序列化为SoraSegment对象 |
 | static [DeserializeMessage](CQCodeUtil/DeserializeMessage.md)(…) | 将字符串反序列化为SoraSegment集合 |
-| static [SerializeMessage](CQCodeUtil/SerializeMessage.md)(…) | 序列化某一个消息 |
+| static [SerializeMessage](CQCodeUtil/SerializeMessage.md)(…) | 序列化某一个消息 (2 methods) |
 | static [SerializeSegment](CQCodeUtil/SerializeSegment.md)(…) | 序列化某一个酷Q码 |
 
 ## See Also

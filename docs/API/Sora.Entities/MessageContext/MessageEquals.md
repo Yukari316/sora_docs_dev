@@ -1,11 +1,9 @@
-# MessageContext.RawText property
+# MessageContext.MessageEquals method
 
-Gocq提供的纯文本信息
-
-可能会缺失某些不重要且会在相同消息中不相等的字段
+判定消息段相等
 
 ```csharp
-public string RawText { get; }
+public bool MessageEquals(MessageContext ctx)
 ```
 
 ## See Also

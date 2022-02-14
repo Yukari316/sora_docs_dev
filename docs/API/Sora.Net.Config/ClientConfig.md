@@ -23,6 +23,7 @@ public sealed class ClientConfig : ISoraConfig
 | [Host](ClientConfig/Host.md) { get; set; } | 服务器地址 |
 | [Port](ClientConfig/Port.md) { get; set; } | 服务器端口 |
 | [ReconnectTimeOut](ClientConfig/ReconnectTimeOut.md) { get; set; } | 丢失连接时的重连超时 |
+| [SendCommandErrMsg](ClientConfig/SendCommandErrMsg.md) { get; set; } | 在指令出错时向发送源发送报错消息 |
 | [SuperUsers](ClientConfig/SuperUsers.md) { get; set; } | 机器人管理员UID |
 | [ThrowCommandException](ClientConfig/ThrowCommandException.md) { get; set; } | 是否抛出指令执行时的错误 |
 | [UniversalPath](ClientConfig/UniversalPath.md) { get; set; } | Universal请求路径 |

@@ -2,7 +2,7 @@
 
 Xml与Json集合
 
-可能为[`SegmentType`](../Sora.Enumeration/SegmentType.md).`Json`或[`SegmentType`](../Sora.Enumeration/SegmentType.md).`Xml`
+可能为Json或Xml
 
 ```csharp
 public record CodeSegment : IEquatable<BaseSegment>

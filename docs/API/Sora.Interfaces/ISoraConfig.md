@@ -19,6 +19,7 @@ public interface ISoraConfig
 | [HeartBeatTimeOut](ISoraConfig/HeartBeatTimeOut.md) { get; set; } | 心跳包超时设置(秒) |
 | [Host](ISoraConfig/Host.md) { get; set; } | 服务器地址 |
 | [Port](ISoraConfig/Port.md) { get; set; } | 服务器端口 |
+| [SendCommandErrMsg](ISoraConfig/SendCommandErrMsg.md) { get; set; } | 在指令出错时向发送源发送报错消息 |
 | [SuperUsers](ISoraConfig/SuperUsers.md) { get; set; } | 机器人管理员UID |
 | [ThrowCommandException](ISoraConfig/ThrowCommandException.md) { get; set; } | 是否抛出指令执行时的错误 |
 | [UniversalPath](ISoraConfig/UniversalPath.md) { get; set; } | Universal请求路径 |

@@ -9,9 +9,11 @@
 :::
 
 ::: warning 注意
-在单个版本的更新日志中，日志里的示例和连接只适用于更新日志所对应的版本
+每一版日志的示例只适用于日志对应版本
 
 在文档更新后可能会出现连接404或者示例失效的问题
+
+如需要查看最新的示例请前往 [示例](../example/README.md)
 :::
 
 ## v1.0.0-rc39<Badge text="Release Candidate" type="warning"/>  <Badge text="gocq v1.0.0-beta8-fix2"/>

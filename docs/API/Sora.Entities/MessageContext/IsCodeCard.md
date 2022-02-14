@@ -1,11 +1,9 @@
-# MessageContext.RawText property
+# MessageContext.IsCodeCard method
 
-Gocq提供的纯文本信息
-
-可能会缺失某些不重要且会在相同消息中不相等的字段
+QQ小程序判断（Xml与Json类型消息）
 
 ```csharp
-public string RawText { get; }
+public bool IsCodeCard()
 ```
 
 ## See Also

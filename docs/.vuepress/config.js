@@ -20,6 +20,7 @@ module.exports = {
     nav: [
         { text: '主页', link: '/' },
         { text: '指南', link: '/guide/' },
+        { text: '示例', link: '/example/' },
         { text: 'API', link: '/API/Sora.md' },
         { text: '更新日志', link: '/updatelog/' },
     ],
@@ -61,6 +62,16 @@ module.exports = {
           sidebar: 'auto',
           children: [
             'Sora'
+          ]
+        }
+      ],
+      '/example/' : [
+        {
+          title: '示例',
+          collapsable: false,
+          sidebar: 'auto',
+          children: [
+            ''
           ]
         }
       ],
