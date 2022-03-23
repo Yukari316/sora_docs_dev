@@ -3,7 +3,7 @@
 :::tip 标识提示
 候选发布版 <Badge text="Release Candidate" type="warning"/>
 
-破坏性更新(破坏性的更新条目也将被加粗) <Badge text="Breaking Change" type="error"/>
+破坏性更新 <Badge text="Breaking Change" type="error"/>
 
 框架所适配的`gocq`版本 <Badge text="gocq v----"/>
 :::
@@ -16,13 +16,13 @@
 如需要查看最新的示例请前往 [示例](../example/README.md)
 :::
 
-## v1.0.0-rc47<Badge text="Release Candidate" type="warning"/>  <Badge text="gocq v1.0.0-beta8-fix2"/>
+## v1.0.0-rc47<Badge text="Release Candidate" type="warning"/>  <Badge text="gocq v1.0.0-rc1"/>
 
 优化 服务在调用 `Dispose` 产生的部分逻辑问题
 
 优化 优化[MessageBody](../API/Sora.Entities/MessageBody.md)中 `DebuggerDisplay` 的属性
 
-## v1.0.0-rc46<Badge text="Release Candidate" type="warning"/>  <Badge text="gocq v1.0.0-beta8-fix2"/>
+## v1.0.0-rc46<Badge text="Release Candidate" type="warning"/>  <Badge text="gocq v1.0.0-rc1"/>
 
 增加 从 `IEnumerable<SoraSegment>` 转换为 [MessageBody](../API/Sora.Entities/MessageBody.md)的方法 [ToMessageBody](../API/Sora.Entities.Segment/SegmentHelper/ToMessageBody.md)
 
@@ -42,7 +42,7 @@
 
 优化 改进消息段反序列化时的方法
 
-删除 [SoraSegment](../API/Sora.Entities.Segment/SoraSegment.md) 的 `DataType` 属性及相关方法
+删除 [SoraSegment](../API/Sora.Entities.Segment/SoraSegment.md) 的 `DataType` 属性及相关方法<Badge text="Breaking Change" type="error"/>
 
 优化 修改 [MessageContext](../API/Sora.Entities/MessageContext.md) 的判等条件
 
@@ -54,7 +54,7 @@
 
 优化 指令匹配机制
 
-调整 修改 [Sex](../API/Sora.Enumeration/Sex.md) 为枚举类型
+调整 修改 [Sex](../API/Sora.Enumeration/Sex.md) 为枚举类型<Badge text="Breaking Change" type="error"/>
 
 ## v1.0.0-rc42<Badge text="Release Candidate" type="warning"/>  <Badge text="gocq v1.0.0-beta8-fix2"/>
 
