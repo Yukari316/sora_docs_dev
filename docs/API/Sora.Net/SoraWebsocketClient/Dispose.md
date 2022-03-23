@@ -1,6 +1,6 @@
 # SoraWebsocketClient.Dispose method
 
-释放资源
+释放资源并断开链接
 
 ```csharp
 public void Dispose()

@@ -16,6 +16,60 @@
 如需要查看最新的示例请前往 [示例](../example/README.md)
 :::
 
+## v1.0.0-rc47<Badge text="Release Candidate" type="warning"/>  <Badge text="gocq v1.0.0-beta8-fix2"/>
+
+优化 服务在调用 `Dispose` 产生的部分逻辑问题
+
+优化 优化[MessageBody](../API/Sora.Entities/MessageBody.md)中 `DebuggerDisplay` 的属性
+
+## v1.0.0-rc46<Badge text="Release Candidate" type="warning"/>  <Badge text="gocq v1.0.0-beta8-fix2"/>
+
+增加 从 `IEnumerable<SoraSegment>` 转换为 [MessageBody](../API/Sora.Entities/MessageBody.md)的方法 [ToMessageBody](../API/Sora.Entities.Segment/SegmentHelper/ToMessageBody.md)
+
+## v1.0.0-rc45<Badge text="Release Candidate" type="warning"/>  <Badge text="gocq v1.0.0-beta8-fix2"/>
+
+增加 [MessageBody](../API/Sora.Entities/MessageBody.md) 方法 [IndexOfById](../API/Sora.Entities/MessageBody/IndexOfById.md) 用于通过ID查找某一消息段
+
+## v1.0.0-rc44<Badge text="Release Candidate" type="warning"/>  <Badge text="Breaking Change" type="error"/>  <Badge text="gocq v1.0.0-beta8-fix2"/>
+
+增加 [SoraSegment](../API/Sora.Entities.Segment/SoraSegment.md) 增加属性 `Id` 作为消息段的ID
+
+增加 [ISoraConfig](../API/Sora.Interfaces/ISoraConfig.md) 设置项 `SendCommandErrMsg` [#53](https://github.com/DeepOceanSoft/Sora/issues/53)
+
+优化 报错日志
+
+优化 错误抛出机制
+
+优化 改进消息段反序列化时的方法
+
+删除 [SoraSegment](../API/Sora.Entities.Segment/SoraSegment.md) 的 `DataType` 属性及相关方法
+
+优化 修改 [MessageContext](../API/Sora.Entities/MessageContext.md) 的判等条件
+
+增加 [MessageContext](../API/Sora.Entities/MessageContext.md) 中添加 `MessageEquals` 方法
+
+## v1.0.0-rc43<Badge text="Release Candidate" type="warning"/>  <Badge text="Breaking Change" type="error"/>  <Badge text="gocq v1.0.0-beta8-fix2"/>
+
+优化/增加 在 [p](../API/Sora.EventArgs.SoraEvent/BaseMessageEventArgs.md) 中添加属性 `CommandRegex` `CommandId` , 在匹配到指令时会设置这两个属性
+
+优化 指令匹配机制
+
+调整 修改 [Sex](../API/Sora.Enumeration/Sex.md) 为枚举类型
+
+## v1.0.0-rc42<Badge text="Release Candidate" type="warning"/>  <Badge text="gocq v1.0.0-beta8-fix2"/>
+
+修复 错误的指令匹配机制 [#52](https://github.com/DeepOceanSoft/Sora/issues/52)
+
+## v1.0.0-rc41<Badge text="Release Candidate" type="warning"/>  <Badge text="gocq v1.0.0-beta8-fix2"/>
+
+修复 错误的权限判断
+
+## v1.0.0-rc40<Badge text="Release Candidate" type="warning"/>  <Badge text="gocq v1.0.0-beta8-fix2"/>
+
+修复 CQ码序列化时的错误
+
+增加 对消息段中CodeSegment的判断方法 [SourceFlag](../API/Sora.Entities/MessageContext/IsCodeCard.md)
+
 ## v1.0.0-rc39<Badge text="Release Candidate" type="warning"/>  <Badge text="gocq v1.0.0-beta8-fix2"/>
 
 修复 错误的标识符
@@ -90,9 +144,9 @@
 
 ## v1.0.0-rc35<Badge text="Release Candidate" type="warning"/>  <Badge text="gocq v1.0.0-beta8-fix2"/>
 
-增加 `string` → `SoraSegment`的隐式转换 by [轻雨](https://github.com/qingyu-sama)
+增加 `string` → `SoraSegment`的隐式转换 by [轻雨](https://github.com/qingyu-sama) [#47](https://github.com/DeepOceanSoft/Sora/pull/47)
 
-调整 `string` 转换为 `MessageBody` 时忽略空字符串 by [轻雨](https://github.com/qingyu-sama)
+调整 `string` 转换为 `MessageBody` 时忽略空字符串 by [轻雨](https://github.com/qingyu-sama) [#47](https://github.com/DeepOceanSoft/Sora/pull/47)
 
 ## v1.0.0-rc34<Badge text="Release Candidate" type="warning"/>  <Badge text="Breaking Change" type="error"/>  <Badge text="gocq v1.0.0-beta8-fix1"/>
 
@@ -103,19 +157,17 @@
 :::warning 安全性警告
 字符串转换的功能已经被评估为不安全的
 
-该功能也将会在onebot v12时废弃
-
-请提前做好迁移准备
+请勿滥用于消息的收发而只作为序列化并存储的方式
 :::
 
-增加 原字符串CQ码的转换（不支持自动转换，需要自己调用转换方法） by [轻雨](https://github.com/qingyu-sama)
+增加 原字符串CQ码的转换（不支持自动转换，需要自己调用转换方法） by [轻雨](https://github.com/qingyu-sama) [#46](https://github.com/DeepOceanSoft/Sora/pull/46)
 使用方法
 
 ```csharp
 MessageBody messageBody = MessageBody.GetMessageBody(@"[CQ:at,qq=1470078125]");
 ```
 
-修正 错误的注释 by [轻雨](https://github.com/qingyu-sama)
+修正 错误的注释 by [轻雨](https://github.com/qingyu-sama) [#46](https://github.com/DeepOceanSoft/Sora/pull/46)
 
 ## v1.0.0-rc30/31/32<Badge text="Release Candidate" type="warning"/>  <Badge text="gocq v1.0.0-beta7-fix2"/>
 
