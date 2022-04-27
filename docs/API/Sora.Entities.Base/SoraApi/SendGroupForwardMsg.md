@@ -3,13 +3,15 @@
 发送合并转发(群) 但好像不能用的样子
 
 ```csharp
-public ValueTask<ApiStatus> SendGroupForwardMsg(long groupId, IEnumerable<CustomNode> nodeList)
+public ValueTask<ApiStatus> SendGroupForwardMsg(long groupId, IEnumerable<CustomNode> nodeList, 
+    TimeSpan? timeout = default)
 ```
 
 | parameter | description |
 | --- | --- |
 | groupId | 群号 |
 | nodeList | 节点([`CustomNode`](../../Sora.Entities.Segment.DataModel/CustomNode.md))消息段列表 |
+| timeout | 原有超时覆盖 |
 
 ## See Also
 

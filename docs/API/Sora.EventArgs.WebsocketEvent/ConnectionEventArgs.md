@@ -10,6 +10,7 @@ public sealed class ConnectionEventArgs : EventArgs
 
 | name | description |
 | --- | --- |
+| [ConnectionId](ConnectionEventArgs/ConnectionId.md) { get; } | 链接ID |
 | [Role](ConnectionEventArgs/Role.md) { get; } | 客户端类型 |
 | [SelfId](ConnectionEventArgs/SelfId.md) { get; } | 机器人登录账号UID |
 

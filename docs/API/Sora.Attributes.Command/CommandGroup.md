@@ -12,6 +12,8 @@ public sealed class CommandGroup : Attribute
 | name | description |
 | --- | --- |
 | [CommandGroup](CommandGroup/CommandGroup.md)() | The default constructor. |
+| [GroupName](CommandGroup/GroupName.md) { get; set; } | 指令组名 |
+| [GroupPrefix](CommandGroup/GroupPrefix.md) { get; set; } | 指令组前缀 |
 
 ## See Also
 

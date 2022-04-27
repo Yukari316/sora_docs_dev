@@ -16,6 +16,32 @@
 如需要查看最新的示例请前往 [示例](../example/README.md)
 :::
 
+## v1.0.0-rc51<Badge text="Release Candidate" type="warning"/>  <Badge text="gocq v1.0.0-rc1"/>
+
+增加 [SoraServiceFactory](../API/Sora/SoraServiceFactory.md) 增加API `TryGetApi` 允许使用登录账号ID来获取API实例
+
+优化 [SendGroupFoewardMsg](../API/Sora.Entities.Base/SoraApi/SendGroupForwardMsg.md) 增加超时覆盖选项
+
+优化 [SoraApi](../API/Sora.Entities.Base/SoraApi.md)改为单例模式
+
+## v1.0.0-rc50<Badge text="Release Candidate" type="warning"/>  <Badge text="Breaking Change" type="error"/>  <Badge text="gocq v1.0.0-rc1"/>
+
+调整 `SoraServiceFactoryExtension` 合并入 [SoraServiceFactory](../API/Sora/SoraServiceFactory.md)<Badge text="Breaking Change" type="error"/>
+
+增加 [ISoraService](../API/Sora.Interfaces/ISoraService.md) 增加API `GetApi` 用于从服务中获取[SoraApi](../API/Sora.Entities.Base/SoraApi.md)
+
+## v1.0.0-rc49<Badge text="Release Candidate" type="warning"/>  <Badge text="gocq v1.0.0-rc1"/>
+
+优化 指令组相关的逻辑
+
+优化 部分log的信息
+
+## v1.0.0-rc48<Badge text="Release Candidate" type="warning"/>  <Badge text="gocq v1.0.0-rc1"/>
+
+增加 在[CommandGroup](../API/Sora.Attributes.Command/CommandGroup.md) 中添加指令组相关属性，支持组名和指令组前缀
+
+增加 [CommandManager](../API/Sora.Command/CommandManager.md) 增加启用和禁用指令组的API
+
 ## v1.0.0-rc47<Badge text="Release Candidate" type="warning"/>  <Badge text="gocq v1.0.0-rc1"/>
 
 优化 服务在调用 `Dispose` 产生的部分逻辑问题

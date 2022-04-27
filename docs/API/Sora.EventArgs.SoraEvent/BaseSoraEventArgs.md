@@ -10,6 +10,7 @@ public abstract class BaseSoraEventArgs : EventArgs
 
 | name | description |
 | --- | --- |
+| [ConnId](BaseSoraEventArgs/ConnId.md) { get; } | 链接ID |
 | [EventName](BaseSoraEventArgs/EventName.md) { get; } | 当前事件名 |
 | [IsContinueEventChain](BaseSoraEventArgs/IsContinueEventChain.md) { get; set; } | 是否在处理本次事件后再次触发其他事件，默认为触发[`true`] |
 | [LoginUid](BaseSoraEventArgs/LoginUid.md) { get; } | 接收当前事件的机器人UID |

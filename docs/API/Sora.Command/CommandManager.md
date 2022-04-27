@@ -16,6 +16,8 @@ public sealed class CommandManager
 | [MappingCommands](CommandManager/MappingCommands.md)(…) | 自动注册所有指令 |
 | [RegisterGroupDynamicCommand](CommandManager/RegisterGroupDynamicCommand.md)(…) | 动态注册指令 |
 | [RegisterPrivateDynamicCommand](CommandManager/RegisterPrivateDynamicCommand.md)(…) | 动态注册指令 |
+| [TryDisableCommandGroup](CommandManager/TryDisableCommandGroup.md)(…) | 尝试禁用指令组 |
+| [TryEnableCommandGroup](CommandManager/TryEnableCommandGroup.md)(…) | 尝试启用指令组 |
 
 ## See Also
 

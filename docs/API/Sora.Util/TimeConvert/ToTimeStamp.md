@@ -3,7 +3,7 @@
 DateTime转时间戳 时间是否精确到毫秒（13位时间戳）
 
 ```csharp
-public static long ToTimeStamp(this DateTime date, bool isMilliSeconds = false)
+public static long ToTimeStamp(this DateTime date, bool isMilliseconds = false)
 ```
 
 ## See Also

@@ -12,6 +12,8 @@ public static class SoraServiceFactory
 | --- | --- |
 | static [CreateMultiService](SoraServiceFactory/CreateMultiService.md)(…) | 连续创建多个 Sora 服务实例 (2 methods) |
 | static [CreateService](SoraServiceFactory/CreateService.md)(…) | 创建一个Sora服务 |
+| static [StartMultiService](SoraServiceFactory/StartMultiService.md)(…) | 启动多个服务 |
+| static [TryGetApi](SoraServiceFactory/TryGetApi.md)(…) | 通过登录的uid获取对应的api实例 |
 
 ## See Also
 
