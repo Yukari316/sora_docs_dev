@@ -28,6 +28,7 @@ public enum SegmentType
 | RedBag | `15` | 接收红包 |
 | CardImage | `16` | 装逼大图 |
 | TTS | `17` | 文本转语音 |
+| RPS | `18` | 猜拳 |
 
 ## See Also
 

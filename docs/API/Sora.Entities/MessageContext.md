@@ -26,8 +26,10 @@ public sealed class MessageContext : BaseModel
 | [GetText](MessageContext/GetText.md)() | 截取消息中的文字部分 |
 | [IsCodeCard](MessageContext/IsCodeCard.md)() | QQ小程序判断（Xml与Json类型消息） |
 | [IsForwardMessage](MessageContext/IsForwardMessage.md)() | 是否是转发消息 |
+| [IsMultiImageMessage](MessageContext/IsMultiImageMessage.md)() | 是否为纯图片消息 |
+| [IsSingleImageMessage](MessageContext/IsSingleImageMessage.md)() | 是否为单图片消息 |
 | [MarkMessageRead](MessageContext/MarkMessageRead.md)() | 标记此消息已读 |
-| [MessageEquals](MessageContext/MessageEquals.md)(…) | 判定消息段相等 |
+| [MessageEquals](MessageContext/MessageEquals.md)(…) | 判定消息段相等 (2 methods) |
 | [RecallMessage](MessageContext/RecallMessage.md)() | 撤回本条消息 |
 | override [ToString](MessageContext/ToString.md)() | 转纯文本信息 |
 | [operator ==](MessageContext/op_Equality.md) | 等于重载 |

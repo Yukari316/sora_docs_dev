@@ -1,4 +1,20 @@
-# MessageContext.MessageEquals method
+# MessageContext.MessageEquals method (1 of 2)
+
+判定消息段相等
+
+```csharp
+public bool MessageEquals(MessageBody msg)
+```
+
+## See Also
+
+* class [MessageBody](../MessageBody.md)
+* class [MessageContext](../MessageContext.md)
+* namespace [Sora.Entities](../../Sora.md)
+
+---
+
+# MessageContext.MessageEquals method (2 of 2)
 
 判定消息段相等
 

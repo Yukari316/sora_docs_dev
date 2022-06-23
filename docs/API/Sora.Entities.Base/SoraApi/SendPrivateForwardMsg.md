@@ -1,15 +1,15 @@
-# SoraApi.SendGroupForwardMsg method
+# SoraApi.SendPrivateForwardMsg method
 
-发送合并转发(群)
+发送合并转发(私聊)
 
 ```csharp
-public ValueTask<(ApiStatus apiStatus, int messageId)> SendGroupForwardMsg(long groupId, 
+public ValueTask<(ApiStatus apiStatus, int messageId)> SendPrivateForwardMsg(long userId, 
     IEnumerable<CustomNode> nodeList, TimeSpan? timeout = default)
 ```
 
 | parameter | description |
 | --- | --- |
-| groupId | 群号 |
+| userId | 群号 |
 | nodeList | 节点([`CustomNode`](../../Sora.Entities.Segment.DataModel/CustomNode.md))消息段列表 |
 | timeout | 原有超时覆盖 |
 

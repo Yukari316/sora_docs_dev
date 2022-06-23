@@ -59,16 +59,19 @@
 | struct [GroupFolderInfo](./Sora.Entities.Info/GroupFolderInfo.md) | 群文件夹信息 |
 | struct [GroupInfo](./Sora.Entities.Info/GroupInfo.md) | 群信息 |
 | record [GroupMemberInfo](./Sora.Entities.Info/GroupMemberInfo.md) | 群成员信息 |
+| struct [GroupNoticeInfo](./Sora.Entities.Info/GroupNoticeInfo.md) | 群公告 |
 | struct [GroupRequestInfo](./Sora.Entities.Info/GroupRequestInfo.md) | 群组请求信息 |
 | struct [GroupSenderInfo](./Sora.Entities.Info/GroupSenderInfo.md) | 群组消息发送者 |
 | struct [ModelInfo](./Sora.Entities.Info/ModelInfo.md) | 型号信息 |
+| struct [NoticeImage](./Sora.Entities.Info/NoticeImage.md) | 公告图片 |
+| struct [NoticeMessage](./Sora.Entities.Info/NoticeMessage.md) | 公告消息 |
 | struct [OfflineFileInfo](./Sora.Entities.Info/OfflineFileInfo.md) | 离线文件信息 |
 | struct [PrivateSenderInfo](./Sora.Entities.Info/PrivateSenderInfo.md) | 私聊消息发送者 |
+| struct [ProfileDetail](./Sora.Entities.Info/ProfileDetail.md) | 个人资料 |
 | struct [QidianAccountInfo](./Sora.Entities.Info/QidianAccountInfo.md) | 企点账号信息 |
 | struct [UnidirectionalFriendInfo](./Sora.Entities.Info/UnidirectionalFriendInfo.md) | 单向好友信息 |
 | struct [UploadFileInfo](./Sora.Entities.Info/UploadFileInfo.md) | 上传文件的信息 |
 | struct [UserInfo](./Sora.Entities.Info/UserInfo.md) | 用户信息 |
-| struct [VipInfo](./Sora.Entities.Info/VipInfo.md) | VIP信息 |
 
 ## Sora.Entities.Segment namespace
 
@@ -82,7 +85,7 @@
 | public type | description |
 | --- | --- |
 | record [AtSegment](./Sora.Entities.Segment.DataModel/AtSegment.md) | At某人 |
-| abstract record [BaseSegment](./Sora.Entities.Segment.DataModel/BaseSegment.md) | 消息段基类，做占位和限制范围用 |
+| record [BaseSegment](./Sora.Entities.Segment.DataModel/BaseSegment.md) | 消息段基类，做占位和限制范围用 |
 | record [CardImageSegment](./Sora.Entities.Segment.DataModel/CardImageSegment.md) | 装逼大图 仅支持GoCQ |
 | record [CodeSegment](./Sora.Entities.Segment.DataModel/CodeSegment.md) | Xml与Json集合 |
 | record [CustomMusicSegment](./Sora.Entities.Segment.DataModel/CustomMusicSegment.md) | 自定义音乐分享 |

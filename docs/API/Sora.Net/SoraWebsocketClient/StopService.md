@@ -1,11 +1,11 @@
-# SoraWebsocketClient.StartService method
+# SoraWebsocketClient.StopService method
 
-启动 Sora 服务
+停止 Sora 服务
 
-启动客户端并自动连接服务器
+停止ws客户端
 
 ```csharp
-public ValueTask StartService()
+public ValueTask StopService()
 ```
 
 ## See Also

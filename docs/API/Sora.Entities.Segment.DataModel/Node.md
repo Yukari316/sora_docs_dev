@@ -11,6 +11,7 @@ public record Node
 | name | description |
 | --- | --- |
 | [Node](Node/Node.md)() | The default constructor. |
+| [GroupId](Node/GroupId.md) { get; set; } | 消息来源群 |
 | [MessageBody](Node/MessageBody.md) { get; } | 消息内容 |
 | [Sender](Node/Sender.md) { get; } | 发送者昵称 |
 | [Time](Node/Time.md) { get; } | 发送事件戳 |

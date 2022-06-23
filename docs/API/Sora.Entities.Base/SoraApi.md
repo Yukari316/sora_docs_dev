@@ -45,6 +45,7 @@ public sealed class SoraApi
 | [GetGroupMemberInfo](SoraApi/GetGroupMemberInfo.md)(…) | 获取群成员信息 |
 | [GetGroupMemberList](SoraApi/GetGroupMemberList.md)(…) | 获取群成员列表 |
 | [GetGroupMessageHistory](SoraApi/GetGroupMessageHistory.md)(…) | 获取群消息历史记录 |
+| [GetGroupNotice](SoraApi/GetGroupNotice.md)(…) | 获取群公告 |
 | [GetGroupRootFiles](SoraApi/GetGroupRootFiles.md)(…) | 获取群根目录文件列表 |
 | [GetGroupSystemMsg](SoraApi/GetGroupSystemMsg.md)() | 获取群组系统消息 |
 | override [GetHashCode](SoraApi/GetHashCode.md)() | GetHashCode |
@@ -69,9 +70,10 @@ public sealed class SoraApi
 | [ReloadEventFilter](SoraApi/ReloadEventFilter.md)() | 重载事件过滤器 |
 | [RemoveBlock](SoraApi/RemoveBlock.md)(…) | 对用户解除屏蔽 |
 | [RemoveSuperUser](SoraApi/RemoveSuperUser.md)(…) | 解除机器人管理员 |
-| [SendGroupForwardMsg](SoraApi/SendGroupForwardMsg.md)(…) | 发送合并转发(群) 但好像不能用的样子 |
+| [SendGroupForwardMsg](SoraApi/SendGroupForwardMsg.md)(…) | 发送合并转发(群) |
 | [SendGroupMessage](SoraApi/SendGroupMessage.md)(…) | 发送群聊消息 |
 | [SendGroupNotice](SoraApi/SendGroupNotice.md)(…) | 发送群公告 |
+| [SendPrivateForwardMsg](SoraApi/SendPrivateForwardMsg.md)(…) | 发送合并转发(私聊) |
 | [SendPrivateMessage](SoraApi/SendPrivateMessage.md)(…) | 发送私聊消息 |
 | [SendTemporaryMessage](SoraApi/SendTemporaryMessage.md)(…) | 发起群临时会话（私聊） |
 | [SetEssenceMessage](SoraApi/SetEssenceMessage.md)(…) | 设置精华消息 |
@@ -82,6 +84,7 @@ public sealed class SoraApi
 | [SetGroupName](SoraApi/SetGroupName.md)(…) | 设置群名 |
 | [SetGroupPortrait](SoraApi/SetGroupPortrait.md)(…) | 设置群头像 |
 | [SetModelShow](SoraApi/SetModelShow.md)(…) | 设置在线机型 |
+| [SetQQProfile](SoraApi/SetQQProfile.md)(…) | 设置 QQ 个人资料 |
 | [UploadGroupFile](SoraApi/UploadGroupFile.md)(…) | 上传群文件 |
 | [operator ==](SoraApi/op_Equality.md) | 等于重载 |
 | [operator !=](SoraApi/op_Inequality.md) | 不等于重载 |

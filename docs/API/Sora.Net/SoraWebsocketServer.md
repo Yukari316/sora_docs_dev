@@ -3,7 +3,7 @@
 Sora服务器实例
 
 ```csharp
-public sealed class SoraWebsocketServer : IDisposable, ISoraService
+public sealed class SoraWebsocketServer : ISoraService
 ```
 
 ## Public Members
@@ -16,6 +16,7 @@ public sealed class SoraWebsocketServer : IDisposable, ISoraService
 | [Dispose](SoraWebsocketServer/Dispose.md)() | 释放资源 |
 | [GetApi](SoraWebsocketServer/GetApi.md)(…) | 获取API实例 |
 | [StartService](SoraWebsocketServer/StartService.md)() | 启动 Sora 服务 |
+| [StopService](SoraWebsocketServer/StopService.md)() | 停止 Sora 服务 |
 
 ## Protected Members
 

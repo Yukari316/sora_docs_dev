@@ -1,4 +1,61 @@
-# PrivateMessageEventArgs.WaitForNextMessageAsync method (1 of 4)
+# PrivateMessageEventArgs.WaitForNextMessageAsync method (1 of 6)
+
+等待下一条消息触发
+
+当所在的上下文被重复触发时则会直接返回`null`
+
+```csharp
+public ValueTask<PrivateMessageEventArgs> WaitForNextMessageAsync(
+    Func<BaseMessageEventArgs, bool> matchFunc)
+```
+
+| parameter | description |
+| --- | --- |
+| matchFunc | 指令表达式 |
+
+## Return Value
+
+触发后的事件参数
+
+## See Also
+
+* class [BaseMessageEventArgs](../BaseMessageEventArgs.md)
+* class [PrivateMessageEventArgs](../PrivateMessageEventArgs.md)
+* namespace [Sora.EventArgs.SoraEvent](../../Sora.md)
+
+---
+
+# PrivateMessageEventArgs.WaitForNextMessageAsync method (2 of 6)
+
+等待下一条消息触发
+
+当所在的上下文被重复触发时则会直接返回`null`
+
+```csharp
+public ValueTask<PrivateMessageEventArgs> WaitForNextMessageAsync(
+    Func<BaseMessageEventArgs, bool> matchFunc, TimeSpan timeout, 
+    Func<ValueTask> timeoutTask = null)
+```
+
+| parameter | description |
+| --- | --- |
+| matchFunc | 指令表达式 |
+| timeout | 超时 |
+| timeoutTask | 超时后执行的动作 |
+
+## Return Value
+
+触发后的事件参数
+
+## See Also
+
+* class [BaseMessageEventArgs](../BaseMessageEventArgs.md)
+* class [PrivateMessageEventArgs](../PrivateMessageEventArgs.md)
+* namespace [Sora.EventArgs.SoraEvent](../../Sora.md)
+
+---
+
+# PrivateMessageEventArgs.WaitForNextMessageAsync method (3 of 6)
 
 等待下一条消息触发
 
@@ -27,7 +84,7 @@ public ValueTask<PrivateMessageEventArgs> WaitForNextMessageAsync(string command
 
 ---
 
-# PrivateMessageEventArgs.WaitForNextMessageAsync method (2 of 4)
+# PrivateMessageEventArgs.WaitForNextMessageAsync method (4 of 6)
 
 等待下一条消息触发
 
@@ -56,7 +113,7 @@ public ValueTask<PrivateMessageEventArgs> WaitForNextMessageAsync(string[] comma
 
 ---
 
-# PrivateMessageEventArgs.WaitForNextMessageAsync method (3 of 4)
+# PrivateMessageEventArgs.WaitForNextMessageAsync method (5 of 6)
 
 等待下一条消息触发
 
@@ -88,7 +145,7 @@ public ValueTask<PrivateMessageEventArgs> WaitForNextMessageAsync(string command
 
 ---
 
-# PrivateMessageEventArgs.WaitForNextMessageAsync method (4 of 4)
+# PrivateMessageEventArgs.WaitForNextMessageAsync method (6 of 6)
 
 等待下一条消息触发
 

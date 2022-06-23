@@ -1,4 +1,23 @@
-# SoraSegment.Image method
+# SoraSegment.Image method (1 of 2)
+
+图片 消息段
+
+```csharp
+public static SoraSegment Image(Stream data)
+```
+
+| parameter | description |
+| --- | --- |
+| data | 图片流 |
+
+## See Also
+
+* struct [SoraSegment](../SoraSegment.md)
+* namespace [Sora.Entities.Segment](../../Sora.md)
+
+---
+
+# SoraSegment.Image method (2 of 2)
 
 图片 消息段
 

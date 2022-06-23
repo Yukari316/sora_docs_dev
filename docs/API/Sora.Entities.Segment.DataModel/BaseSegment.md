@@ -3,7 +3,7 @@
 消息段基类，做占位和限制范围用
 
 ```csharp
-public abstract record BaseSegment
+public record BaseSegment
 ```
 
 ## See Also

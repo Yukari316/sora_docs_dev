@@ -17,6 +17,7 @@ public sealed class User : BaseModel
 | override [Equals](User/Equals.md)(…) | 比较重载 |
 | override [GetHashCode](User/GetHashCode.md)() | GetHashCode |
 | [GetUserInfo](User/GetUserInfo.md)(…) | 获取用户信息 |
+| [SendPrivateForwardMsg](User/SendPrivateForwardMsg.md)(…) | 发送合并转发(私聊) |
 | [SendPrivateMessage](User/SendPrivateMessage.md)(…) | 发送群消息 |
 | [operator ==](User/op_Equality.md) | 等于重载 |
 | [implicit operator](User/op_Implicit.md) | 定义将 [`User`](./User.md) 对象转换为 Int64 (2 operators) |

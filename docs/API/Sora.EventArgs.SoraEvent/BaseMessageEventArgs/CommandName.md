@@ -1,9 +1,9 @@
-# BaseMessageEventArgs.CommandId property
+# BaseMessageEventArgs.CommandName property
 
-在匹配到动态指令时此值为匹配到的动态指令ID
+在匹配到指令时此值为匹配到的指令名
 
 ```csharp
-public Guid CommandId { get; }
+public string CommandName { get; }
 ```
 
 ## See Also

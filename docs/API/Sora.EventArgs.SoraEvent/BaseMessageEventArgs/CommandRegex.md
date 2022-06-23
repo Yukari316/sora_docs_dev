@@ -3,7 +3,7 @@
 在匹配到指令时则此值为匹配到的正则表达式
 
 ```csharp
-public Regex CommandRegex { get; }
+public Regex[] CommandRegex { get; }
 ```
 
 ## See Also

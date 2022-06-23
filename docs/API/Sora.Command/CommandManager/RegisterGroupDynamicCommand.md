@@ -1,13 +1,49 @@
-# CommandManager.RegisterGroupDynamicCommand method
+# CommandManager.RegisterGroupDynamicCommand method (1 of 2)
+
+动态注册指令
+
+```csharp
+public Guid RegisterGroupDynamicCommand(Func<BaseMessageEventArgs, bool> matchFunc, 
+    Func<GroupMessageEventArgs, ValueTask> groupCommand, string groupName = "", 
+    Action<Exception> exceptionHandler = null, MemberRoleType memberRole = MemberRoleType.Member, 
+    bool suCommand = false, int? priority = null, long[] sourceGroups = null, 
+    long[] sourceUsers = null, string desc = "")
+```
+
+| parameter | description |
+| --- | --- |
+| matchFunc | 自定义匹配方法 |
+| groupCommand | 指令执行定义 |
+| groupName | 指令组名，为空时不能控制使能 |
+| exceptionHandler | 异常处理 |
+| memberRole | 成员权限限制 |
+| suCommand | 机器人管理员限制 |
+| priority | 优先级 |
+| sourceGroups | 群组限制 |
+| sourceUsers | 成员限制 |
+| desc | 描述 |
+
+## See Also
+
+* class [BaseMessageEventArgs](../../Sora.EventArgs.SoraEvent/BaseMessageEventArgs.md)
+* class [GroupMessageEventArgs](../../Sora.EventArgs.SoraEvent/GroupMessageEventArgs.md)
+* enum [MemberRoleType](../../Sora.Enumeration.EventParamsType/MemberRoleType.md)
+* class [CommandManager](../CommandManager.md)
+* namespace [Sora.Command](../../Sora.md)
+
+---
+
+# CommandManager.RegisterGroupDynamicCommand method (2 of 2)
 
 动态注册指令
 
 ```csharp
 public Guid RegisterGroupDynamicCommand(string[] cmdExps, 
     Func<GroupMessageEventArgs, ValueTask> groupCommand, MatchType matchType = MatchType.Full, 
-    RegexOptions regexOptions = RegexOptions.None, Action<Exception> exceptionHandler = null, 
-    MemberRoleType memberRole = MemberRoleType.Member, bool suCommand = false, int priority = 0, 
-    long[] sourceGroups = null, long[] sourceUsers = null, string desc = "")
+    RegexOptions regexOptions = RegexOptions.None, string groupName = "", 
+    Action<Exception> exceptionHandler = null, MemberRoleType memberRole = MemberRoleType.Member, 
+    bool suCommand = false, int? priority = null, long[] sourceGroups = null, 
+    long[] sourceUsers = null, string desc = "")
 ```
 
 | parameter | description |
@@ -16,6 +52,7 @@ public Guid RegisterGroupDynamicCommand(string[] cmdExps,
 | groupCommand | 指令执行定义 |
 | matchType | 匹配类型 |
 | regexOptions | 正则选项 |
+| groupName | 指令组名，为空时不能控制使能 |
 | exceptionHandler | 异常处理 |
 | memberRole | 成员权限限制 |
 | suCommand | 机器人管理员限制 |

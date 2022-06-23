@@ -32,7 +32,7 @@ public sealed class Group : BaseModel
 | override [GetHashCode](Group/GetHashCode.md)() | GetHashCode |
 | [KickGroupMember](Group/KickGroupMember.md)(…) | 群组踢人 |
 | [LeaveGroup](Group/LeaveGroup.md)() | 退出群 |
-| [SendGroupForwardMsg](Group/SendGroupForwardMsg.md)(…) | 发送合并转发(群) 但好像不能用的样子 |
+| [SendGroupForwardMsg](Group/SendGroupForwardMsg.md)(…) | 发送合并转发(群) |
 | [SendGroupMessage](Group/SendGroupMessage.md)(…) | 发送群消息 |
 | [SendGroupNotice](Group/SendGroupNotice.md)(…) | 发送群公告 |
 | [SetGroupCard](Group/SetGroupCard.md)(…) | 设置群名片 |

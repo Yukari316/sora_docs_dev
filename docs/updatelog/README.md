@@ -16,6 +16,68 @@
 如需要查看最新的示例请前往 [示例](../example/README.md)
 :::
 
+## v1.0.0-rc65<Badge text="Release Candidate" type="warning"/>  <Badge text="gocq v1.0.0-rc2"/>
+
+优化 启动逻辑
+
+## v1.0.0-rc64<Badge text="Release Candidate" type="warning"/>  <Badge text="gocq v1.0.0-rc2"/>
+
+新增 触发指令时更多的上下文支持 [CommandName](../API/Sora.EventArgs.SoraEvent/BaseMessageEventArgs/CommandName.md)
+
+修复 指令匹配时的逻辑错误
+
+## v1.0.0-rc63<Badge text="Release Candidate" type="warning"/>  <Badge text="gocq v1.0.0-rc2"/>
+
+优化 websocket连接管理器
+
+## v1.0.0-rc62<Badge text="Release Candidate" type="warning"/>  <Badge text="gocq v1.0.0-rc2"/>
+
+修复 某些情况下动态指令不按指定群触发
+
+## v1.0.0-rc61<Badge text="Release Candidate" type="warning"/>  <Badge text="gocq v1.0.0-rc2"/>
+
+增加 指令的优先级支持自动设置
+
+修复 自定义匹配表达式(Fnuc)的优先级错误
+
+## v1.0.0-rc60<Badge text="Release Candidate" type="warning"/>  <Badge text="gocq v1.0.0-rc2"/>
+
+增加 新的[MessageEquals](../API/Sora.Entities/MessageContext/MessageEquals.md)重载
+
+## v1.0.0-rc59<Badge text="Release Candidate" type="warning"/>  <Badge text="gocq v1.0.0-rc2"/>
+
+增加 图片消息的检测方式 [IsSingleImageMessage](../API/Sora.Entities/MessageContext/IsSingleImageMessage.md) [IsMultiImageMessage](../API/Sora.Entities/MessageContext/IsMultiImageMessage.md)
+
+## v1.0.0-rc58<Badge text="Release Candidate" type="warning"/>  <Badge text="gocq v1.0.0-rc2"/>
+
+增加 动态指令\连续对话增加使用 `Func` 自定义的消息匹配方式
+
+修复 错的异常处理逻辑
+
+## v1.0.0-rc57<Badge text="Release Candidate" type="warning"/>  <Badge text="gocq v1.0.0-rc2"/>
+
+新增/优化 适配 `gocq v1.0.0-rc2` (东西太多了不写了，直接去看官方文档吧)
+
+## v1.0.0-rc56<Badge text="Release Candidate" type="warning"/>  <Badge text="gocq v1.0.0-rc1"/>
+
+增加 在[SegmentHelper](../API/Sora.Entities.Segment/SegmentHelper.md)中添加将 `Stream` 转换为 `base64` 字符串的方法 [StreamToBase64](../API/Sora.Entities.Segment/SegmentHelper/StreamToBase64.md) by [Alex1911](https://github.com/Alex1911-Jiang) [#61](https://github.com/DeepOceanSoft/Sora/pull/61)
+
+增加 在[SoraSegment](../API/Sora.Entities.Segment/SoraSegment.md)中添加使用 `Stream` 构造 `Image` 消息段的方法 [Image](../API/Sora.Entities.Segment/SoraSegment/Image.md) by [Alex1911](https://github.com/Alex1911-Jiang) [#61](https://github.com/DeepOceanSoft/Sora/pull/61)
+
+TYPO 修复错误log
+
+## v1.0.0-rc55<Badge text="Release Candidate" type="warning"/>  <Badge text="gocq v1.0.0-rc1"/>
+
+修复 多线程错误[#60](https://github.com/DeepOceanSoft/Sora/issues/60)
+
+## v1.0.0-rc53/54<Badge text="Release Candidate" type="warning"/>  <Badge text="gocq v1.0.0-rc1"/>
+
+修复 错误的指上下文 [#59](https://github.com/DeepOceanSoft/Sora/issues/59)
+
+## v1.0.0-rc52<Badge text="Release Candidate" type="warning"/>  <Badge text="gocq v1.0.0-rc1"/>
+
+增加 在[ISoraService](../API/Sora.Interfaces/ISoraService.md)中增加停止服务的方法 by [Ragnarokkr.Xia](https://github.com/Ragnarokkr-Xia) [#57](https://github.com/DeepOceanSoft/Sora/pull/57)
+
 ## v1.0.0-rc51<Badge text="Release Candidate" type="warning"/>  <Badge text="gocq v1.0.0-rc1"/>
 
 增加 [SoraServiceFactory](../API/Sora/SoraServiceFactory.md) 增加API `TryGetApi` 允许使用登录账号ID来获取API实例

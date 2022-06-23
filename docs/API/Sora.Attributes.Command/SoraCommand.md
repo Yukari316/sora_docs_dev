@@ -22,7 +22,7 @@ public sealed class SoraCommand : Attribute
 | [SourceType](SoraCommand/SourceType.md) { get; set; } | 指令响应的源 |
 | [SourceUsers](SoraCommand/SourceUsers.md) { get; set; } | 限制指令响应的用户 |
 | [SuperUserCommand](SoraCommand/SuperUserCommand.md) { get; set; } | 机器人管理员指令 |
-| readonly [ExceptionHandler](SoraCommand/ExceptionHandler.md) | 指令执行异常处理 |
+| readonly [ExceptionHandler](SoraCommand/ExceptionHandler.md) | 指令执行发生异常时的回调 |
 
 ## See Also
 

@@ -10,7 +10,8 @@ public abstract class BaseMessageEventArgs : BaseSoraEventArgs
 
 | name | description |
 | --- | --- |
-| [CommandId](BaseMessageEventArgs/CommandId.md) { get; } | 在匹配到动态指令时则此值为匹配到的动态指令ID |
+| [CommandId](BaseMessageEventArgs/CommandId.md) { get; } | 在匹配到动态指令时此值为匹配到的动态指令ID |
+| [CommandName](BaseMessageEventArgs/CommandName.md) { get; } | 在匹配到指令时此值为匹配到的指令名 |
 | [CommandRegex](BaseMessageEventArgs/CommandRegex.md) { get; } | 在匹配到指令时则此值为匹配到的正则表达式 |
 | [IsSelfMessage](BaseMessageEventArgs/IsSelfMessage.md) { get; } | 是否为Bot账号所发送的消息 |
 | [IsSuperUser](BaseMessageEventArgs/IsSuperUser.md) { get; } | 是否为机器人管理员 |

@@ -3,7 +3,7 @@
 Sora 连接服务
 
 ```csharp
-public interface ISoraService
+public interface ISoraService : IDisposable
 ```
 
 ## Members
@@ -15,6 +15,7 @@ public interface ISoraService
 | [ServiceId](ISoraService/ServiceId.md) { get; } | 服务ID |
 | [GetApi](ISoraService/GetApi.md)(…) | 获取API实例 |
 | [StartService](ISoraService/StartService.md)() | 启动 Sora 服务 |
+| [StopService](ISoraService/StopService.md)() | 停止 Sora 服务 |
 
 ## See Also
 

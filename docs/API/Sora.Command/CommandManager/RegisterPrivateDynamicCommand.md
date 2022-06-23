@@ -1,12 +1,44 @@
-# CommandManager.RegisterPrivateDynamicCommand method
+# CommandManager.RegisterPrivateDynamicCommand method (1 of 2)
+
+动态注册指令
+
+```csharp
+public Guid RegisterPrivateDynamicCommand(Func<BaseMessageEventArgs, bool> matchFunc, 
+    Func<PrivateMessageEventArgs, ValueTask> privateCommand, string groupName = "", 
+    Action<Exception> exceptionHandler = null, bool suCommand = false, int? priority = null, 
+    long[] sourceUsers = null, string desc = "")
+```
+
+| parameter | description |
+| --- | --- |
+| matchFunc | 自定义匹配方法 |
+| privateCommand | 指令执行定义 |
+| groupName | 指令组名，为空时不能控制使能 |
+| exceptionHandler | 异常处理 |
+| suCommand | 机器人管理员限制 |
+| priority | 优先级 |
+| sourceUsers | 用户限制 |
+| desc | 描述 |
+
+## See Also
+
+* class [BaseMessageEventArgs](../../Sora.EventArgs.SoraEvent/BaseMessageEventArgs.md)
+* class [PrivateMessageEventArgs](../../Sora.EventArgs.SoraEvent/PrivateMessageEventArgs.md)
+* class [CommandManager](../CommandManager.md)
+* namespace [Sora.Command](../../Sora.md)
+
+---
+
+# CommandManager.RegisterPrivateDynamicCommand method (2 of 2)
 
 动态注册指令
 
 ```csharp
 public Guid RegisterPrivateDynamicCommand(string[] cmdExps, 
     Func<PrivateMessageEventArgs, ValueTask> privateCommand, MatchType matchType = MatchType.Full, 
-    RegexOptions regexOptions = RegexOptions.None, Action<Exception> exceptionHandler = null, 
-    bool suCommand = false, int priority = 0, long[] sourceUsers = null, string desc = "")
+    RegexOptions regexOptions = RegexOptions.None, string groupName = "", 
+    Action<Exception> exceptionHandler = null, bool suCommand = false, int? priority = null, 
+    long[] sourceUsers = null, string desc = "")
 ```
 
 | parameter | description |
@@ -15,6 +47,7 @@ public Guid RegisterPrivateDynamicCommand(string[] cmdExps,
 | privateCommand | 指令执行定义 |
 | matchType | 匹配类型 |
 | regexOptions | 正则选项 |
+| groupName | 指令组名，为空时不能控制使能 |
 | exceptionHandler | 异常处理 |
 | suCommand | 机器人管理员限制 |
 | priority | 优先级 |

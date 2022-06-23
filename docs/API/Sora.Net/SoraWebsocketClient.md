@@ -3,7 +3,7 @@
 Sora正向WS链接客户端
 
 ```csharp
-public sealed class SoraWebsocketClient : IDisposable, ISoraService
+public sealed class SoraWebsocketClient : ISoraService
 ```
 
 ## Public Members
@@ -16,6 +16,7 @@ public sealed class SoraWebsocketClient : IDisposable, ISoraService
 | [Dispose](SoraWebsocketClient/Dispose.md)() | 释放资源并断开链接 |
 | [GetApi](SoraWebsocketClient/GetApi.md)(…) | 获取API实例 |
 | [StartService](SoraWebsocketClient/StartService.md)() | 启动 Sora 服务 |
+| [StopService](SoraWebsocketClient/StopService.md)() | 停止 Sora 服务 |
 
 ## Protected Members
 

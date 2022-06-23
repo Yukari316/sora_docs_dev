@@ -2,6 +2,8 @@
 
 优先级
 
+数值越高优先级越高
+
 ```csharp
 public int Priority { get; set; }
 ```
