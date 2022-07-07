@@ -16,6 +16,24 @@
 如需要查看最新的示例请前往 [示例](../example/README.md)
 :::
 
+## v1.0.0-rc67<Badge text="Release Candidate" type="warning"/>  <Badge text="gocq v1.0.0-rc2"/>
+
+TYPO 修改部分错误的log文本
+
+优化 部分私聊合并消息转发支持覆盖超时时间
+
+修复 错误的反向ws事件判断
+
+优化 反向ws的性能
+
+## v1.0.0-rc66<Badge text="Release Candidate" type="warning"/>  <Badge text="Breaking Change" type="error"/>  <Badge text="gocq v1.0.0-rc2"/> 
+
+调整 'StaticVariable' 改名为 [VersionCode](../API/Sora/VersionCode.md)<Badge text="Breaking Change" type="error"/>
+
+修复 某些奇怪的情况下在服务销毁时报错的问题 [#62](https://github.com/DeepOceanSoft/Sora/issues/62)
+
+优化 ws连接/服务/连续对话的性能和稳定性
+
 ## v1.0.0-rc65<Badge text="Release Candidate" type="warning"/>  <Badge text="gocq v1.0.0-rc2"/>
 
 优化 启动逻辑

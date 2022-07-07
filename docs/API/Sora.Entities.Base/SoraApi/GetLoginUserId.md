@@ -4,6 +4,8 @@
 
 使用正向ws链接时此方法在触发lifecycle事件前失效
 
+再连接失效时返回 -1
+
 ```csharp
 public long GetLoginUserId()
 ```

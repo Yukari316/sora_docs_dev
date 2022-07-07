@@ -4,12 +4,13 @@
 
 ```csharp
 public ValueTask<(ApiStatus apiStatus, int messageId)> SendGroupForwardMsg(
-    IEnumerable<CustomNode> nodeList)
+    IEnumerable<CustomNode> nodeList, TimeSpan? timeout = default)
 ```
 
 | parameter | description |
 | --- | --- |
 | nodeList | 节点([`CustomNode`](../../Sora.Entities.Segment.DataModel/CustomNode.md))消息段列表 |
+| timeout | 超时覆盖 |
 
 ## See Also
 

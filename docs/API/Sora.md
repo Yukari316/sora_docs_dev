@@ -5,7 +5,7 @@
 | public type | description |
 | --- | --- |
 | static class [SoraServiceFactory](./Sora/SoraServiceFactory.md) | Sora 实例工厂 |
-| static class [StaticVariable](./Sora/StaticVariable.md) | 静态变量存放区 |
+| static class [VersionCode](./Sora/VersionCode.md) | 版本代号 |
 
 ## Sora.Attributes namespace
 
