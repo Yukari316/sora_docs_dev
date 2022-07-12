@@ -16,6 +16,10 @@
 如需要查看最新的示例请前往 [示例](../example/README.md)
 :::
 
+## v1.0.0-rc70<Badge text="Release Candidate" type="warning"/>  <Badge text="gocq v1.0.0-rc2"/>
+
+修复 在其他平台上可能产生的错误log
+
 ## v1.0.0-rc69<Badge text="Release Candidate" type="warning"/>  <Badge text="gocq v1.0.0-rc2"/>
 
 增加 增加全局指令错误回调 [CommandExceptionHandle](../API/Sora.Interfaces/ISoraConfig/CommandExceptionHandle.md)
