@@ -5,11 +5,12 @@
 在设置了此值后将不会再抛出异常，即使已经设置了ThrowCommandErr
 
 ```csharp
-public readonly Action<Exception> ExceptionHandler;
+public readonly Action<Exception, BaseMessageEventArgs> ExceptionHandler;
 ```
 
 ## See Also
 
+* class [BaseMessageEventArgs](../../Sora.EventArgs.SoraEvent/BaseMessageEventArgs.md)
 * class [SoraCommand](../SoraCommand.md)
 * namespace [Sora.Attributes.Command](../../Sora.md)
 

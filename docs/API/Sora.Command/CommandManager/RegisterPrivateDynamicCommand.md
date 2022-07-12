@@ -5,8 +5,8 @@
 ```csharp
 public Guid RegisterPrivateDynamicCommand(Func<BaseMessageEventArgs, bool> matchFunc, 
     Func<PrivateMessageEventArgs, ValueTask> privateCommand, string groupName = "", 
-    Action<Exception> exceptionHandler = null, bool suCommand = false, int? priority = null, 
-    long[] sourceUsers = null, string desc = "")
+    Action<Exception, BaseMessageEventArgs> exceptionHandler = null, bool suCommand = false, 
+    int? priority = null, long[] sourceUsers = null, string desc = "")
 ```
 
 | parameter | description |
@@ -37,8 +37,8 @@ public Guid RegisterPrivateDynamicCommand(Func<BaseMessageEventArgs, bool> match
 public Guid RegisterPrivateDynamicCommand(string[] cmdExps, 
     Func<PrivateMessageEventArgs, ValueTask> privateCommand, MatchType matchType = MatchType.Full, 
     RegexOptions regexOptions = RegexOptions.None, string groupName = "", 
-    Action<Exception> exceptionHandler = null, bool suCommand = false, int? priority = null, 
-    long[] sourceUsers = null, string desc = "")
+    Action<Exception, BaseMessageEventArgs> exceptionHandler = null, bool suCommand = false, 
+    int? priority = null, long[] sourceUsers = null, string desc = "")
 ```
 
 | parameter | description |
@@ -58,6 +58,7 @@ public Guid RegisterPrivateDynamicCommand(string[] cmdExps,
 
 * class [PrivateMessageEventArgs](../../Sora.EventArgs.SoraEvent/PrivateMessageEventArgs.md)
 * enum [MatchType](../../Sora.Enumeration/MatchType.md)
+* class [BaseMessageEventArgs](../../Sora.EventArgs.SoraEvent/BaseMessageEventArgs.md)
 * class [CommandManager](../CommandManager.md)
 * namespace [Sora.Command](../../Sora.md)
 

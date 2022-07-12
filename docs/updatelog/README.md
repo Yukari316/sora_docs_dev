@@ -16,6 +16,14 @@
 如需要查看最新的示例请前往 [示例](../example/README.md)
 :::
 
+## v1.0.0-rc69<Badge text="Release Candidate" type="warning"/>  <Badge text="gocq v1.0.0-rc2"/>
+
+增加 增加全局指令错误回调 [CommandExceptionHandle](../API/Sora.Interfaces/ISoraConfig/CommandExceptionHandle.md)
+
+## v1.0.0-rc68<Badge text="Release Candidate" type="warning"/>  <Badge text="gocq v1.0.0-rc2"/>
+
+优化 动态指令错误回调上下文增加消息事件参数
+
 ## v1.0.0-rc67<Badge text="Release Candidate" type="warning"/>  <Badge text="gocq v1.0.0-rc2"/>
 
 TYPO 修改部分错误的log文本

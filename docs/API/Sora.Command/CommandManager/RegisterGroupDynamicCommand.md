@@ -5,9 +5,9 @@
 ```csharp
 public Guid RegisterGroupDynamicCommand(Func<BaseMessageEventArgs, bool> matchFunc, 
     Func<GroupMessageEventArgs, ValueTask> groupCommand, string groupName = "", 
-    Action<Exception> exceptionHandler = null, MemberRoleType memberRole = MemberRoleType.Member, 
-    bool suCommand = false, int? priority = null, long[] sourceGroups = null, 
-    long[] sourceUsers = null, string desc = "")
+    Action<Exception, BaseMessageEventArgs> exceptionHandler = null, 
+    MemberRoleType memberRole = MemberRoleType.Member, bool suCommand = false, 
+    int? priority = null, long[] sourceGroups = null, long[] sourceUsers = null, string desc = "")
 ```
 
 | parameter | description |
@@ -41,9 +41,9 @@ public Guid RegisterGroupDynamicCommand(Func<BaseMessageEventArgs, bool> matchFu
 public Guid RegisterGroupDynamicCommand(string[] cmdExps, 
     Func<GroupMessageEventArgs, ValueTask> groupCommand, MatchType matchType = MatchType.Full, 
     RegexOptions regexOptions = RegexOptions.None, string groupName = "", 
-    Action<Exception> exceptionHandler = null, MemberRoleType memberRole = MemberRoleType.Member, 
-    bool suCommand = false, int? priority = null, long[] sourceGroups = null, 
-    long[] sourceUsers = null, string desc = "")
+    Action<Exception, BaseMessageEventArgs> exceptionHandler = null, 
+    MemberRoleType memberRole = MemberRoleType.Member, bool suCommand = false, 
+    int? priority = null, long[] sourceGroups = null, long[] sourceUsers = null, string desc = "")
 ```
 
 | parameter | description |
@@ -65,6 +65,7 @@ public Guid RegisterGroupDynamicCommand(string[] cmdExps,
 
 * class [GroupMessageEventArgs](../../Sora.EventArgs.SoraEvent/GroupMessageEventArgs.md)
 * enum [MatchType](../../Sora.Enumeration/MatchType.md)
+* class [BaseMessageEventArgs](../../Sora.EventArgs.SoraEvent/BaseMessageEventArgs.md)
 * enum [MemberRoleType](../../Sora.Enumeration.EventParamsType/MemberRoleType.md)
 * class [CommandManager](../CommandManager.md)
 * namespace [Sora.Command](../../Sora.md)
