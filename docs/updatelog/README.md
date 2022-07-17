@@ -16,6 +16,24 @@
 如需要查看最新的示例请前往 [示例](../example/README.md)
 :::
 
+## v1.0.0-rc73<Badge text="Release Candidate" type="warning"/>  <Badge text="Breaking Change" type="error"/>  <Badge text="gocq v1.0.0-rc2"/>
+
+:::danger 注意
+删除了所有指令自带的异常处理，请使用 [ISoraConfig](../API/Sora.Interfaces/ISoraConfig.md) 中的 [CommandExceptionHandle](../API/Sora.Interfaces/ISoraConfig/CommandExceptionHandle.md) 作为异常处理
+
+**详细的使用说明请参照快速上手中的指令说明文档**
+:::
+
+删除 [SoraCommand](../API/Sora.Attributes.Command/SoraCommand.md) 的 `ExceptionHandle` 属性 <Badge text="Breaking Change" type="error"/>
+
+删除 [RegisterPrivateDynamicCommand](../API/Sora.Command/CommandManager/RegisterPrivateDynamicCommand.md)/[RegisterGroupDynamicCommand](../API/Sora.Command/CommandManager/RegisterGroupDynamicCommand.md) 的 `ExceptionHandle` 参数 <Badge text="Breaking Change" type="error"/>
+
+TYPO 修正部分注释
+
+## v1.0.0-rc71/72<Badge text="Release Candidate" type="warning"/>  <Badge text="gocq v1.0.0-rc2"/>
+
+修复 关键词匹配的正则表达式错误 [#65](https://github.com/DeepOceanSoft/Sora/discussions/65)
+
 ## v1.0.0-rc70<Badge text="Release Candidate" type="warning"/>  <Badge text="gocq v1.0.0-rc2"/>
 
 修复 在其他平台上可能产生的错误log

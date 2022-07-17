@@ -2,7 +2,7 @@
 
 全局指令执行错误回调
 
-String值为指令名或动态指令的ID
+String值为指令错误log
 
 ```csharp
 public Action<Exception, BaseMessageEventArgs, string> CommandExceptionHandle { get; set; }

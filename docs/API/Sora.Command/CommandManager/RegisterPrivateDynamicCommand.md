@@ -5,8 +5,7 @@
 ```csharp
 public Guid RegisterPrivateDynamicCommand(Func<BaseMessageEventArgs, bool> matchFunc, 
     Func<PrivateMessageEventArgs, ValueTask> privateCommand, string groupName = "", 
-    Action<Exception, BaseMessageEventArgs> exceptionHandler = null, bool suCommand = false, 
-    int? priority = null, long[] sourceUsers = null, string desc = "")
+    bool suCommand = false, int? priority = null, long[] sourceUsers = null, string desc = "")
 ```
 
 | parameter | description |
@@ -14,7 +13,6 @@ public Guid RegisterPrivateDynamicCommand(Func<BaseMessageEventArgs, bool> match
 | matchFunc | 自定义匹配方法 |
 | privateCommand | 指令执行定义 |
 | groupName | 指令组名，为空时不能控制使能 |
-| exceptionHandler | 异常处理 |
 | suCommand | 机器人管理员限制 |
 | priority | 优先级 |
 | sourceUsers | 用户限制 |
@@ -36,8 +34,7 @@ public Guid RegisterPrivateDynamicCommand(Func<BaseMessageEventArgs, bool> match
 ```csharp
 public Guid RegisterPrivateDynamicCommand(string[] cmdExps, 
     Func<PrivateMessageEventArgs, ValueTask> privateCommand, MatchType matchType = MatchType.Full, 
-    RegexOptions regexOptions = RegexOptions.None, string groupName = "", 
-    Action<Exception, BaseMessageEventArgs> exceptionHandler = null, bool suCommand = false, 
+    RegexOptions regexOptions = RegexOptions.None, string groupName = "", bool suCommand = false, 
     int? priority = null, long[] sourceUsers = null, string desc = "")
 ```
 
@@ -48,7 +45,6 @@ public Guid RegisterPrivateDynamicCommand(string[] cmdExps,
 | matchType | 匹配类型 |
 | regexOptions | 正则选项 |
 | groupName | 指令组名，为空时不能控制使能 |
-| exceptionHandler | 异常处理 |
 | suCommand | 机器人管理员限制 |
 | priority | 优先级 |
 | sourceUsers | 用户限制 |
@@ -58,7 +54,6 @@ public Guid RegisterPrivateDynamicCommand(string[] cmdExps,
 
 * class [PrivateMessageEventArgs](../../Sora.EventArgs.SoraEvent/PrivateMessageEventArgs.md)
 * enum [MatchType](../../Sora.Enumeration/MatchType.md)
-* class [BaseMessageEventArgs](../../Sora.EventArgs.SoraEvent/BaseMessageEventArgs.md)
 * class [CommandManager](../CommandManager.md)
 * namespace [Sora.Command](../../Sora.md)
 

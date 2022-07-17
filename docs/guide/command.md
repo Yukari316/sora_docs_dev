@@ -1,5 +1,5 @@
 ---
-title: 使用特性指令
+title: 使用指令完成聊天事件处理
 ---
 
 # 特性指令
@@ -65,6 +65,10 @@ title: 使用特性指令
 在下方的实例中将示范如何使用
 :::
 
+::: tip 小提示
+当指令的表达式和优先级一致时指令的执行顺序为随机的顺序
+:::
+
 ### 群聊指令
 
 ```csharp
@@ -109,6 +113,74 @@ public static class Commands
     {
         eventArgs.IsContinueEventChain = false;
         await eventArgs.Reply("好耶");
+    }
+}
+```
+
+## 动态注册指令
+
+动态指令的注册由下面两种方法完成：
+
+### ① 字符串表达式指令
+
+和普通的特性指令没有较大的区别设置表达式后可以设置匹配模式
+
+注册示例代码：
+
+```csharp
+service.Event.CommandManager.RegisterGroupDynamicCommand(
+    new[] {"好耶"},
+    async eventArgs =>
+    {
+        eventArgs.IsContinueEventChain = false;
+        await eventArgs.Reply("坏耶");
+    });
+```
+
+### ① 自定义匹配表达式指令
+
+使用自定义的匹配方法来扩展指令的匹配方式
+
+注册示例代码：
+
+```csharp
+service.Event.CommandManager.RegisterGroupDynamicCommand(
+    eventArgs => eventArgs.IsSuperUser,
+    async e =>
+    {
+        await e.Reply("哇是超管");
+    });
+```
+
+## 指令的异常处理
+
+在[ISoraConfig](../API/Sora.Interfaces/ISoraConfig.md) 中配置 [CommandExceptionHandle](../API/Sora.Interfaces/ISoraConfig/CommandExceptionHandle.md) 属性完成指令的异常处理
+
+在配置完成异常处理后，指令出错时不会抛出错误，并调用配置好的异常处理方法
+
+示例代码：
+
+```csharp
+//实例化Sora服务
+ISoraService service = SoraServiceFactory.CreateService(new ServerConfig
+{
+    CommandExceptionHandle = CommandExceptionHandle,
+});
+
+//exception 为指令执行抛出的异常
+//eventArgs 是本次消息的事件上下文
+//log 为框架自动生成的错误日志
+async void CommandExceptionHandle(Exception exception, BaseMessageEventArgs eventArgs, string log)
+{
+    string msg = $"死了啦都你害的啦\r\n{log}\r\n{exception.Message}";
+    switch (eventArgs)
+    {
+        case GroupMessageEventArgs g:
+            await g.Reply(msg);
+            break;
+        case PrivateMessageEventArgs p:
+            await p.Reply(msg);
+            break;
     }
 }
 ```

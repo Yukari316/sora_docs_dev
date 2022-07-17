@@ -5,7 +5,6 @@
 ```csharp
 public Guid RegisterGroupDynamicCommand(Func<BaseMessageEventArgs, bool> matchFunc, 
     Func<GroupMessageEventArgs, ValueTask> groupCommand, string groupName = "", 
-    Action<Exception, BaseMessageEventArgs> exceptionHandler = null, 
     MemberRoleType memberRole = MemberRoleType.Member, bool suCommand = false, 
     int? priority = null, long[] sourceGroups = null, long[] sourceUsers = null, string desc = "")
 ```
@@ -15,7 +14,6 @@ public Guid RegisterGroupDynamicCommand(Func<BaseMessageEventArgs, bool> matchFu
 | matchFunc | 自定义匹配方法 |
 | groupCommand | 指令执行定义 |
 | groupName | 指令组名，为空时不能控制使能 |
-| exceptionHandler | 异常处理 |
 | memberRole | 成员权限限制 |
 | suCommand | 机器人管理员限制 |
 | priority | 优先级 |
@@ -41,7 +39,6 @@ public Guid RegisterGroupDynamicCommand(Func<BaseMessageEventArgs, bool> matchFu
 public Guid RegisterGroupDynamicCommand(string[] cmdExps, 
     Func<GroupMessageEventArgs, ValueTask> groupCommand, MatchType matchType = MatchType.Full, 
     RegexOptions regexOptions = RegexOptions.None, string groupName = "", 
-    Action<Exception, BaseMessageEventArgs> exceptionHandler = null, 
     MemberRoleType memberRole = MemberRoleType.Member, bool suCommand = false, 
     int? priority = null, long[] sourceGroups = null, long[] sourceUsers = null, string desc = "")
 ```
@@ -53,7 +50,6 @@ public Guid RegisterGroupDynamicCommand(string[] cmdExps,
 | matchType | 匹配类型 |
 | regexOptions | 正则选项 |
 | groupName | 指令组名，为空时不能控制使能 |
-| exceptionHandler | 异常处理 |
 | memberRole | 成员权限限制 |
 | suCommand | 机器人管理员限制 |
 | priority | 优先级 |
@@ -65,7 +61,6 @@ public Guid RegisterGroupDynamicCommand(string[] cmdExps,
 
 * class [GroupMessageEventArgs](../../Sora.EventArgs.SoraEvent/GroupMessageEventArgs.md)
 * enum [MatchType](../../Sora.Enumeration/MatchType.md)
-* class [BaseMessageEventArgs](../../Sora.EventArgs.SoraEvent/BaseMessageEventArgs.md)
 * enum [MemberRoleType](../../Sora.Enumeration.EventParamsType/MemberRoleType.md)
 * class [CommandManager](../CommandManager.md)
 * namespace [Sora.Command](../../Sora.md)
