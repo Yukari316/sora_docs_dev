@@ -137,7 +137,7 @@ service.Event.CommandManager.RegisterGroupDynamicCommand(
     });
 ```
 
-### ① 自定义匹配表达式指令
+### ② 自定义匹配表达式指令
 
 使用自定义的匹配方法来扩展指令的匹配方式
 

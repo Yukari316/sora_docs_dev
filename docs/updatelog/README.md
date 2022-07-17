@@ -21,7 +21,7 @@
 :::danger 注意
 删除了所有指令自带的异常处理，请使用 [ISoraConfig](../API/Sora.Interfaces/ISoraConfig.md) 中的 [CommandExceptionHandle](../API/Sora.Interfaces/ISoraConfig/CommandExceptionHandle.md) 作为异常处理
 
-**详细的使用说明请参照快速上手中的指令说明文档**
+**详细的使用说明请参照指南(快速上手)中的指令说明文档**
 :::
 
 删除 [SoraCommand](../API/Sora.Attributes.Command/SoraCommand.md) 的 `ExceptionHandle` 属性 <Badge text="Breaking Change" type="error"/>
