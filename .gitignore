@@ -2,3 +2,10 @@ node_modules
 .vscode
 my-cloudbase-app
 cloudbaserc.json
+/.vs/VSWorkspaceState.json
+/.vs/sora_docs_dev/v17
+/.vs/sora_docs_dev/project-colors.json
+/.vs/slnx.sqlite-journal
+/.vs/slnx.sqlite
+/.vs/ProjectSettings.json
+/.vs/sora_docs_dev/config

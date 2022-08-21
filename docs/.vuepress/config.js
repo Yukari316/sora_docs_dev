@@ -43,7 +43,8 @@ module.exports = {
           children: [
             'getting_start',
             'setupservice',
-            'firstbot'
+              'firstbot',
+            'custom_message'
           ]
         },
         {
