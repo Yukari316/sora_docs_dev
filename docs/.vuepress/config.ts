@@ -40,6 +40,47 @@ export default defineUserConfig({
                         'firstbot'
                       ]
                 },
+                {
+                    text: '消息构建',
+                    collapsible: true,
+                    children: [
+                        'custom_message'
+                      ]
+                },
+                {
+                    text: '使用指令',
+                    collapsible: true,
+                    children: [
+                        'command'
+                      ]
+                }
+            ],
+            '/API/': [
+                {
+                    text: '自动生成的API文档-善用Ctrl+F',
+                    collapsible: false,
+                    children:[
+                        'Sora'
+                    ]
+                }
+            ],
+            '/example/': [
+                {
+                    text: '代码示例',
+                    collapsible: false,
+                    children:[
+                        ''
+                    ]
+                }
+            ],
+            '/updatelog/':[
+                {
+                    text: '更新日志',
+                    collapsible: false,
+                    children:[
+                        ''
+                    ]
+                }
             ]
         }
     }),
