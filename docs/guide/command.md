@@ -14,29 +14,29 @@ title: 使用指令完成聊天事件处理
 
 实现了和 [Discord.Net](https://github.com/discord-net/Discord.Net) 框架类似的特性指令服务
 
-使用特性 [`CommandGroup`](../../API/Sora.Command.Attributes/CommandGroup.md) 来标识需要注册指令的类（没有将不会被识别）
+使用特性 [`CommandSeries`](../API/Sora.Attributes.Command/CommandSeries.md) 来标识需要注册指令的类（没有将不会被识别）
 
-通过特性 [`SoraCommand`](../../API/Sora.Command.Attributes/SoraCommand.md) 来分标记需要注册的指令
+通过特性 [`SoraCommand`](../API/Sora.Attributes.Command/SoraCommand.md) 来分标记需要注册的指令
 
 但是并没有实现自动的参数转换和注入（个人觉得这样做会让框架变得很重所以就不搞了~~摸了~~）
 
-该指令服务只会传递框架中的 [`GroupMessageEventArgs`](../../API/Sora.EventArgs.SoraEvent/GroupMessageEventArgs.md) 和 [`PrivateMessageEventArgs`](../../API/Sora.EventArgs.SoraEvent/PrivateMessageEventArgs.md) 的事件参数，其余的响应逻辑和参数处理需要自己完成
+该指令服务只会传递框架中的 [`GroupMessageEventArgs`](../API/Sora.EventArgs.SoraEvent/GroupMessageEventArgs.md) 和 [`PrivateMessageEventArgs`](../API/Sora.EventArgs.SoraEvent/PrivateMessageEventArgs.md) 的事件参数，其余的响应逻辑和参数处理需要自己完成
 
-启动服务器后指令服务就会自动注册有[`CommandGroup`](../../API/Sora.Command.Attributes/CommandGroup.md)特性的类下的所有指令
+启动服务器后指令服务就会自动注册有[`CommandSeries`](../API/Sora.Attributes.Command/CommandSeries.md)特性的类下的所有指令
 
-**没有[`CommandGroup`](../../API/Sora.Command.Attributes/CommandGroup.md)特性的类将会被忽略**
+**没有[`CommandSeries`](../API/Sora.Attributes.Command/CommandSeries.md)特性的类将会被忽略**
 
 ::: warning 注意
 `SourceType` 的值必须为 `SourceFlag.Group` 或 `SourceFlag.Private`
 :::
 
-[`SoraCommand`](../../API/Sora.Command.Attributes/SoraCommand.md) 必须设置 `CommandExpressions` 和 `SourceType` 的值才能被识别为合法指令
+[`SoraCommand`](../API/Sora.Attributes.Command/SoraCommand.md) 必须设置 `CommandExpressions` 和 `SourceType` 的值才能被识别为合法指令
 
 所以方法的参数类型和 `SourceType` 的值有着一一对应的关系，如果类型不对应的话也不会被识别为合法指令
 
-`SourceFlag.Group` -> [`GroupMessageEventArgs`](../../API/Sora.EventArgs.SoraEvent/GroupMessageEventArgs.md)
+`SourceFlag.Group` -> [`GroupMessageEventArgs`](../API/Sora.EventArgs.SoraEvent/GroupMessageEventArgs.md)
 
-`SourceFlag.Private` -> [`PrivateMessageEventArgs`](../../API/Sora.EventArgs.SoraEvent/PrivateMessageEventArgs.md)
+`SourceFlag.Private` -> [`PrivateMessageEventArgs`](../API/Sora.EventArgs.SoraEvent/PrivateMessageEventArgs.md)
 
 ::: tip 小提示
 指令的匹配模式可以通过修改 `MatchType` 来改变
@@ -79,7 +79,7 @@ using Sora.EventArgs.SoraEvent;
 
 namespace Sora_Test;
 
-[CommandGroup]
+[CommandSeries]
 public static class Commands
 {
     [SoraCommand(
@@ -103,7 +103,7 @@ using Sora.EventArgs.SoraEvent;
 
 namespace Sora_Test;
 
-[CommandGroup]
+[CommandSeries]
 public static class Commands
 {
     [SoraCommand(

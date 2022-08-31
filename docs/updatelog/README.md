@@ -16,6 +16,36 @@
 如需要查看最新的示例请前往 [示例](../example/README.md)
 :::
 
+## v1.0.0-rc77<Badge text="Release Candidate" type="warning"/>  <Badge text="gocq v1.0.0-rc3"/>
+
+优化 json相关性能优化
+
+修复 在发送转发聊天时可能发生的错误
+
+## v1.0.0-rc76<Badge text="Release Candidate" type="warning"/>  <Badge text="gocq v1.0.0-rc3"/>  <Badge text="Breaking Change" type="danger"/>
+
+调整 换了新的logo
+
+增加 base64相关参数的说明文本 by [轻雨](https://github.com/qingyu-sama) [#71](https://github.com/DeepOceanSoft/Sora/pull/71)
+
+增加 戳一戳可以戳回去了[PokeBack](../API/Sora.EventArgs.SoraEvent/GroupPokeEventArgs/) by [轻雨](https://github.com/qingyu-sama) [#72](https://github.com/DeepOceanSoft/Sora/pull/72)
+
+调整 指令特性类命名修改 `CommandGroup` -> `CommandSeries`
+
+## v1.0.0-rc75<Badge text="Release Candidate" type="warning"/>  <Badge text="gocq v1.0.0-rc3"/>  <Badge text="Breaking Change" type="danger"/>
+
+增加 群组指令使能列表查询[GetGroupCmdSeries](../API/Sora.Command/CommandManager/GetGroupCmdSeries.md)
+
+调整 指令特性类修改 `CommandGroup` 的属性命名以避免混淆 `GroupName` -> `SeriesName` <Badge text="Breaking Change" type="danger"/>
+
+## v1.0.0-rc74<Badge text="Release Candidate" type="warning"/>  <Badge text="gocq v1.0.0-rc3"/>
+
+增加 私聊文件API[UploadPrivateFile](../API/Sora.Entities.Base/SoraApi/UploadPrivateFile.md)
+
+增加 分群控制指令组使能API[TryDisableGroupCommand](../API/Sora.Command/CommandManager/TryDisableGroupCommand.md)|[TryEnableGroupCommand](../API/Sora.Command/CommandManager/TryEnableGroupCommand.md.md)
+
+调整 更改群禁言事件参数里的禁言时长[Duration](../API/Sora.EventArgs.SoraEvent/GroupMuteEventArgs/Duration.md)的访问级别 by [POInanodesu](https://github.com/POInanodesu) [#67](https://github.com/DeepOceanSoft/Sora/pull/67)
+
 ## v1.0.0-rc73<Badge text="Release Candidate" type="warning"/>  <Badge text="Breaking Change" type="danger"/>  <Badge text="gocq v1.0.0-rc2"/>
 
 :::danger 注意
