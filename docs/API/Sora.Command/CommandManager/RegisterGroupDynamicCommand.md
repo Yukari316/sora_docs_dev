@@ -6,7 +6,8 @@
 public Guid RegisterGroupDynamicCommand(Func<BaseMessageEventArgs, bool> matchFunc, 
     Func<GroupMessageEventArgs, ValueTask> seriesCommand, string groupName = "", 
     MemberRoleType memberRole = MemberRoleType.Member, bool suCommand = false, 
-    int? priority = null, long[] sourceGroups = null, long[] sourceUsers = null, string desc = "")
+    int? priority = null, long[] sourceGroups = null, long[] sourceUsers = null, 
+    long[] sourceLogins = null, string desc = "")
 ```
 
 | parameter | description |
@@ -19,6 +20,7 @@ public Guid RegisterGroupDynamicCommand(Func<BaseMessageEventArgs, bool> matchFu
 | priority | 优先级 |
 | sourceGroups | 群组限制 |
 | sourceUsers | 成员限制 |
+| sourceLogins | 限制响应的bot账号来源 |
 | desc | 描述 |
 
 ## See Also
@@ -40,7 +42,8 @@ public Guid RegisterGroupDynamicCommand(string[] cmdExps,
     Func<GroupMessageEventArgs, ValueTask> seriesCommand, MatchType matchType = MatchType.Full, 
     RegexOptions regexOptions = RegexOptions.None, string groupName = "", 
     MemberRoleType memberRole = MemberRoleType.Member, bool suCommand = false, 
-    int? priority = null, long[] sourceGroups = null, long[] sourceUsers = null, string desc = "")
+    int? priority = null, long[] sourceGroups = null, long[] sourceUsers = null, 
+    long[] sourceLogins = null, string desc = "")
 ```
 
 | parameter | description |
@@ -55,6 +58,7 @@ public Guid RegisterGroupDynamicCommand(string[] cmdExps,
 | priority | 优先级 |
 | sourceGroups | 群组限制 |
 | sourceUsers | 成员限制 |
+| sourceLogins | 限制响应的bot账号来源 |
 | desc | 描述 |
 
 ## See Also

@@ -5,7 +5,8 @@
 ```csharp
 public Guid RegisterPrivateDynamicCommand(Func<BaseMessageEventArgs, bool> matchFunc, 
     Func<PrivateMessageEventArgs, ValueTask> privateCommand, string groupName = "", 
-    bool suCommand = false, int? priority = null, long[] sourceUsers = null, string desc = "")
+    bool suCommand = false, int? priority = null, long[] sourceUsers = null, 
+    long[] sourceLogins = null, string desc = "")
 ```
 
 | parameter | description |
@@ -16,6 +17,7 @@ public Guid RegisterPrivateDynamicCommand(Func<BaseMessageEventArgs, bool> match
 | suCommand | 机器人管理员限制 |
 | priority | 优先级 |
 | sourceUsers | 用户限制 |
+| sourceLogins | 限制响应的bot账号来源 |
 | desc | 描述 |
 
 ## See Also
@@ -35,7 +37,7 @@ public Guid RegisterPrivateDynamicCommand(Func<BaseMessageEventArgs, bool> match
 public Guid RegisterPrivateDynamicCommand(string[] cmdExps, 
     Func<PrivateMessageEventArgs, ValueTask> privateCommand, MatchType matchType = MatchType.Full, 
     RegexOptions regexOptions = RegexOptions.None, string groupName = "", bool suCommand = false, 
-    int? priority = null, long[] sourceUsers = null, string desc = "")
+    int? priority = null, long[] sourceUsers = null, long[] sourceLogins = null, string desc = "")
 ```
 
 | parameter | description |
@@ -48,6 +50,7 @@ public Guid RegisterPrivateDynamicCommand(string[] cmdExps,
 | suCommand | 机器人管理员限制 |
 | priority | 优先级 |
 | sourceUsers | 用户限制 |
+| sourceLogins | 限制响应的bot账号来源 |
 | desc | 描述 |
 
 ## See Also

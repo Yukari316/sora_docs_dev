@@ -16,6 +16,20 @@
 如需要查看最新的示例请前往 [示例](../example/README.md)
 :::
 
+## v1.0.0-rc80<Badge text="Release Candidate" type="warning"/>  <Badge text="gocq v1.0.0-rc3"/>
+
+优化 [SoraSegment](../API/Sora.Entities.Segment/SoraSegment.md)的构造方式，当传入非法参数时将自动返回非法消息段结构体，取消因为传入非法参数而抛出异常的机制
+
+## v1.0.0-rc79<Badge text="Release Candidate" type="warning"/>  <Badge text="gocq v1.0.0-rc3"/>
+
+增加 在所有指令的可选设置选项中添加 `SourceLogins` 的选项，可以将登录的bot账号作为指令触发的判断条件
+
+优化 指令的触发速度
+
+## v1.0.0-rc78<Badge text="Release Candidate" type="warning"/>  <Badge text="gocq v1.0.0-rc3"/>
+
+优化 将部分心跳包相关的log降级为 `Verbose`(最低)
+
 ## v1.0.0-rc77<Badge text="Release Candidate" type="warning"/>  <Badge text="gocq v1.0.0-rc3"/>
 
 优化 json相关性能优化

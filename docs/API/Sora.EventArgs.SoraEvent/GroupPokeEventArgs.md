@@ -13,6 +13,7 @@ public sealed class GroupPokeEventArgs : BaseSoraEventArgs
 | [SendUser](GroupPokeEventArgs/SendUser.md) { get; } | 发送者 |
 | [SourceGroup](GroupPokeEventArgs/SourceGroup.md) { get; } | 消息源群 |
 | [TargetUser](GroupPokeEventArgs/TargetUser.md) { get; } | 被戳者 |
+| [PokeBack](GroupPokeEventArgs/PokeBack.md)(…) | 戳回去 |
 
 ## See Also
 

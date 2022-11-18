@@ -19,6 +19,7 @@ public sealed class SoraCommand : Attribute
 | [Priority](SoraCommand/Priority.md) { get; set; } | 优先级 |
 | [RegexOptions](SoraCommand/RegexOptions.md) { get; set; } | 正则匹配选项 |
 | [SourceGroups](SoraCommand/SourceGroups.md) { get; set; } | 限制指令响应的群组 |
+| [SourceLogins](SoraCommand/SourceLogins.md) { get; set; } | 限制响应的bot账号来源 |
 | [SourceType](SoraCommand/SourceType.md) { get; set; } | 指令响应的源 |
 | [SourceUsers](SoraCommand/SourceUsers.md) { get; set; } | 限制指令响应的用户 |
 | [SuperUserCommand](SoraCommand/SuperUserCommand.md) { get; set; } | 机器人管理员指令 |
