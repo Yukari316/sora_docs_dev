@@ -16,6 +16,14 @@
 如需要查看最新的示例请前往 [示例](../example/README.md)
 :::
 
+## v1.0.0<Badge text="gocq v1.0.0-rc3"/>
+
+普普通通的正式版
+
+## v1.0.0-rc81<Badge text="Release Candidate" type="warning"/>  <Badge text="gocq v1.0.0-rc3"/>
+
+优化 取消在构建错误消息段时抛出错误，并使用 `IllegalSegment` 替代错误的消息段
+
 ## v1.0.0-rc80<Badge text="Release Candidate" type="warning"/>  <Badge text="gocq v1.0.0-rc3"/>
 
 优化 [SoraSegment](../API/Sora.Entities.Segment/SoraSegment.md)的构造方式，当传入非法参数时将自动返回非法消息段结构体，取消因为传入非法参数而抛出异常的机制
