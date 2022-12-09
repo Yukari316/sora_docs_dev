@@ -12,7 +12,7 @@ next: ./getting_start
 :::
 
 :::warning Log控制台输出将默认禁用
-1.0.0-rc28版本之后的log将会默认关闭控制台的输出
+`1.0.0-rc28`版本之后的log将会默认关闭控制台的输出
 
 如果需要启用请使用以下代码
 
@@ -25,7 +25,7 @@ Log.LogConfiguration
 :::
 
 ::: warning 注意
-本框架是在[Go-Cqhttp](https://github.com/Mrs4s/go-cqhttp)(版本:[1.0.0-beta8-fix2](https://github.com/Mrs4s/go-cqhttp/releases/tag/v1.0.0-beta8-fix2))下进行调试的
+本框架是在[Go-Cqhttp](https://github.com/Mrs4s/go-cqhttp)(版本:[1.0.0-rc3](https://github.com/Mrs4s/go-cqhttp/releases/tag/v1.0.0-rc3))下进行调试的
 
 如使用其他平台可能会出现兼容性的问题
 :::
@@ -33,7 +33,9 @@ Log.LogConfiguration
 :::warning 安全性警告
 字符串转换的功能已经被评估为不安全的
 
-该功能也将会在onebot v12时废弃
+该功能可能会在onebot v12时废弃
 
 请提前做好迁移准备
+
+如果需要持久化的消息段功能，将会在后续版本添加 `json` 的持久化方式
 :::

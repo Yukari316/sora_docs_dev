@@ -15,7 +15,6 @@ title: 创建一个最简单的Bot
 添加以下代码的引用
 
 ```csharp
-using System.Threading.Tasks;
 using Sora;
 using Sora.Interfaces;
 using Sora.Net.Config;
@@ -63,7 +62,6 @@ await Task.Delay(-1);
 ## 整个代码看起来就是这样的
 
 ```csharp
-using System.Threading.Tasks;
 using Sora;
 using Sora.Interfaces;
 using Sora.Net.Config;
@@ -86,8 +84,8 @@ await Task.Delay(-1);
 
 ## 跑起来试试看
 
-按下`F5`开始运行自己刚写好最简单的bot吧！
+按下`F5`或`运行按钮`开始运行自己刚写好最简单的bot吧！
 
 如果出现图片中的结果，那么bot已经成功运行了
 
-![SoraRun.png](https://s2.loli.net/2022/01/22/sOJL6h3MN9Ymtgv.png)
+![SoraRun.png](https://raw.githubusercontent.com/Yukari316Shadow/SoraDocs/image/Run.png)

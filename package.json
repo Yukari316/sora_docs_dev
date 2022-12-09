@@ -7,7 +7,7 @@
   "author": "Yukari316 <cbgancna@gmail.com>",
   "license": "CC BY-NC-SA 4.0",
   "devDependencies": {
-    "@vuepress/plugin-palette": "^2.0.0-beta.50",
+    "@vuepress/plugin-palette": "^2.0.0-beta.57",
     "vuepress": "next"
   },
   "scripts": {

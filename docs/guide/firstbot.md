@@ -44,7 +44,6 @@ await eventArgs.Repeat();
 ### 完成后的代码总览
 
 ```csharp
-using System.Threading.Tasks;
 using Sora;
 using Sora.Interfaces;
 using Sora.Net.Config;
@@ -86,7 +85,6 @@ await eventArgs.SourceGroup.SendGroupMessage(eventArgs.Message.MessageBody);
 ### 完成后的代码总览
 
 ```csharp
-using System.Threading.Tasks;
 using Sora;
 using Sora.Interfaces;
 using Sora.Net.Config;
