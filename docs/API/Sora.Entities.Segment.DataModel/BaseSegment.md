@@ -1,10 +1,16 @@
 # BaseSegment record
 
-消息段基类，做占位和限制范围用
+空数据消息段
 
 ```csharp
 public record BaseSegment
 ```
+
+## Public Members
+
+| name | description |
+| --- | --- |
+| [BaseSegment](BaseSegment/BaseSegment.md)() | The default constructor. |
 
 ## See Also
 

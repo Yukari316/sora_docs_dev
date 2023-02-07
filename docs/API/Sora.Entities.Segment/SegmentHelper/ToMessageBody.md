@@ -9,7 +9,7 @@ public static MessageBody ToMessageBody(this IEnumerable<SoraSegment> message)
 ## See Also
 
 * class [MessageBody](../../Sora.Entities/MessageBody.md)
-* struct [SoraSegment](../SoraSegment.md)
+* class [SoraSegment](../SoraSegment.md)
 * class [SegmentHelper](../SegmentHelper.md)
 * namespace [Sora.Entities.Segment](../../Sora.md)
 

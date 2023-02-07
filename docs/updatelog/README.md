@@ -16,6 +16,33 @@
 如需要查看最新的示例请前往 [示例](../example/README.md)
 :::
 
+## v1.2.0<Badge text="gocq v1.0.0-rc4"/> <Badge text="Breaking Change" type="danger"/>
+### Message
+ - 为`MessageBody`和`SoraSegment`添加`Json`和`ProtoBuf`的序列化支持(消息持久化)
+ - 为`MessageBody`和`SoraSegment`添加序列化的扩展方法
+ - `SoraSegment` 的类型由 `readonly struct` 变更为 `class`
+### Serializer
+ - `CQCodeUtil` 改名为 `CqCodeSerializer` 并移动**命名空间**到 `Sora.Serializer`<Badge text="Breaking Change" type="danger"/>
+
+## v1.1.0<Badge text="gocq v1.0.0-rc4"/>
+### [API](../API/Sora.Entities.Base/SoraApi.md)
+ - 添加API `DelGroupNotice`
+ - `SendGroupForwardMsg` 新增返回值 `forwardId`
+ - 返回值 `UserInfo` 添加字段 `VipLevel`
+### [Event](../API/Sora.md#sora-eventargs-soraevent-namespace)
+ - 为`Group|Request`事件添加事件参数 `InvitorId`
+### DataStruct
+ - 为`GroupNoticeInfo`添加属性 `NoticeId`
+### Log
+ - 优化部分日志的等级
+ - 修改部分API日志的格式
+
+## v1.0.1<Badge text="gocq v1.0.0-rc3"/>
+### Message
+ - 向消息中添加字符串信息时自动转换字符串中的CQ码
+### BugFix
+ - 指令执行的逻辑错误 [#78](https://github.com/Hoshikawa-Kaguya/Sora/issues/78)
+
 ## v1.0.0<Badge text="gocq v1.0.0-rc3"/>
 
 普普通通的正式版

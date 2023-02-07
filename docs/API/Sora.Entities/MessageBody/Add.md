@@ -12,7 +12,7 @@ public void Add(SoraSegment item)
 
 ## See Also
 
-* struct [SoraSegment](../../Sora.Entities.Segment/SoraSegment.md)
+* class [SoraSegment](../../Sora.Entities.Segment/SoraSegment.md)
 * class [MessageBody](../MessageBody.md)
 * namespace [Sora.Entities](../../Sora.md)
 

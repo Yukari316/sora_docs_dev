@@ -11,6 +11,7 @@ public sealed class AddGroupRequestEventArgs : BaseSoraEventArgs
 | name | description |
 | --- | --- |
 | [Comment](AddGroupRequestEventArgs/Comment.md) { get; } | 验证信息 |
+| [InvitorUser](AddGroupRequestEventArgs/InvitorUser.md) { get; } | 邀请者 |
 | [RequestFlag](AddGroupRequestEventArgs/RequestFlag.md) { get; } | 当前请求的 flag 标识 |
 | [Sender](AddGroupRequestEventArgs/Sender.md) { get; } | 请求发送者实例 |
 | [SourceGroup](AddGroupRequestEventArgs/SourceGroup.md) { get; } | 请求发送到的群组实例 |

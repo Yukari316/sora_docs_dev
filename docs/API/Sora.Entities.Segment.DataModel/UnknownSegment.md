@@ -2,6 +2,8 @@
 
 未知消息段
 
+此消息段需要在pb序列化前去除
+
 ```csharp
 public record UnknownSegment : IEquatable<BaseSegment>
 ```
@@ -10,7 +12,7 @@ public record UnknownSegment : IEquatable<BaseSegment>
 
 | name | description |
 | --- | --- |
-| [Content](UnknownSegment/Content.md) { get; } | 纯文本内容 |
+| [Content](UnknownSegment/Content.md) { get; } | 内容 |
 
 ## See Also
 

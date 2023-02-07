@@ -1,9 +1,9 @@
 # UnknownSegment.Content property
 
-纯文本内容
+内容
 
 ```csharp
-public JObject Content { get; }
+public JToken Content { get; }
 ```
 
 ## See Also

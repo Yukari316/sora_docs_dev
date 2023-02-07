@@ -19,7 +19,7 @@ public SoraSegment this[int index] { get; set; }
 
 ## See Also
 
-* struct [SoraSegment](../../Sora.Entities.Segment/SoraSegment.md)
+* class [SoraSegment](../../Sora.Entities.Segment/SoraSegment.md)
 * class [MessageBody](../MessageBody.md)
 * namespace [Sora.Entities](../../Sora.md)
 

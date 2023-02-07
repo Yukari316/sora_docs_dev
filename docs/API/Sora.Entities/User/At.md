@@ -12,7 +12,7 @@ public SoraSegment At()
 
 ## See Also
 
-* struct [SoraSegment](../../Sora.Entities.Segment/SoraSegment.md)
+* class [SoraSegment](../../Sora.Entities.Segment/SoraSegment.md)
 * class [User](../User.md)
 * namespace [Sora.Entities](../../Sora.md)
 

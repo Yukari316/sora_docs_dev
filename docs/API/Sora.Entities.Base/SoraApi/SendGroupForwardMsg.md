@@ -3,8 +3,8 @@
 发送合并转发(群)
 
 ```csharp
-public ValueTask<(ApiStatus apiStatus, int messageId)> SendGroupForwardMsg(long groupId, 
-    IEnumerable<CustomNode> nodeList, TimeSpan? timeout = default)
+public ValueTask<(ApiStatus apiStatus, int messageId, string forwardId)> SendGroupForwardMsg(
+    long groupId, IEnumerable<CustomNode> nodeList, TimeSpan? timeout = default)
 ```
 
 | parameter | description |

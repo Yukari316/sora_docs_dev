@@ -78,14 +78,14 @@
 | public type | description |
 | --- | --- |
 | static class [SegmentHelper](./Sora.Entities.Segment/SegmentHelper.md) | 消息段扩展 |
-| struct [SoraSegment](./Sora.Entities.Segment/SoraSegment.md) | 消息段结构体 |
+| class [SoraSegment](./Sora.Entities.Segment/SoraSegment.md) | 消息段结构体 |
 
 ## Sora.Entities.Segment.DataModel namespace
 
 | public type | description |
 | --- | --- |
 | record [AtSegment](./Sora.Entities.Segment.DataModel/AtSegment.md) | At某人 |
-| record [BaseSegment](./Sora.Entities.Segment.DataModel/BaseSegment.md) | 消息段基类，做占位和限制范围用 |
+| record [BaseSegment](./Sora.Entities.Segment.DataModel/BaseSegment.md) | 空数据消息段 |
 | record [CardImageSegment](./Sora.Entities.Segment.DataModel/CardImageSegment.md) | 装逼大图 仅支持GoCQ |
 | record [CodeSegment](./Sora.Entities.Segment.DataModel/CodeSegment.md) | Xml与Json集合 |
 | record [CustomMusicSegment](./Sora.Entities.Segment.DataModel/CustomMusicSegment.md) | 自定义音乐分享 |
@@ -204,11 +204,18 @@
 | --- | --- |
 | class [EventAdapter](./Sora.OnebotAdapter/EventAdapter.md) | Onebot事件接口 判断和分发基类事件 |
 
+## Sora.Serializer namespace
+
+| public type | description |
+| --- | --- |
+| static class [CqCodeSerializer](./Sora.Serializer/CqCodeSerializer.md) | 消息段CQ码序列化 该方法由ExerciseBook(https://github.com/ExerciseBook)提供 |
+| static class [JsonSerializer](./Sora.Serializer/JsonSerializer.md) | 消息段Json序列化 |
+| static class [ProtoSerializer](./Sora.Serializer/ProtoSerializer.md) | 消息段ProtoBuf序列化 |
+
 ## Sora.Util namespace
 
 | public type | description |
 | --- | --- |
-| static class [CQCodeUtil](./Sora.Util/CQCodeUtil.md) | 原CQ码序列化 该方法由ExerciseBook(https://github.com/ExerciseBook)提供 |
 | static class [Extensions](./Sora.Util/Extensions.md) | 扩展方法 |
 | static class [Helper](./Sora.Util/Helper.md) | 通用帮助类 |
 | static class [TimeConvert](./Sora.Util/TimeConvert.md) | DateTime和时间戳的转换 |

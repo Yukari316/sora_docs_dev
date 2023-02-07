@@ -11,6 +11,7 @@ public struct GroupNoticeInfo
 | name | description |
 | --- | --- |
 | [Message](GroupNoticeInfo/Message.md) { get; set; } | 公告消息 |
+| [NoticeId](GroupNoticeInfo/NoticeId.md) { get; set; } | 公告ID |
 | [PublishTime](GroupNoticeInfo/PublishTime.md) { get; set; } | 发布时间 |
 | [UserId](GroupNoticeInfo/UserId.md) { get; set; } | 发布者 |
 

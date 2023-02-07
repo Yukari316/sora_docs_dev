@@ -17,6 +17,7 @@ public struct UserInfo
 | [Nick](UserInfo/Nick.md) { get; } | 昵称 |
 | [Sex](UserInfo/Sex.md) { get; } | 性别 |
 | [UserId](UserInfo/UserId.md) { get; } | 用户id |
+| [VipLevel](UserInfo/VipLevel.md) { get; } | 会员等级 |
 
 ## See Also
 

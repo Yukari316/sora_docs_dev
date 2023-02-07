@@ -1,9 +1,9 @@
-# SoraSegment structure
+# SoraSegment class
 
 消息段结构体
 
 ```csharp
-public struct SoraSegment
+public class SoraSegment
 ```
 
 ## Public Members

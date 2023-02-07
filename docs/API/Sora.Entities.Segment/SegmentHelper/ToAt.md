@@ -12,7 +12,7 @@ public static SoraSegment ToAt(this int uid)
 
 ## See Also
 
-* struct [SoraSegment](../SoraSegment.md)
+* class [SoraSegment](../SoraSegment.md)
 * class [SegmentHelper](../SegmentHelper.md)
 * namespace [Sora.Entities.Segment](../../Sora.md)
 
@@ -32,7 +32,7 @@ public static SoraSegment ToAt(this long uid)
 
 ## See Also
 
-* struct [SoraSegment](../SoraSegment.md)
+* class [SoraSegment](../SoraSegment.md)
 * class [SegmentHelper](../SegmentHelper.md)
 * namespace [Sora.Entities.Segment](../../Sora.md)
 

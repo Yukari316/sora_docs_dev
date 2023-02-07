@@ -21,6 +21,7 @@ public sealed class SoraApi
 | [DeleteGroupFile](SoraApi/DeleteGroupFile.md)(…) | 删除群文件文件夹 |
 | [DeleteGroupFolder](SoraApi/DeleteGroupFolder.md)(…) | 删除群文件文件夹 |
 | [DeleteUnidirectionalFriend](SoraApi/DeleteUnidirectionalFriend.md)(…) | 删除单向好友 |
+| [DelGroupNotice](SoraApi/DelGroupNotice.md)(…) | 删除群公告 |
 | [DisableGroupAdmin](SoraApi/DisableGroupAdmin.md)(…) | 取消群管理员 |
 | [DisableGroupMemberMute](SoraApi/DisableGroupMemberMute.md)(…) | 解除群组成员禁言 |
 | [DisableGroupMute](SoraApi/DisableGroupMute.md)(…) | 解除群组全员禁言 |

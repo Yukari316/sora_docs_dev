@@ -11,6 +11,7 @@ public sealed class Group : BaseModel
 | name | description |
 | --- | --- |
 | [Id](Group/Id.md) { get; } | 群号 |
+| [DelGroupNotice](Group/DelGroupNotice.md)(…) | 删除群公告 |
 | [DisableGroupAdmin](Group/DisableGroupAdmin.md)(…) | 取消群管理员 |
 | [DisableGroupMemberMute](Group/DisableGroupMemberMute.md)(…) | 解除群组成员禁言 |
 | [DisableGroupMute](Group/DisableGroupMute.md)() | 解除群组全员禁言 |
