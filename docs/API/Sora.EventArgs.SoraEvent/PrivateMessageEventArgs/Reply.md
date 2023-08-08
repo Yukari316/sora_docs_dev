@@ -3,7 +3,7 @@
 快速回复
 
 ```csharp
-public ValueTask<(ApiStatus apiStatus, int messageId)> Reply(MessageBody message, 
+public override ValueTask<(ApiStatus apiStatus, int messageId)> Reply(MessageBody message, 
     TimeSpan? timeout = default)
 ```
 

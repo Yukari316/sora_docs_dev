@@ -5,7 +5,7 @@
 
 破坏性更新 <Badge text="Breaking Change" type="danger"/>
 
-框架所适配的`gocq`版本 <Badge text="gocq v----"/>
+框架所适配的 `gocq`版本 <Badge text="gocq v----"/>
 :::
 
 ::: warning 注意
@@ -16,32 +16,92 @@
 如需要查看最新的示例请前往 [示例](../example/README.md)
 :::
 
-## v1.2.0<Badge text="gocq v1.0.0-rc4"/> <Badge text="Breaking Change" type="danger"/>
+## 1.4.0 <Badge text="gocq v1.1.0"/> <Badge text="Breaking Change" type="danger"/>
+
 ### Message
- - 为`MessageBody`和`SoraSegment`添加`Json`和`ProtoBuf`的序列化支持(消息持久化)
- - 为`MessageBody`和`SoraSegment`添加序列化的扩展方法
- - `SoraSegment` 的类型由 `readonly struct` 变更为 `class`
+
+- 指令的消息处理合并为单独的消息处理方式，不再区分群组消息和私聊消息
+- `BaseMessageEventArgs`添加快速回复方法`Reply()`
+
+### Event
+
+- 添加新的消息回调`OnMessage`
+
+### Command
+
+- 删除所有动态指令的注册方法
+- 添加新的动态指令注册方法 `RegisterDynamicCommand`
+- 对所有指令类型添加新的消息来源限制选项，并且将`SourceType`的类型修改为`MessageSourceMatchFlag`
+- `SoraCommand`的传入参数不再做区分，并且修改为`BaseMessageEventArgs`
+
+## 1.3.3 <Badge text="gocq v1.1.0"/>
+
+### Nuget
+
+- 依赖更新
+
+## 1.3.2 <Badge text="gocq v1.1.0"/>
+
+### Message
+
+- `CustomNode` 添加方法 `GetMessageBody`，以支持获取消息内容
+
+## 1.3.1 <Badge text="gocq v1.1.0"/>
+
+### Bug
+
+- `NoticeMessage`中老公告信息图片高宽为空时报错
+- `EssenceInfo`中`MessageId`类型错误,应为`int`类型
+
+## 1.3.0 <Badge text="gocq v1.1.0"/> <Badge text="Breaking Change" type="danger"/>
+
+### Message
+
+- `MessageBody` 删除 `IndexOfById` 方法
+- `SoraSegment` 删除 `Id` 属性
+
+## 1.2.0 <Badge text="gocq v1.0.0-rc4"/> <Badge text="Breaking Change" type="danger"/>
+
+### Message
+
+- 为 `MessageBody`和 `SoraSegment`添加 `Json`和 `ProtoBuf`的序列化支持(消息持久化)
+- 为 `MessageBody`和 `SoraSegment`添加序列化的扩展方法
+- `SoraSegment` 的类型由 `readonly struct` 变更为 `class`
+
 ### Serializer
- - `CQCodeUtil` 改名为 `CqCodeSerializer` 并移动**命名空间**到 `Sora.Serializer`<Badge text="Breaking Change" type="danger"/>
+
+- `CQCodeUtil` 改名为 `CqCodeSerializer` 并移动**命名空间**到 `Sora.Serializer<Badge text="Breaking Change" type="danger"/>
 
 ## v1.1.0<Badge text="gocq v1.0.0-rc4"/>
+
 ### [API](../API/Sora.Entities.Base/SoraApi.md)
- - 添加API `DelGroupNotice`
- - `SendGroupForwardMsg` 新增返回值 `forwardId`
- - 返回值 `UserInfo` 添加字段 `VipLevel`
+
+- 添加API `DelGroupNotice`
+- `SendGroupForwardMsg` 新增返回值 `forwardId`
+- 返回值 `UserInfo` 添加字段 `VipLevel`
+
 ### [Event](../API/Sora.md#sora-eventargs-soraevent-namespace)
- - 为`Group|Request`事件添加事件参数 `InvitorId`
+
+- 为 `Group|Request`事件添加事件参数 `InvitorId`
+
 ### DataStruct
- - 为`GroupNoticeInfo`添加属性 `NoticeId`
+
+- 为 `GroupNoticeInfo`添加属性 `NoticeId`
+
 ### Log
- - 优化部分日志的等级
- - 修改部分API日志的格式
+
+- 优化部分日志的等级
+- 修改部分API日志的格式
 
 ## v1.0.1<Badge text="gocq v1.0.0-rc3"/>
+
 ### Message
- - 向消息中添加字符串信息时自动转换字符串中的CQ码
+
+- 向消息中添加字符串信息时自动转换字符串中的CQ码
+
 ### BugFix
- - 指令执行的逻辑错误 [#78](https://github.com/Hoshikawa-Kaguya/Sora/issues/78)
+
+- 指令执行的逻辑错误 [#78](https://github.com/Hoshikawa-Kaguya/Sora/issues/78)
 
 ## v1.0.0<Badge text="gocq v1.0.0-rc3"/>
 
@@ -135,7 +195,7 @@ TYPO 修改部分错误的log文本
 
 优化 反向ws的性能
 
-## v1.0.0-rc66<Badge text="Release Candidate" type="warning"/>  <Badge text="Breaking Change" type="danger"/>  <Badge text="gocq v1.0.0-rc2"/> 
+## v1.0.0-rc66<Badge text="Release Candidate" type="warning"/>  <Badge text="Breaking Change" type="danger"/>  <Badge text="gocq v1.0.0-rc2"/>
 
 调整 'StaticVariable' 改名为 [VersionCode](../API/Sora/VersionCode.md)<Badge text="Breaking Change" type="danger"/>
 
@@ -320,6 +380,7 @@ TYPO 修复错误log
 调整 [ApiStatus](../API/Sora.Entities/ApiStatus.md) 移动至 `Sora.Entities` 命名空间
 
 重构 特性指令
+
 - 删除群组指令特性和私聊特性指令，合并为同一个特性指令
 - 特性指令增加SourceType设置属性，用于指定匹配源
 - 重构指令自动注册，并在注册阶段跳过不合法的指令并使用log警告
@@ -334,6 +395,7 @@ TYPO 修复错误log
 - 动态注册的指令支持删除
 
 调整 权限相关
+
 - 将SuperUser从MemberRoleType中移除，使用IsSuperUser属性替代，分离ob和框架自身的权限
 - 在User中添加IsSuperUser属性
 
@@ -408,7 +470,7 @@ Log.LogConfiguration
 
 :::
 
-**调整 Log输出，并增加`ILogService`的方法种类，重写大部分的Log处理逻辑**
+**调整 Log输出，并增加 `ILogService`的方法种类，重写大部分的Log处理逻辑**
 
 **调整 拆分YukariToolBox，去除不必要的部分，并将部分工具集成进框架内(外部依旧可以调用)**
 
@@ -426,7 +488,7 @@ Log.LogConfiguration
 
 **调整 [SoraServiceFactory](../API/Sora/SoraServiceFactory.md) 移动至 `Sora` 命名空间**
 
-调整 消息段的数据结构类型调整为`sealed record`
+调整 消息段的数据结构类型调整为 `sealed record`
 
 优化 指令异常提示的消息增加异常捕捉
 
@@ -458,7 +520,7 @@ Log.LogConfiguration
 
 ## v1.0.0-rc23<Badge text="Release Candidate" type="warning"/>  <Badge text="Breaking Change" type="danger"/>  <Badge text="gocq v1.0.0-beta7-fix2"/>
 
-优化 [Message](../API/Sora.Entities/Message.md)增加索引器，可以通过索引直接获取消息段，如`Message[0]`
+优化 [Message](../API/Sora.Entities/Message.md)增加索引器，可以通过索引直接获取消息段，如 `Message[0]`
 
 调整 [Node](../API/Sora.Entities.Segment.DataModel/Node.md)类型 `struct` → `class`
 
@@ -472,7 +534,7 @@ Log.LogConfiguration
 
 ## v1.0.0-rc21<Badge text="Release Candidate" type="warning"/>  <Badge text="Breaking Change" type="danger"/>  <Badge text="gocq v1.0.0-beta7-fix2"/>
 
-增加 类`BaseSegment`作为所有消息段数据的基类
+增加 类 `BaseSegment`作为所有消息段数据的基类
 
 增加 `SoraSegment` 中的属性 `DataType` 用于获取数据类型
 
@@ -536,7 +598,7 @@ Log.LogConfiguration
 
 增加 [GroupMemberInfo](../API/Sora.Entities.Info/GroupMemberInfo.md) 增加字段 `ShutUpTime`
 
-优化 部分API增加 `useCache` 参数(默认为`true`)
+优化 部分API增加 `useCache` 参数(默认为 `true`)
 
 优化 事件处理逻辑，数据存储结构
 
@@ -570,7 +632,7 @@ TYPO 修正错误Log
 
 ## v1.0.0-rc.11<Badge text="Release Candidate" type="warning"/>  <Badge text="gocq v1.0.0-beta4"/>
 
-调整 开源许可证为`Apache-2.0`
+调整 开源许可证为 `Apache-2.0`
 
 ## v1.0.0-rc.10<Badge text="Release Candidate" type="warning"/>  <Badge text="gocq v1.0.0-beta4"/>
 
@@ -658,7 +720,7 @@ TYPO 修正错误的注释
 
 调整 服务创建方法改名 `CreateInstancs` → `CreateService`
 
-删除 服务器/客户端启动方法 `StartClient` 和 `StartServer` (请使用`StartService`来启动服务)
+删除 服务器/客户端启动方法 `StartClient` 和 `StartServer` (请使用 `StartService`来启动服务)
 
 删除 异常 `SoraClientIsRunningExpecption` `SoraServerIsRunningExpecption`
 
@@ -712,11 +774,11 @@ go-cqhttp版本:[go-cqhttp-v1.0.0-beta1](https://github.com/Mrs4s/go-cqhttp/rele
 
 ## v1.0.0-rc.2 <Badge text="Release Candidate" type="warning"/>  <Badge text="Breaking Change" type="danger"/>  <Badge text="gocq v1.0.0-alpha1"/>
 
-增加 在`GroupMessageEventArgs`和`PrivateMessageEventArgs` 中添加方法 [WaitForNextMessageAsync](../API/Sora.EventArgs.SoraEvent/PrivateMessageEventArgs/WaitForNextMessageAsync.md) 用于连续对话
+增加 在 `GroupMessageEventArgs`和 `PrivateMessageEventArgs` 中添加方法 [WaitForNextMessageAsync](../API/Sora.EventArgs.SoraEvent/PrivateMessageEventArgs/WaitForNextMessageAsync.md) 用于连续对话
 
-增加 在`GroupMessageEventArgs`和`PrivateMessageEventArgs` 中添加属性 [IsContinueEventChain](../API/Sora.EventArgs.SoraEvent/BaseSoraEventArgs/IsContinueEventChain.md) 以代替指令特性中的 `TriggerEventAfterCommand`
+增加 在 `GroupMessageEventArgs`和 `PrivateMessageEventArgs` 中添加属性 [IsContinueEventChain](../API/Sora.EventArgs.SoraEvent/BaseSoraEventArgs/IsContinueEventChain.md) 以代替指令特性中的 `TriggerEventAfterCommand`
 
-增加 在`指令特性`中添加优先级字段(当指令同时被触发时生效) [Priority](../API/Sora.Attributes.Command/Command/Priority.md)
+增加 在 `指令特性`中添加优先级字段(当指令同时被触发时生效) [Priority](../API/Sora.Attributes.Command/Command/Priority.md)
 
 删除 `指令特性`的 `TriggerEventAfterCommand` 属性
 
@@ -784,7 +846,7 @@ go-cqhttp版本:[go-cqhttp-v1.0.0-beta1](https://github.com/Mrs4s/go-cqhttp/rele
 
 优化 [ISoraConfig](../API/Sora.Interfaces/ISoraConfig.md) 添加许多公共参数
 
-优化 Websocket参数类型 将时间参数修改为`TimeSpan`
+优化 Websocket参数类型 将时间参数修改为 `TimeSpan`
 
 优化 Websocket连接管理
 
@@ -854,7 +916,7 @@ go-cqhttp版本:[go-cqhttp-v1.0.0-beta1](https://github.com/Mrs4s/go-cqhttp/rele
 如果使用到了原Log的方法，请谨慎更新
 :::
 
-更新 框架依赖[YukariToolBox](https://github.com/Yukari316/YukariToolBox)到`1.1.1`
+更新 框架依赖[YukariToolBox](https://github.com/Yukari316/YukariToolBox)到 `1.1.1`
 
 ## v0.6.2 <Badge text="gocq v0.9.40"/>
 
@@ -876,7 +938,7 @@ go-cqhttp版本:[go-cqhttp-v1.0.0-beta1](https://github.com/Mrs4s/go-cqhttp/rele
 
 增加 必要的实例运算重载
 
-增加 在上报格式为`string`时的错误提示 by [XiaoHe321](https://github.com/xh321)
+增加 在上报格式为 `string`时的错误提示 by [XiaoHe321](https://github.com/xh321)
 
 修复 XML注释中的错误 by [XiaoHe321](https://github.com/xh321)
 
@@ -886,7 +948,7 @@ go-cqhttp版本:[go-cqhttp-v1.0.0-beta1](https://github.com/Mrs4s/go-cqhttp/rele
 
 移动 `AsyncExtensions`至 [YukariToolBox](https://github.com/Yukari316/YukariToolBox)
 
-升级`Workflow`的SDK版本至`5.0.103`
+升级 `Workflow`的SDK版本至 `5.0.103`
 
 ## v0.5.3.1 <Badge text="gocq v0.9.40"/>
 

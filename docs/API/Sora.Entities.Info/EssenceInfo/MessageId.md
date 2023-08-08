@@ -3,7 +3,7 @@
 消息ID
 
 ```csharp
-public long MessageId { get; }
+public int MessageId { get; }
 ```
 
 ## See Also

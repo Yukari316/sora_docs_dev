@@ -111,6 +111,7 @@
 | public type | description |
 | --- | --- |
 | enum [MatchType](./Sora.Enumeration/MatchType.md) | 匹配类型 |
+| enum [MessageSourceMatchFlag](./Sora.Enumeration/MessageSourceMatchFlag.md) | 指令匹配的消息来源 |
 | enum [SegmentType](./Sora.Enumeration/SegmentType.md) | 消息段类型 |
 | enum [Sex](./Sora.Enumeration/Sex.md) | 性别 |
 | enum [SourceFlag](./Sora.Enumeration/SourceFlag.md) | 事件来源类型 |

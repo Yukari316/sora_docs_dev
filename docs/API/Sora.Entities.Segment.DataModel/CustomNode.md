@@ -16,6 +16,7 @@ public record CustomNode
 | [MessageId](CustomNode/MessageId.md) { get; } | 转发消息Id |
 | [Name](CustomNode/Name.md) { get; } | 发送者显示名字 |
 | [UserId](CustomNode/UserId.md) { get; } | 发送者QQ号 |
+| [GetMessageBody](CustomNode/GetMessageBody.md)() | 从CustomNode获取消息内容 |
 
 ## See Also
 

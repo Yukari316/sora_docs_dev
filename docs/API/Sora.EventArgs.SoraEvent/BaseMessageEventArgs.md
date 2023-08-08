@@ -17,6 +17,7 @@ public abstract class BaseMessageEventArgs : BaseSoraEventArgs
 | [IsSuperUser](BaseMessageEventArgs/IsSuperUser.md) { get; } | 是否为机器人管理员 |
 | [Message](BaseMessageEventArgs/Message.md) { get; } | 消息内容 |
 | [Sender](BaseMessageEventArgs/Sender.md) { get; } | 消息发送者实例 |
+| virtual [Reply](BaseMessageEventArgs/Reply.md)(…) | 快速回复 |
 
 ## See Also
 

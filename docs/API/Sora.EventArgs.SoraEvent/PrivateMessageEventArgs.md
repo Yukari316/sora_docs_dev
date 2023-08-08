@@ -13,7 +13,7 @@ public sealed class PrivateMessageEventArgs : BaseMessageEventArgs
 | [IsTemporaryMessage](PrivateMessageEventArgs/IsTemporaryMessage.md) { get; } | 是否为临时会话 |
 | [SenderInfo](PrivateMessageEventArgs/SenderInfo.md) { get; } | 发送者信息 |
 | [Repeat](PrivateMessageEventArgs/Repeat.md)() | 没什么用的复读功能 |
-| [Reply](PrivateMessageEventArgs/Reply.md)(…) | 快速回复 |
+| override [Reply](PrivateMessageEventArgs/Reply.md)(…) | 快速回复 |
 | [WaitForNextMessageAsync](PrivateMessageEventArgs/WaitForNextMessageAsync.md)(…) | 等待下一条消息触发 (6 methods) |
 
 ## See Also

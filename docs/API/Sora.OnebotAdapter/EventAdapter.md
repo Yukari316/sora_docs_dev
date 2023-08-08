@@ -28,6 +28,7 @@ public sealed class EventAdapter
 | event [OnGroupRequest](EventAdapter/OnGroupRequest.md) | 群申请事件 |
 | event [OnHonorEvent](EventAdapter/OnHonorEvent.md) | 群成员荣誉变更事件 |
 | event [OnLuckyKingEvent](EventAdapter/OnLuckyKingEvent.md) | 运气王事件 |
+| event [OnMessage](EventAdapter/OnMessage.md) | 消息事件，群聊消息和私聊消息均会触发 |
 | event [OnOfflineFileEvent](EventAdapter/OnOfflineFileEvent.md) | 离线文件事件 |
 | event [OnPrivateMessage](EventAdapter/OnPrivateMessage.md) | 私聊事件 |
 | event [OnSelfGroupMessage](EventAdapter/OnSelfGroupMessage.md) | bot发送群消息事件 |

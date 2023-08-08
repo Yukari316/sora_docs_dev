@@ -1,7 +1,6 @@
 ---
 title: 使用指令完成聊天事件处理
 ---
-
 # 特性指令
 
 这是一个简单易用的指令分发服务扩展
@@ -27,16 +26,18 @@ title: 使用指令完成聊天事件处理
 **没有[`CommandSeries`](../API/Sora.Attributes.Command/CommandSeries.md)特性的类将会被忽略**
 
 ::: warning 注意
-`SourceType` 的值必须为 `SourceFlag.Group` 或 `SourceFlag.Private`
+`SourceType` 的值必须为 `MessageSourceMatchFlag.Group` 或 `MessageSourceMatchFlag.Private` 或 `MessageSourceMatchFlag.All`
 :::
 
-[`SoraCommand`](../API/Sora.Attributes.Command/SoraCommand.md) 必须设置 `CommandExpressions` 和 `SourceType` 的值才能被识别为合法指令
+`SourceType` 是用于指定指令的触发范围的，并且有着以下的对应关系
 
-所以方法的参数类型和 `SourceType` 的值有着一一对应的关系，如果类型不对应的话也不会被识别为合法指令
+| 值                             | 作用                               |
+| ------------------------------ | ---------------------------------- |
+| MessageSourceMatchFlag.All     | 来自群聊和私聊的消息均会触发该指令 |
+| MessageSourceMatchFlag.Group   | 来自群聊的消息会触发该指令         |
+| MessageSourceMatchFlag.Private | 来自私聊的消息会触发该指令         |
 
-`SourceFlag.Group` -> [`GroupMessageEventArgs`](../API/Sora.EventArgs.SoraEvent/GroupMessageEventArgs.md)
-
-`SourceFlag.Private` -> [`PrivateMessageEventArgs`](../API/Sora.EventArgs.SoraEvent/PrivateMessageEventArgs.md)
+[`SoraCommand`](../API/Sora.Attributes.Command/SoraCommand.md) 必须设置 `CommandExpressions` 的值才能被识别为合法指令
 
 ::: tip 小提示
 指令的匹配模式可以通过修改 `MatchType` 来改变
@@ -69,7 +70,7 @@ title: 使用指令完成聊天事件处理
 当指令的表达式和优先级一致时指令的执行顺序为随机的顺序
 :::
 
-### 群聊指令
+### 指令示例
 
 ```csharp
 using System.Threading.Tasks;
@@ -79,45 +80,26 @@ using Sora.EventArgs.SoraEvent;
 
 namespace Sora_Test;
 
-[CommandSeries]
+[CommandSeries(SeriesName = "test")]
 public static class Commands
 {
-    [SoraCommand(
-        CommandExpressions = new[] {"坏耶"},
-        SourceType = SourceFlag.Group)]
-    public static async ValueTask TestCommand1(GroupMessageEventArgs eventArgs)
+    [SoraCommand(CommandExpressions = new[] { "好耶" },
+                 Description = "死了啦都你害的啦",
+                 SourceType = MessageSourceMatchFlag.All,
+                 Priority = 0)]
+    public static async ValueTask TestCommand1(BaseMessageEventArgs eventArgs)
     {
-        eventArgs.IsContinueEventChain = false;
-        await eventArgs.Reply("好耶");
-    }
-}
-```
-
-### 私聊指令
-
-```csharp
-using System.Threading.Tasks;
-using Sora.Attributes.Command;
-using Sora.Enumeration;
-using Sora.EventArgs.SoraEvent;
-
-namespace Sora_Test;
-
-[CommandSeries]
-public static class Commands
-{
-    [SoraCommand(
-        CommandExpressions = new[] {"坏耶"},
-        SourceType = SourceFlag.Private)]
-    public static async ValueTask TestCommand1(PrivateMessageEventArgs eventArgs)
-    {
-        eventArgs.IsContinueEventChain = false;
-        await eventArgs.Reply("好耶");
+        eventArgs.IsContinueEventChain = false;;
+        await eventArgs.Reply("坏耶");
     }
 }
 ```
 
 ## 动态注册指令
+
+::: tip 小提示
+动态指令也可以限制触发的消息来源
+:::
 
 动态指令的注册由下面两种方法完成：
 
@@ -172,15 +154,6 @@ ISoraService service = SoraServiceFactory.CreateService(new ServerConfig
 //log 为框架自动生成的错误日志
 async void CommandExceptionHandle(Exception exception, BaseMessageEventArgs eventArgs, string log)
 {
-    string msg = $"死了啦都你害的啦\r\n{log}\r\n{exception.Message}";
-    switch (eventArgs)
-    {
-        case GroupMessageEventArgs g:
-            await g.Reply(msg);
-            break;
-        case PrivateMessageEventArgs p:
-            await p.Reply(msg);
-            break;
-    }
+    await eventArgs.Reply($"死了啦都你害的啦\r\n{log}\r\n{exception.Message}");
 }
 ```

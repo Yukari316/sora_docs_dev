@@ -1,10 +1,11 @@
-# CommandManager.RegisterGroupDynamicCommand method (1 of 2)
+# CommandManager.RegisterDynamicCommand method (1 of 2)
 
 动态注册指令
 
 ```csharp
-public Guid RegisterGroupDynamicCommand(Func<BaseMessageEventArgs, bool> matchFunc, 
-    Func<GroupMessageEventArgs, ValueTask> seriesCommand, string groupName = "", 
+public Guid RegisterDynamicCommand(Func<BaseMessageEventArgs, bool> matchFunc, 
+    Func<BaseMessageEventArgs, ValueTask> seriesCommand, 
+    MessageSourceMatchFlag sourceType = MessageSourceMatchFlag.All, string groupName = "", 
     MemberRoleType memberRole = MemberRoleType.Member, bool suCommand = false, 
     int? priority = null, long[] sourceGroups = null, long[] sourceUsers = null, 
     long[] sourceLogins = null, string desc = "")
@@ -14,6 +15,7 @@ public Guid RegisterGroupDynamicCommand(Func<BaseMessageEventArgs, bool> matchFu
 | --- | --- |
 | matchFunc | 自定义匹配方法 |
 | seriesCommand | 指令执行定义 |
+| sourceType | 消息来源范围 |
 | groupName | 指令组名，为空时不能控制使能 |
 | memberRole | 成员权限限制 |
 | suCommand | 机器人管理员限制 |
@@ -26,30 +28,32 @@ public Guid RegisterGroupDynamicCommand(Func<BaseMessageEventArgs, bool> matchFu
 ## See Also
 
 * class [BaseMessageEventArgs](../../Sora.EventArgs.SoraEvent/BaseMessageEventArgs.md)
-* class [GroupMessageEventArgs](../../Sora.EventArgs.SoraEvent/GroupMessageEventArgs.md)
+* enum [MessageSourceMatchFlag](../../Sora.Enumeration/MessageSourceMatchFlag.md)
 * enum [MemberRoleType](../../Sora.Enumeration.EventParamsType/MemberRoleType.md)
 * class [CommandManager](../CommandManager.md)
 * namespace [Sora.Command](../../Sora.md)
 
 ---
 
-# CommandManager.RegisterGroupDynamicCommand method (2 of 2)
+# CommandManager.RegisterDynamicCommand method (2 of 2)
 
 动态注册指令
 
 ```csharp
-public Guid RegisterGroupDynamicCommand(string[] cmdExps, 
-    Func<GroupMessageEventArgs, ValueTask> seriesCommand, MatchType matchType = MatchType.Full, 
-    RegexOptions regexOptions = RegexOptions.None, string groupName = "", 
-    MemberRoleType memberRole = MemberRoleType.Member, bool suCommand = false, 
-    int? priority = null, long[] sourceGroups = null, long[] sourceUsers = null, 
-    long[] sourceLogins = null, string desc = "")
+public Guid RegisterDynamicCommand(string[] cmdExps, 
+    Func<BaseMessageEventArgs, ValueTask> seriesCommand, 
+    MessageSourceMatchFlag sourceType = MessageSourceMatchFlag.All, 
+    MatchType matchType = MatchType.Full, RegexOptions regexOptions = RegexOptions.None, 
+    string groupName = "", MemberRoleType memberRole = MemberRoleType.Member, 
+    bool suCommand = false, int? priority = null, long[] sourceGroups = null, 
+    long[] sourceUsers = null, long[] sourceLogins = null, string desc = "")
 ```
 
 | parameter | description |
 | --- | --- |
 | cmdExps | 指令表达式 |
 | seriesCommand | 指令执行定义 |
+| sourceType | 消息来源范围 |
 | matchType | 匹配类型 |
 | regexOptions | 正则选项 |
 | groupName | 指令组名，为空时不能控制使能 |
@@ -63,7 +67,8 @@ public Guid RegisterGroupDynamicCommand(string[] cmdExps,
 
 ## See Also
 
-* class [GroupMessageEventArgs](../../Sora.EventArgs.SoraEvent/GroupMessageEventArgs.md)
+* class [BaseMessageEventArgs](../../Sora.EventArgs.SoraEvent/BaseMessageEventArgs.md)
+* enum [MessageSourceMatchFlag](../../Sora.Enumeration/MessageSourceMatchFlag.md)
 * enum [MatchType](../../Sora.Enumeration/MatchType.md)
 * enum [MemberRoleType](../../Sora.Enumeration.EventParamsType/MemberRoleType.md)
 * class [CommandManager](../CommandManager.md)

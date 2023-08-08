@@ -23,7 +23,6 @@ public sealed class MessageBody : IList<SoraSegment>
 | [CopyTo](MessageBody/CopyTo.md)(…) | 复制 |
 | [GetEnumerator](MessageBody/GetEnumerator.md)() | 迭代器 |
 | [IndexOf](MessageBody/IndexOf.md)(…) | 索引查找 |
-| [IndexOfById](MessageBody/IndexOfById.md)(…) | 通过ID查找索引 |
 | [Insert](MessageBody/Insert.md)(…) | 插入消息段 |
 | [Remove](MessageBody/Remove.md)(…) | 删除消息段 |
 | [RemoveAll](MessageBody/RemoveAll.md)(…) | RemoveAll |

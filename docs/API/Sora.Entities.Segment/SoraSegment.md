@@ -31,7 +31,6 @@ public class SoraSegment
 | static [Video](SoraSegment/Video.md)(…) | 视频 消息段 |
 | static [Xml](SoraSegment/Xml.md)(…) | XML 特殊消息 |
 | [Data](SoraSegment/Data.md) { get; } | 数据实例 |
-| [Id](SoraSegment/Id.md) { get; } | 消息段的ID |
 | [MessageType](SoraSegment/MessageType.md) { get; } | 消息段类型 |
 | override [Equals](SoraSegment/Equals.md)(…) | 比较重载 |
 | override [GetHashCode](SoraSegment/GetHashCode.md)() | GetHashCode |

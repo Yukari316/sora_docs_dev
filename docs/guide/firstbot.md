@@ -1,10 +1,9 @@
 ---
 title: 我想加点简单好玩的功能
 ---
-
 # 给Bot添加一些逻辑
 
-接下来的向导将会示范如何让自己的bot拥有复读的功能 
+接下来的向导将会示范如何让自己的bot拥有复读的功能
 
 ~~最简单的复读，最极致的享受~~
 
@@ -21,13 +20,13 @@ title: 我想加点简单好玩的功能
 ```csharp
 service.Event.OnGroupMessage += async (msgType, eventArgs) =>
                                 {
-                                    
+                                  
                                 };
 ```
 
 ::: tip 小提示
-接下来的代码需要调用`eventArgs`中的方法或者`Group`实例来和群友进行互动
-::: 
+接下来的代码需要调用 `eventArgs`中的方法或者 `Group`实例来和群友进行互动
+:::
 
 ## 使用快捷接口进行复读
 
@@ -72,7 +71,7 @@ await Task.Delay(-1);
 
 ## 使用群聊接口进行复读
 
-> 调用`Group`中的`SendGroupMessage()`函数发送群聊消息
+> 调用 `Group`中的 `SendGroupMessage()`函数发送群聊消息
 
 在事件处理代码中添加以下代码
 

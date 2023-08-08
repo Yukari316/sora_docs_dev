@@ -3,12 +3,12 @@
 指令响应的源
 
 ```csharp
-public SourceFlag SourceType { get; set; }
+public MessageSourceMatchFlag SourceType { get; set; }
 ```
 
 ## See Also
 
-* enum [SourceFlag](../../Sora.Enumeration/SourceFlag.md)
+* enum [MessageSourceMatchFlag](../../Sora.Enumeration/MessageSourceMatchFlag.md)
 * class [SoraCommand](../SoraCommand.md)
 * namespace [Sora.Attributes.Command](../../Sora.md)
 

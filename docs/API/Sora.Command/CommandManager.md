@@ -16,8 +16,7 @@ public sealed class CommandManager
 | [GetGroupCmdSeries](CommandManager/GetGroupCmdSeries.md)(…) | 获取指定群中的指令使能列表 |
 | [GetInstance&lt;T&gt;](CommandManager/GetInstance.md)(…) | 获取已注册过的实例 |
 | [MappingCommands](CommandManager/MappingCommands.md)(…) | 自动注册所有指令 |
-| [RegisterGroupDynamicCommand](CommandManager/RegisterGroupDynamicCommand.md)(…) | 动态注册指令 (2 methods) |
-| [RegisterPrivateDynamicCommand](CommandManager/RegisterPrivateDynamicCommand.md)(…) | 动态注册指令 (2 methods) |
+| [RegisterDynamicCommand](CommandManager/RegisterDynamicCommand.md)(…) | 动态注册指令 (2 methods) |
 | [TryDisableCommandSeries](CommandManager/TryDisableCommandSeries.md)(…) | 尝试禁用指令组 |
 | [TryDisableGroupCommand](CommandManager/TryDisableGroupCommand.md)(…) | 禁用群组中的指令 |
 | [TryEnableCommandSeries](CommandManager/TryEnableCommandSeries.md)(…) | 尝试启用指令组 |

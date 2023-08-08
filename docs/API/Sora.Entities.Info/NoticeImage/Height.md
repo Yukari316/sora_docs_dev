@@ -3,7 +3,7 @@
 高
 
 ```csharp
-public int Height { get; set; }
+public int? Height { get; set; }
 ```
 
 ## See Also
